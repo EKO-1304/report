@@ -1,0 +1,16 @@
+ERROR - 2021-09-21 08:21:54 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2021-09-21 08:21:54 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\github\stie-stekom\vendor\codeigniter4\framework\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\github\stie-stekom\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\github\stie-stekom\vendor\codeigniter4\framework\system\Model.php(247): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\github\stie-stekom\vendor\codeigniter4\framework\system\BaseModel.php(624): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\github\stie-stekom\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(202): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\github\stie-stekom\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(66): Myth\Auth\Authentication\LocalAuthenticator->validate(Array, true)
+#6 C:\xampp\htdocs\github\stie-stekom\vendor\myth\auth\src\Controllers\AuthController.php(88): Myth\Auth\Authentication\LocalAuthenticator->attempt(Array, false)
+#7 C:\xampp\htdocs\github\stie-stekom\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Myth\Auth\Controllers\AuthController->attemptLogin()
+#8 C:\xampp\htdocs\github\stie-stekom\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#9 C:\xampp\htdocs\github\stie-stekom\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\github\stie-stekom\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\github\stie-stekom\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}

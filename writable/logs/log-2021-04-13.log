@@ -1,0 +1,300 @@
+ERROR - 2021-04-13 10:07:04 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2021-04-13 10:07:04 --> Unable to connect to the database.
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Model.php(247): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\BaseModel.php(624): CodeIgniter\Model->doFirst()
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(156): CodeIgniter\BaseModel->first()
+#5 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(20): Myth\Auth\Authentication\LocalAuthenticator->validate(Array, true)
+#6 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\myth\auth\src\Controllers\AuthController.php(85): Myth\Auth\Authentication\LocalAuthenticator->attempt(Array, false)
+#7 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Myth\Auth\Controllers\AuthController->attemptLogin()
+#8 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#9 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#12 {main}
+CRITICAL - 2021-04-13 10:07:39 --> Argument 1 passed to Modules\AdminUsers\Models\ModelUsers::edit_groups() must be of the type string or null, array given, called in D:\WEBSITE\xampp-7.4\htdocs\web-master\modules\AdminUsers\Controllers\DataUsers.php on line 169
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\modules\AdminUsers\Controllers\DataUsers.php(169): Modules\AdminUsers\Models\ModelUsers->edit_groups(Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Modules\AdminUsers\Controllers\DataUsers->edit_groups()
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminUsers\Controllers\DataUsers))
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#6 {main}
+CRITICAL - 2021-04-13 10:10:46 --> Too few arguments to function Modules\AdminUsers\Models\ModelUsers::edit_groups(), 1 passed in D:\WEBSITE\xampp-7.4\htdocs\web-master\modules\AdminUsers\Controllers\DataUsers.php on line 169 and exactly 3 expected
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\modules\AdminUsers\Controllers\DataUsers.php(169): Modules\AdminUsers\Models\ModelUsers->edit_groups(Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Modules\AdminUsers\Controllers\DataUsers->edit_groups()
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminUsers\Controllers\DataUsers))
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#6 {main}
+CRITICAL - 2021-04-13 10:19:23 --> Argument 1 passed to Modules\AdminUsers\Models\ModelUsers::edit_groups() must be of the type int, array given, called in D:\WEBSITE\xampp-7.4\htdocs\web-master\modules\AdminUsers\Controllers\DataUsers.php on line 169
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\modules\AdminUsers\Controllers\DataUsers.php(169): Modules\AdminUsers\Models\ModelUsers->edit_groups(Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Modules\AdminUsers\Controllers\DataUsers->edit_groups()
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminUsers\Controllers\DataUsers))
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#6 {main}
+CRITICAL - 2021-04-13 10:19:41 --> Argument 1 passed to Modules\AdminUsers\Models\ModelUsers::edit_groups() must be of the type int, array given, called in D:\WEBSITE\xampp-7.4\htdocs\web-master\modules\AdminUsers\Controllers\DataUsers.php on line 169
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\modules\AdminUsers\Controllers\DataUsers.php(169): Modules\AdminUsers\Models\ModelUsers->edit_groups(Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Modules\AdminUsers\Controllers\DataUsers->edit_groups()
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminUsers\Controllers\DataUsers))
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#6 {main}
+CRITICAL - 2021-04-13 10:20:48 --> Argument 1 passed to Modules\AdminUsers\Models\ModelUsers::edit_groups() must be of the type string, array given, called in D:\WEBSITE\xampp-7.4\htdocs\web-master\modules\AdminUsers\Controllers\DataUsers.php on line 169
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\modules\AdminUsers\Controllers\DataUsers.php(169): Modules\AdminUsers\Models\ModelUsers->edit_groups(Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Modules\AdminUsers\Controllers\DataUsers->edit_groups()
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminUsers\Controllers\DataUsers))
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#6 {main}
+CRITICAL - 2021-04-13 10:21:56 --> Undefined variable: builder
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\modules\AdminUsers\Models\ModelUsers.php(80): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\WEBSITE\\xamp...', 80, Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\modules\AdminUsers\Controllers\DataUsers.php(166): Modules\AdminUsers\Models\ModelUsers->edit_groups('3', 'users', 'Usersss')
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Modules\AdminUsers\Controllers\DataUsers->edit_groups()
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminUsers\Controllers\DataUsers))
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#7 {main}
+CRITICAL - 2021-04-13 10:23:31 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::where()
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\modules\AdminUsers\Controllers\DataUsers.php(166): Modules\AdminUsers\Models\ModelUsers->edit_groups('3', 'users', 'Usersss')
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Modules\AdminUsers\Controllers\DataUsers->edit_groups()
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminUsers\Controllers\DataUsers))
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#6 {main}
+CRITICAL - 2021-04-13 10:26:31 --> Undefined variable: builder
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\modules\AdminUsers\Models\ModelUsers.php(80): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\WEBSITE\\xamp...', 80, Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\modules\AdminUsers\Controllers\DataUsers.php(166): Modules\AdminUsers\Models\ModelUsers->edit_groups('3', 'users', 'Usersss')
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Modules\AdminUsers\Controllers\DataUsers->edit_groups()
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminUsers\Controllers\DataUsers))
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#7 {main}
+CRITICAL - 2021-04-13 10:37:26 --> You must set the database table to be used with your query.
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Model.php(615): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Model.php(791): CodeIgniter\Model->builder()
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\modules\AdminUsers\Models\ModelUsers.php(90): CodeIgniter\Model->__get('session')
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\modules\AdminUsers\Controllers\DataUsers.php(166): Modules\AdminUsers\Models\ModelUsers->edit_groups('3', 'users', 'Users')
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Modules\AdminUsers\Controllers\DataUsers->edit_groups()
+#5 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminUsers\Controllers\DataUsers))
+#6 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#9 {main}
+CRITICAL - 2021-04-13 10:38:17 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::affectedRows()
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\modules\AdminUsers\Controllers\DataUsers.php(166): Modules\AdminUsers\Models\ModelUsers->edit_groups('3', 'users', 'Users')
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Modules\AdminUsers\Controllers\DataUsers->edit_groups()
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminUsers\Controllers\DataUsers))
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#6 {main}
+CRITICAL - 2021-04-13 10:38:51 --> Undefined variable: db
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\modules\AdminUsers\Models\ModelUsers.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\WEBSITE\\xamp...', 83, Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\modules\AdminUsers\Controllers\DataUsers.php(166): Modules\AdminUsers\Models\ModelUsers->edit_groups('3', 'users', 'Users')
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Modules\AdminUsers\Controllers\DataUsers->edit_groups()
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminUsers\Controllers\DataUsers))
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#7 {main}
+CRITICAL - 2021-04-13 10:39:03 --> You must set the database table to be used with your query.
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Model.php(615): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Model.php(791): CodeIgniter\Model->builder()
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\modules\AdminUsers\Models\ModelUsers.php(90): CodeIgniter\Model->__get('session')
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\modules\AdminUsers\Controllers\DataUsers.php(166): Modules\AdminUsers\Models\ModelUsers->edit_groups('3', 'users', 'Users')
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Modules\AdminUsers\Controllers\DataUsers->edit_groups()
+#5 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminUsers\Controllers\DataUsers))
+#6 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#9 {main}
+CRITICAL - 2021-04-13 10:40:30 --> Cannot access protected property CodeIgniter\Database\MySQLi\Builder::$db
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\modules\AdminUsers\Controllers\DataUsers.php(166): Modules\AdminUsers\Models\ModelUsers->edit_groups('2', 'administrator', 'Site Administra...')
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Modules\AdminUsers\Controllers\DataUsers->edit_groups()
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminUsers\Controllers\DataUsers))
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#6 {main}
+CRITICAL - 2021-04-13 10:41:30 --> Undefined variable: db
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\modules\AdminUsers\Models\ModelUsers.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\WEBSITE\\xamp...', 16, Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\modules\AdminUsers\Controllers\DataUsers.php(16): Modules\AdminUsers\Models\ModelUsers->__construct()
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(908): Modules\AdminUsers\Controllers\DataUsers->__construct()
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#7 {main}
+CRITICAL - 2021-04-13 10:41:31 --> Undefined variable: db
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\modules\AdminUsers\Models\ModelUsers.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\WEBSITE\\xamp...', 16, Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\modules\AdminUsers\Controllers\DataUsers.php(16): Modules\AdminUsers\Models\ModelUsers->__construct()
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(908): Modules\AdminUsers\Controllers\DataUsers->__construct()
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#7 {main}
+CRITICAL - 2021-04-13 10:46:38 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::get()
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\modules\AdminUsers\Controllers\DataUsers.php(96): Modules\AdminUsers\Models\ModelUsers->get_groups()
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Modules\AdminUsers\Controllers\DataUsers->groups()
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminUsers\Controllers\DataUsers))
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#6 {main}
+CRITICAL - 2021-04-13 10:46:50 --> Call to a member function table() on null
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\modules\AdminUsers\Controllers\DataUsers.php(96): Modules\AdminUsers\Models\ModelUsers->get_groups()
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Modules\AdminUsers\Controllers\DataUsers->groups()
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminUsers\Controllers\DataUsers))
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#6 {main}
+CRITICAL - 2021-04-13 10:51:17 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::affectedRows()
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\modules\AdminUsers\Controllers\DataUsers.php(166): Modules\AdminUsers\Models\ModelUsers->edit_groups('3', 'users', 'Users')
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Modules\AdminUsers\Controllers\DataUsers->edit_groups()
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminUsers\Controllers\DataUsers))
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#6 {main}
+CRITICAL - 2021-04-13 10:54:10 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::get()
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\modules\AdminUsers\Controllers\DataUsers.php(96): Modules\AdminUsers\Models\ModelUsers->get_groups()
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Modules\AdminUsers\Controllers\DataUsers->groups()
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminUsers\Controllers\DataUsers))
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#6 {main}
+CRITICAL - 2021-04-13 10:56:30 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::affectedRows()
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\modules\AdminUsers\Controllers\DataUsers.php(166): Modules\AdminUsers\Models\ModelUsers->edit_groups('3', 'users', 'Usersss')
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Modules\AdminUsers\Controllers\DataUsers->edit_groups()
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminUsers\Controllers\DataUsers))
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#6 {main}
+CRITICAL - 2021-04-13 10:56:55 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::affectedRows()
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\modules\AdminUsers\Controllers\DataUsers.php(166): Modules\AdminUsers\Models\ModelUsers->edit_groups('3', 'users', 'Users')
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Modules\AdminUsers\Controllers\DataUsers->edit_groups()
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminUsers\Controllers\DataUsers))
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#6 {main}
+CRITICAL - 2021-04-13 11:00:00 --> You must set the database table to be used with your query.
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Model.php(615): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Model.php(791): CodeIgniter\Model->builder()
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\modules\AdminUsers\Models\ModelUsers.php(85): CodeIgniter\Model->__get('session')
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\modules\AdminUsers\Controllers\DataUsers.php(166): Modules\AdminUsers\Models\ModelUsers->edit_groups('3', 'users', 'Usersss')
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Modules\AdminUsers\Controllers\DataUsers->edit_groups()
+#5 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminUsers\Controllers\DataUsers))
+#6 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#9 {main}
+CRITICAL - 2021-04-13 11:01:35 --> You must use the "set" method to update an entry.
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2405): CodeIgniter\Database\BaseBuilder->validateUpdate()
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\modules\AdminUsers\Models\ModelUsers.php(82): CodeIgniter\Database\BaseBuilder->getCompiledUpdate()
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\modules\AdminUsers\Controllers\DataUsers.php(166): Modules\AdminUsers\Models\ModelUsers->edit_groups('3', 'users', 'Users')
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Modules\AdminUsers\Controllers\DataUsers->edit_groups()
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminUsers\Controllers\DataUsers))
+#5 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#8 {main}
+CRITICAL - 2021-04-13 11:02:04 --> You must use the "set" method to update an entry.
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2405): CodeIgniter\Database\BaseBuilder->validateUpdate()
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\modules\AdminUsers\Models\ModelUsers.php(82): CodeIgniter\Database\BaseBuilder->getCompiledUpdate()
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\modules\AdminUsers\Controllers\DataUsers.php(166): Modules\AdminUsers\Models\ModelUsers->edit_groups('3', 'users', 'Usersss')
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Modules\AdminUsers\Controllers\DataUsers->edit_groups()
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminUsers\Controllers\DataUsers))
+#5 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#8 {main}
+CRITICAL - 2021-04-13 11:05:24 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::affectedRows()
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\modules\AdminUsers\Controllers\DataUsers.php(166): Modules\AdminUsers\Models\ModelUsers->edit_groups('3', 'users', 'Users')
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Modules\AdminUsers\Controllers\DataUsers->edit_groups()
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminUsers\Controllers\DataUsers))
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#6 {main}
+CRITICAL - 2021-04-13 11:10:45 --> You must set the database table to be used with your query.
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Model.php(615): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Model.php(791): CodeIgniter\Model->builder()
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\modules\AdminUsers\Models\ModelUsers.php(83): CodeIgniter\Model->__get('session')
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\modules\AdminUsers\Controllers\DataUsers.php(166): Modules\AdminUsers\Models\ModelUsers->edit_groups('3', 'users', 'Users')
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Modules\AdminUsers\Controllers\DataUsers->edit_groups()
+#5 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminUsers\Controllers\DataUsers))
+#6 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#9 {main}
+CRITICAL - 2021-04-13 11:18:27 --> syntax error, unexpected ')'
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\WEBSITE\\xamp...')
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Modules\\AdminUs...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Modules\\AdminUs...')
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\modules\AdminUsers\Controllers\DataUsers.php(16): spl_autoload_call('Modules\\AdminUs...')
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(908): Modules\AdminUsers\Controllers\DataUsers->__construct()
+#5 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#6 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#9 {main}
+CRITICAL - 2021-04-13 11:21:48 --> Too few arguments to function Modules\AdminUsers\Models\ModelUsers::edit_groups(), 1 passed in D:\WEBSITE\xampp-7.4\htdocs\web-master\modules\AdminUsers\Controllers\DataUsers.php on line 167 and exactly 3 expected
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\modules\AdminUsers\Controllers\DataUsers.php(167): Modules\AdminUsers\Models\ModelUsers->edit_groups(Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Modules\AdminUsers\Controllers\DataUsers->edit_groups()
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminUsers\Controllers\DataUsers))
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#6 {main}
+CRITICAL - 2021-04-13 11:22:36 --> Undefined variable: id_groups
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\modules\AdminUsers\Models\ModelUsers.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\WEBSITE\\xamp...', 76, Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\modules\AdminUsers\Controllers\DataUsers.php(167): Modules\AdminUsers\Models\ModelUsers->edit_groups(Array)
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Modules\AdminUsers\Controllers\DataUsers->edit_groups()
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminUsers\Controllers\DataUsers))
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#7 {main}
+CRITICAL - 2021-04-13 11:32:18 --> Call to undefined function ession()
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\View\View.php(220): include()
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\AdminUs...', Array, true)
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\modules\AdminUsers\Controllers\DataUsers.php(105): view('Modules\\AdminUs...', Array)
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Modules\AdminUsers\Controllers\DataUsers->groups()
+#5 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminUsers\Controllers\DataUsers))
+#6 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#9 {main}
+ERROR - 2021-04-13 20:05:07 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2021-04-13 20:05:07 --> Unable to connect to the database.
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Model.php(247): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\BaseModel.php(624): CodeIgniter\Model->doFirst()
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(156): CodeIgniter\BaseModel->first()
+#5 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(20): Myth\Auth\Authentication\LocalAuthenticator->validate(Array, true)
+#6 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\myth\auth\src\Controllers\AuthController.php(85): Myth\Auth\Authentication\LocalAuthenticator->attempt(Array, false)
+#7 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Myth\Auth\Controllers\AuthController->attemptLogin()
+#8 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#9 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#12 {main}

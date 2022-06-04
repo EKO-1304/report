@@ -1,0 +1,57 @@
+CRITICAL - 2021-09-01 08:42:45 --> Use of undefined constant php - assumed 'php' (this will throw an Error in a future version of PHP)
+#0 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageContent/Views/content.php(126): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', '/home/okesofti/...', 126, Array)
+#1 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/View/View.php(220): include('/home/okesofti/...')
+#2 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render('Modules\\ManageC...', Array, true)
+#4 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageContent/Controllers/DataContent.php(33): view('Modules\\ManageC...', Array)
+#5 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageContent\Controllers\DataContent->content()
+#6 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageContent\Controllers\DataContent))
+#7 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/okesofti/kemahasiswaan.stekom.ac.id/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-01 08:42:48 --> Use of undefined constant php - assumed 'php' (this will throw an Error in a future version of PHP)
+#0 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageContent/Views/content.php(126): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', '/home/okesofti/...', 126, Array)
+#1 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/View/View.php(220): include('/home/okesofti/...')
+#2 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render('Modules\\ManageC...', Array, true)
+#4 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageContent/Controllers/DataContent.php(33): view('Modules\\ManageC...', Array)
+#5 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageContent\Controllers\DataContent->content()
+#6 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageContent\Controllers\DataContent))
+#7 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/okesofti/kemahasiswaan.stekom.ac.id/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-01 08:42:49 --> Use of undefined constant php - assumed 'php' (this will throw an Error in a future version of PHP)
+#0 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageContent/Views/content.php(126): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', '/home/okesofti/...', 126, Array)
+#1 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/View/View.php(220): include('/home/okesofti/...')
+#2 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render('Modules\\ManageC...', Array, true)
+#4 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageContent/Controllers/DataContent.php(33): view('Modules\\ManageC...', Array)
+#5 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageContent\Controllers\DataContent->content()
+#6 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageContent\Controllers\DataContent))
+#7 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/okesofti/kemahasiswaan.stekom.ac.id/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-01 15:07:56 --> You do not have sufficient permissions to access that page.
+#0 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Filters/Filters.php(181): Myth\Auth\Filters\PermissionFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-users/pr...', 'before')
+#2 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/okesofti/kemahasiswaan.stekom.ac.id/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-09-01 16:19:31 --> You do not have sufficient permissions to access that page.
+#0 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Filters/Filters.php(181): Myth\Auth\Filters\PermissionFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-users/pr...', 'before')
+#2 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/okesofti/kemahasiswaan.stekom.ac.id/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-09-01 19:52:37 --> You do not have sufficient permissions to access that page.
+#0 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Filters/Filters.php(181): Myth\Auth\Filters\PermissionFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-users/pr...', 'before')
+#2 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/okesofti/kemahasiswaan.stekom.ac.id/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-09-01 23:34:56 --> You do not have sufficient permissions to access that page.
+#0 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Filters/Filters.php(181): Myth\Auth\Filters\PermissionFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-users/pr...', 'before')
+#2 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/okesofti/kemahasiswaan.stekom.ac.id/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}

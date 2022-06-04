@@ -1,0 +1,286 @@
+CRITICAL - 2021-07-29 08:52:44 --> Undefined variable: s
+#0 C:\xampp\htdocs\spm\modules\ManageLayoutFront\Views\home.php(108): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 108, Array)
+#1 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\ManageL...', Array, true)
+#4 C:\xampp\htdocs\spm\modules\ManageLayoutFront\Controllers\Layout.php(31): view('Modules\\ManageL...', Array)
+#5 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageLayoutFront\Controllers\Layout->index()
+#6 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageLayoutFront\Controllers\Layout))
+#7 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\spm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-07-29 08:53:13 --> Undefined index: slug_berita
+#0 C:\xampp\htdocs\spm\modules\ManageLayoutFront\Views\home.php(108): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 108, Array)
+#1 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\ManageL...', Array, true)
+#4 C:\xampp\htdocs\spm\modules\ManageLayoutFront\Controllers\Layout.php(31): view('Modules\\ManageL...', Array)
+#5 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageLayoutFront\Controllers\Layout->index()
+#6 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageLayoutFront\Controllers\Layout))
+#7 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\spm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-07-29 09:58:14 --> Undefined variable: tanggal
+#0 C:\xampp\htdocs\spm\modules\ManageBeritaFront\Controllers\Berita.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageBeritaFront\Controllers\Berita->index('sarasehan-darin...', '2021-07-21')
+#2 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageBeritaFront\Controllers\Berita))
+#3 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-07-29 10:00:20 --> Undefined index: random
+#0 C:\xampp\htdocs\spm\modules\ManageBeritaFront\Controllers\Berita.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 24, Array)
+#1 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageBeritaFront\Controllers\Berita->index('sarasehan-darin...', '2021-07-21')
+#2 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageBeritaFront\Controllers\Berita))
+#3 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-07-29 10:00:44 --> Undefined index: random
+#0 C:\xampp\htdocs\spm\modules\ManageBeritaFront\Controllers\Berita.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 24, Array)
+#1 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageBeritaFront\Controllers\Berita->index('sarasehan-darin...', '2021-07-21')
+#2 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageBeritaFront\Controllers\Berita))
+#3 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-07-29 10:00:46 --> Undefined index: random
+#0 C:\xampp\htdocs\spm\modules\ManageBeritaFront\Controllers\Berita.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 24, Array)
+#1 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageBeritaFront\Controllers\Berita->index('sarasehan-darin...', '2021-07-21')
+#2 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageBeritaFront\Controllers\Berita))
+#3 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-07-29 10:01:03 --> Undefined index: random
+#0 C:\xampp\htdocs\spm\modules\ManageBeritaFront\Controllers\Berita.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 24, Array)
+#1 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageBeritaFront\Controllers\Berita->index('sarasehan-darin...', '2021-07-21')
+#2 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageBeritaFront\Controllers\Berita))
+#3 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-07-29 10:01:04 --> Undefined index: random
+#0 C:\xampp\htdocs\spm\modules\ManageBeritaFront\Controllers\Berita.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 24, Array)
+#1 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageBeritaFront\Controllers\Berita->index('sarasehan-darin...', '2021-07-21')
+#2 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageBeritaFront\Controllers\Berita))
+#3 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-07-29 10:01:04 --> Undefined index: random
+#0 C:\xampp\htdocs\spm\modules\ManageBeritaFront\Controllers\Berita.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 24, Array)
+#1 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageBeritaFront\Controllers\Berita->index('sarasehan-darin...', '2021-07-21')
+#2 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageBeritaFront\Controllers\Berita))
+#3 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-07-29 10:01:04 --> Undefined index: random
+#0 C:\xampp\htdocs\spm\modules\ManageBeritaFront\Controllers\Berita.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 24, Array)
+#1 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageBeritaFront\Controllers\Berita->index('sarasehan-darin...', '2021-07-21')
+#2 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageBeritaFront\Controllers\Berita))
+#3 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-07-29 10:01:04 --> Undefined index: random
+#0 C:\xampp\htdocs\spm\modules\ManageBeritaFront\Controllers\Berita.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 24, Array)
+#1 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageBeritaFront\Controllers\Berita->index('sarasehan-darin...', '2021-07-21')
+#2 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageBeritaFront\Controllers\Berita))
+#3 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-07-29 10:01:05 --> Undefined index: random
+#0 C:\xampp\htdocs\spm\modules\ManageBeritaFront\Controllers\Berita.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 24, Array)
+#1 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageBeritaFront\Controllers\Berita->index('sarasehan-darin...', '2021-07-21')
+#2 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageBeritaFront\Controllers\Berita))
+#3 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-07-29 10:01:05 --> Undefined index: random
+#0 C:\xampp\htdocs\spm\modules\ManageBeritaFront\Controllers\Berita.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 24, Array)
+#1 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageBeritaFront\Controllers\Berita->index('sarasehan-darin...', '2021-07-21')
+#2 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageBeritaFront\Controllers\Berita))
+#3 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-07-29 10:01:05 --> Undefined index: random
+#0 C:\xampp\htdocs\spm\modules\ManageBeritaFront\Controllers\Berita.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 24, Array)
+#1 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageBeritaFront\Controllers\Berita->index('sarasehan-darin...', '2021-07-21')
+#2 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageBeritaFront\Controllers\Berita))
+#3 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-07-29 10:01:06 --> Undefined index: random
+#0 C:\xampp\htdocs\spm\modules\ManageBeritaFront\Controllers\Berita.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 24, Array)
+#1 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageBeritaFront\Controllers\Berita->index('sarasehan-darin...', '2021-07-21')
+#2 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageBeritaFront\Controllers\Berita))
+#3 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-07-29 10:01:06 --> Undefined index: random
+#0 C:\xampp\htdocs\spm\modules\ManageBeritaFront\Controllers\Berita.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 24, Array)
+#1 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageBeritaFront\Controllers\Berita->index('sarasehan-darin...', '2021-07-21')
+#2 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageBeritaFront\Controllers\Berita))
+#3 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-07-29 10:01:49 --> Undefined index: random
+#0 C:\xampp\htdocs\spm\modules\ManageBeritaFront\Controllers\Berita.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 24, Array)
+#1 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageBeritaFront\Controllers\Berita->index('sarasehan-darin...', '2021-07-21')
+#2 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageBeritaFront\Controllers\Berita))
+#3 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-07-29 10:01:50 --> Undefined index: random
+#0 C:\xampp\htdocs\spm\modules\ManageBeritaFront\Controllers\Berita.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 24, Array)
+#1 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageBeritaFront\Controllers\Berita->index('sarasehan-darin...', '2021-07-21')
+#2 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageBeritaFront\Controllers\Berita))
+#3 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-07-29 10:01:51 --> Undefined index: random
+#0 C:\xampp\htdocs\spm\modules\ManageBeritaFront\Controllers\Berita.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 24, Array)
+#1 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageBeritaFront\Controllers\Berita->index('sarasehan-darin...', '2021-07-21')
+#2 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageBeritaFront\Controllers\Berita))
+#3 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-07-29 10:02:40 --> Undefined index: view
+#0 C:\xampp\htdocs\spm\modules\ManageBeritaFront\Controllers\Berita.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 25, Array)
+#1 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageBeritaFront\Controllers\Berita->index('sarasehan-darin...', '2021-07-21')
+#2 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageBeritaFront\Controllers\Berita))
+#3 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-07-29 10:02:56 --> Undefined index: content_berita
+#0 C:\xampp\htdocs\spm\modules\ManageBeritaFront\Views\berita.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 34, Array)
+#1 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\ManageB...', Array, true)
+#4 C:\xampp\htdocs\spm\modules\ManageBeritaFront\Controllers\Berita.php(39): view('Modules\\ManageB...', Array)
+#5 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageBeritaFront\Controllers\Berita->index('sarasehan-darin...', '2021-07-21')
+#6 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageBeritaFront\Controllers\Berita))
+#7 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\spm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-07-29 10:03:11 --> Undefined index: view
+#0 C:\xampp\htdocs\spm\modules\ManageBeritaFront\Views\berita.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 54, Array)
+#1 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\ManageB...', Array, true)
+#4 C:\xampp\htdocs\spm\modules\ManageBeritaFront\Controllers\Berita.php(39): view('Modules\\ManageB...', Array)
+#5 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageBeritaFront\Controllers\Berita->index('sarasehan-darin...', '2021-07-21')
+#6 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageBeritaFront\Controllers\Berita))
+#7 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\spm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-07-29 10:07:08 --> File not found: C:\xampp\tmp\phpB5D3.tmp
+#0 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\Files\File.php(51): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('C:\\xampp\\tmp\\ph...')
+#1 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\Images\Handlers\BaseHandler.php(154): CodeIgniter\Files\File->__construct('C:\\xampp\\tmp\\ph...', true)
+#2 C:\xampp\htdocs\spm\modules\ManageBerita\Controllers\DataBerita.php(252): CodeIgniter\Images\Handlers\BaseHandler->withFile('C:\\xampp\\tmp\\ph...')
+#3 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageBerita\Controllers\DataBerita->berita_update()
+#4 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageBerita\Controllers\DataBerita))
+#5 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\spm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-07-29 10:19:13 --> Undefined variable: b
+#0 C:\xampp\htdocs\spm\modules\ManageBeritaFront\Views\berita.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\ManageB...', Array, true)
+#4 C:\xampp\htdocs\spm\modules\ManageBeritaFront\Controllers\Berita.php(39): view('Modules\\ManageB...', Array)
+#5 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageBeritaFront\Controllers\Berita->index('sarasehan-darin...', '2021-07-21')
+#6 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageBeritaFront\Controllers\Berita))
+#7 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\spm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-07-29 10:37:24 --> Undefined index: nama_berita
+#0 C:\xampp\htdocs\spm\modules\ManageBeritaFront\Controllers\Berita.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 54, Array)
+#1 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageBeritaFront\Controllers\Berita->berita_list()
+#2 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageBeritaFront\Controllers\Berita))
+#3 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-07-29 10:37:53 --> Undefined property: Modules\ManageBeritaFront\Controllers\Berita::$ModelBlog
+#0 C:\xampp\htdocs\spm\modules\ManageBeritaFront\Controllers\Berita.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 57, Array)
+#1 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageBeritaFront\Controllers\Berita->berita_list()
+#2 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageBeritaFront\Controllers\Berita))
+#3 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-07-29 10:40:12 --> Undefined index: thumbnail
+#0 C:\xampp\htdocs\spm\modules\ManageBeritaFront\Views\list.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 37, Array)
+#1 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\ManageB...', Array, true)
+#4 C:\xampp\htdocs\spm\modules\ManageBeritaFront\Controllers\Berita.php(60): view('Modules\\ManageB...', Array)
+#5 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageBeritaFront\Controllers\Berita->berita_list()
+#6 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageBeritaFront\Controllers\Berita))
+#7 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\spm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-07-29 10:50:21 --> Too few arguments to function limit_words(), 1 passed in C:\xampp\htdocs\spm\modules\ManageBeritaFront\Views\list.php on line 50 and exactly 2 expected
+#0 C:\xampp\htdocs\spm\modules\ManageBeritaFront\Views\list.php(50): limit_words('<p>Pada hari Ka...')
+#1 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\ManageB...', Array, true)
+#4 C:\xampp\htdocs\spm\modules\ManageBeritaFront\Controllers\Berita.php(60): view('Modules\\ManageB...', Array)
+#5 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageBeritaFront\Controllers\Berita->berita_list()
+#6 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageBeritaFront\Controllers\Berita))
+#7 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\spm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-07-29 10:56:09 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\ManageB...', Array, true)
+#2 C:\xampp\htdocs\spm\modules\ManageBeritaFront\Controllers\Berita.php(61): view('Modules\\ManageB...', Array)
+#3 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageBeritaFront\Controllers\Berita->berita_list()
+#4 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageBeritaFront\Controllers\Berita))
+#5 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\spm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-07-29 10:56:42 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\ManageB...', Array, true)
+#2 C:\xampp\htdocs\spm\modules\ManageBeritaFront\Controllers\Berita.php(61): view('Modules\\ManageB...', Array)
+#3 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageBeritaFront\Controllers\Berita->berita_list()
+#4 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageBeritaFront\Controllers\Berita))
+#5 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\spm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\spm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-07-29 16:27:06 --> Undefined index: fullname
+#0 C:\xampp\htdocs\ptic\modules\ManageBerita\Views\berita.php(111): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 111, Array)
+#1 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\ManageB...', Array, true)
+#4 C:\xampp\htdocs\ptic\modules\ManageBerita\Controllers\DataBerita.php(40): view('Modules\\ManageB...', Array)
+#5 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageBerita\Controllers\DataBerita->berita()
+#6 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageBerita\Controllers\DataBerita))
+#7 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ptic\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}

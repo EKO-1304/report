@@ -1,0 +1,875 @@
+ERROR - 2022-04-07 08:10:38 --> mysqli_sql_exception: Table 'database_ukm.x_notif' doesn't exist in C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `x_notif...')
+#1 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `x_notif...')
+#2 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `x_notif...')
+#3 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `x_notif...', Array, false)
+#4 C:\xampp\htdocs\github\ukm\modules\Layout\Controllers\Layout.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Layout\Controllers\Layout->notifikasiuser()
+#6 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Layout\Controllers\Layout))
+#7 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\ukm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-07 08:10:38 --> Table 'database_ukm.x_notif' doesn't exist
+#0 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `x_notif...')
+#1 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `x_notif...')
+#2 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `x_notif...')
+#3 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `x_notif...', Array, false)
+#4 C:\xampp\htdocs\github\ukm\modules\Layout\Controllers\Layout.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Layout\Controllers\Layout->notifikasiuser()
+#6 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Layout\Controllers\Layout))
+#7 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\ukm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-07 09:39:39 --> syntax error, unexpected ''" onclick="postcontentpaging(' (T_CONSTANT_ENCAPSED_STRING)
+#0 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Modules\\Club\\Co...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Modules\\Club\\Co...')
+#3 [internal function]: spl_autoload_call('Modules\\Club\\Co...')
+#4 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(897): class_exists('\\Modules\\Club\\C...', true)
+#5 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\github\ukm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-04-07 09:40:46 --> Undefined variable: linkprev
+#0 C:\xampp\htdocs\github\ukm\modules\Club\Controllers\DataInterface.php(496): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 496, Array)
+#1 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Club\Controllers\DataInterface->postcontent()
+#2 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Club\Controllers\DataInterface))
+#3 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\github\ukm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-07 09:40:50 --> Undefined variable: linkprev
+#0 C:\xampp\htdocs\github\ukm\modules\Club\Controllers\DataInterface.php(496): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 496, Array)
+#1 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Club\Controllers\DataInterface->postcontent()
+#2 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Club\Controllers\DataInterface))
+#3 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\github\ukm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-07 09:41:09 --> Undefined variable: linkprev
+#0 C:\xampp\htdocs\github\ukm\modules\Club\Controllers\DataInterface.php(496): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 496, Array)
+#1 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Club\Controllers\DataInterface->postcontent()
+#2 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Club\Controllers\DataInterface))
+#3 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\github\ukm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-04-07 09:41:36 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-1, 1' at line 7 in C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\github\ukm\modules\Club\Controllers\DataInterface.php(252): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Club\Controllers\DataInterface->postcontent()
+#6 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Club\Controllers\DataInterface))
+#7 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\ukm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-07 09:41:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-1, 1' at line 7
+#0 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\github\ukm\modules\Club\Controllers\DataInterface.php(252): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Club\Controllers\DataInterface->postcontent()
+#6 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Club\Controllers\DataInterface))
+#7 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\ukm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-04-07 09:41:36 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-1, 1' at line 7 in C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\github\ukm\modules\Club\Controllers\DataInterface.php(252): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Club\Controllers\DataInterface->postcontent()
+#6 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Club\Controllers\DataInterface))
+#7 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\ukm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-07 09:41:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-1, 1' at line 7
+#0 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\github\ukm\modules\Club\Controllers\DataInterface.php(252): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Club\Controllers\DataInterface->postcontent()
+#6 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Club\Controllers\DataInterface))
+#7 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\ukm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-04-07 09:41:37 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-1, 1' at line 7 in C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\github\ukm\modules\Club\Controllers\DataInterface.php(252): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Club\Controllers\DataInterface->postcontent()
+#6 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Club\Controllers\DataInterface))
+#7 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\ukm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-07 09:41:37 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-1, 1' at line 7
+#0 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\github\ukm\modules\Club\Controllers\DataInterface.php(252): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Club\Controllers\DataInterface->postcontent()
+#6 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Club\Controllers\DataInterface))
+#7 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\ukm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-04-07 09:41:37 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-1, 1' at line 7 in C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\github\ukm\modules\Club\Controllers\DataInterface.php(252): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Club\Controllers\DataInterface->postcontent()
+#6 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Club\Controllers\DataInterface))
+#7 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\ukm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-07 09:41:37 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-1, 1' at line 7
+#0 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\github\ukm\modules\Club\Controllers\DataInterface.php(252): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Club\Controllers\DataInterface->postcontent()
+#6 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Club\Controllers\DataInterface))
+#7 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\ukm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-04-07 13:51:32 --> mysqli_sql_exception: Table 'database_ukm.x_notif' doesn't exist in C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `x_notif...')
+#1 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `x_notif...')
+#2 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `x_notif...')
+#3 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `x_notif...', Array, false)
+#4 C:\xampp\htdocs\github\ukm\modules\Layout\Controllers\Layout.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Layout\Controllers\Layout->notifikasiuser()
+#6 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Layout\Controllers\Layout))
+#7 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\ukm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-07 13:51:32 --> Table 'database_ukm.x_notif' doesn't exist
+#0 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `x_notif...')
+#1 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `x_notif...')
+#2 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `x_notif...')
+#3 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `x_notif...', Array, false)
+#4 C:\xampp\htdocs\github\ukm\modules\Layout\Controllers\Layout.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Layout\Controllers\Layout->notifikasiuser()
+#6 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Layout\Controllers\Layout))
+#7 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\ukm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-04-07 13:51:45 --> mysqli_sql_exception: Table 'database_ukm.x_notif' doesn't exist in C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `x_notif...')
+#1 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `x_notif...')
+#2 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `x_notif...')
+#3 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `x_notif...', Array, false)
+#4 C:\xampp\htdocs\github\ukm\modules\Layout\Controllers\Layout.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Layout\Controllers\Layout->notifikasiuser()
+#6 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Layout\Controllers\Layout))
+#7 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\ukm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-07 13:51:45 --> Table 'database_ukm.x_notif' doesn't exist
+#0 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `x_notif...')
+#1 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `x_notif...')
+#2 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `x_notif...')
+#3 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `x_notif...', Array, false)
+#4 C:\xampp\htdocs\github\ukm\modules\Layout\Controllers\Layout.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Layout\Controllers\Layout->notifikasiuser()
+#6 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Layout\Controllers\Layout))
+#7 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\ukm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-07 14:08:20 --> Undefined variable: jumlah_start
+#0 C:\xampp\htdocs\github\ukm\modules\Club\Controllers\DataInterface.php(505): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 505, Array)
+#1 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Club\Controllers\DataInterface->postcontent()
+#2 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Club\Controllers\DataInterface))
+#3 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\github\ukm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-07 14:08:48 --> Undefined variable: jumlah_start
+#0 C:\xampp\htdocs\github\ukm\modules\Club\Controllers\DataInterface.php(505): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 505, Array)
+#1 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Club\Controllers\DataInterface->postcontent()
+#2 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Club\Controllers\DataInterface))
+#3 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\github\ukm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-07 14:18:08 --> Undefined variable: totalrecords
+#0 C:\xampp\htdocs\github\ukm\modules\Club\Controllers\DataInterface.php(477): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 477, Array)
+#1 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Club\Controllers\DataInterface->postcontent()
+#2 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Club\Controllers\DataInterface))
+#3 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\github\ukm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-07 14:18:18 --> Undefined variable: totalrecords
+#0 C:\xampp\htdocs\github\ukm\modules\Club\Controllers\DataInterface.php(477): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 477, Array)
+#1 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Club\Controllers\DataInterface->postcontent()
+#2 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Club\Controllers\DataInterface))
+#3 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\github\ukm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-07 14:18:36 --> Undefined variable: htmlpager
+#0 C:\xampp\htdocs\github\ukm\modules\Club\Controllers\DataInterface.php(534): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 534, Array)
+#1 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Club\Controllers\DataInterface->postcontent()
+#2 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Club\Controllers\DataInterface))
+#3 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\github\ukm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-04-07 14:27:48 --> mysqli_sql_exception: Table 'database_ukm.x_notif' doesn't exist in C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `x_notif...')
+#1 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `x_notif...')
+#2 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `x_notif...')
+#3 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `x_notif...', Array, false)
+#4 C:\xampp\htdocs\github\ukm\modules\Layout\Controllers\Layout.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Layout\Controllers\Layout->notifikasiuser()
+#6 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Layout\Controllers\Layout))
+#7 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\ukm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-07 14:27:48 --> Table 'database_ukm.x_notif' doesn't exist
+#0 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `x_notif...')
+#1 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `x_notif...')
+#2 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `x_notif...')
+#3 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `x_notif...', Array, false)
+#4 C:\xampp\htdocs\github\ukm\modules\Layout\Controllers\Layout.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Layout\Controllers\Layout->notifikasiuser()
+#6 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Layout\Controllers\Layout))
+#7 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\ukm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-04-07 14:27:52 --> mysqli_sql_exception: Table 'database_ukm.x_notif' doesn't exist in C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `x_notif...')
+#1 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `x_notif...')
+#2 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `x_notif...')
+#3 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `x_notif...', Array, false)
+#4 C:\xampp\htdocs\github\ukm\modules\Layout\Controllers\Layout.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Layout\Controllers\Layout->notifikasiuser()
+#6 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Layout\Controllers\Layout))
+#7 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\ukm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-07 14:27:52 --> Table 'database_ukm.x_notif' doesn't exist
+#0 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `x_notif...')
+#1 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `x_notif...')
+#2 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `x_notif...')
+#3 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `x_notif...', Array, false)
+#4 C:\xampp\htdocs\github\ukm\modules\Layout\Controllers\Layout.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Layout\Controllers\Layout->notifikasiuser()
+#6 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Layout\Controllers\Layout))
+#7 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\ukm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-04-07 15:39:53 --> mysqli_sql_exception: Table 'database_ukm.x_notif' doesn't exist in C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `x_notif...')
+#1 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `x_notif...')
+#2 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `x_notif...')
+#3 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `x_notif...', Array, false)
+#4 C:\xampp\htdocs\github\ukm\modules\Layout\Controllers\Layout.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Layout\Controllers\Layout->notifikasiuser()
+#6 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Layout\Controllers\Layout))
+#7 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\ukm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-07 15:39:53 --> Table 'database_ukm.x_notif' doesn't exist
+#0 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `x_notif...')
+#1 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `x_notif...')
+#2 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `x_notif...')
+#3 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `x_notif...', Array, false)
+#4 C:\xampp\htdocs\github\ukm\modules\Layout\Controllers\Layout.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Layout\Controllers\Layout->notifikasiuser()
+#6 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Layout\Controllers\Layout))
+#7 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\ukm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-04-07 15:40:08 --> mysqli_sql_exception: Table 'database_ukm.x_notif' doesn't exist in C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `x_notif...')
+#1 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `x_notif...')
+#2 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `x_notif...')
+#3 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `x_notif...', Array, false)
+#4 C:\xampp\htdocs\github\ukm\modules\Layout\Controllers\Layout.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Layout\Controllers\Layout->notifikasiuser()
+#6 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Layout\Controllers\Layout))
+#7 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\ukm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-07 15:40:08 --> Table 'database_ukm.x_notif' doesn't exist
+#0 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `x_notif...')
+#1 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `x_notif...')
+#2 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `x_notif...')
+#3 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `x_notif...', Array, false)
+#4 C:\xampp\htdocs\github\ukm\modules\Layout\Controllers\Layout.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Layout\Controllers\Layout->notifikasiuser()
+#6 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Layout\Controllers\Layout))
+#7 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\ukm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-07 15:41:01 --> Undefined index: banner
+#0 C:\xampp\htdocs\github\ukm\modules\Club\Views\clubupdate.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 56, Array)
+#1 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\Club\\Vi...', Array, true)
+#4 C:\xampp\htdocs\github\ukm\modules\Club\Controllers\DataClub.php(47): view('Modules\\Club\\Vi...', Array)
+#5 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Club\Controllers\DataClub->updateclub()
+#6 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Club\Controllers\DataClub))
+#7 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\ukm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-04-07 15:41:29 --> mysqli_sql_exception: Table 'database_ukm.x_notif' doesn't exist in C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `x_notif...')
+#1 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `x_notif...')
+#2 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `x_notif...')
+#3 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `x_notif...', Array, false)
+#4 C:\xampp\htdocs\github\ukm\modules\Layout\Controllers\Layout.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Layout\Controllers\Layout->notifikasiuser()
+#6 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Layout\Controllers\Layout))
+#7 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\ukm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-07 15:41:29 --> Table 'database_ukm.x_notif' doesn't exist
+#0 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `x_notif...')
+#1 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `x_notif...')
+#2 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `x_notif...')
+#3 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `x_notif...', Array, false)
+#4 C:\xampp\htdocs\github\ukm\modules\Layout\Controllers\Layout.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Layout\Controllers\Layout->notifikasiuser()
+#6 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Layout\Controllers\Layout))
+#7 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\ukm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-04-07 15:49:06 --> mysqli_sql_exception: Table 'database_ukm.x_notif' doesn't exist in C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `x_notif...')
+#1 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `x_notif...')
+#2 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `x_notif...')
+#3 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `x_notif...', Array, false)
+#4 C:\xampp\htdocs\github\ukm\modules\Layout\Controllers\Layout.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Layout\Controllers\Layout->notifikasiuser()
+#6 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Layout\Controllers\Layout))
+#7 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\ukm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-07 15:49:06 --> Table 'database_ukm.x_notif' doesn't exist
+#0 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `x_notif...')
+#1 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `x_notif...')
+#2 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `x_notif...')
+#3 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `x_notif...', Array, false)
+#4 C:\xampp\htdocs\github\ukm\modules\Layout\Controllers\Layout.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Layout\Controllers\Layout->notifikasiuser()
+#6 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Layout\Controllers\Layout))
+#7 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\ukm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-07 15:49:25 --> Undefined variable: bannerimg
+#0 C:\xampp\htdocs\github\ukm\modules\Club\Controllers\DataClub.php(352): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 352, Array)
+#1 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Club\Controllers\DataClub->clublogoupdate()
+#2 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Club\Controllers\DataClub))
+#3 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\github\ukm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-04-07 15:49:33 --> mysqli_sql_exception: Table 'database_ukm.x_notif' doesn't exist in C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `x_notif...')
+#1 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `x_notif...')
+#2 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `x_notif...')
+#3 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `x_notif...', Array, false)
+#4 C:\xampp\htdocs\github\ukm\modules\Layout\Controllers\Layout.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Layout\Controllers\Layout->notifikasiuser()
+#6 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Layout\Controllers\Layout))
+#7 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\ukm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-07 15:49:33 --> Table 'database_ukm.x_notif' doesn't exist
+#0 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `x_notif...')
+#1 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `x_notif...')
+#2 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `x_notif...')
+#3 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `x_notif...', Array, false)
+#4 C:\xampp\htdocs\github\ukm\modules\Layout\Controllers\Layout.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Layout\Controllers\Layout->notifikasiuser()
+#6 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Layout\Controllers\Layout))
+#7 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\ukm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-04-07 15:49:59 --> mysqli_sql_exception: Table 'database_ukm.x_notif' doesn't exist in C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `x_notif...')
+#1 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `x_notif...')
+#2 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `x_notif...')
+#3 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `x_notif...', Array, false)
+#4 C:\xampp\htdocs\github\ukm\modules\Layout\Controllers\Layout.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Layout\Controllers\Layout->notifikasiuser()
+#6 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Layout\Controllers\Layout))
+#7 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\ukm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-07 15:49:59 --> Table 'database_ukm.x_notif' doesn't exist
+#0 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `x_notif...')
+#1 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `x_notif...')
+#2 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `x_notif...')
+#3 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `x_notif...', Array, false)
+#4 C:\xampp\htdocs\github\ukm\modules\Layout\Controllers\Layout.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Layout\Controllers\Layout->notifikasiuser()
+#6 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Layout\Controllers\Layout))
+#7 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\ukm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-04-07 15:50:02 --> mysqli_sql_exception: Table 'database_ukm.x_notif' doesn't exist in C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `x_notif...')
+#1 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `x_notif...')
+#2 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `x_notif...')
+#3 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `x_notif...', Array, false)
+#4 C:\xampp\htdocs\github\ukm\modules\Layout\Controllers\Layout.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Layout\Controllers\Layout->notifikasiuser()
+#6 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Layout\Controllers\Layout))
+#7 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\ukm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-07 15:50:02 --> Table 'database_ukm.x_notif' doesn't exist
+#0 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `x_notif...')
+#1 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `x_notif...')
+#2 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `x_notif...')
+#3 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `x_notif...', Array, false)
+#4 C:\xampp\htdocs\github\ukm\modules\Layout\Controllers\Layout.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Layout\Controllers\Layout->notifikasiuser()
+#6 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Layout\Controllers\Layout))
+#7 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\ukm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-04-07 15:51:26 --> mysqli_sql_exception: Table 'database_ukm.x_notif' doesn't exist in C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `x_notif...')
+#1 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `x_notif...')
+#2 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `x_notif...')
+#3 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `x_notif...', Array, false)
+#4 C:\xampp\htdocs\github\ukm\modules\Layout\Controllers\Layout.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Layout\Controllers\Layout->notifikasiuser()
+#6 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Layout\Controllers\Layout))
+#7 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\ukm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-07 15:51:26 --> Table 'database_ukm.x_notif' doesn't exist
+#0 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `x_notif...')
+#1 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `x_notif...')
+#2 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `x_notif...')
+#3 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `x_notif...', Array, false)
+#4 C:\xampp\htdocs\github\ukm\modules\Layout\Controllers\Layout.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Layout\Controllers\Layout->notifikasiuser()
+#6 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Layout\Controllers\Layout))
+#7 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\ukm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-07 15:51:35 --> unlink(assets/ukm/images/): Is a directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(assets/u...', 'C:\\xampp\\htdocs...', 335, Array)
+#1 C:\xampp\htdocs\github\ukm\modules\Club\Controllers\DataClub.php(335): unlink('assets/ukm/imag...')
+#2 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Club\Controllers\DataClub->clublogoupdate()
+#3 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Club\Controllers\DataClub))
+#4 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\github\ukm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2022-04-07 15:52:03 --> mysqli_sql_exception: Table 'database_ukm.x_notif' doesn't exist in C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `x_notif...')
+#1 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `x_notif...')
+#2 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `x_notif...')
+#3 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `x_notif...', Array, false)
+#4 C:\xampp\htdocs\github\ukm\modules\Layout\Controllers\Layout.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Layout\Controllers\Layout->notifikasiuser()
+#6 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Layout\Controllers\Layout))
+#7 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\ukm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-07 15:52:03 --> Table 'database_ukm.x_notif' doesn't exist
+#0 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `x_notif...')
+#1 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `x_notif...')
+#2 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `x_notif...')
+#3 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `x_notif...', Array, false)
+#4 C:\xampp\htdocs\github\ukm\modules\Layout\Controllers\Layout.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Layout\Controllers\Layout->notifikasiuser()
+#6 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Layout\Controllers\Layout))
+#7 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\ukm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-07 15:52:08 --> unlink(assets/ukm/images/): Is a directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(assets/u...', 'C:\\xampp\\htdocs...', 335, Array)
+#1 C:\xampp\htdocs\github\ukm\modules\Club\Controllers\DataClub.php(335): unlink('assets/ukm/imag...')
+#2 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Club\Controllers\DataClub->clublogoupdate()
+#3 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Club\Controllers\DataClub))
+#4 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\github\ukm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2022-04-07 15:52:18 --> mysqli_sql_exception: Table 'database_ukm.x_notif' doesn't exist in C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `x_notif...')
+#1 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `x_notif...')
+#2 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `x_notif...')
+#3 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `x_notif...', Array, false)
+#4 C:\xampp\htdocs\github\ukm\modules\Layout\Controllers\Layout.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Layout\Controllers\Layout->notifikasiuser()
+#6 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Layout\Controllers\Layout))
+#7 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\ukm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-07 15:52:18 --> Table 'database_ukm.x_notif' doesn't exist
+#0 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `x_notif...')
+#1 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `x_notif...')
+#2 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `x_notif...')
+#3 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `x_notif...', Array, false)
+#4 C:\xampp\htdocs\github\ukm\modules\Layout\Controllers\Layout.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Layout\Controllers\Layout->notifikasiuser()
+#6 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Layout\Controllers\Layout))
+#7 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\ukm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-04-07 15:55:36 --> mysqli_sql_exception: Table 'database_ukm.x_notif' doesn't exist in C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `x_notif...')
+#1 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `x_notif...')
+#2 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `x_notif...')
+#3 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `x_notif...', Array, false)
+#4 C:\xampp\htdocs\github\ukm\modules\Layout\Controllers\Layout.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Layout\Controllers\Layout->notifikasiuser()
+#6 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Layout\Controllers\Layout))
+#7 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\ukm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-07 15:55:36 --> Table 'database_ukm.x_notif' doesn't exist
+#0 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `x_notif...')
+#1 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `x_notif...')
+#2 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `x_notif...')
+#3 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `x_notif...', Array, false)
+#4 C:\xampp\htdocs\github\ukm\modules\Layout\Controllers\Layout.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Layout\Controllers\Layout->notifikasiuser()
+#6 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Layout\Controllers\Layout))
+#7 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\ukm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-04-07 16:03:32 --> mysqli_sql_exception: Table 'database_ukm.x_notif' doesn't exist in C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `x_notif...')
+#1 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `x_notif...')
+#2 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `x_notif...')
+#3 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `x_notif...', Array, false)
+#4 C:\xampp\htdocs\github\ukm\modules\Layout\Controllers\Layout.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Layout\Controllers\Layout->notifikasiuser()
+#6 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Layout\Controllers\Layout))
+#7 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\ukm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-07 16:03:32 --> Table 'database_ukm.x_notif' doesn't exist
+#0 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `x_notif...')
+#1 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `x_notif...')
+#2 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `x_notif...')
+#3 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `x_notif...', Array, false)
+#4 C:\xampp\htdocs\github\ukm\modules\Layout\Controllers\Layout.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Layout\Controllers\Layout->notifikasiuser()
+#6 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Layout\Controllers\Layout))
+#7 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\ukm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-04-07 16:03:44 --> mysqli_sql_exception: Table 'database_ukm.x_notif' doesn't exist in C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `x_notif...')
+#1 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `x_notif...')
+#2 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `x_notif...')
+#3 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `x_notif...', Array, false)
+#4 C:\xampp\htdocs\github\ukm\modules\Layout\Controllers\Layout.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Layout\Controllers\Layout->notifikasiuser()
+#6 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Layout\Controllers\Layout))
+#7 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\ukm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-07 16:03:44 --> Table 'database_ukm.x_notif' doesn't exist
+#0 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `x_notif...')
+#1 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `x_notif...')
+#2 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `x_notif...')
+#3 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `x_notif...', Array, false)
+#4 C:\xampp\htdocs\github\ukm\modules\Layout\Controllers\Layout.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Layout\Controllers\Layout->notifikasiuser()
+#6 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Layout\Controllers\Layout))
+#7 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\ukm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-07 16:05:08 --> Undefined index: banner
+#0 C:\xampp\htdocs\github\ukm\modules\Club\Views\interfaceclub.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 87, Array)
+#1 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\Club\\Vi...', Array, true)
+#4 C:\xampp\htdocs\github\ukm\modules\Club\Controllers\DataInterface.php(69): view('Modules\\Club\\Vi...', Array)
+#5 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Club\Controllers\DataInterface->interfaceclub('haibossnet')
+#6 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Club\Controllers\DataInterface))
+#7 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\ukm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-04-07 16:06:02 --> mysqli_sql_exception: Table 'database_ukm.x_notif' doesn't exist in C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `x_notif...')
+#1 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `x_notif...')
+#2 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `x_notif...')
+#3 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `x_notif...', Array, false)
+#4 C:\xampp\htdocs\github\ukm\modules\Layout\Controllers\Layout.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Layout\Controllers\Layout->notifikasiuser()
+#6 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Layout\Controllers\Layout))
+#7 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\ukm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-07 16:06:02 --> Table 'database_ukm.x_notif' doesn't exist
+#0 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `x_notif...')
+#1 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `x_notif...')
+#2 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `x_notif...')
+#3 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `x_notif...', Array, false)
+#4 C:\xampp\htdocs\github\ukm\modules\Layout\Controllers\Layout.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Layout\Controllers\Layout->notifikasiuser()
+#6 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Layout\Controllers\Layout))
+#7 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\ukm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-04-07 16:06:48 --> mysqli_sql_exception: Table 'database_ukm.x_notif' doesn't exist in C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `x_notif...')
+#1 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `x_notif...')
+#2 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `x_notif...')
+#3 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `x_notif...', Array, false)
+#4 C:\xampp\htdocs\github\ukm\modules\Layout\Controllers\Layout.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Layout\Controllers\Layout->notifikasiuser()
+#6 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Layout\Controllers\Layout))
+#7 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\ukm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-07 16:06:48 --> Table 'database_ukm.x_notif' doesn't exist
+#0 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `x_notif...')
+#1 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `x_notif...')
+#2 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `x_notif...')
+#3 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `x_notif...', Array, false)
+#4 C:\xampp\htdocs\github\ukm\modules\Layout\Controllers\Layout.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Layout\Controllers\Layout->notifikasiuser()
+#6 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Layout\Controllers\Layout))
+#7 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\ukm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-04-07 16:13:10 --> mysqli_sql_exception: Table 'database_ukm.x_notif' doesn't exist in C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `x_notif...')
+#1 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `x_notif...')
+#2 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `x_notif...')
+#3 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `x_notif...', Array, false)
+#4 C:\xampp\htdocs\github\ukm\modules\Layout\Controllers\Layout.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Layout\Controllers\Layout->notifikasiuser()
+#6 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Layout\Controllers\Layout))
+#7 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\ukm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-07 16:13:10 --> Table 'database_ukm.x_notif' doesn't exist
+#0 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `x_notif...')
+#1 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `x_notif...')
+#2 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `x_notif...')
+#3 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `x_notif...', Array, false)
+#4 C:\xampp\htdocs\github\ukm\modules\Layout\Controllers\Layout.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Layout\Controllers\Layout->notifikasiuser()
+#6 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Layout\Controllers\Layout))
+#7 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\ukm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-04-07 16:13:15 --> mysqli_sql_exception: Table 'database_ukm.x_notif' doesn't exist in C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `x_notif...')
+#1 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `x_notif...')
+#2 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `x_notif...')
+#3 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `x_notif...', Array, false)
+#4 C:\xampp\htdocs\github\ukm\modules\Layout\Controllers\Layout.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Layout\Controllers\Layout->notifikasiuser()
+#6 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Layout\Controllers\Layout))
+#7 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\ukm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-07 16:13:15 --> Table 'database_ukm.x_notif' doesn't exist
+#0 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `x_notif...')
+#1 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `x_notif...')
+#2 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `x_notif...')
+#3 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `x_notif...', Array, false)
+#4 C:\xampp\htdocs\github\ukm\modules\Layout\Controllers\Layout.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Layout\Controllers\Layout->notifikasiuser()
+#6 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Layout\Controllers\Layout))
+#7 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\ukm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-04-07 16:13:19 --> mysqli_sql_exception: Table 'database_ukm.x_notif' doesn't exist in C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `x_notif...')
+#1 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `x_notif...')
+#2 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `x_notif...')
+#3 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `x_notif...', Array, false)
+#4 C:\xampp\htdocs\github\ukm\modules\Layout\Controllers\Layout.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Layout\Controllers\Layout->notifikasiuser()
+#6 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Layout\Controllers\Layout))
+#7 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\ukm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-07 16:13:19 --> Table 'database_ukm.x_notif' doesn't exist
+#0 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `x_notif...')
+#1 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `x_notif...')
+#2 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `x_notif...')
+#3 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `x_notif...', Array, false)
+#4 C:\xampp\htdocs\github\ukm\modules\Layout\Controllers\Layout.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Layout\Controllers\Layout->notifikasiuser()
+#6 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Layout\Controllers\Layout))
+#7 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\ukm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-04-07 16:13:24 --> mysqli_sql_exception: Table 'database_ukm.x_notif' doesn't exist in C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `x_notif...')
+#1 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `x_notif...')
+#2 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `x_notif...')
+#3 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `x_notif...', Array, false)
+#4 C:\xampp\htdocs\github\ukm\modules\Layout\Controllers\Layout.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Layout\Controllers\Layout->notifikasiuser()
+#6 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Layout\Controllers\Layout))
+#7 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\ukm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-07 16:13:24 --> Table 'database_ukm.x_notif' doesn't exist
+#0 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `x_notif...')
+#1 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `x_notif...')
+#2 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `x_notif...')
+#3 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `x_notif...', Array, false)
+#4 C:\xampp\htdocs\github\ukm\modules\Layout\Controllers\Layout.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Layout\Controllers\Layout->notifikasiuser()
+#6 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Layout\Controllers\Layout))
+#7 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\ukm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-04-07 16:13:30 --> mysqli_sql_exception: Table 'database_ukm.x_notif' doesn't exist in C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `x_notif...')
+#1 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `x_notif...')
+#2 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `x_notif...')
+#3 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `x_notif...', Array, false)
+#4 C:\xampp\htdocs\github\ukm\modules\Layout\Controllers\Layout.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Layout\Controllers\Layout->notifikasiuser()
+#6 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Layout\Controllers\Layout))
+#7 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\ukm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-07 16:13:30 --> Table 'database_ukm.x_notif' doesn't exist
+#0 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `x_notif...')
+#1 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `x_notif...')
+#2 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `x_notif...')
+#3 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `x_notif...', Array, false)
+#4 C:\xampp\htdocs\github\ukm\modules\Layout\Controllers\Layout.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Layout\Controllers\Layout->notifikasiuser()
+#6 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Layout\Controllers\Layout))
+#7 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\ukm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-04-07 16:19:36 --> mysqli_sql_exception: Table 'database_ukm.x_notif' doesn't exist in C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `x_notif...')
+#1 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `x_notif...')
+#2 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `x_notif...')
+#3 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `x_notif...', Array, false)
+#4 C:\xampp\htdocs\github\ukm\modules\Layout\Controllers\Layout.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Layout\Controllers\Layout->notifikasiuser()
+#6 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Layout\Controllers\Layout))
+#7 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\ukm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-07 16:19:36 --> Table 'database_ukm.x_notif' doesn't exist
+#0 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `x_notif...')
+#1 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `x_notif...')
+#2 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `x_notif...')
+#3 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `x_notif...', Array, false)
+#4 C:\xampp\htdocs\github\ukm\modules\Layout\Controllers\Layout.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Layout\Controllers\Layout->notifikasiuser()
+#6 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Layout\Controllers\Layout))
+#7 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\ukm\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\ukm\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}

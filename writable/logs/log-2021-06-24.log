@@ -1,0 +1,94 @@
+CRITICAL - 2021-06-24 09:46:58 --> Class 'Modules\AdminMasterPerusahaan\Models\ModelMasterPerusahaan' not found
+#0 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(912): Modules\AdminMasterPerusahaan\Controllers\DataMasterPerusahaan->__construct()
+#1 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kegiatan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-06-24 09:47:16 --> Too few arguments to function Modules\AdminMasterPerusahaan\Controllers\DataMasterPerusahaan::master(), 0 passed in C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php on line 940 and exactly 1 expected
+#0 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\AdminMasterPerusahaan\Controllers\DataMasterPerusahaan->master()
+#1 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminMasterPerusahaan\Controllers\DataMasterPerusahaan))
+#2 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kegiatan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-06-24 14:28:56 --> Call to a member function getRandomName() on null
+#0 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\AdminMasterPerusahaan\Controllers\DataMasterPerusahaan->master_save()
+#1 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminMasterPerusahaan\Controllers\DataMasterPerusahaan))
+#2 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kegiatan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-06-24 14:29:53 --> Undefined variable: nama_menu
+#0 C:\xampp\htdocs\kegiatan\modules\AdminMasterPerusahaan\Models\ModelMasterPerusahaan.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 53, Array)
+#1 C:\xampp\htdocs\kegiatan\modules\AdminMasterPerusahaan\Controllers\DataMasterPerusahaan.php(97): Modules\AdminMasterPerusahaan\Models\ModelMasterPerusahaan->save_perusahaan('PT. BISNIS DIGI...', 'pt-bisnis-digit...', 'cs@lokerkerja.t...', '0879678568567', '0', '1624519793_fdce...')
+#2 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\AdminMasterPerusahaan\Controllers\DataMasterPerusahaan->master_save()
+#3 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminMasterPerusahaan\Controllers\DataMasterPerusahaan))
+#4 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\kegiatan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-06-24 14:30:58 --> Undefined variable: nama_menu
+#0 C:\xampp\htdocs\kegiatan\modules\AdminMasterPerusahaan\Models\ModelMasterPerusahaan.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 53, Array)
+#1 C:\xampp\htdocs\kegiatan\modules\AdminMasterPerusahaan\Controllers\DataMasterPerusahaan.php(97): Modules\AdminMasterPerusahaan\Models\ModelMasterPerusahaan->save_perusahaan('PT. BISNIS DIGI...', 'pt-bisnis-digit...', 'cs@lokerkerja.t...', '08767856756', '0', '1624519858_f82c...')
+#2 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\AdminMasterPerusahaan\Controllers\DataMasterPerusahaan->master_save()
+#3 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminMasterPerusahaan\Controllers\DataMasterPerusahaan))
+#4 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\kegiatan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-06-24 14:37:04 --> Undefined index: img_slide
+#0 C:\xampp\htdocs\kegiatan\modules\AdminMasterPerusahaan\Views\perusahaan.php(266): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 266, Array)
+#1 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\AdminMa...', Array, true)
+#4 C:\xampp\htdocs\kegiatan\modules\AdminMasterPerusahaan\Controllers\DataMasterPerusahaan.php(37): view('Modules\\AdminMa...', Array)
+#5 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\AdminMasterPerusahaan\Controllers\DataMasterPerusahaan->master()
+#6 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminMasterPerusahaan\Controllers\DataMasterPerusahaan))
+#7 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kegiatan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-06-24 14:41:59 --> Undefined index: imh
+#0 C:\xampp\htdocs\kegiatan\modules\AdminMasterPerusahaan\Controllers\DataMasterPerusahaan.php(171): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 171, Array)
+#1 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\AdminMasterPerusahaan\Controllers\DataMasterPerusahaan->master_update()
+#2 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminMasterPerusahaan\Controllers\DataMasterPerusahaan))
+#3 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kegiatan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-06-24 14:43:41 --> Undefined index: img
+#0 C:\xampp\htdocs\kegiatan\modules\AdminMasterPerusahaan\Controllers\DataMasterPerusahaan.php(171): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 171, Array)
+#1 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\AdminMasterPerusahaan\Controllers\DataMasterPerusahaan->master_update()
+#2 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminMasterPerusahaan\Controllers\DataMasterPerusahaan))
+#3 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kegiatan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-06-24 14:44:27 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::update() must be of the type array or null, string given, called in C:\xampp\htdocs\kegiatan\modules\AdminMasterPerusahaan\Models\ModelMasterPerusahaan.php on line 91
+#0 C:\xampp\htdocs\kegiatan\modules\AdminMasterPerusahaan\Models\ModelMasterPerusahaan.php(91): CodeIgniter\Database\BaseBuilder->update('random', '35c1597651c3be7...')
+#1 C:\xampp\htdocs\kegiatan\modules\AdminMasterPerusahaan\Controllers\DataMasterPerusahaan.php(175): Modules\AdminMasterPerusahaan\Models\ModelMasterPerusahaan->update_perusahaan_2('35c1597651c3be7...', 'PT. BISNIS DIGI...', 'pt-bisnis-digit...', 'cs@lokerkerja.t...', '0789789789', '0', '1624520667_0dca...')
+#2 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\AdminMasterPerusahaan\Controllers\DataMasterPerusahaan->master_update()
+#3 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminMasterPerusahaan\Controllers\DataMasterPerusahaan))
+#4 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\kegiatan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-06-24 14:44:56 --> unlink(assets/images/perusahaan/1624519893_3686aed6d7c03dc8c64d.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(assets/i...', 'C:\\xampp\\htdocs...', 172, Array)
+#1 C:\xampp\htdocs\kegiatan\modules\AdminMasterPerusahaan\Controllers\DataMasterPerusahaan.php(172): unlink('assets/images/p...')
+#2 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\AdminMasterPerusahaan\Controllers\DataMasterPerusahaan->master_update()
+#3 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminMasterPerusahaan\Controllers\DataMasterPerusahaan))
+#4 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\kegiatan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-06-24 14:46:15 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::update() must be of the type array or null, string given, called in C:\xampp\htdocs\kegiatan\modules\AdminMasterPerusahaan\Models\ModelMasterPerusahaan.php on line 89
+#0 C:\xampp\htdocs\kegiatan\modules\AdminMasterPerusahaan\Models\ModelMasterPerusahaan.php(89): CodeIgniter\Database\BaseBuilder->update('random', '6ad3d2829dce0c0...')
+#1 C:\xampp\htdocs\kegiatan\modules\AdminMasterPerusahaan\Controllers\DataMasterPerusahaan.php(175): Modules\AdminMasterPerusahaan\Models\ModelMasterPerusahaan->update_perusahaan_2('6ad3d2829dce0c0...', 'PT. BISNIS DIGI...', 'pt-bisnis-digit...', 'cs@lokerkerja.t...', '0789789789', '0', '1624520775_8c46...')
+#2 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\AdminMasterPerusahaan\Controllers\DataMasterPerusahaan->master_update()
+#3 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminMasterPerusahaan\Controllers\DataMasterPerusahaan))
+#4 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\kegiatan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}

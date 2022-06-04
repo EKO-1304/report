@@ -1,0 +1,98 @@
+CRITICAL - 2021-10-30 11:23:32 --> Undefined variable: table
+#0 C:\xampp\htdocs\github\master\modules\Sosmed\Views\sosmedpendaftar.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 62, Array)
+#1 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\Sosmed\\...', Array, true)
+#4 C:\xampp\htdocs\github\master\modules\Sosmed\Controllers\DataSosmed.php(51): view('Modules\\Sosmed\\...', Array)
+#5 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Sosmed\Controllers\DataSosmed->datapendaftar('3b820ceece5a72d...')
+#6 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Sosmed\Controllers\DataSosmed))
+#7 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-10-30 11:48:50 --> Call to undefined method App\Models\ModelMaster::datasave
+#0 C:\xampp\htdocs\github\master\modules\Users\Controllers\DataUsers.php(463): CodeIgniter\Model->__call('datasave', Array)
+#1 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Users\Controllers\DataUsers->edit_profile()
+#2 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Users\Controllers\DataUsers))
+#3 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\github\master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2021-10-30 11:49:22 --> mysqli_sql_exception: Unknown column 'no_telp' in 'field list' in C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `us...')
+#1 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\github\master\app\Models\ModelMaster.php(247): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\github\master\modules\Users\Controllers\DataUsers.php(463): App\Models\ModelMaster->datatambah('users', Array)
+#6 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Users\Controllers\DataUsers->edit_profile()
+#7 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Users\Controllers\DataUsers))
+#8 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\github\master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-10-30 11:49:22 --> Unknown column 'no_telp' in 'field list'
+#0 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `us...')
+#1 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\github\master\app\Models\ModelMaster.php(247): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\github\master\modules\Users\Controllers\DataUsers.php(463): App\Models\ModelMaster->datatambah('users', Array)
+#6 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Users\Controllers\DataUsers->edit_profile()
+#7 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Users\Controllers\DataUsers))
+#8 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\github\master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-10-30 15:40:44 --> mysqli_sql_exception: Unknown column 'username' in 'field list' in C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, `u...')
+#1 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `u...')
+#2 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `u...')
+#3 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `u...', Array, false)
+#4 C:\xampp\htdocs\github\master\app\Models\ModelMaster.php(187): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\github\master\modules\Penalti\Controllers\DataPenalti.php(27): App\Models\ModelMaster->tampildataresult('menu_group', 'id,username,ful...', Array, Array, '')
+#6 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Penalti\Controllers\DataPenalti->penalti()
+#7 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Penalti\Controllers\DataPenalti))
+#8 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\github\master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-10-30 15:40:44 --> Unknown column 'username' in 'field list'
+#0 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, `u...')
+#1 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `u...')
+#2 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `u...')
+#3 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `u...', Array, false)
+#4 C:\xampp\htdocs\github\master\app\Models\ModelMaster.php(187): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\github\master\modules\Penalti\Controllers\DataPenalti.php(27): App\Models\ModelMaster->tampildataresult('menu_group', 'id,username,ful...', Array, Array, '')
+#6 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Penalti\Controllers\DataPenalti->penalti()
+#7 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Penalti\Controllers\DataPenalti))
+#8 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\github\master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-10-30 15:41:02 --> Undefined variable: group_menu
+#0 C:\xampp\htdocs\github\master\modules\Penalti\Views\penalti.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 61, Array)
+#1 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\Penalti...', Array, true)
+#4 C:\xampp\htdocs\github\master\modules\Penalti\Controllers\DataPenalti.php(47): view('Modules\\Penalti...', Array)
+#5 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Penalti\Controllers\DataPenalti->penalti()
+#6 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Penalti\Controllers\DataPenalti))
+#7 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-10-30 15:47:59 --> Undefined variable: row
+#0 C:\xampp\htdocs\github\master\modules\Penalti\Views\penalti.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 69, Array)
+#1 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\Penalti...', Array, true)
+#4 C:\xampp\htdocs\github\master\modules\Penalti\Controllers\DataPenalti.php(47): view('Modules\\Penalti...', Array)
+#5 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Penalti\Controllers\DataPenalti->penalti()
+#6 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Penalti\Controllers\DataPenalti))
+#7 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}

@@ -1,0 +1,143 @@
+ERROR - 2021-10-22 08:13:25 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2021-10-22 08:13:25 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Model.php(247): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\BaseModel.php(624): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\github\master\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(202): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\github\master\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(66): Myth\Auth\Authentication\LocalAuthenticator->validate(Array, true)
+#6 C:\xampp\htdocs\github\master\vendor\myth\auth\src\Controllers\AuthController.php(88): Myth\Auth\Authentication\LocalAuthenticator->attempt(Array, false)
+#7 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Myth\Auth\Controllers\AuthController->attemptLogin()
+#8 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#9 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\github\master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2021-10-22 09:35:12 --> Undefined variable: order
+#0 C:\xampp\htdocs\github\master\modules\Users\Controllers\DataPermissions.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Users\Controllers\DataPermissions->datatabel()
+#2 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Users\Controllers\DataPermissions))
+#3 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\github\master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-10-22 10:08:44 --> syntax error, unexpected '$data' (T_VARIABLE)
+#0 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Modules\\ManageM...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Modules\\ManageM...')
+#3 [internal function]: spl_autoload_call('Modules\\ManageM...')
+#4 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(897): class_exists('\\Modules\\Manage...', true)
+#5 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\github\master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-10-22 10:09:02 --> syntax error, unexpected '$data' (T_VARIABLE)
+#0 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Modules\\ManageM...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Modules\\ManageM...')
+#3 [internal function]: spl_autoload_call('Modules\\ManageM...')
+#4 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(897): class_exists('\\Modules\\Manage...', true)
+#5 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\github\master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-10-22 10:10:01 --> syntax error, unexpected '$data' (T_VARIABLE)
+#0 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Modules\\ManageM...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Modules\\ManageM...')
+#3 [internal function]: spl_autoload_call('Modules\\ManageM...')
+#4 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(897): class_exists('\\Modules\\Manage...', true)
+#5 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\github\master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-10-22 10:10:12 --> syntax error, unexpected '$data' (T_VARIABLE)
+#0 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Modules\\ManageM...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Modules\\ManageM...')
+#3 [internal function]: spl_autoload_call('Modules\\ManageM...')
+#4 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(897): class_exists('\\Modules\\Manage...', true)
+#5 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\github\master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-10-22 10:10:17 --> syntax error, unexpected '$data' (T_VARIABLE)
+#0 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Modules\\ManageM...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Modules\\ManageM...')
+#3 [internal function]: spl_autoload_call('Modules\\ManageM...')
+#4 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(897): class_exists('\\Modules\\Manage...', true)
+#5 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\github\master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-10-22 10:18:45 --> permissions filter must have a matching alias defined.
+#0 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Filters\Filters.php(354): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('permissions')
+#1 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\Filters\Filters->enableFilter('permissions', 'before')
+#2 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\github\master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-22 10:19:13 --> Class 'Modules\Sosmed\Models\ModelSosmed' not found
+#0 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(912): Modules\Sosmed\Controllers\DataSosmed->__construct()
+#1 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\github\master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-22 10:19:15 --> Class 'Modules\Sosmed\Models\ModelSosmed' not found
+#0 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(912): Modules\Sosmed\Controllers\DataSosmed->__construct()
+#1 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\github\master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-22 10:50:37 --> Class 'Modules\Sosmed\Models\ModelSosmed' not found
+#0 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(912): Modules\Sosmed\Controllers\DataSosmed->__construct()
+#1 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\github\master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-22 16:07:13 --> unlink(assets/images/profile/): Is a directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(assets/i...', 'C:\\xampp\\htdocs...', 627, Array)
+#1 C:\xampp\htdocs\github\master\modules\Users\Controllers\DataUsers.php(627): unlink('assets/images/p...')
+#2 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Users\Controllers\DataUsers->imguserdropzone()
+#3 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Users\Controllers\DataUsers))
+#4 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\github\master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-10-22 16:07:29 --> unlink(assets/images/profile/): Is a directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(assets/i...', 'C:\\xampp\\htdocs...', 627, Array)
+#1 C:\xampp\htdocs\github\master\modules\Users\Controllers\DataUsers.php(627): unlink('assets/images/p...')
+#2 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Users\Controllers\DataUsers->imguserdropzone()
+#3 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Users\Controllers\DataUsers))
+#4 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\github\master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-10-22 16:11:02 --> unlink(assets/images/profile/): Is a directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(assets/i...', 'C:\\xampp\\htdocs...', 610, Array)
+#1 C:\xampp\htdocs\github\master\modules\Users\Controllers\DataUsers.php(610): unlink('assets/images/p...')
+#2 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Users\Controllers\DataUsers->imguserdropzone()
+#3 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Users\Controllers\DataUsers))
+#4 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\github\master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-10-22 16:11:12 --> unlink(assets/images/profile/): Is a directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(assets/i...', 'C:\\xampp\\htdocs...', 610, Array)
+#1 C:\xampp\htdocs\github\master\modules\Users\Controllers\DataUsers.php(610): unlink('assets/images/p...')
+#2 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Users\Controllers\DataUsers->imguserdropzone()
+#3 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Users\Controllers\DataUsers))
+#4 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\github\master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}

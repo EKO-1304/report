@@ -1,0 +1,393 @@
+CRITICAL - 2022-05-19 08:56:20 --> Trying to access array offset on value of type null
+#0 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\modules\ProdukDepan\Controllers\ProdukKategori.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\PC Kan...', 105, Array)
+#1 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ProdukDepan\Controllers\ProdukKategori->produkfilter('images', 'product', 'large-size', '12.jpg')
+#2 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ProdukDepan\Controllers\ProdukKategori))
+#3 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\PC Kan...')
+#6 {main}
+CRITICAL - 2022-05-19 08:56:22 --> Trying to access array offset on value of type null
+#0 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\modules\ProdukDepan\Controllers\ProdukKategori.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\PC Kan...', 105, Array)
+#1 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ProdukDepan\Controllers\ProdukKategori->produkfilter('images', 'product', 'large-size', '12.jpg')
+#2 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ProdukDepan\Controllers\ProdukKategori))
+#3 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\PC Kan...')
+#6 {main}
+CRITICAL - 2022-05-19 08:56:23 --> Trying to access array offset on value of type null
+#0 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\modules\ProdukDepan\Controllers\ProdukKategori.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\PC Kan...', 105, Array)
+#1 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ProdukDepan\Controllers\ProdukKategori->produkfilter('images', 'product', 'large-size', '12.jpg')
+#2 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ProdukDepan\Controllers\ProdukKategori))
+#3 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\PC Kan...')
+#6 {main}
+CRITICAL - 2022-05-19 08:56:24 --> Trying to access array offset on value of type null
+#0 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\modules\ProdukDepan\Controllers\ProdukKategori.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\PC Kan...', 105, Array)
+#1 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ProdukDepan\Controllers\ProdukKategori->produkfilter('images', 'product', 'large-size', '12.jpg')
+#2 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ProdukDepan\Controllers\ProdukKategori))
+#3 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\PC Kan...')
+#6 {main}
+CRITICAL - 2022-05-19 08:56:48 --> Trying to access array offset on value of type null
+#0 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\modules\ProdukDepan\Controllers\ProdukKategori.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\PC Kan...', 105, Array)
+#1 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ProdukDepan\Controllers\ProdukKategori->produkfilter('images', 'product', 'large-size', '12.jpg')
+#2 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ProdukDepan\Controllers\ProdukKategori))
+#3 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\PC Kan...')
+#6 {main}
+CRITICAL - 2022-05-19 08:57:02 --> Trying to access array offset on value of type null
+#0 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\modules\ProdukDepan\Controllers\ProdukKategori.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\PC Kan...', 105, Array)
+#1 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ProdukDepan\Controllers\ProdukKategori->produkfilter('images', 'product', 'large-size', '12.jpg')
+#2 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ProdukDepan\Controllers\ProdukKategori))
+#3 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\PC Kan...')
+#6 {main}
+CRITICAL - 2022-05-19 08:57:51 --> Trying to access array offset on value of type null
+#0 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\modules\ProdukDepan\Controllers\ProdukKategori.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\PC Kan...', 105, Array)
+#1 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ProdukDepan\Controllers\ProdukKategori->produkfilter('images', 'product', 'large-size', '12.jpg')
+#2 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ProdukDepan\Controllers\ProdukKategori))
+#3 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\PC Kan...')
+#6 {main}
+CRITICAL - 2022-05-19 09:44:34 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::groubBy()
+#0 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\View\View.php(220): include()
+#1 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\LayoutD...', Array, true)
+#3 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\modules\LayoutDepan\Controllers\Layout.php(36): view('Modules\\LayoutD...', Array)
+#4 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\LayoutDepan\Controllers\Layout->index()
+#5 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\LayoutDepan\Controllers\Layout))
+#6 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\PC Kan...')
+#9 {main}
+CRITICAL - 2022-05-19 09:46:30 --> syntax error, unexpected 'selectMax' (T_STRING)
+#0 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\LayoutD...', Array, true)
+#2 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\modules\LayoutDepan\Controllers\Layout.php(36): view('Modules\\LayoutD...', Array)
+#3 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\LayoutDepan\Controllers\Layout->index()
+#4 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\LayoutDepan\Controllers\Layout))
+#5 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\PC Kan...')
+#8 {main}
+CRITICAL - 2022-05-19 10:47:12 --> Trying to get property 'id' of non-object
+#0 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\myth\auth\src\Models\UserModel.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\Users\\PC Kan...', 87, Array)
+#1 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\myth\auth\src\Controllers\AuthController.php(185): Myth\Auth\Models\UserModel->withGroup('penerbit')
+#2 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Myth\Auth\Controllers\AuthController->attemptRegister()
+#3 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#4 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\PC Kan...')
+#7 {main}
+CRITICAL - 2022-05-19 10:57:40 --> jenisuser is not a valid rule.
+#0 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\Validation\Validation.php(314): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('jenisuser')
+#1 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\Validation\Validation.php(164): CodeIgniter\Validation\Validation->processRules('jenisuser', 'jenisuser', 'seller', Array, Array)
+#2 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\Controller.php(181): CodeIgniter\Validation\Validation->run()
+#3 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\myth\auth\src\Controllers\AuthController.php(173): CodeIgniter\Controller->validate(Array)
+#4 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Myth\Auth\Controllers\AuthController->attemptRegister()
+#5 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#6 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\PC Kan...')
+#9 {main}
+CRITICAL - 2022-05-19 11:20:56 --> Trying to access array offset on value of type null
+#0 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\modules\ProdukDepan\Controllers\ProdukKategori.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\PC Kan...', 105, Array)
+#1 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ProdukDepan\Controllers\ProdukKategori->produkfilter('images', 'product', 'large-size', '12.jpg')
+#2 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ProdukDepan\Controllers\ProdukKategori))
+#3 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\PC Kan...')
+#6 {main}
+CRITICAL - 2022-05-19 11:21:02 --> Trying to access array offset on value of type null
+#0 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\modules\ProdukDepan\Controllers\ProdukKategori.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\PC Kan...', 105, Array)
+#1 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ProdukDepan\Controllers\ProdukKategori->produkfilter('images', 'product', 'large-size', '12.jpg')
+#2 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ProdukDepan\Controllers\ProdukKategori))
+#3 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\PC Kan...')
+#6 {main}
+CRITICAL - 2022-05-19 11:21:04 --> Trying to access array offset on value of type null
+#0 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\modules\ProdukDepan\Controllers\ProdukKategori.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\PC Kan...', 105, Array)
+#1 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ProdukDepan\Controllers\ProdukKategori->produkfilter('images', 'product', 'large-size', '12.jpg')
+#2 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ProdukDepan\Controllers\ProdukKategori))
+#3 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\PC Kan...')
+#6 {main}
+CRITICAL - 2022-05-19 12:50:12 --> Trying to access array offset on value of type null
+#0 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\modules\ProdukDepan\Controllers\ProdukKategori.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\PC Kan...', 105, Array)
+#1 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ProdukDepan\Controllers\ProdukKategori->produkfilter('images', 'product', 'large-size', '12.jpg')
+#2 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ProdukDepan\Controllers\ProdukKategori))
+#3 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\PC Kan...')
+#6 {main}
+CRITICAL - 2022-05-19 14:17:41 --> Declaration of Myth\Auth\Authentication\Activators\EmailActivator::send(?CodeIgniter\Entity $user, $passwordview): bool must be compatible with Myth\Auth\Authentication\Activators\ActivatorInterface::send(?CodeIgniter\Entity $user = NULL): bool
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-19 14:19:28 --> Undefined variable: password
+#0 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\myth\auth\src\Views\emails\activation.php(189): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\PC Kan...', 189, Array)
+#1 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\Users\\PC Kan...')
+#2 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Myth\\Auth\\Views...', Array, true)
+#4 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\myth\auth\src\Authentication\Activators\EmailActivator.php(38): view('Myth\\Auth\\Views...', Array, Array)
+#5 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\myth\auth\src\Authentication\Activators\UserActivator.php(40): Myth\Auth\Authentication\Activators\EmailActivator->send(Object(Myth\Auth\Entities\User))
+#6 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\myth\auth\src\Controllers\AuthController.php(200): Myth\Auth\Authentication\Activators\UserActivator->send(Object(Myth\Auth\Entities\User))
+#7 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Myth\Auth\Controllers\AuthController->attemptRegister()
+#8 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#9 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\PC Kan...')
+#12 {main}
+CRITICAL - 2022-05-19 14:21:26 --> Undefined variable: password
+#0 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\myth\auth\src\Views\emails\activation.php(189): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\PC Kan...', 189, Array)
+#1 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\Users\\PC Kan...')
+#2 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Myth\\Auth\\Views...', Array, true)
+#4 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\myth\auth\src\Authentication\Activators\EmailActivator.php(38): view('Myth\\Auth\\Views...', Array, Array)
+#5 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\myth\auth\src\Authentication\Activators\UserActivator.php(40): Myth\Auth\Authentication\Activators\EmailActivator->send(Object(Myth\Auth\Entities\User))
+#6 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\myth\auth\src\Controllers\AuthController.php(200): Myth\Auth\Authentication\Activators\UserActivator->send(Object(Myth\Auth\Entities\User))
+#7 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Myth\Auth\Controllers\AuthController->attemptRegister()
+#8 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#9 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\PC Kan...')
+#12 {main}
+CRITICAL - 2022-05-19 14:31:24 --> Trying to get property 'status' of non-object
+#0 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\myth\auth\src\Controllers\AuthController.php(194): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\Users\\PC Kan...', 194, Array)
+#1 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Myth\Auth\Controllers\AuthController->attemptRegister()
+#2 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#3 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\PC Kan...')
+#6 {main}
+CRITICAL - 2022-05-19 14:33:32 --> Argument 1 passed to Myth\Auth\Authentication\Activators\UserActivator::send() must be an instance of Myth\Auth\Entities\User or null, array given, called in C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\myth\auth\src\Controllers\AuthController.php on line 209
+#0 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\myth\auth\src\Controllers\AuthController.php(209): Myth\Auth\Authentication\Activators\UserActivator->send(Array)
+#1 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Myth\Auth\Controllers\AuthController->attemptRegister()
+#2 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#3 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\PC Kan...')
+#6 {main}
+CRITICAL - 2022-05-19 14:34:26 --> Argument 1 passed to Myth\Auth\Authentication\Activators\UserActivator::send() must be an instance of Myth\Auth\Entities\User or null, array given, called in C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\myth\auth\src\Controllers\AuthController.php on line 209
+#0 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\myth\auth\src\Controllers\AuthController.php(209): Myth\Auth\Authentication\Activators\UserActivator->send(Array)
+#1 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Myth\Auth\Controllers\AuthController->attemptRegister()
+#2 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#3 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\PC Kan...')
+#6 {main}
+CRITICAL - 2022-05-19 14:37:08 --> Declaration of Myth\Auth\Authentication\Activators\EmailActivator::send($userku) must be compatible with Myth\Auth\Authentication\Activators\ActivatorInterface::send(?CodeIgniter\Entity $user = NULL): bool
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-19 14:38:05 --> Declaration of Myth\Auth\Authentication\Activators\EmailActivator::send($userku): bool must be compatible with Myth\Auth\Authentication\Activators\ActivatorInterface::send(?CodeIgniter\Entity $user = NULL): bool
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2022-05-19 14:39:15 --> mysqli_sql_exception: Illegal parameter data types varchar and row for operation '=' in C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `fullnam...')
+#1 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `fullnam...')
+#2 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `fullnam...')
+#3 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `fullnam...', Array, false)
+#4 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\myth\auth\src\Views\emails\activation.php(95): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\Users\\PC Kan...')
+#6 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Myth\\Auth\\Views...', Array, true)
+#8 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\myth\auth\src\Authentication\Activators\EmailActivator.php(38): view('Myth\\Auth\\Views...', Array)
+#9 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\myth\auth\src\Authentication\Activators\UserActivator.php(40): Myth\Auth\Authentication\Activators\EmailActivator->send(Array)
+#10 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\myth\auth\src\Controllers\AuthController.php(209): Myth\Auth\Authentication\Activators\UserActivator->send(Array)
+#11 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Myth\Auth\Controllers\AuthController->attemptRegister()
+#12 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#13 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#15 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\PC Kan...')
+#16 {main}
+CRITICAL - 2022-05-19 14:39:15 --> Illegal parameter data types varchar and row for operation '='
+#0 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `fullnam...')
+#1 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `fullnam...')
+#2 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `fullnam...')
+#3 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `fullnam...', Array, false)
+#4 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\myth\auth\src\Views\emails\activation.php(95): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\Users\\PC Kan...')
+#6 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Myth\\Auth\\Views...', Array, true)
+#8 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\myth\auth\src\Authentication\Activators\EmailActivator.php(38): view('Myth\\Auth\\Views...', Array)
+#9 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\myth\auth\src\Authentication\Activators\UserActivator.php(40): Myth\Auth\Authentication\Activators\EmailActivator->send(Array)
+#10 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\myth\auth\src\Controllers\AuthController.php(209): Myth\Auth\Authentication\Activators\UserActivator->send(Array)
+#11 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Myth\Auth\Controllers\AuthController->attemptRegister()
+#12 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#13 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#15 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\PC Kan...')
+#16 {main}
+CRITICAL - 2022-05-19 14:43:48 --> Array to string conversion
+#0 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\myth\auth\src\Views\emails\activation.php(206): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\Users\\PC Kan...', 206, Array)
+#1 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\Users\\PC Kan...')
+#2 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Myth\\Auth\\Views...', Array, true)
+#4 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\myth\auth\src\Authentication\Activators\EmailActivator.php(38): view('Myth\\Auth\\Views...', Array)
+#5 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\myth\auth\src\Authentication\Activators\UserActivator.php(40): Myth\Auth\Authentication\Activators\EmailActivator->send(Array)
+#6 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\myth\auth\src\Controllers\AuthController.php(209): Myth\Auth\Authentication\Activators\UserActivator->send(Array)
+#7 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Myth\Auth\Controllers\AuthController->attemptRegister()
+#8 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#9 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\PC Kan...')
+#12 {main}
+CRITICAL - 2022-05-19 14:44:56 --> Array to string conversion
+#0 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\myth\auth\src\Views\emails\activation.php(206): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\Users\\PC Kan...', 206, Array)
+#1 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\Users\\PC Kan...')
+#2 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Myth\\Auth\\Views...', Array, true)
+#4 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\myth\auth\src\Authentication\Activators\EmailActivator.php(38): view('Myth\\Auth\\Views...', Array)
+#5 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\myth\auth\src\Authentication\Activators\UserActivator.php(40): Myth\Auth\Authentication\Activators\EmailActivator->send(Array)
+#6 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\myth\auth\src\Controllers\AuthController.php(209): Myth\Auth\Authentication\Activators\UserActivator->send(Array)
+#7 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Myth\Auth\Controllers\AuthController->attemptRegister()
+#8 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#9 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\PC Kan...')
+#12 {main}
+CRITICAL - 2022-05-19 15:12:39 --> Invalid file: \Modules\AdminLogin\Views\register.php
+#0 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('\\Modules\\AdminL...')
+#1 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('\\Modules\\AdminL...', Array, true)
+#2 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\myth\auth\src\Controllers\AuthController.php(140): view('\\Modules\\AdminL...', Array)
+#3 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Myth\Auth\Controllers\AuthController->register()
+#4 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#5 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\PC Kan...')
+#8 {main}
+CRITICAL - 2022-05-19 15:50:15 --> Cannot use object of type Myth\Auth\Entities\User as array
+#0 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\myth\auth\src\Authentication\Activators\UserActivator.php(40): Myth\Auth\Authentication\Activators\EmailActivator->send(Object(Myth\Auth\Entities\User))
+#1 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\myth\auth\src\Controllers\AuthController.php(440): Myth\Auth\Authentication\Activators\UserActivator->send(Object(Myth\Auth\Entities\User))
+#2 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Myth\Auth\Controllers\AuthController->resendActivateAccount()
+#3 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#4 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\PC Kan...')
+#7 {main}
+CRITICAL - 2022-05-19 15:59:26 --> Trying to access array offset on value of type null
+#0 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\myth\auth\src\Controllers\AuthController.php(439): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\PC Kan...', 439, Array)
+#1 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Myth\Auth\Controllers\AuthController->resendActivateAccount()
+#2 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#3 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\PC Kan...')
+#6 {main}
+CRITICAL - 2022-05-19 15:59:57 --> Trying to access array offset on value of type null
+#0 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\myth\auth\src\Controllers\AuthController.php(439): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\PC Kan...', 439, Array)
+#1 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Myth\Auth\Controllers\AuthController->resendActivateAccount()
+#2 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#3 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\PC Kan...')
+#6 {main}
+CRITICAL - 2022-05-19 16:00:04 --> Trying to access array offset on value of type null
+#0 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\myth\auth\src\Controllers\AuthController.php(439): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\PC Kan...', 439, Array)
+#1 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Myth\Auth\Controllers\AuthController->resendActivateAccount()
+#2 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#3 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\PC Kan...')
+#6 {main}
+CRITICAL - 2022-05-19 16:00:05 --> Trying to access array offset on value of type null
+#0 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\myth\auth\src\Controllers\AuthController.php(439): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\PC Kan...', 439, Array)
+#1 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Myth\Auth\Controllers\AuthController->resendActivateAccount()
+#2 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#3 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\PC Kan...')
+#6 {main}
+ERROR - 2022-05-19 16:11:32 --> mysqli_sql_exception: Unknown column 'idkampus' in 'field list' in C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `fullnam...')
+#1 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `fullnam...')
+#2 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `fullnam...')
+#3 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `fullnam...', Array, false)
+#4 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\modules\Users\Models\ModelUsers.php(60): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\modules\Users\Controllers\DataUsers.php(49): Modules\Users\Models\ModelUsers->get_datatables()
+#6 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Users\Controllers\DataUsers->user_json()
+#7 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Users\Controllers\DataUsers))
+#8 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\PC Kan...')
+#11 {main}
+CRITICAL - 2022-05-19 16:11:32 --> Unknown column 'idkampus' in 'field list'
+#0 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `fullnam...')
+#1 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `fullnam...')
+#2 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `fullnam...')
+#3 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `fullnam...', Array, false)
+#4 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\modules\Users\Models\ModelUsers.php(60): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\modules\Users\Controllers\DataUsers.php(49): Modules\Users\Models\ModelUsers->get_datatables()
+#6 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Users\Controllers\DataUsers->user_json()
+#7 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Users\Controllers\DataUsers))
+#8 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\PC Kan...')
+#11 {main}
+ERROR - 2022-05-19 16:11:43 --> mysqli_sql_exception: Unknown column 'idkampus' in 'field list' in C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `fullnam...')
+#1 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `fullnam...')
+#2 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `fullnam...')
+#3 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `fullnam...', Array, false)
+#4 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\modules\Users\Models\ModelUsers.php(60): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\modules\Users\Controllers\DataUsers.php(49): Modules\Users\Models\ModelUsers->get_datatables()
+#6 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Users\Controllers\DataUsers->user_json()
+#7 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Users\Controllers\DataUsers))
+#8 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\PC Kan...')
+#11 {main}
+CRITICAL - 2022-05-19 16:11:43 --> Unknown column 'idkampus' in 'field list'
+#0 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `fullnam...')
+#1 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `fullnam...')
+#2 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `fullnam...')
+#3 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `fullnam...', Array, false)
+#4 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\modules\Users\Models\ModelUsers.php(60): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\modules\Users\Controllers\DataUsers.php(49): Modules\Users\Models\ModelUsers->get_datatables()
+#6 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Users\Controllers\DataUsers->user_json()
+#7 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Users\Controllers\DataUsers))
+#8 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\PC Kan...')
+#11 {main}
+ERROR - 2022-05-19 16:12:37 --> mysqli_sql_exception: Unknown column 'idkampus' in 'field list' in C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `fullnam...')
+#1 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `fullnam...')
+#2 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `fullnam...')
+#3 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `fullnam...', Array, false)
+#4 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\modules\Users\Controllers\DataUsers.php(270): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Users\Controllers\DataUsers->editusers('819c1c268f1633e...')
+#6 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Users\Controllers\DataUsers))
+#7 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\PC Kan...')
+#10 {main}
+CRITICAL - 2022-05-19 16:12:37 --> Unknown column 'idkampus' in 'field list'
+#0 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `fullnam...')
+#1 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `fullnam...')
+#2 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `fullnam...')
+#3 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `fullnam...', Array, false)
+#4 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\modules\Users\Controllers\DataUsers.php(270): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Users\Controllers\DataUsers->editusers('819c1c268f1633e...')
+#6 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Users\Controllers\DataUsers))
+#7 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\PC Kan...')
+#10 {main}
+CRITICAL - 2022-05-19 16:20:29 --> Undefined property: stdClass::$status
+#0 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\modules\Users\Controllers\DataUsers.php(86): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Users\\PC Kan...', 86, Array)
+#1 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Users\Controllers\DataUsers->user_json()
+#2 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Users\Controllers\DataUsers))
+#3 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\PC Kan...')
+#6 {main}

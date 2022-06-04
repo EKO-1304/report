@@ -1,0 +1,695 @@
+CRITICAL - 2022-01-24 08:26:42 --> Trying to get property 'id' of non-object
+#0 C:\xampp\htdocs\github\kebunku\modules\Layout\Views\headertop.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 9, Array)
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\View\View.php(468): CodeIgniter\View\View->render('Modules\\Layout\\...', NULL, true)
+#4 C:\xampp\htdocs\github\kebunku\modules\Layout\Views\layout.php(150): CodeIgniter\View\View->include('Modules\\Layout\\...')
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\View\View.php(236): CodeIgniter\View\View->render('Modules\\Layout\\...', Array, true)
+#8 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\View\View.php(236): CodeIgniter\View\View->render('Modules\\Interfa...', Array, true)
+#9 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\Interfa...', Array, true)
+#10 C:\xampp\htdocs\github\kebunku\modules\InterfaceKu\Controllers\DataInterfaceMagang.php(112): view('Modules\\Interfa...', Array)
+#11 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\InterfaceKu\Controllers\DataInterfaceMagang->interfacemagang('4d1849eaf2138c8...')
+#12 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\InterfaceKu\Controllers\DataInterfaceMagang))
+#13 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#15 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#16 {main}
+CRITICAL - 2022-01-24 08:27:07 --> Class 'Modules\Desain\Models\ModelInvoiceTIkTok' not found
+#0 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(912): Modules\Invoice\Controllers\InvoiceTIkTok->__construct()
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-24 08:34:50 --> Class 'Modules\Desain\Models\ModelInvoiceTIkTok' not found
+#0 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(912): Modules\Invoice\Controllers\InvoiceTIkTok->__construct()
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-24 08:35:35 --> Class 'Modules\Desain\Models\ModelInvoiceTikTok' not found
+#0 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(912): Modules\Invoice\Controllers\InvoiceTIkTok->__construct()
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-24 08:35:37 --> Class 'Modules\Desain\Models\ModelInvoiceTikTok' not found
+#0 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(912): Modules\Invoice\Controllers\InvoiceTIkTok->__construct()
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-24 08:35:48 --> Invalid file: Modules\Desain\Views\invoicetiktok.php
+#0 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\Desain\\...')
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\Desain\\...', Array, true)
+#2 C:\xampp\htdocs\github\kebunku\modules\Invoice\Controllers\InvoiceTikTok.php(33): view('Modules\\Desain\\...', Array)
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Invoice\Controllers\InvoiceTIkTok->invoice()
+#4 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Invoice\Controllers\InvoiceTIkTok))
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-24 08:36:10 --> Undefined variable: jenisuser
+#0 C:\xampp\htdocs\github\kebunku\modules\Invoice\Views\invoicetiktok.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 6, Array)
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\Invoice...', Array, true)
+#4 C:\xampp\htdocs\github\kebunku\modules\Invoice\Controllers\InvoiceTikTok.php(33): view('Modules\\Invoice...', Array)
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Invoice\Controllers\InvoiceTIkTok->invoice()
+#6 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Invoice\Controllers\InvoiceTIkTok))
+#7 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-24 08:36:29 --> Undefined variable: subtitle
+#0 C:\xampp\htdocs\github\kebunku\modules\Invoice\Views\invoicetiktok.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\Invoice...', Array, true)
+#4 C:\xampp\htdocs\github\kebunku\modules\Invoice\Controllers\InvoiceTikTok.php(33): view('Modules\\Invoice...', Array)
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Invoice\Controllers\InvoiceTIkTok->invoice()
+#6 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Invoice\Controllers\InvoiceTIkTok))
+#7 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-24 08:36:51 --> Undefined variable: linkback
+#0 C:\xampp\htdocs\github\kebunku\modules\Invoice\Views\invoicetiktok.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 54, Array)
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\Invoice...', Array, true)
+#4 C:\xampp\htdocs\github\kebunku\modules\Invoice\Controllers\InvoiceTikTok.php(33): view('Modules\\Invoice...', Array)
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Invoice\Controllers\InvoiceTIkTok->invoice()
+#6 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Invoice\Controllers\InvoiceTIkTok))
+#7 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-24 08:37:21 --> Undefined variable: random
+#0 C:\xampp\htdocs\github\kebunku\modules\Invoice\Views\invoicetiktok.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 96, Array)
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\Invoice...', Array, true)
+#4 C:\xampp\htdocs\github\kebunku\modules\Invoice\Controllers\InvoiceTikTok.php(33): view('Modules\\Invoice...', Array)
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Invoice\Controllers\InvoiceTIkTok->invoice()
+#6 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Invoice\Controllers\InvoiceTIkTok))
+#7 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-24 08:37:22 --> Undefined variable: random
+#0 C:\xampp\htdocs\github\kebunku\modules\Invoice\Views\invoicetiktok.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 96, Array)
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\Invoice...', Array, true)
+#4 C:\xampp\htdocs\github\kebunku\modules\Invoice\Controllers\InvoiceTikTok.php(33): view('Modules\\Invoice...', Array)
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Invoice\Controllers\InvoiceTIkTok->invoice()
+#6 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Invoice\Controllers\InvoiceTIkTok))
+#7 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-24 08:37:23 --> Undefined variable: random
+#0 C:\xampp\htdocs\github\kebunku\modules\Invoice\Views\invoicetiktok.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 96, Array)
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\Invoice...', Array, true)
+#4 C:\xampp\htdocs\github\kebunku\modules\Invoice\Controllers\InvoiceTikTok.php(33): view('Modules\\Invoice...', Array)
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Invoice\Controllers\InvoiceTIkTok->invoice()
+#6 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Invoice\Controllers\InvoiceTIkTok))
+#7 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-24 08:37:23 --> Undefined variable: random
+#0 C:\xampp\htdocs\github\kebunku\modules\Invoice\Views\invoicetiktok.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 96, Array)
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\Invoice...', Array, true)
+#4 C:\xampp\htdocs\github\kebunku\modules\Invoice\Controllers\InvoiceTikTok.php(33): view('Modules\\Invoice...', Array)
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Invoice\Controllers\InvoiceTIkTok->invoice()
+#6 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Invoice\Controllers\InvoiceTIkTok))
+#7 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-24 08:37:23 --> Undefined variable: random
+#0 C:\xampp\htdocs\github\kebunku\modules\Invoice\Views\invoicetiktok.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 96, Array)
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\Invoice...', Array, true)
+#4 C:\xampp\htdocs\github\kebunku\modules\Invoice\Controllers\InvoiceTikTok.php(33): view('Modules\\Invoice...', Array)
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Invoice\Controllers\InvoiceTIkTok->invoice()
+#6 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Invoice\Controllers\InvoiceTIkTok))
+#7 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-24 08:37:24 --> Undefined variable: random
+#0 C:\xampp\htdocs\github\kebunku\modules\Invoice\Views\invoicetiktok.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 96, Array)
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\Invoice...', Array, true)
+#4 C:\xampp\htdocs\github\kebunku\modules\Invoice\Controllers\InvoiceTikTok.php(33): view('Modules\\Invoice...', Array)
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Invoice\Controllers\InvoiceTIkTok->invoice()
+#6 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Invoice\Controllers\InvoiceTIkTok))
+#7 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-24 08:37:24 --> Undefined variable: random
+#0 C:\xampp\htdocs\github\kebunku\modules\Invoice\Views\invoicetiktok.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 96, Array)
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\Invoice...', Array, true)
+#4 C:\xampp\htdocs\github\kebunku\modules\Invoice\Controllers\InvoiceTikTok.php(33): view('Modules\\Invoice...', Array)
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Invoice\Controllers\InvoiceTIkTok->invoice()
+#6 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Invoice\Controllers\InvoiceTIkTok))
+#7 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-24 08:37:24 --> Undefined variable: random
+#0 C:\xampp\htdocs\github\kebunku\modules\Invoice\Views\invoicetiktok.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 96, Array)
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\Invoice...', Array, true)
+#4 C:\xampp\htdocs\github\kebunku\modules\Invoice\Controllers\InvoiceTikTok.php(33): view('Modules\\Invoice...', Array)
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Invoice\Controllers\InvoiceTIkTok->invoice()
+#6 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Invoice\Controllers\InvoiceTIkTok))
+#7 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-24 08:37:24 --> Undefined variable: random
+#0 C:\xampp\htdocs\github\kebunku\modules\Invoice\Views\invoicetiktok.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 96, Array)
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\Invoice...', Array, true)
+#4 C:\xampp\htdocs\github\kebunku\modules\Invoice\Controllers\InvoiceTikTok.php(33): view('Modules\\Invoice...', Array)
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Invoice\Controllers\InvoiceTIkTok->invoice()
+#6 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Invoice\Controllers\InvoiceTIkTok))
+#7 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-24 08:37:25 --> Undefined variable: random
+#0 C:\xampp\htdocs\github\kebunku\modules\Invoice\Views\invoicetiktok.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 96, Array)
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\Invoice...', Array, true)
+#4 C:\xampp\htdocs\github\kebunku\modules\Invoice\Controllers\InvoiceTikTok.php(33): view('Modules\\Invoice...', Array)
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Invoice\Controllers\InvoiceTIkTok->invoice()
+#6 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Invoice\Controllers\InvoiceTIkTok))
+#7 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-24 08:37:41 --> Undefined variable: linkback
+#0 C:\xampp\htdocs\github\kebunku\modules\Invoice\Views\invoicetiktok.php(178): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 178, Array)
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\Invoice...', Array, true)
+#4 C:\xampp\htdocs\github\kebunku\modules\Invoice\Controllers\InvoiceTikTok.php(33): view('Modules\\Invoice...', Array)
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Invoice\Controllers\InvoiceTIkTok->invoice()
+#6 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Invoice\Controllers\InvoiceTIkTok))
+#7 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-24 08:38:10 --> Undefined variable: linkback
+#0 C:\xampp\htdocs\github\kebunku\modules\Invoice\Views\invoicetiktok.php(178): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 178, Array)
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\Invoice...', Array, true)
+#4 C:\xampp\htdocs\github\kebunku\modules\Invoice\Controllers\InvoiceTikTok.php(33): view('Modules\\Invoice...', Array)
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Invoice\Controllers\InvoiceTIkTok->invoice()
+#6 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Invoice\Controllers\InvoiceTIkTok))
+#7 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-01-24 08:41:04 --> mysqli_sql_exception: Unknown column 'tanggalmulai' in 'order clause' in C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `fullnam...')
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `fullnam...')
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `fullnam...')
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `fullnam...', Array, false)
+#4 C:\xampp\htdocs\github\kebunku\modules\Invoice\Models\ModelInvoiceTikTok.php(61): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\github\kebunku\modules\Invoice\Controllers\InvoiceTikTok.php(41): Modules\Invoice\Models\ModelInvoiceTikTok->get_datatables()
+#6 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Invoice\Controllers\InvoiceTIkTok->invoicejson()
+#7 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Invoice\Controllers\InvoiceTIkTok))
+#8 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-01-24 08:41:04 --> Unknown column 'tanggalmulai' in 'order clause'
+#0 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `fullnam...')
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `fullnam...')
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `fullnam...')
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `fullnam...', Array, false)
+#4 C:\xampp\htdocs\github\kebunku\modules\Invoice\Models\ModelInvoiceTikTok.php(61): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\github\kebunku\modules\Invoice\Controllers\InvoiceTikTok.php(41): Modules\Invoice\Models\ModelInvoiceTikTok->get_datatables()
+#6 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Invoice\Controllers\InvoiceTIkTok->invoicejson()
+#7 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Invoice\Controllers\InvoiceTIkTok))
+#8 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-01-24 09:18:11 --> Too few arguments to function Modules\Invoice\Models\ModelCreatedInvoiceTikTok::get_datatables(), 0 passed in C:\xampp\htdocs\github\kebunku\modules\Invoice\Controllers\InvoiceTikTok.php on line 94 and exactly 1 expected
+#0 C:\xampp\htdocs\github\kebunku\modules\Invoice\Controllers\InvoiceTikTok.php(94): Modules\Invoice\Models\ModelCreatedInvoiceTikTok->get_datatables()
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Invoice\Controllers\InvoiceTIkTok->createdinvoicejson()
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Invoice\Controllers\InvoiceTIkTok))
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-24 09:18:31 --> Too few arguments to function Modules\Invoice\Models\ModelCreatedInvoiceTikTok::get_datatables(), 0 passed in C:\xampp\htdocs\github\kebunku\modules\Invoice\Controllers\InvoiceTikTok.php on line 94 and exactly 1 expected
+#0 C:\xampp\htdocs\github\kebunku\modules\Invoice\Controllers\InvoiceTikTok.php(94): Modules\Invoice\Models\ModelCreatedInvoiceTikTok->get_datatables()
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Invoice\Controllers\InvoiceTIkTok->createdinvoicejson()
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Invoice\Controllers\InvoiceTIkTok))
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-24 09:18:40 --> Too few arguments to function Modules\Invoice\Models\ModelCreatedInvoiceTikTok::get_datatables(), 0 passed in C:\xampp\htdocs\github\kebunku\modules\Invoice\Controllers\InvoiceTikTok.php on line 94 and exactly 1 expected
+#0 C:\xampp\htdocs\github\kebunku\modules\Invoice\Controllers\InvoiceTikTok.php(94): Modules\Invoice\Models\ModelCreatedInvoiceTikTok->get_datatables()
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Invoice\Controllers\InvoiceTIkTok->createdinvoicejson()
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Invoice\Controllers\InvoiceTIkTok))
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-01-24 09:19:25 --> mysqli_sql_exception: Column 'iduser' in where clause is ambiguous in C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `fullnam...')
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `fullnam...')
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `fullnam...')
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `fullnam...', Array, false)
+#4 C:\xampp\htdocs\github\kebunku\modules\Invoice\Models\ModelCreatedInvoiceTikTok.php(61): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\github\kebunku\modules\Invoice\Controllers\InvoiceTikTok.php(94): Modules\Invoice\Models\ModelCreatedInvoiceTikTok->get_datatables('58')
+#6 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Invoice\Controllers\InvoiceTIkTok->createdinvoicejson()
+#7 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Invoice\Controllers\InvoiceTIkTok))
+#8 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-01-24 09:19:25 --> Column 'iduser' in where clause is ambiguous
+#0 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `fullnam...')
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `fullnam...')
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `fullnam...')
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `fullnam...', Array, false)
+#4 C:\xampp\htdocs\github\kebunku\modules\Invoice\Models\ModelCreatedInvoiceTikTok.php(61): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\github\kebunku\modules\Invoice\Controllers\InvoiceTikTok.php(94): Modules\Invoice\Models\ModelCreatedInvoiceTikTok->get_datatables('58')
+#6 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Invoice\Controllers\InvoiceTIkTok->createdinvoicejson()
+#7 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Invoice\Controllers\InvoiceTIkTok))
+#8 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-01-24 09:23:21 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\github\kebunku\modules\TikTok\Views\profiletiktok.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 35, Array)
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\TikTok\\...', Array, true)
+#4 C:\xampp\htdocs\github\kebunku\modules\TikTok\Controllers\DataProfileTikTok.php(93): view('Modules\\TikTok\\...', Array)
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\TikTok\Controllers\DataProfileTikTok->index()
+#6 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\TikTok\Controllers\DataProfileTikTok))
+#7 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-24 09:23:24 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\github\kebunku\modules\TikTok\Views\profiletiktok.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 35, Array)
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\TikTok\\...', Array, true)
+#4 C:\xampp\htdocs\github\kebunku\modules\TikTok\Controllers\DataProfileTikTok.php(93): view('Modules\\TikTok\\...', Array)
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\TikTok\Controllers\DataProfileTikTok->index()
+#6 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\TikTok\Controllers\DataProfileTikTok))
+#7 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-24 09:23:28 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\github\kebunku\modules\TikTok\Views\profiletiktok.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 35, Array)
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\TikTok\\...', Array, true)
+#4 C:\xampp\htdocs\github\kebunku\modules\TikTok\Controllers\DataProfileTikTok.php(93): view('Modules\\TikTok\\...', Array)
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\TikTok\Controllers\DataProfileTikTok->index()
+#6 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\TikTok\Controllers\DataProfileTikTok))
+#7 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-24 09:35:28 --> Undefined variable: randpendaftar
+#0 C:\xampp\htdocs\github\kebunku\modules\Invoice\Controllers\InvoiceTikTok.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 105, Array)
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Invoice\Controllers\InvoiceTIkTok->createdinvoicejson()
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Invoice\Controllers\InvoiceTIkTok))
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-24 09:35:37 --> Undefined variable: randpendaftar
+#0 C:\xampp\htdocs\github\kebunku\modules\Invoice\Controllers\InvoiceTikTok.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 105, Array)
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Invoice\Controllers\InvoiceTIkTok->createdinvoicejson()
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Invoice\Controllers\InvoiceTIkTok))
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-24 09:36:38 --> Undefined property: stdClass::$random
+#0 C:\xampp\htdocs\github\kebunku\modules\Invoice\Controllers\InvoiceTikTok.php(100): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 100, Array)
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Invoice\Controllers\InvoiceTIkTok->createdinvoicejson()
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Invoice\Controllers\InvoiceTIkTok))
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-01-24 10:15:26 --> mysqli_sql_exception: Unknown column 'invoice' in 'field list' in C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('UPDATE `x_invoi...')
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `x_invoi...')
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `x_invoi...')
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2468): CodeIgniter\Database\BaseConnection->query('UPDATE `x_invoi...', Array, false)
+#4 C:\xampp\htdocs\github\kebunku\app\Models\ModelMaster.php(255): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\github\kebunku\modules\Invoice\Controllers\InvoiceTikTok.php(138): App\Models\ModelMaster->dataedit('x_invoice', Array, Array)
+#6 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Invoice\Controllers\InvoiceTIkTok->createdinvoicesavejson()
+#7 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Invoice\Controllers\InvoiceTIkTok))
+#8 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-01-24 10:15:26 --> Unknown column 'invoice' in 'field list'
+#0 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('UPDATE `x_invoi...')
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `x_invoi...')
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `x_invoi...')
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2468): CodeIgniter\Database\BaseConnection->query('UPDATE `x_invoi...', Array, false)
+#4 C:\xampp\htdocs\github\kebunku\app\Models\ModelMaster.php(255): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\github\kebunku\modules\Invoice\Controllers\InvoiceTikTok.php(138): App\Models\ModelMaster->dataedit('x_invoice', Array, Array)
+#6 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Invoice\Controllers\InvoiceTIkTok->createdinvoicesavejson()
+#7 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Invoice\Controllers\InvoiceTIkTok))
+#8 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-01-24 10:16:42 --> mysqli_sql_exception: Unknown column 'invoice' in 'field list' in C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('UPDATE `x_invoi...')
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `x_invoi...')
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `x_invoi...')
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2468): CodeIgniter\Database\BaseConnection->query('UPDATE `x_invoi...', Array, false)
+#4 C:\xampp\htdocs\github\kebunku\app\Models\ModelMaster.php(255): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\github\kebunku\modules\Invoice\Controllers\InvoiceTikTok.php(138): App\Models\ModelMaster->dataedit('x_invoice', Array, Array)
+#6 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Invoice\Controllers\InvoiceTIkTok->createdinvoicesavejson()
+#7 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Invoice\Controllers\InvoiceTIkTok))
+#8 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-01-24 10:16:42 --> Unknown column 'invoice' in 'field list'
+#0 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('UPDATE `x_invoi...')
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `x_invoi...')
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `x_invoi...')
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2468): CodeIgniter\Database\BaseConnection->query('UPDATE `x_invoi...', Array, false)
+#4 C:\xampp\htdocs\github\kebunku\app\Models\ModelMaster.php(255): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\github\kebunku\modules\Invoice\Controllers\InvoiceTikTok.php(138): App\Models\ModelMaster->dataedit('x_invoice', Array, Array)
+#6 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Invoice\Controllers\InvoiceTIkTok->createdinvoicesavejson()
+#7 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Invoice\Controllers\InvoiceTIkTok))
+#8 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-01-24 10:26:16 --> Undefined variable: totalcash
+#0 C:\xampp\htdocs\github\kebunku\modules\Invoice\Controllers\InvoiceTikTok.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 54, Array)
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Invoice\Controllers\InvoiceTIkTok->invoicejson()
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Invoice\Controllers\InvoiceTIkTok))
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-24 10:26:20 --> Undefined variable: totalcash
+#0 C:\xampp\htdocs\github\kebunku\modules\Invoice\Controllers\InvoiceTikTok.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 54, Array)
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Invoice\Controllers\InvoiceTIkTok->invoicejson()
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Invoice\Controllers\InvoiceTIkTok))
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-24 10:26:26 --> Undefined variable: totalcash
+#0 C:\xampp\htdocs\github\kebunku\modules\Invoice\Controllers\InvoiceTikTok.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 54, Array)
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Invoice\Controllers\InvoiceTIkTok->invoicejson()
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Invoice\Controllers\InvoiceTIkTok))
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-24 11:06:10 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\github\kebunku\app\Controllers\BaseController.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 72, Array)
+#1 C:\xampp\htdocs\github\kebunku\modules\Invoice\Controllers\InvoiceTikTok.php(148): App\Controllers\BaseController->logdata('x_invoice', '3', Array)
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Invoice\Controllers\InvoiceTIkTok->invoicecanceljson()
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Invoice\Controllers\InvoiceTIkTok))
+#4 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-01-24 11:06:25 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\github\kebunku\modules\Invoice\Controllers\InvoiceTikTok.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 57, Array)
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Invoice\Controllers\InvoiceTIkTok->invoicejson()
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Invoice\Controllers\InvoiceTIkTok))
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-24 11:06:33 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\github\kebunku\modules\Invoice\Controllers\InvoiceTikTok.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 57, Array)
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Invoice\Controllers\InvoiceTIkTok->invoicejson()
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Invoice\Controllers\InvoiceTIkTok))
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-24 11:06:53 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\github\kebunku\app\Controllers\BaseController.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 72, Array)
+#1 C:\xampp\htdocs\github\kebunku\modules\Invoice\Controllers\InvoiceTikTok.php(148): App\Controllers\BaseController->logdata('x_invoice', '3', Array)
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Invoice\Controllers\InvoiceTIkTok->invoicecanceljson()
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Invoice\Controllers\InvoiceTIkTok))
+#4 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-01-24 11:07:00 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\github\kebunku\modules\Invoice\Controllers\InvoiceTikTok.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 57, Array)
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Invoice\Controllers\InvoiceTIkTok->invoicejson()
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Invoice\Controllers\InvoiceTIkTok))
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-24 11:09:08 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\github\kebunku\app\Controllers\BaseController.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 72, Array)
+#1 C:\xampp\htdocs\github\kebunku\modules\Invoice\Controllers\InvoiceTikTok.php(148): App\Controllers\BaseController->logdata('x_invoice', '3', Array)
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Invoice\Controllers\InvoiceTIkTok->invoicecanceljson()
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Invoice\Controllers\InvoiceTIkTok))
+#4 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-01-24 11:09:12 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\github\kebunku\modules\Invoice\Controllers\InvoiceTikTok.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 57, Array)
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Invoice\Controllers\InvoiceTIkTok->invoicejson()
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Invoice\Controllers\InvoiceTIkTok))
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-24 11:09:51 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\github\kebunku\modules\Invoice\Controllers\InvoiceTikTok.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 57, Array)
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Invoice\Controllers\InvoiceTIkTok->invoicejson()
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Invoice\Controllers\InvoiceTIkTok))
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-24 11:30:27 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\github\kebunku\modules\Invoice\Controllers\InvoiceTikTok.php(95): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 95, Array)
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Invoice\Controllers\InvoiceTIkTok->invoicecanceljson()
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Invoice\Controllers\InvoiceTIkTok))
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-24 11:30:47 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\github\kebunku\modules\Invoice\Controllers\InvoiceTikTok.php(95): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 95, Array)
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Invoice\Controllers\InvoiceTIkTok->invoicecanceljson()
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Invoice\Controllers\InvoiceTIkTok))
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-24 11:31:00 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\github\kebunku\modules\Invoice\Controllers\InvoiceTikTok.php(95): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 95, Array)
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Invoice\Controllers\InvoiceTIkTok->invoicecanceljson()
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Invoice\Controllers\InvoiceTIkTok))
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-24 11:40:44 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\github\kebunku\app\Controllers\BaseController.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 72, Array)
+#1 C:\xampp\htdocs\github\kebunku\modules\Invoice\Controllers\InvoiceTikTok.php(144): App\Controllers\BaseController->logdata('x_invoice', '3', Array)
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Invoice\Controllers\InvoiceTIkTok->invoicecanceljson()
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Invoice\Controllers\InvoiceTIkTok))
+#4 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-01-24 11:43:06 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\github\kebunku\modules\Invoice\Controllers\InvoiceTikTok.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 57, Array)
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Invoice\Controllers\InvoiceTIkTok->invoicejson()
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Invoice\Controllers\InvoiceTIkTok))
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-24 11:43:22 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\github\kebunku\app\Controllers\BaseController.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 72, Array)
+#1 C:\xampp\htdocs\github\kebunku\modules\Invoice\Controllers\InvoiceTikTok.php(144): App\Controllers\BaseController->logdata('x_invoice', '3', Array)
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Invoice\Controllers\InvoiceTIkTok->invoicecanceljson()
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Invoice\Controllers\InvoiceTIkTok))
+#4 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-01-24 11:44:05 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\github\kebunku\app\Controllers\BaseController.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 72, Array)
+#1 C:\xampp\htdocs\github\kebunku\modules\Invoice\Controllers\InvoiceTikTok.php(151): App\Controllers\BaseController->logdata('x_invoice', '3', Array)
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Invoice\Controllers\InvoiceTIkTok->invoicecanceljson()
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Invoice\Controllers\InvoiceTIkTok))
+#4 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-01-24 11:44:08 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\github\kebunku\modules\Invoice\Controllers\InvoiceTikTok.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 57, Array)
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Invoice\Controllers\InvoiceTIkTok->invoicejson()
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Invoice\Controllers\InvoiceTIkTok))
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-24 11:50:40 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\github\kebunku\app\Controllers\BaseController.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 72, Array)
+#1 C:\xampp\htdocs\github\kebunku\modules\Invoice\Controllers\InvoiceTikTok.php(145): App\Controllers\BaseController->logdata('x_invoice', '3', Array)
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Invoice\Controllers\InvoiceTIkTok->invoicecanceljson()
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Invoice\Controllers\InvoiceTIkTok))
+#4 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-01-24 11:51:12 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\github\kebunku\app\Controllers\BaseController.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 72, Array)
+#1 C:\xampp\htdocs\github\kebunku\modules\Invoice\Controllers\InvoiceTikTok.php(145): App\Controllers\BaseController->logdata('x_invoice', '3', Array)
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Invoice\Controllers\InvoiceTIkTok->invoicecanceljson()
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Invoice\Controllers\InvoiceTIkTok))
+#4 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-01-24 11:51:54 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\github\kebunku\app\Controllers\BaseController.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 72, Array)
+#1 C:\xampp\htdocs\github\kebunku\modules\Invoice\Controllers\InvoiceTikTok.php(146): App\Controllers\BaseController->logdata('x_invoice', '3', Array)
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Invoice\Controllers\InvoiceTIkTok->invoicecanceljson()
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Invoice\Controllers\InvoiceTIkTok))
+#4 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-01-24 11:53:33 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\github\kebunku\modules\Invoice\Controllers\InvoiceTikTok.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 57, Array)
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Invoice\Controllers\InvoiceTIkTok->invoicejson()
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Invoice\Controllers\InvoiceTIkTok))
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-24 11:53:57 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\github\kebunku\modules\Invoice\Controllers\InvoiceTikTok.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 57, Array)
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Invoice\Controllers\InvoiceTIkTok->invoicejson()
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Invoice\Controllers\InvoiceTIkTok))
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-01-24 14:54:35 --> mysqli_sql_exception: Table 'database_master.users' doesn't exist in C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Model.php(169): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\BaseModel.php(518): CodeIgniter\Model->doFind(true, '58')
+#6 C:\xampp\htdocs\github\kebunku\vendor\myth\auth\src\Authentication\AuthenticationBase.php(137): CodeIgniter\BaseModel->find('58')
+#7 C:\xampp\htdocs\github\kebunku\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(116): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+#8 C:\xampp\htdocs\github\kebunku\vendor\myth\auth\src\Filters\PermissionFilter.php(40): Myth\Auth\Authentication\LocalAuthenticator->check()
+#9 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Filters\Filters.php(181): Myth\Auth\Filters\PermissionFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#10 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-invoice-...', 'before')
+#11 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2022-01-24 14:54:35 --> Table 'database_master.users' doesn't exist
+#0 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Model.php(169): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\BaseModel.php(518): CodeIgniter\Model->doFind(true, '58')
+#6 C:\xampp\htdocs\github\kebunku\vendor\myth\auth\src\Authentication\AuthenticationBase.php(137): CodeIgniter\BaseModel->find('58')
+#7 C:\xampp\htdocs\github\kebunku\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(116): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+#8 C:\xampp\htdocs\github\kebunku\vendor\myth\auth\src\Filters\PermissionFilter.php(40): Myth\Auth\Authentication\LocalAuthenticator->check()
+#9 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Filters\Filters.php(181): Myth\Auth\Filters\PermissionFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#10 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-invoice-...', 'before')
+#11 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+ERROR - 2022-01-24 14:54:41 --> mysqli_sql_exception: Table 'database_master.users' doesn't exist in C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Model.php(169): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\BaseModel.php(518): CodeIgniter\Model->doFind(true, '58')
+#6 C:\xampp\htdocs\github\kebunku\vendor\myth\auth\src\Authentication\AuthenticationBase.php(137): CodeIgniter\BaseModel->find('58')
+#7 C:\xampp\htdocs\github\kebunku\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(116): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+#8 C:\xampp\htdocs\github\kebunku\vendor\myth\auth\src\Filters\PermissionFilter.php(40): Myth\Auth\Authentication\LocalAuthenticator->check()
+#9 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Filters\Filters.php(181): Myth\Auth\Filters\PermissionFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#10 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-invoice-...', 'before')
+#11 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2022-01-24 14:54:41 --> Table 'database_master.users' doesn't exist
+#0 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Model.php(169): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\BaseModel.php(518): CodeIgniter\Model->doFind(true, '58')
+#6 C:\xampp\htdocs\github\kebunku\vendor\myth\auth\src\Authentication\AuthenticationBase.php(137): CodeIgniter\BaseModel->find('58')
+#7 C:\xampp\htdocs\github\kebunku\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(116): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+#8 C:\xampp\htdocs\github\kebunku\vendor\myth\auth\src\Filters\PermissionFilter.php(40): Myth\Auth\Authentication\LocalAuthenticator->check()
+#9 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Filters\Filters.php(181): Myth\Auth\Filters\PermissionFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#10 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-invoice-...', 'before')
+#11 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#14 {main}

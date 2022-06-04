@@ -1,0 +1,165 @@
+CRITICAL - 2022-01-25 15:28:39 --> Undefined variable: provinsi
+#0 C:\xampp\htdocs\github\kebunku\modules\D3FastTrack\Views\sekolahstekom.php(80): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 80, Array)
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\D3FastT...', Array, true)
+#4 C:\xampp\htdocs\github\kebunku\modules\D3FastTrack\Controllers\DataSekolah.php(186): view('Modules\\D3FastT...', Array)
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\D3FastTrack\Controllers\DataSekolah->sekolahstekom()
+#6 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\D3FastTrack\Controllers\DataSekolah))
+#7 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-01-25 15:37:18 --> mysqli_sql_exception: Unknown column 'npsn' in 'where clause' in C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `status`...')
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `status`...')
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `status`...')
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `status`...', Array, false)
+#4 C:\xampp\htdocs\github\kebunku\modules\D3FastTrack\Controllers\DataSekolah.php(275): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\D3FastTrack\Controllers\DataSekolah->sekolah_jsonstekom()
+#6 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\D3FastTrack\Controllers\DataSekolah))
+#7 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-25 15:37:18 --> Unknown column 'npsn' in 'where clause'
+#0 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `status`...')
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `status`...')
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `status`...')
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `status`...', Array, false)
+#4 C:\xampp\htdocs\github\kebunku\modules\D3FastTrack\Controllers\DataSekolah.php(275): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\D3FastTrack\Controllers\DataSekolah->sekolah_jsonstekom()
+#6 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\D3FastTrack\Controllers\DataSekolah))
+#7 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-01-25 15:37:26 --> mysqli_sql_exception: Unknown column 'npsn' in 'where clause' in C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `status`...')
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `status`...')
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `status`...')
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `status`...', Array, false)
+#4 C:\xampp\htdocs\github\kebunku\modules\D3FastTrack\Controllers\DataSekolah.php(275): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\D3FastTrack\Controllers\DataSekolah->sekolah_jsonstekom()
+#6 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\D3FastTrack\Controllers\DataSekolah))
+#7 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-25 15:37:26 --> Unknown column 'npsn' in 'where clause'
+#0 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `status`...')
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `status`...')
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `status`...')
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `status`...', Array, false)
+#4 C:\xampp\htdocs\github\kebunku\modules\D3FastTrack\Controllers\DataSekolah.php(275): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\D3FastTrack\Controllers\DataSekolah->sekolah_jsonstekom()
+#6 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\D3FastTrack\Controllers\DataSekolah))
+#7 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-01-25 15:37:30 --> mysqli_sql_exception: Unknown column 'npsn' in 'where clause' in C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `status`...')
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `status`...')
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `status`...')
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `status`...', Array, false)
+#4 C:\xampp\htdocs\github\kebunku\modules\D3FastTrack\Controllers\DataSekolah.php(275): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\D3FastTrack\Controllers\DataSekolah->sekolah_jsonstekom()
+#6 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\D3FastTrack\Controllers\DataSekolah))
+#7 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-25 15:37:30 --> Unknown column 'npsn' in 'where clause'
+#0 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `status`...')
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `status`...')
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `status`...')
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `status`...', Array, false)
+#4 C:\xampp\htdocs\github\kebunku\modules\D3FastTrack\Controllers\DataSekolah.php(275): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\D3FastTrack\Controllers\DataSekolah->sekolah_jsonstekom()
+#6 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\D3FastTrack\Controllers\DataSekolah))
+#7 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-25 15:38:55 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\github\kebunku\modules\D3FastTrack\Controllers\DataSekolah.php(280): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 280, Array)
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\D3FastTrack\Controllers\DataSekolah->sekolah_jsonstekom()
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\D3FastTrack\Controllers\DataSekolah))
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-25 15:43:02 --> Undefined offset: 5
+#0 C:\xampp\htdocs\github\kebunku\modules\D3FastTrack\Models\ModelSekolahStekom.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 48, Array)
+#1 C:\xampp\htdocs\github\kebunku\modules\D3FastTrack\Models\ModelSekolahStekom.php(57): Modules\D3FastTrack\Models\ModelSekolahStekom->_get_datatables_query()
+#2 C:\xampp\htdocs\github\kebunku\modules\D3FastTrack\Controllers\DataSekolah.php(193): Modules\D3FastTrack\Models\ModelSekolahStekom->get_datatables()
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\D3FastTrack\Controllers\DataSekolah->sekolah_jsonstekom()
+#4 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\D3FastTrack\Controllers\DataSekolah))
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-25 15:43:03 --> Undefined offset: 5
+#0 C:\xampp\htdocs\github\kebunku\modules\D3FastTrack\Models\ModelSekolahStekom.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 48, Array)
+#1 C:\xampp\htdocs\github\kebunku\modules\D3FastTrack\Models\ModelSekolahStekom.php(57): Modules\D3FastTrack\Models\ModelSekolahStekom->_get_datatables_query()
+#2 C:\xampp\htdocs\github\kebunku\modules\D3FastTrack\Controllers\DataSekolah.php(193): Modules\D3FastTrack\Models\ModelSekolahStekom->get_datatables()
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\D3FastTrack\Controllers\DataSekolah->sekolah_jsonstekom()
+#4 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\D3FastTrack\Controllers\DataSekolah))
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-25 15:43:03 --> Undefined offset: 5
+#0 C:\xampp\htdocs\github\kebunku\modules\D3FastTrack\Models\ModelSekolahStekom.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 48, Array)
+#1 C:\xampp\htdocs\github\kebunku\modules\D3FastTrack\Models\ModelSekolahStekom.php(57): Modules\D3FastTrack\Models\ModelSekolahStekom->_get_datatables_query()
+#2 C:\xampp\htdocs\github\kebunku\modules\D3FastTrack\Controllers\DataSekolah.php(193): Modules\D3FastTrack\Models\ModelSekolahStekom->get_datatables()
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\D3FastTrack\Controllers\DataSekolah->sekolah_jsonstekom()
+#4 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\D3FastTrack\Controllers\DataSekolah))
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-25 15:43:04 --> Undefined offset: 5
+#0 C:\xampp\htdocs\github\kebunku\modules\D3FastTrack\Models\ModelSekolahStekom.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 48, Array)
+#1 C:\xampp\htdocs\github\kebunku\modules\D3FastTrack\Models\ModelSekolahStekom.php(57): Modules\D3FastTrack\Models\ModelSekolahStekom->_get_datatables_query()
+#2 C:\xampp\htdocs\github\kebunku\modules\D3FastTrack\Controllers\DataSekolah.php(193): Modules\D3FastTrack\Models\ModelSekolahStekom->get_datatables()
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\D3FastTrack\Controllers\DataSekolah->sekolah_jsonstekom()
+#4 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\D3FastTrack\Controllers\DataSekolah))
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-25 15:55:20 --> Undefined offset: 2
+#0 C:\xampp\htdocs\github\kebunku\modules\Desain\Models\ModelDesain.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 53, Array)
+#1 C:\xampp\htdocs\github\kebunku\modules\Desain\Models\ModelDesain.php(62): Modules\Desain\Models\ModelDesain->_get_datatables_query('adm')
+#2 C:\xampp\htdocs\github\kebunku\modules\Desain\Controllers\DataTugasDesain.php(280): Modules\Desain\Models\ModelDesain->get_datatables('adm')
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Desain\Controllers\DataTugasDesain->tugasjson('adm')
+#4 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Desain\Controllers\DataTugasDesain))
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-25 15:55:21 --> Undefined offset: 2
+#0 C:\xampp\htdocs\github\kebunku\modules\Desain\Models\ModelDesain.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 53, Array)
+#1 C:\xampp\htdocs\github\kebunku\modules\Desain\Models\ModelDesain.php(62): Modules\Desain\Models\ModelDesain->_get_datatables_query('adm')
+#2 C:\xampp\htdocs\github\kebunku\modules\Desain\Controllers\DataTugasDesain.php(280): Modules\Desain\Models\ModelDesain->get_datatables('adm')
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Desain\Controllers\DataTugasDesain->tugasjson('adm')
+#4 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Desain\Controllers\DataTugasDesain))
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-25 15:55:23 --> Undefined offset: 3
+#0 C:\xampp\htdocs\github\kebunku\modules\Desain\Models\ModelDesain.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 53, Array)
+#1 C:\xampp\htdocs\github\kebunku\modules\Desain\Models\ModelDesain.php(62): Modules\Desain\Models\ModelDesain->_get_datatables_query('adm')
+#2 C:\xampp\htdocs\github\kebunku\modules\Desain\Controllers\DataTugasDesain.php(280): Modules\Desain\Models\ModelDesain->get_datatables('adm')
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Desain\Controllers\DataTugasDesain->tugasjson('adm')
+#4 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Desain\Controllers\DataTugasDesain))
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}

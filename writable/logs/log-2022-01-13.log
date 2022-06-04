@@ -1,0 +1,47 @@
+CRITICAL - 2022-01-13 10:51:33 --> Undefined variable: provinsi
+#0 C:\xampp\htdocs\github\master\modules\Kelasemen\Views\kelasmenmou.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\Kelasem...', Array, true)
+#4 C:\xampp\htdocs\github\master\modules\Kelasemen\Controllers\DataKelasemen.php(43): view('Modules\\Kelasem...', Array)
+#5 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Kelasemen\Controllers\DataKelasemen->index()
+#6 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Kelasemen\Controllers\DataKelasemen))
+#7 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-13 13:45:56 --> Undefined property: Modules\Kelasemen\Controllers\DataKelasemen::$ModelKelasemen
+#0 C:\xampp\htdocs\github\master\modules\Kelasemen\Controllers\DataKelasemen.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 50, Array)
+#1 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Kelasemen\Controllers\DataKelasemen->kelasemen_json()
+#2 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Kelasemen\Controllers\DataKelasemen))
+#3 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\github\master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-01-13 13:47:00 --> mysqli_sql_exception: Table 'database_master.x_totalsiswa' doesn't exist in C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `fullnam...')
+#1 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `fullnam...')
+#2 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `fullnam...')
+#3 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `fullnam...', Array, false)
+#4 C:\xampp\htdocs\github\master\modules\Kelasemen\Models\ModelKelasemen.php(66): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\github\master\modules\Kelasemen\Controllers\DataKelasemen.php(53): Modules\Kelasemen\Models\ModelKelasemen->get_datatables()
+#6 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Kelasemen\Controllers\DataKelasemen->kelasemen_json()
+#7 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Kelasemen\Controllers\DataKelasemen))
+#8 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\github\master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-01-13 13:47:00 --> Table 'database_master.x_totalsiswa' doesn't exist
+#0 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `fullnam...')
+#1 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `fullnam...')
+#2 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `fullnam...')
+#3 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `fullnam...', Array, false)
+#4 C:\xampp\htdocs\github\master\modules\Kelasemen\Models\ModelKelasemen.php(66): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\github\master\modules\Kelasemen\Controllers\DataKelasemen.php(53): Modules\Kelasemen\Models\ModelKelasemen->get_datatables()
+#6 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Kelasemen\Controllers\DataKelasemen->kelasemen_json()
+#7 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Kelasemen\Controllers\DataKelasemen))
+#8 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\github\master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}

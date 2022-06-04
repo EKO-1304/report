@@ -1,0 +1,66 @@
+CRITICAL - 2022-05-06 09:15:08 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\Users\\PC Kan...', 533, Array)
+#1 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\modules\Produk\Controllers\DataTambahProduk.php(533): count('10000,20000')
+#2 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Produk\Controllers\DataTambahProduk->saveprodukdetail()
+#3 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Produk\Controllers\DataTambahProduk))
+#4 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\PC Kan...')
+#7 {main}
+CRITICAL - 2022-05-06 09:15:27 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\Users\\PC Kan...', 533, Array)
+#1 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\modules\Produk\Controllers\DataTambahProduk.php(533): count('10000,20000')
+#2 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Produk\Controllers\DataTambahProduk->saveprodukdetail()
+#3 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Produk\Controllers\DataTambahProduk))
+#4 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\PC Kan...')
+#7 {main}
+CRITICAL - 2022-05-06 09:16:45 --> Too few arguments to function App\Models\ModelMaster::datatambah(), 1 passed in C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\modules\Produk\Controllers\DataTambahProduk.php on line 544 and exactly 2 expected
+#0 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\modules\Produk\Controllers\DataTambahProduk.php(544): App\Models\ModelMaster->datatambah(Array)
+#1 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Produk\Controllers\DataTambahProduk->saveprodukdetail()
+#2 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Produk\Controllers\DataTambahProduk))
+#3 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\PC Kan...')
+#6 {main}
+CRITICAL - 2022-05-06 09:42:36 --> Undefined offset: 2
+#0 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\modules\Produk\Controllers\DataTambahProduk.php(555): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\Users\\PC Kan...', 555, Array)
+#1 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Produk\Controllers\DataTambahProduk->saveprodukdetail()
+#2 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Produk\Controllers\DataTambahProduk))
+#3 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\PC Kan...')
+#6 {main}
+CRITICAL - 2022-05-06 09:56:14 --> Undefined offset: 1
+#0 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\modules\Produk\Controllers\DataTambahProduk.php(558): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\Users\\PC Kan...', 558, Array)
+#1 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Produk\Controllers\DataTambahProduk->saveprodukdetail()
+#2 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Produk\Controllers\DataTambahProduk))
+#3 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\PC Kan...')
+#6 {main}
+CRITICAL - 2022-05-06 09:56:50 --> Undefined offset: 1
+#0 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\modules\Produk\Controllers\DataTambahProduk.php(558): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\Users\\PC Kan...', 558, Array)
+#1 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Produk\Controllers\DataTambahProduk->saveprodukdetail()
+#2 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Produk\Controllers\DataTambahProduk))
+#3 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\PC Kan...')
+#6 {main}
+CRITICAL - 2022-05-06 09:57:23 --> Undefined offset: 1
+#0 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\modules\Produk\Controllers\DataTambahProduk.php(558): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\Users\\PC Kan...', 558, Array)
+#1 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Produk\Controllers\DataTambahProduk->saveprodukdetail()
+#2 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Produk\Controllers\DataTambahProduk))
+#3 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\PC Kan...')
+#6 {main}
+CRITICAL - 2022-05-06 09:57:24 --> Undefined offset: 1
+#0 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\modules\Produk\Controllers\DataTambahProduk.php(558): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\Users\\PC Kan...', 558, Array)
+#1 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Produk\Controllers\DataTambahProduk->saveprodukdetail()
+#2 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Produk\Controllers\DataTambahProduk))
+#3 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\PC Kan...')
+#6 {main}

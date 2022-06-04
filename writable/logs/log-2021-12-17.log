@@ -1,0 +1,194 @@
+ERROR - 2021-12-17 11:10:12 --> mysqli_sql_exception: Unknown column 'en' in 'field list' in C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `x_...')
+#1 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `x_...')
+#2 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `x_...')
+#3 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `x_...', Array, false)
+#4 C:\xampp\htdocs\github\master\app\Models\ModelMaster.php(247): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\github\master\modules\SosmedAdm\Controllers\DataKategoriAkunSosmed.php(72): App\Models\ModelMaster->datatambah('x_kategoriakuns...', Array)
+#6 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\SosmedAdm\Controllers\DataKategoriAkunSosmed->tambah_kategori_sosmed()
+#7 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\SosmedAdm\Controllers\DataKategoriAkunSosmed))
+#8 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\github\master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-12-17 11:10:12 --> Unknown column 'en' in 'field list'
+#0 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `x_...')
+#1 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `x_...')
+#2 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `x_...')
+#3 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `x_...', Array, false)
+#4 C:\xampp\htdocs\github\master\app\Models\ModelMaster.php(247): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\github\master\modules\SosmedAdm\Controllers\DataKategoriAkunSosmed.php(72): App\Models\ModelMaster->datatambah('x_kategoriakuns...', Array)
+#6 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\SosmedAdm\Controllers\DataKategoriAkunSosmed->tambah_kategori_sosmed()
+#7 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\SosmedAdm\Controllers\DataKategoriAkunSosmed))
+#8 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\github\master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-12-17 11:14:19 --> mysqli_sql_exception: Unknown column 'namakunsosmed' in 'order clause' in C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\github\master\app\Models\ModelMaster.php(187): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\github\master\modules\SosmedAdm\Controllers\DataAkunSosmed.php(25): App\Models\ModelMaster->tampildataresult('x_akunsosmed', '', Array, Array, '')
+#6 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\SosmedAdm\Controllers\DataAkunSosmed->sosmed()
+#7 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\SosmedAdm\Controllers\DataAkunSosmed))
+#8 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\github\master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-12-17 11:14:19 --> Unknown column 'namakunsosmed' in 'order clause'
+#0 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\github\master\app\Models\ModelMaster.php(187): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\github\master\modules\SosmedAdm\Controllers\DataAkunSosmed.php(25): App\Models\ModelMaster->tampildataresult('x_akunsosmed', '', Array, Array, '')
+#6 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\SosmedAdm\Controllers\DataAkunSosmed->sosmed()
+#7 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\SosmedAdm\Controllers\DataAkunSosmed))
+#8 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\github\master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-12-17 11:14:59 --> Invalid file: Modules\Sosmed\Views\akunsosmed.php
+#0 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\Sosmed\\...')
+#1 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\Sosmed\\...', Array, true)
+#2 C:\xampp\htdocs\github\master\modules\SosmedAdm\Controllers\DataAkunSosmed.php(37): view('Modules\\Sosmed\\...', Array)
+#3 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\SosmedAdm\Controllers\DataAkunSosmed->sosmed()
+#4 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\SosmedAdm\Controllers\DataAkunSosmed))
+#5 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\github\master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-12-17 11:38:08 --> Undefined index: namaakaunsosmed
+#0 C:\xampp\htdocs\github\master\modules\SosmedAdm\Views\akunsosmed.php(191): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 191, Array)
+#1 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\SosmedA...', Array, true)
+#4 C:\xampp\htdocs\github\master\modules\SosmedAdm\Controllers\DataAkunSosmed.php(37): view('Modules\\SosmedA...', Array)
+#5 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\SosmedAdm\Controllers\DataAkunSosmed->sosmed()
+#6 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\SosmedAdm\Controllers\DataAkunSosmed))
+#7 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2021-12-17 13:46:39 --> mysqli_sql_exception: Unknown column 'id_user' in 'where clause' in C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\github\master\app\Models\ModelMaster.php(187): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\github\master\modules\SosmedAdm\Controllers\DataPendaftarPMB.php(24): App\Models\ModelMaster->tampildataresult('x_pendaftarpmb', '', Array, Array, '')
+#6 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\SosmedAdm\Controllers\DataPendaftarPMB->pendaftar()
+#7 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\SosmedAdm\Controllers\DataPendaftarPMB))
+#8 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\github\master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-12-17 13:46:39 --> Unknown column 'id_user' in 'where clause'
+#0 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\github\master\app\Models\ModelMaster.php(187): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\github\master\modules\SosmedAdm\Controllers\DataPendaftarPMB.php(24): App\Models\ModelMaster->tampildataresult('x_pendaftarpmb', '', Array, Array, '')
+#6 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\SosmedAdm\Controllers\DataPendaftarPMB->pendaftar()
+#7 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\SosmedAdm\Controllers\DataPendaftarPMB))
+#8 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\github\master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-12-17 14:19:00 --> Undefined variable: dtcek
+#0 C:\xampp\htdocs\github\master\modules\SosmedAdm\Controllers\DataPendaftarPMB.php(111): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 111, Array)
+#1 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\SosmedAdm\Controllers\DataPendaftarPMB->tambah_pendaftar()
+#2 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\SosmedAdm\Controllers\DataPendaftarPMB))
+#3 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\github\master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-12-17 14:19:38 --> Undefined index: id
+#0 C:\xampp\htdocs\github\master\modules\SosmedAdm\Controllers\DataPendaftarPMB.php(121): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 121, Array)
+#1 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\SosmedAdm\Controllers\DataPendaftarPMB->tambah_pendaftar()
+#2 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\SosmedAdm\Controllers\DataPendaftarPMB))
+#3 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\github\master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-12-17 14:21:50 --> Undefined variable: keterangan
+#0 C:\xampp\htdocs\github\master\modules\SosmedAdm\Controllers\DataPendaftarPMB.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 84, Array)
+#1 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\SosmedAdm\Controllers\DataPendaftarPMB->tambah_pendaftar()
+#2 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\SosmedAdm\Controllers\DataPendaftarPMB))
+#3 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\github\master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2021-12-17 14:47:16 --> mysqli_sql_exception: Unknown column 'idsosmedofficial' in 'where clause' in C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1966): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\github\master\modules\SosmedAdm\Views\pendaftarpmb.php(161): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\SosmedA...', Array, true)
+#8 C:\xampp\htdocs\github\master\modules\SosmedAdm\Controllers\DataPendaftarPMB.php(33): view('Modules\\SosmedA...', Array)
+#9 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\SosmedAdm\Controllers\DataPendaftarPMB->pendaftar()
+#10 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\SosmedAdm\Controllers\DataPendaftarPMB))
+#11 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\github\master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2021-12-17 14:47:16 --> Unknown column 'idsosmedofficial' in 'where clause'
+#0 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1966): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\github\master\modules\SosmedAdm\Views\pendaftarpmb.php(161): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\SosmedA...', Array, true)
+#8 C:\xampp\htdocs\github\master\modules\SosmedAdm\Controllers\DataPendaftarPMB.php(33): view('Modules\\SosmedA...', Array)
+#9 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\SosmedAdm\Controllers\DataPendaftarPMB->pendaftar()
+#10 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\SosmedAdm\Controllers\DataPendaftarPMB))
+#11 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\github\master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2021-12-17 14:49:40 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\github\master\modules\SosmedAdm\Controllers\DataPendaftarPMB.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 38, Array)
+#1 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\SosmedAdm\Controllers\DataPendaftarPMB->datapendaftar('dccd75cf9f9a315...')
+#2 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\SosmedAdm\Controllers\DataPendaftarPMB))
+#3 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\github\master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-12-17 16:32:52 --> fwrite(): write of 77 bytes failed with errno=22 Invalid argument
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'fwrite(): write...', 'C:\\xampp\\htdocs...', 1174, Array)
+#1 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CLI\CLI.php(1174): fwrite(Resource id #2, '\e[0;32mCodeIgni...')
+#2 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CLI\CLI.php(351): CodeIgniter\CLI\CLI::fwrite(Resource id #2, '\e[0;32mCodeIgni...')
+#3 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Commands\Server\Serve.php(108): CodeIgniter\CLI\CLI::write('\e[0;32mCodeIgni...', 'green')
+#4 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Commands\Server\Serve.php(126): CodeIgniter\Commands\Server\Serve->run(Array)
+#5 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CLI\Commands.php(70): CodeIgniter\Commands\Server\Serve->run(Array)
+#6 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CLI\CommandRunner.php(80): CodeIgniter\CLI\Commands->run('serve', Array)
+#7 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CLI\CommandRunner.php(58): CodeIgniter\CLI\CommandRunner->index(Array)
+#8 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(936): CodeIgniter\CLI\CommandRunner->_remap('index', 'serve')
+#9 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#10 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CLI\Console.php(61): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\github\master\spark(66): CodeIgniter\CLI\Console->run()
+#13 {main}
+CRITICAL - 2021-12-17 16:32:52 --> Uncaught ErrorException: fwrite(): write of 2 bytes failed with errno=22 Invalid argument in C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CLI\CLI.php:1174
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'fwrite(): write...', 'C:\\xampp\\htdocs...', 1174, Array)
+#1 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CLI\CLI.php(1174): fwrite(Resource id #2, '\r\n')
+#2 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CLI\CLI.php(351): CodeIgniter\CLI\CLI::fwrite(Resource id #2, '\r\n')
+#3 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CLI\CLI.php(458): CodeIgniter\CLI\CLI::write()
+#4 C:\xampp\htdocs\github\master\app\Views\errors\cli\error_exception.php(6): CodeIgniter\CLI\CLI::newLine()
+#5 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Debug\Exceptions.php(281): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Debug\Exceptions.php
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

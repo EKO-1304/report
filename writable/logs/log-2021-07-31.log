@@ -1,0 +1,25 @@
+CRITICAL - 2021-07-31 11:27:31 --> Undefined variable: berita
+#0 C:\xampp\htdocs\ptic\modules\ManageContentFront\Controllers\Content.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 38, Array)
+#1 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageContentFront\Controllers\Content->index('instrumen-akred...')
+#2 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageContentFront\Controllers\Content))
+#3 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ptic\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-07-31 11:27:38 --> Undefined variable: contact
+#0 C:\xampp\htdocs\ptic\modules\ManageLayoutFront\Views\navbar.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 7, Array)
+#1 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\View\View.php(468): CodeIgniter\View\View->render('Modules\\ManageL...', NULL, true)
+#4 C:\xampp\htdocs\ptic\modules\ManageLayoutFront\Views\layout.php(108): CodeIgniter\View\View->include('Modules\\ManageL...')
+#5 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\View\View.php(236): CodeIgniter\View\View->render('Modules\\ManageL...', Array, true)
+#8 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\ManageC...', Array, true)
+#9 C:\xampp\htdocs\ptic\modules\ManageContentFront\Controllers\Content.php(40): view('Modules\\ManageC...', Array)
+#10 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageContentFront\Controllers\Content->index('instrumen-akred...')
+#11 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageContentFront\Controllers\Content))
+#12 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\ptic\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#14 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#15 {main}

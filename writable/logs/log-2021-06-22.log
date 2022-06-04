@@ -1,0 +1,131 @@
+CRITICAL - 2021-06-22 09:34:33 --> Undefined variable: random
+#0 D:\WEBSITE\xampp-7.4\htdocs\master-web\modules\AdminMbkm\Controllers\DataMbkmPertukaranPelajar.php(414): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\WEBSITE\\xamp...', 414, Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\AdminMbkm\Controllers\DataMbkmPertukaranPelajar->mbkm_status()
+#2 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminMbkm\Controllers\DataMbkmPertukaranPelajar))
+#3 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\WEBSITE\xampp-7.4\htdocs\master-web\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#6 {main}
+CRITICAL - 2021-06-22 10:23:13 --> You do not have sufficient permissions to access that page.
+#0 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Filters\Filters.php(181): Myth\Auth\Filters\PermissionFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('admin-mbkm-pert...', 'before')
+#2 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\WEBSITE\xampp-7.4\htdocs\master-web\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#5 {main}
+ERROR - 2021-06-22 10:49:20 --> mysqli_sql_exception: Table 'database_web_master.users' doesn't exist in D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Model.php(169): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\BaseModel.php(518): CodeIgniter\Model->doFind(true, '54')
+#6 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\myth\auth\src\Authentication\AuthenticationBase.php(137): CodeIgniter\BaseModel->find('54')
+#7 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(116): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+#8 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\myth\auth\src\Filters\PermissionFilter.php(40): Myth\Auth\Authentication\LocalAuthenticator->check()
+#9 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Filters\Filters.php(181): Myth\Auth\Filters\PermissionFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#10 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('mahasiswa-mbkm-...', 'before')
+#11 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\WEBSITE\xampp-7.4\htdocs\master-web\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#13 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#14 {main}
+CRITICAL - 2021-06-22 10:49:20 --> Table 'database_web_master.users' doesn't exist
+#0 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Model.php(169): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\BaseModel.php(518): CodeIgniter\Model->doFind(true, '54')
+#6 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\myth\auth\src\Authentication\AuthenticationBase.php(137): CodeIgniter\BaseModel->find('54')
+#7 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(116): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+#8 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\myth\auth\src\Filters\PermissionFilter.php(40): Myth\Auth\Authentication\LocalAuthenticator->check()
+#9 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Filters\Filters.php(181): Myth\Auth\Filters\PermissionFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#10 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('mahasiswa-mbkm-...', 'before')
+#11 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\WEBSITE\xampp-7.4\htdocs\master-web\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#13 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#14 {main}
+CRITICAL - 2021-06-22 11:10:13 --> You do not have sufficient permissions to access that page.
+#0 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Filters\Filters.php(181): Myth\Auth\Filters\PermissionFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('admin-mbkm-pert...', 'before')
+#2 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\WEBSITE\xampp-7.4\htdocs\master-web\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#5 {main}
+ERROR - 2021-06-22 11:17:13 --> mysqli_sql_exception: Unknown column 'keterangan' in 'field list' in D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `mb...')
+#1 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `mb...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `mb...')
+#3 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `mb...', Array, false)
+#4 D:\WEBSITE\xampp-7.4\htdocs\master-web\modules\AdminMbkm\Models\ModelMbkmPertukaranPelajar.php(120): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\WEBSITE\xampp-7.4\htdocs\master-web\modules\AdminMbkm\Controllers\DataMbkmPertukaranPelajar.php(414): Modules\AdminMbkm\Models\ModelMbkmPertukaranPelajar->update_status('16b66f0ea437fd6...', '1', 'keterangan')
+#6 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\AdminMbkm\Controllers\DataMbkmPertukaranPelajar->mbkm_status()
+#7 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminMbkm\Controllers\DataMbkmPertukaranPelajar))
+#8 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\WEBSITE\xampp-7.4\htdocs\master-web\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#11 {main}
+CRITICAL - 2021-06-22 11:17:13 --> Unknown column 'keterangan' in 'field list'
+#0 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `mb...')
+#1 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `mb...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `mb...')
+#3 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `mb...', Array, false)
+#4 D:\WEBSITE\xampp-7.4\htdocs\master-web\modules\AdminMbkm\Models\ModelMbkmPertukaranPelajar.php(120): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\WEBSITE\xampp-7.4\htdocs\master-web\modules\AdminMbkm\Controllers\DataMbkmPertukaranPelajar.php(414): Modules\AdminMbkm\Models\ModelMbkmPertukaranPelajar->update_status('16b66f0ea437fd6...', '1', 'keterangan')
+#6 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\AdminMbkm\Controllers\DataMbkmPertukaranPelajar->mbkm_status()
+#7 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminMbkm\Controllers\DataMbkmPertukaranPelajar))
+#8 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\WEBSITE\xampp-7.4\htdocs\master-web\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#11 {main}
+CRITICAL - 2021-06-22 11:25:20 --> Undefined index: keterangan
+#0 D:\WEBSITE\xampp-7.4\htdocs\master-web\modules\AdminMbkm\Views\pertukaran_pelajar.php(192): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\WEBSITE\\xamp...', 192, Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\View\View.php(220): include('D:\\WEBSITE\\xamp...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\AdminMb...', Array, true)
+#4 D:\WEBSITE\xampp-7.4\htdocs\master-web\modules\AdminMbkm\Controllers\DataMbkmPertukaranPelajar.php(34): view('Modules\\AdminMb...', Array)
+#5 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\AdminMbkm\Controllers\DataMbkmPertukaranPelajar->mbkm()
+#6 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminMbkm\Controllers\DataMbkmPertukaranPelajar))
+#7 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\WEBSITE\xampp-7.4\htdocs\master-web\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#10 {main}
+CRITICAL - 2021-06-22 14:06:47 --> Undefined index: random_id
+#0 D:\WEBSITE\xampp-7.4\htdocs\master-web\modules\AdminSimkatmawa\Views\kegiatan_mandiri.php(208): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\WEBSITE\\xamp...', 208, Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\View\View.php(220): include('D:\\WEBSITE\\xamp...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\AdminSi...', Array, true)
+#4 D:\WEBSITE\xampp-7.4\htdocs\master-web\modules\AdminSimkatmawa\Controllers\DataSimkatmawaKegiatanMandiri.php(34): view('Modules\\AdminSi...', Array)
+#5 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\AdminSimkatmawa\Controllers\DataSimkatmawaKegiatanMandiri->simkatmawa()
+#6 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminSimkatmawa\Controllers\DataSimkatmawaKegiatanMandiri))
+#7 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\WEBSITE\xampp-7.4\htdocs\master-web\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#10 {main}
+ERROR - 2021-06-22 19:38:19 --> mysqli_sql_exception: Duplicate entry '-' for key 'email' in D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `us...')
+#1 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\WEBSITE\xampp-7.4\htdocs\master-web\modules\Login\Controllers\Login.php(276): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Login\Controllers\Login->attemptLoginmahasiswa()
+#6 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Login\Controllers\Login))
+#7 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\WEBSITE\xampp-7.4\htdocs\master-web\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#10 {main}
+CRITICAL - 2021-06-22 19:38:19 --> Duplicate entry '-' for key 'email'
+#0 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `us...')
+#1 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\WEBSITE\xampp-7.4\htdocs\master-web\modules\Login\Controllers\Login.php(276): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Login\Controllers\Login->attemptLoginmahasiswa()
+#6 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Login\Controllers\Login))
+#7 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\WEBSITE\xampp-7.4\htdocs\master-web\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#10 {main}

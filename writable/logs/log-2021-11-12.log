@@ -1,0 +1,217 @@
+ERROR - 2021-11-12 10:55:59 --> mysqli_sql_exception: Unknown column 'deleted_at' in 'where clause' in C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\github\master\app\Models\ModelMaster.php(187): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\github\master\modules\GoogleFoto\Controllers\DataFoto.php(24): App\Models\ModelMaster->tampildataresult('x_googlefoto', '', Array, Array, '')
+#6 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\GoogleFoto\Controllers\DataFoto->google_foto()
+#7 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\GoogleFoto\Controllers\DataFoto))
+#8 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\github\master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-11-12 10:55:59 --> Unknown column 'deleted_at' in 'where clause'
+#0 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\github\master\app\Models\ModelMaster.php(187): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\github\master\modules\GoogleFoto\Controllers\DataFoto.php(24): App\Models\ModelMaster->tampildataresult('x_googlefoto', '', Array, Array, '')
+#6 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\GoogleFoto\Controllers\DataFoto->google_foto()
+#7 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\GoogleFoto\Controllers\DataFoto))
+#8 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\github\master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-11-12 11:21:16 --> Argument 1 passed to CodeIgniter\Validation\FileRules::uploaded() must be of the type string or null, array given, called in C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Validation\Validation.php on line 306
+#0 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Validation\Validation.php(306): CodeIgniter\Validation\FileRules->uploaded(Array, 'imggoogle', Array, NULL)
+#1 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Validation\Validation.php(164): CodeIgniter\Validation\Validation->processRules('imggoogle', 'imggoogle', Array, Array, Array)
+#2 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Controller.php(181): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\github\master\modules\GoogleFoto\Controllers\DataFoto.php(64): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\GoogleFoto\Controllers\DataFoto->tambah_google_foto()
+#5 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\GoogleFoto\Controllers\DataFoto))
+#6 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\github\master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-11-12 11:22:03 --> Argument 1 passed to CodeIgniter\Validation\FileRules::uploaded() must be of the type string or null, array given, called in C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Validation\Validation.php on line 306
+#0 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Validation\Validation.php(306): CodeIgniter\Validation\FileRules->uploaded(Array, 'imggoogle', Array, NULL)
+#1 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Validation\Validation.php(164): CodeIgniter\Validation\Validation->processRules('imggoogle', 'imggoogle', Array, Array, Array)
+#2 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Controller.php(181): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\github\master\modules\GoogleFoto\Controllers\DataFoto.php(64): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\GoogleFoto\Controllers\DataFoto->tambah_google_foto()
+#5 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\GoogleFoto\Controllers\DataFoto))
+#6 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\github\master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-11-12 11:22:28 --> Argument 1 passed to CodeIgniter\Validation\FileRules::uploaded() must be of the type string or null, array given, called in C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Validation\Validation.php on line 306
+#0 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Validation\Validation.php(306): CodeIgniter\Validation\FileRules->uploaded(Array, 'imggoogle', Array, NULL)
+#1 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Validation\Validation.php(164): CodeIgniter\Validation\Validation->processRules('imggoogle', 'imggoogle', Array, Array, Array)
+#2 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Controller.php(181): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\github\master\modules\GoogleFoto\Controllers\DataFoto.php(64): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\GoogleFoto\Controllers\DataFoto->tambah_google_foto()
+#5 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\GoogleFoto\Controllers\DataFoto))
+#6 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\github\master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-11-12 11:23:24 --> Argument 1 passed to CodeIgniter\Validation\FileRules::uploaded() must be of the type string or null, array given, called in C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Validation\Validation.php on line 306
+#0 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Validation\Validation.php(306): CodeIgniter\Validation\FileRules->uploaded(Array, 'imggoogle', Array, NULL)
+#1 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Validation\Validation.php(164): CodeIgniter\Validation\Validation->processRules('imggoogle', 'imggoogle', Array, Array, Array)
+#2 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Controller.php(181): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\github\master\modules\GoogleFoto\Controllers\DataFoto.php(64): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\GoogleFoto\Controllers\DataFoto->tambah_google_foto()
+#5 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\GoogleFoto\Controllers\DataFoto))
+#6 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\github\master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-11-12 11:24:29 --> Argument 1 passed to CodeIgniter\Validation\FileRules::uploaded() must be of the type string or null, array given, called in C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Validation\Validation.php on line 306
+#0 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Validation\Validation.php(306): CodeIgniter\Validation\FileRules->uploaded(Array, 'imggoogle', Array, NULL)
+#1 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Validation\Validation.php(164): CodeIgniter\Validation\Validation->processRules('imggoogle', 'imggoogle', Array, Array, Array)
+#2 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Controller.php(181): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\github\master\modules\GoogleFoto\Controllers\DataFoto.php(64): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\GoogleFoto\Controllers\DataFoto->tambah_google_foto()
+#5 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\GoogleFoto\Controllers\DataFoto))
+#6 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\github\master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-11-12 11:24:47 --> Call to a member function getRandomName() on array
+#0 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\GoogleFoto\Controllers\DataFoto->tambah_google_foto()
+#1 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\GoogleFoto\Controllers\DataFoto))
+#2 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\github\master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-12 11:25:27 --> [] operator not supported for strings
+#0 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\GoogleFoto\Controllers\DataFoto->tambah_google_foto()
+#1 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\GoogleFoto\Controllers\DataFoto))
+#2 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\github\master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-12 11:26:10 --> Illegal string offset 'adad'
+#0 C:\xampp\htdocs\github\master\modules\GoogleFoto\Controllers\DataFoto.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 81, Array)
+#1 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\GoogleFoto\Controllers\DataFoto->tambah_google_foto()
+#2 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\GoogleFoto\Controllers\DataFoto))
+#3 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\github\master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-12 11:26:28 --> Illegal string offset 'asdad'
+#0 C:\xampp\htdocs\github\master\modules\GoogleFoto\Controllers\DataFoto.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 81, Array)
+#1 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\GoogleFoto\Controllers\DataFoto->tambah_google_foto()
+#2 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\GoogleFoto\Controllers\DataFoto))
+#3 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\github\master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-12 11:26:40 --> Illegal string offset 'asdad'
+#0 C:\xampp\htdocs\github\master\modules\GoogleFoto\Controllers\DataFoto.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 82, Array)
+#1 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\GoogleFoto\Controllers\DataFoto->tambah_google_foto()
+#2 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\GoogleFoto\Controllers\DataFoto))
+#3 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\github\master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-12 11:28:13 --> Illegal string offset 'asdad'
+#0 C:\xampp\htdocs\github\master\modules\GoogleFoto\Controllers\DataFoto.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 83, Array)
+#1 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\GoogleFoto\Controllers\DataFoto->tambah_google_foto()
+#2 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\GoogleFoto\Controllers\DataFoto))
+#3 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\github\master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-12 11:33:18 --> Undefined index: minggu
+#0 C:\xampp\htdocs\github\master\modules\GoogleFoto\Views\googlefoto.php(192): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 192, Array)
+#1 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\GoogleF...', Array, true)
+#4 C:\xampp\htdocs\github\master\modules\GoogleFoto\Controllers\DataFoto.php(35): view('Modules\\GoogleF...', Array)
+#5 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\GoogleFoto\Controllers\DataFoto->google_foto()
+#6 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\GoogleFoto\Controllers\DataFoto))
+#7 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-11-12 11:40:25 --> Undefined index: imggoole
+#0 C:\xampp\htdocs\github\master\modules\GoogleFoto\Views\googlefoto.php(218): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 218, Array)
+#1 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\GoogleF...', Array, true)
+#4 C:\xampp\htdocs\github\master\modules\GoogleFoto\Controllers\DataFoto.php(35): view('Modules\\GoogleF...', Array)
+#5 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\GoogleFoto\Controllers\DataFoto->google_foto()
+#6 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\GoogleFoto\Controllers\DataFoto))
+#7 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-11-12 11:48:38 --> Undefined index: namfoto
+#0 C:\xampp\htdocs\github\master\modules\GoogleFoto\Views\googlefoto.php(232): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 232, Array)
+#1 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\GoogleF...', Array, true)
+#4 C:\xampp\htdocs\github\master\modules\GoogleFoto\Controllers\DataFoto.php(35): view('Modules\\GoogleF...', Array)
+#5 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\GoogleFoto\Controllers\DataFoto->google_foto()
+#6 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\GoogleFoto\Controllers\DataFoto))
+#7 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-11-12 11:57:03 --> Call to a member function getError() on array
+#0 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\GoogleFoto\Controllers\DataFoto->edit_google_foto()
+#1 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\GoogleFoto\Controllers\DataFoto))
+#2 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\github\master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-12 11:58:34 --> Call to a member function getError() on array
+#0 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\GoogleFoto\Controllers\DataFoto->edit_google_foto()
+#1 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\GoogleFoto\Controllers\DataFoto))
+#2 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\github\master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-12 12:53:39 --> Call to a member function getError() on array
+#0 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\GoogleFoto\Controllers\DataFoto->edit_google_foto()
+#1 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\GoogleFoto\Controllers\DataFoto))
+#2 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\github\master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-12 12:53:47 --> Call to a member function getError() on array
+#0 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\GoogleFoto\Controllers\DataFoto->edit_google_foto()
+#1 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\GoogleFoto\Controllers\DataFoto))
+#2 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\github\master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-12 14:00:01 --> Class 'Modules\GoogleFoto\Models\ModelRekapFoto' not found
+#0 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(912): Modules\GoogleFoto\Controllers\DataRekapFoto->__construct()
+#1 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\github\master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-12 14:03:14 --> Undefined variable: tahun
+#0 C:\xampp\htdocs\github\master\modules\GoogleFoto\Controllers\DataRekapFoto.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\GoogleFoto\Controllers\DataRekapFoto->rekapfoto()
+#2 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\GoogleFoto\Controllers\DataRekapFoto))
+#3 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\github\master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-12 14:16:49 --> Undefined index: search
+#0 C:\xampp\htdocs\github\master\modules\GoogleFoto\Models\ModelRekapFoto.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 40, Array)
+#1 C:\xampp\htdocs\github\master\modules\GoogleFoto\Models\ModelRekapFoto.php(65): Modules\GoogleFoto\Models\ModelRekapFoto->_get_datatables_query(NULL, NULL)
+#2 C:\xampp\htdocs\github\master\modules\GoogleFoto\Controllers\DataRekapFoto.php(55): Modules\GoogleFoto\Models\ModelRekapFoto->get_datatables(NULL, NULL)
+#3 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\GoogleFoto\Controllers\DataRekapFoto->googlefoto_json()
+#4 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\GoogleFoto\Controllers\DataRekapFoto))
+#5 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\github\master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\github\master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}

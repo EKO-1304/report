@@ -1,0 +1,1184 @@
+CRITICAL - 2021-07-16 08:28:25 --> Undefined variable: pretitle
+#0 C:\xampp\htdocs\organisasi\modules\ManageMenu\Views\group_menu.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 24, Array)
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\ManageM...', Array, true)
+#4 C:\xampp\htdocs\organisasi\modules\ManageMenu\Controllers\DataGroupMenu.php(43): view('Modules\\ManageM...')
+#5 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageMenu\Controllers\DataGroupMenu->group_menu()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageMenu\Controllers\DataGroupMenu))
+#7 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-07-16 08:30:09 --> Undefined variable: pretitle
+#0 C:\xampp\htdocs\organisasi\modules\ManageMenu\Views\group_menu.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 24, Array)
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\ManageM...', Array, true)
+#4 C:\xampp\htdocs\organisasi\modules\ManageMenu\Controllers\DataGroupMenu.php(43): view('Modules\\ManageM...')
+#5 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageMenu\Controllers\DataGroupMenu->group_menu()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageMenu\Controllers\DataGroupMenu))
+#7 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-07-16 08:31:28 --> Undefined variable: pretitle
+#0 C:\xampp\htdocs\organisasi\modules\ManageMenu\Views\group_menu.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 24, Array)
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\ManageM...', Array, true)
+#4 C:\xampp\htdocs\organisasi\modules\ManageMenu\Controllers\DataGroupMenu.php(43): view('Modules\\ManageM...')
+#5 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageMenu\Controllers\DataGroupMenu->group_menu()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageMenu\Controllers\DataGroupMenu))
+#7 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-07-16 09:27:13 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 09:27:22 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 09:27:45 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 09:30:37 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 09:31:37 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 09:31:45 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 09:32:05 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 09:33:09 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 09:33:28 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 09:35:53 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 09:36:19 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 09:41:57 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 09:51:25 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 09:53:07 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 10:01:35 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 10:04:36 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 10:05:41 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 10:07:45 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 10:08:50 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 10:12:59 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 10:16:06 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 10:18:19 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 10:18:41 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 10:19:32 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 10:19:57 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 10:20:02 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 10:20:44 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 10:21:06 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 10:21:15 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 10:21:17 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 10:21:18 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 10:21:18 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 10:21:19 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 10:21:49 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 10:24:50 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 10:27:01 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 10:27:08 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 10:27:17 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 10:27:58 --> Call to undefined function Modules\ManageMenu\Controllers\crsf_hash()
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageMenu\Controllers\DataGroupMenu->group_menu_delete()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageMenu\Controllers\DataGroupMenu))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-07-16 10:29:47 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 10:30:02 --> Call to undefined function Modules\ManageMenu\Controllers\crsf_hash()
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageMenu\Controllers\DataGroupMenu->group_menu_delete()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageMenu\Controllers\DataGroupMenu))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-07-16 10:31:22 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 10:31:32 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 10:32:09 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 10:34:44 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 10:35:28 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 10:35:51 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 10:36:21 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 10:36:50 --> Call to undefined function Modules\ManageMenu\Controllers\crsf_hash()
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageMenu\Controllers\DataGroupMenu->group_menu_delete()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageMenu\Controllers\DataGroupMenu))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-07-16 10:41:21 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 10:42:55 --> Call to undefined function Modules\ManageMenu\Controllers\crsf_hash()
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageMenu\Controllers\DataGroupMenu->group_menu_delete()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageMenu\Controllers\DataGroupMenu))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-07-16 10:43:21 --> Call to undefined function Modules\ManageMenu\Controllers\crsf_hash()
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageMenu\Controllers\DataGroupMenu->group_menu_delete()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageMenu\Controllers\DataGroupMenu))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-07-16 10:45:37 --> Call to undefined function Modules\ManageMenu\Controllers\crsf_hash()
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageMenu\Controllers\DataGroupMenu->group_menu_delete()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageMenu\Controllers\DataGroupMenu))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-07-16 10:46:31 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 10:46:40 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 10:47:31 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 10:47:35 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 10:47:41 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 10:47:51 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 10:48:26 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 10:50:30 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 10:50:45 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 10:50:52 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 10:51:03 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 10:52:01 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 10:52:17 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 10:53:06 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 10:53:15 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 10:53:28 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 10:53:48 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 10:53:58 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 10:55:05 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 10:55:15 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 10:55:24 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 10:55:33 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 10:55:44 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 10:55:57 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 10:56:02 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 10:56:11 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 10:59:11 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 11:00:02 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 11:00:08 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 11:00:22 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 11:00:30 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 11:00:50 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 11:01:00 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 11:03:23 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 11:03:26 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 11:11:27 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 11:11:29 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 11:11:41 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 11:12:06 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 11:12:17 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 11:16:17 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 11:17:54 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 11:19:18 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 11:19:25 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 11:20:02 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 11:20:37 --> Call to undefined function crsf_field()
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\ManageM...', Array, true)
+#3 C:\xampp\htdocs\organisasi\modules\ManageMenu\Controllers\DataGroupMenu.php(43): view('Modules\\ManageM...', Array)
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageMenu\Controllers\DataGroupMenu->group_menu()
+#5 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageMenu\Controllers\DataGroupMenu))
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-07-16 11:22:01 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 11:24:00 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 11:25:18 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 11:28:07 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 11:29:13 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 11:30:11 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 11:30:22 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 11:31:03 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 11:32:23 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 11:35:26 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 11:35:37 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 11:36:01 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 11:36:12 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 11:36:23 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 11:37:48 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 11:40:12 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 11:40:30 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-menu-gro...', 'before')
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-07-16 11:56:18 --> Too few arguments to function Modules\ManageMenu\Models\ModelGroupMenu::__construct(), 0 passed in C:\xampp\htdocs\organisasi\modules\ManageMenu\Controllers\DataGroupMenu.php on line 25 and exactly 1 expected
+#0 C:\xampp\htdocs\organisasi\modules\ManageMenu\Controllers\DataGroupMenu.php(25): Modules\ManageMenu\Models\ModelGroupMenu->__construct()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(912): Modules\ManageMenu\Controllers\DataGroupMenu->__construct()
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-07-16 11:56:51 --> Too few arguments to function Modules\ManageMenu\Models\ModelGroupMenu::__construct(), 0 passed in C:\xampp\htdocs\organisasi\modules\ManageMenu\Controllers\DataGroupMenu.php on line 25 and exactly 1 expected
+#0 C:\xampp\htdocs\organisasi\modules\ManageMenu\Controllers\DataGroupMenu.php(25): Modules\ManageMenu\Models\ModelGroupMenu->__construct()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(912): Modules\ManageMenu\Controllers\DataGroupMenu->__construct()
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-07-16 11:57:02 --> Too few arguments to function Modules\ManageMenu\Models\ModelGroupMenu::__construct(), 0 passed in C:\xampp\htdocs\organisasi\modules\ManageMenu\Controllers\DataGroupMenu.php on line 25 and exactly 1 expected
+#0 C:\xampp\htdocs\organisasi\modules\ManageMenu\Controllers\DataGroupMenu.php(25): Modules\ManageMenu\Models\ModelGroupMenu->__construct()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(912): Modules\ManageMenu\Controllers\DataGroupMenu->__construct()
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-07-16 11:57:29 --> Too few arguments to function Modules\ManageMenu\Models\ModelGroupMenu::__construct(), 0 passed in C:\xampp\htdocs\organisasi\modules\ManageMenu\Controllers\DataGroupMenu.php on line 25 and exactly 1 expected
+#0 C:\xampp\htdocs\organisasi\modules\ManageMenu\Controllers\DataGroupMenu.php(25): Modules\ManageMenu\Models\ModelGroupMenu->__construct()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(912): Modules\ManageMenu\Controllers\DataGroupMenu->__construct()
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-07-16 11:58:05 --> Too few arguments to function Modules\ManageMenu\Models\ModelGroupMenu::__construct(), 0 passed in C:\xampp\htdocs\organisasi\modules\ManageMenu\Controllers\DataGroupMenu.php on line 25 and exactly 1 expected
+#0 C:\xampp\htdocs\organisasi\modules\ManageMenu\Controllers\DataGroupMenu.php(25): Modules\ManageMenu\Models\ModelGroupMenu->__construct()
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(912): Modules\ManageMenu\Controllers\DataGroupMenu->__construct()
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-07-16 14:20:12 --> Call to undefined method Modules\ManageMenu\Models\ModelGroupMenu::get_data_update
+#0 C:\xampp\htdocs\organisasi\modules\ManageMenu\Controllers\DataGroupMenu.php(140): CodeIgniter\Model->__call('get_data_update', Array)
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageMenu\Controllers\DataGroupMenu->group_menu_update_data('bece6bc2f469589...')
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageMenu\Controllers\DataGroupMenu))
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-07-16 14:21:07 --> Call to undefined method Modules\ManageMenu\Models\ModelGroupMenu::get_data_update
+#0 C:\xampp\htdocs\organisasi\modules\ManageMenu\Controllers\DataGroupMenu.php(140): CodeIgniter\Model->__call('get_data_update', Array)
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageMenu\Controllers\DataGroupMenu->group_menu_update_data('b1dd320620d5a50...')
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageMenu\Controllers\DataGroupMenu))
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-07-16 14:23:37 --> Call to undefined method Modules\ManageMenu\Models\ModelGroupMenu::get_data_update
+#0 C:\xampp\htdocs\organisasi\modules\ManageMenu\Controllers\DataGroupMenu.php(142): CodeIgniter\Model->__call('get_data_update', Array)
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageMenu\Controllers\DataGroupMenu->group_menu_update_data('b1dd320620d5a50...')
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageMenu\Controllers\DataGroupMenu))
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-07-16 14:23:41 --> Call to undefined method Modules\ManageMenu\Models\ModelGroupMenu::get_data_update
+#0 C:\xampp\htdocs\organisasi\modules\ManageMenu\Controllers\DataGroupMenu.php(142): CodeIgniter\Model->__call('get_data_update', Array)
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageMenu\Controllers\DataGroupMenu->group_menu_update_data('dd9374adfb7b993...')
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageMenu\Controllers\DataGroupMenu))
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-07-16 14:27:07 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getRowtArray()
+#0 C:\xampp\htdocs\organisasi\modules\ManageMenu\Controllers\DataGroupMenu.php(138): Modules\ManageMenu\Models\ModelMenu->get_data_update('bece6bc2f469589...')
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageMenu\Controllers\DataGroupMenu->group_menu_update_data('bece6bc2f469589...')
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageMenu\Controllers\DataGroupMenu))
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-07-16 14:27:31 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getRowtArray()
+#0 C:\xampp\htdocs\organisasi\modules\ManageMenu\Controllers\DataGroupMenu.php(138): Modules\ManageMenu\Models\ModelMenu->get_data_update('bece6bc2f469589...')
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageMenu\Controllers\DataGroupMenu->group_menu_update_data('bece6bc2f469589...')
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageMenu\Controllers\DataGroupMenu))
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-07-16 15:34:32 --> Undefined variable: pretitle
+#0 C:\xampp\htdocs\organisasi\modules\ManageLayout\Views\layout.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\View\View.php(236): CodeIgniter\View\View->render('Modules\\ManageL...', Array, true)
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\ManageL...', Array, true)
+#5 C:\xampp\htdocs\organisasi\modules\ManageLayout\Controllers\Layout.php(31): view('Modules\\ManageL...', Array)
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageLayout\Controllers\Layout->index()
+#7 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageLayout\Controllers\Layout))
+#8 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-07-16 16:37:18 --> Undefined variable: pretitle
+#0 C:\xampp\htdocs\organisasi\modules\ManageLayout\Views\layout.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\View\View.php(236): CodeIgniter\View\View->render('Modules\\ManageL...', Array, true)
+#4 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\ManageL...', Array, true)
+#5 C:\xampp\htdocs\organisasi\modules\ManageLayout\Controllers\Layout.php(31): view('Modules\\ManageL...', Array)
+#6 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageLayout\Controllers\Layout->index()
+#7 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageLayout\Controllers\Layout))
+#8 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\organisasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\organisasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}

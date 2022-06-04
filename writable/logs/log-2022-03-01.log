@@ -1,0 +1,171 @@
+ERROR - 2022-03-01 10:57:58 --> mysqli_sql_exception: Table 'database_verifikasiku.x_notif' doesn't exist in C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `x_notif...')
+#1 C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `x_notif...')
+#2 C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `x_notif...')
+#3 C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `x_notif...', Array, false)
+#4 C:\xampp\htdocs\github\verifikasi\modules\Layout\Controllers\Layout.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Layout\Controllers\Layout->notifikasiuser()
+#6 C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Layout\Controllers\Layout))
+#7 C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\verifikasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-01 10:57:58 --> Table 'database_verifikasiku.x_notif' doesn't exist
+#0 C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `x_notif...')
+#1 C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `x_notif...')
+#2 C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `x_notif...')
+#3 C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `x_notif...', Array, false)
+#4 C:\xampp\htdocs\github\verifikasi\modules\Layout\Controllers\Layout.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Layout\Controllers\Layout->notifikasiuser()
+#6 C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Layout\Controllers\Layout))
+#7 C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\verifikasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-03-01 10:58:09 --> mysqli_sql_exception: Table 'database_verifikasiku.x_notif' doesn't exist in C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `x_notif...')
+#1 C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `x_notif...')
+#2 C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `x_notif...')
+#3 C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `x_notif...', Array, false)
+#4 C:\xampp\htdocs\github\verifikasi\modules\Layout\Controllers\Layout.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Layout\Controllers\Layout->notifikasiuser()
+#6 C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Layout\Controllers\Layout))
+#7 C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\verifikasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-01 10:58:09 --> Table 'database_verifikasiku.x_notif' doesn't exist
+#0 C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `x_notif...')
+#1 C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `x_notif...')
+#2 C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `x_notif...')
+#3 C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `x_notif...', Array, false)
+#4 C:\xampp\htdocs\github\verifikasi\modules\Layout\Controllers\Layout.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Layout\Controllers\Layout->notifikasiuser()
+#6 C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Layout\Controllers\Layout))
+#7 C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\verifikasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-03-01 10:58:13 --> mysqli_sql_exception: Table 'database_verifikasiku.x_notif' doesn't exist in C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `x_notif...')
+#1 C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `x_notif...')
+#2 C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `x_notif...')
+#3 C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `x_notif...', Array, false)
+#4 C:\xampp\htdocs\github\verifikasi\modules\Layout\Controllers\Layout.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Layout\Controllers\Layout->notifikasiuser()
+#6 C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Layout\Controllers\Layout))
+#7 C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\verifikasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-01 10:58:13 --> Table 'database_verifikasiku.x_notif' doesn't exist
+#0 C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `x_notif...')
+#1 C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `x_notif...')
+#2 C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `x_notif...')
+#3 C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `x_notif...', Array, false)
+#4 C:\xampp\htdocs\github\verifikasi\modules\Layout\Controllers\Layout.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Layout\Controllers\Layout->notifikasiuser()
+#6 C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Layout\Controllers\Layout))
+#7 C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\verifikasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-03-01 10:58:21 --> mysqli_sql_exception: Table 'database_verifikasiku.x_notif' doesn't exist in C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `x_notif...')
+#1 C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `x_notif...')
+#2 C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `x_notif...')
+#3 C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `x_notif...', Array, false)
+#4 C:\xampp\htdocs\github\verifikasi\modules\Layout\Controllers\Layout.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Layout\Controllers\Layout->notifikasiuser()
+#6 C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Layout\Controllers\Layout))
+#7 C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\verifikasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-01 10:58:21 --> Table 'database_verifikasiku.x_notif' doesn't exist
+#0 C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `x_notif...')
+#1 C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `x_notif...')
+#2 C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `x_notif...')
+#3 C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `x_notif...', Array, false)
+#4 C:\xampp\htdocs\github\verifikasi\modules\Layout\Controllers\Layout.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Layout\Controllers\Layout->notifikasiuser()
+#6 C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Layout\Controllers\Layout))
+#7 C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\verifikasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-01 11:22:05 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\github\verifikasi\modules\LayoutFront\Views\verifikasimhs.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\LayoutF...', Array, true)
+#4 C:\xampp\htdocs\github\verifikasi\modules\LayoutFront\Controllers\LayoutFront.php(75): view('Modules\\LayoutF...', Array)
+#5 C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\LayoutFront\Controllers\LayoutFront->verifikasimhs('CiA0Rzt3sp HDXj...')
+#6 C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\LayoutFront\Controllers\LayoutFront))
+#7 C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\verifikasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-01 11:29:15 --> Undefined variable: dt
+#0 C:\xampp\htdocs\github\verifikasi\modules\LayoutFront\Views\verifikasimhs.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\LayoutF...', Array, true)
+#4 C:\xampp\htdocs\github\verifikasi\modules\LayoutFront\Controllers\LayoutFront.php(75): view('Modules\\LayoutF...', Array)
+#5 C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\LayoutFront\Controllers\LayoutFront->verifikasimhs('CiA0Rzt3sp_HDXj...')
+#6 C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\LayoutFront\Controllers\LayoutFront))
+#7 C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\verifikasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-01 11:37:46 --> Undefined variable: nim
+#0 C:\xampp\htdocs\github\verifikasi\modules\LayoutFront\Views\verifikasimhs.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\LayoutF...', Array, true)
+#4 C:\xampp\htdocs\github\verifikasi\modules\LayoutFront\Controllers\LayoutFront.php(75): view('Modules\\LayoutF...', Array)
+#5 C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\LayoutFront\Controllers\LayoutFront->verifikasimhs('CiA0Rzt3sp_HDXj...')
+#6 C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\LayoutFront\Controllers\LayoutFront))
+#7 C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\verifikasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-01 11:40:13 --> Undefined property: stdClass::$nim
+#0 C:\xampp\htdocs\github\verifikasi\modules\LayoutFront\Views\verifikasimhs.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\LayoutF...', Array, true)
+#4 C:\xampp\htdocs\github\verifikasi\modules\LayoutFront\Controllers\LayoutFront.php(75): view('Modules\\LayoutF...', Array)
+#5 C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\LayoutFront\Controllers\LayoutFront->verifikasimhs('CiA0Rzt3sp_HDXj...')
+#6 C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\LayoutFront\Controllers\LayoutFront))
+#7 C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\verifikasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-01 11:41:10 --> Undefined property: stdClass::$nim
+#0 C:\xampp\htdocs\github\verifikasi\modules\LayoutFront\Views\verifikasimhs.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\LayoutF...', Array, true)
+#4 C:\xampp\htdocs\github\verifikasi\modules\LayoutFront\Controllers\LayoutFront.php(75): view('Modules\\LayoutF...', Array)
+#5 C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\LayoutFront\Controllers\LayoutFront->verifikasimhs('CiA0Rzt3sp_HDXj...')
+#6 C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\LayoutFront\Controllers\LayoutFront))
+#7 C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\verifikasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-01 11:41:35 --> Undefined variable: status
+#0 C:\xampp\htdocs\github\verifikasi\modules\LayoutFront\Views\verifikasimhs.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\LayoutF...', Array, true)
+#4 C:\xampp\htdocs\github\verifikasi\modules\LayoutFront\Controllers\LayoutFront.php(75): view('Modules\\LayoutF...', Array)
+#5 C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\LayoutFront\Controllers\LayoutFront->verifikasimhs('CiA0Rzt3sp_HDXj...')
+#6 C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\LayoutFront\Controllers\LayoutFront))
+#7 C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\verifikasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-01 11:48:07 --> Undefined index: email
+#0 C:\xampp\htdocs\github\verifikasi\modules\LayoutFront\Views\verifikasidsn.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\LayoutF...', Array, true)
+#4 C:\xampp\htdocs\github\verifikasi\modules\LayoutFront\Controllers\LayoutFront.php(86): view('Modules\\LayoutF...', Array)
+#5 C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\LayoutFront\Controllers\LayoutFront->verifikasidsn('Ai4-QD9xu5eFDQ=...')
+#6 C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\LayoutFront\Controllers\LayoutFront))
+#7 C:\xampp\htdocs\github\verifikasi\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\verifikasi\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}

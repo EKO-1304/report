@@ -1,0 +1,328 @@
+CRITICAL - 2021-04-03 06:39:07 --> Class 'Modules\AdminController\Models\Model_controller' not found
+#0 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(908): Modules\AdminController\Controllers\Data_controller->__construct()
+#1 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-03 06:39:48 --> Cannot declare class App\Models\Model_controller, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-04-03 06:40:18 --> Cannot declare class App\Models\Model_controller, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-04-03 06:40:48 --> Cannot declare class App\Models\Model_controller, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-04-03 06:41:12 --> Class 'App\Models\Model' not found
+#0 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(294): include_once()
+#1 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Modules\\Adm...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Modules\\Adm...')
+#4 C:\xampp\htdocs\web-master\app\modules\AdminController\Controllers\Data_controller.php(14): spl_autoload_call('App\\Modules\\Adm...')
+#5 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(908): Modules\AdminController\Controllers\Data_controller->__construct()
+#6 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#7 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-04-03 06:41:26 --> Cannot declare class App\Models\Model_controller, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-04-03 07:00:51 --> Cannot declare class App\Models\Model_controller, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-04-03 07:02:37 --> Class 'Modules\AdminController\Controllers\Model_controller' not found
+#0 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(908): Modules\AdminController\Controllers\Data_controller->__construct()
+#1 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-03 07:03:11 --> Cannot declare class App\Models\Model_controller, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-04-03 07:03:13 --> Cannot declare class App\Models\Model_controller, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-04-03 07:03:48 --> Cannot declare class Modules\AdminController\Model_controller, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-04-03 07:03:58 --> Cannot declare class App\Model_controller, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-04-03 07:05:20 --> scandir(C:\xampp\htdocs\web-master\modules/,C:\xampp\htdocs\web-master\modules/): The system cannot find the file specified. (code: 2)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'scandir(C:\\xamp...', 'C:\\xampp\\htdocs...', 65, Array)
+#1 C:\xampp\htdocs\web-master\app\Config\Routes.php(65): scandir('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(803): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-04-03 07:05:21 --> scandir(C:\xampp\htdocs\web-master\modules/,C:\xampp\htdocs\web-master\modules/): The system cannot find the file specified. (code: 2)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'scandir(C:\\xamp...', 'C:\\xampp\\htdocs...', 65, Array)
+#1 C:\xampp\htdocs\web-master\app\Config\Routes.php(65): scandir('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(803): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-04-03 07:05:34 --> Cannot declare class App\Models\Model_controller, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-04-03 07:05:50 --> Cannot declare class App\Models\Model_controller, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-04-03 07:06:35 --> Cannot declare class App\Models\Model_controller, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-04-03 07:06:38 --> Cannot declare class App\Models\Model_controller, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-04-03 07:06:54 --> Cannot declare class App\Models\Model_controlle, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-04-03 07:07:00 --> Cannot declare class App\Models\Model_controller, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-04-03 07:07:06 --> Class 'App\Models\Model' not found
+#0 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(294): include_once()
+#1 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Modules\\Adm...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Modules\\Adm...')
+#4 C:\xampp\htdocs\web-master\app\modules\AdminController\Controllers\Data_controller.php(14): spl_autoload_call('App\\Modules\\Adm...')
+#5 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(908): Modules\AdminController\Controllers\Data_controller->__construct()
+#6 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#7 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-04-03 07:07:30 --> Cannot declare class App\Models\Model_controller, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-04-03 07:07:47 --> Class 'App\Models\Models' not found
+#0 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(294): include_once()
+#1 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Modules\\Adm...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Modules\\Adm...')
+#4 C:\xampp\htdocs\web-master\app\modules\AdminController\Controllers\Data_controller.php(14): spl_autoload_call('App\\Modules\\Adm...')
+#5 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(908): Modules\AdminController\Controllers\Data_controller->__construct()
+#6 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#7 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-04-03 07:07:57 --> Cannot declare class App\Models\Model_controller, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-04-03 07:08:32 --> Cannot declare class App\Models\Model_controller, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-04-03 07:08:37 --> Cannot declare class App\Models\Model_controller, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-04-03 07:09:05 --> Cannot declare class App\Models\Model_controller, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-04-03 07:09:15 --> Cannot declare class App\Models\Model_controller, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-04-03 07:09:21 --> Cannot declare class App\Models\Model_controller, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-04-03 07:11:08 --> Class 'App\Models' not found
+#0 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(908): Modules\AdminController\Controllers\Data_controller->__construct()
+#1 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-03 07:11:59 --> Cannot declare class App\Models\Model_controller, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-04-03 07:12:21 --> Class 'Modules\AdminController\Models\Model_controller' not found
+#0 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(908): Modules\AdminController\Controllers\Data_controller->__construct()
+#1 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-03 07:12:39 --> Cannot declare class App\Models\Model_controller, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-04-03 07:16:02 --> Class 'App\Modules\AdminController\Models\Model_controller' not found
+#0 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(908): Modules\AdminController\Controllers\Data_controller->__construct()
+#1 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-03 07:16:05 --> Invalid file: App\Modules\FrontEndLayout\Views\layout.php
+#0 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Modules\\Fro...')
+#1 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('App\\Modules\\Fro...', Array, true)
+#2 C:\xampp\htdocs\web-master\Modules\FrontEndLayout\Controllers\Layout.php(12): view('App\\Modules\\Fro...')
+#3 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Modules\FrontEndLayout\Controllers\Layout->index()
+#4 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Modules\FrontEndLayout\Controllers\Layout))
+#5 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-04-03 07:16:05 --> Invalid file: App\Modules\FrontEndLayout\Views\layout.php
+#0 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Modules\\Fro...')
+#1 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('App\\Modules\\Fro...', Array, true)
+#2 C:\xampp\htdocs\web-master\Modules\FrontEndLayout\Controllers\Layout.php(12): view('App\\Modules\\Fro...')
+#3 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Modules\FrontEndLayout\Controllers\Layout->index()
+#4 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Modules\FrontEndLayout\Controllers\Layout))
+#5 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-04-03 07:17:17 --> Invalid file: App\Modules\AdminLayout\Views\layout.php
+#0 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Modules\\Adm...')
+#1 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('App\\Modules\\Adm...', Array, true)
+#2 C:\xampp\htdocs\web-master\Modules\AdminLayout\Controllers\Layout.php(16): view('App\\Modules\\Adm...', Array)
+#3 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Modules\AdminLayout\Controllers\Layout->index()
+#4 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminLayout\Controllers\Layout))
+#5 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-04-03 07:17:18 --> Invalid file: App\Modules\AdminLayout\Views\layout.php
+#0 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Modules\\Adm...')
+#1 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('App\\Modules\\Adm...', Array, true)
+#2 C:\xampp\htdocs\web-master\Modules\AdminLayout\Controllers\Layout.php(16): view('App\\Modules\\Adm...', Array)
+#3 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Modules\AdminLayout\Controllers\Layout->index()
+#4 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminLayout\Controllers\Layout))
+#5 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-04-03 07:17:34 --> Class 'App\Modules\AdminController\Models\Model_controller' not found
+#0 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(908): Modules\AdminController\Controllers\Data_controller->__construct()
+#1 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-03 07:18:04 --> Class 'Modules\AdminController\Models\Model_controller' not found
+#0 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(908): Modules\AdminController\Controllers\Data_controller->__construct()
+#1 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-03 07:18:31 --> Class 'App\Models\Model' not found
+#0 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(294): include_once()
+#1 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Modules\\AdminCo...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Modules\\AdminCo...')
+#4 C:\xampp\htdocs\web-master\Modules\AdminController\Controllers\Data_controller.php(14): spl_autoload_call('Modules\\AdminCo...')
+#5 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(908): Modules\AdminController\Controllers\Data_controller->__construct()
+#6 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#7 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-04-03 07:18:36 --> Class 'Modules\AdminController\Models\Model_controller' not found
+#0 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(908): Modules\AdminController\Controllers\Data_controller->__construct()
+#1 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-03 07:19:11 --> Class 'Modules\AdminController\Models\Model_controller' not found
+#0 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(908): Modules\AdminController\Controllers\Data_controller->__construct()
+#1 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-03 07:19:20 --> Class 'Modules\AdminController\Models\Model_controller' not found
+#0 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(908): Modules\AdminController\Controllers\Data_controller->__construct()
+#1 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-03 07:19:22 --> Class 'Modules\AdminController\Models\Model_controller' not found
+#0 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(908): Modules\AdminController\Controllers\Data_controller->__construct()
+#1 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-03 07:21:15 --> Class 'App\Models\CodeIgniter\Model' not found
+#0 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(294): include_once()
+#1 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Modules\\AdminCo...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Modules\\AdminCo...')
+#4 C:\xampp\htdocs\web-master\Modules\AdminController\Controllers\Data_controller.php(14): spl_autoload_call('Modules\\AdminCo...')
+#5 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(908): Modules\AdminController\Controllers\Data_controller->__construct()
+#6 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#7 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-04-03 07:21:17 --> Class 'App\Models\CodeIgniter\Model' not found
+#0 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(294): include_once()
+#1 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Modules\\AdminCo...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Modules\\AdminCo...')
+#4 C:\xampp\htdocs\web-master\Modules\AdminController\Controllers\Data_controller.php(14): spl_autoload_call('Modules\\AdminCo...')
+#5 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(908): Modules\AdminController\Controllers\Data_controller->__construct()
+#6 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#7 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-04-03 07:21:28 --> Class 'App\CodeIgniter\Model' not found
+#0 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(294): include_once()
+#1 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Modules\\AdminCo...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Modules\\AdminCo...')
+#4 C:\xampp\htdocs\web-master\Modules\AdminController\Controllers\Data_controller.php(14): spl_autoload_call('Modules\\AdminCo...')
+#5 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(908): Modules\AdminController\Controllers\Data_controller->__construct()
+#6 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#7 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2021-04-03 07:58:54 --> mysqli_sql_exception: Unknown column 'tb_controllers.deleted_at' in 'where clause' in C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\web-master\Modules\AdminController\Controllers\Data_controller.php(20): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Modules\AdminController\Controllers\Data_controller->index()
+#8 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminController\Controllers\Data_controller))
+#9 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2021-04-03 07:58:54 --> Unknown column 'tb_controllers.deleted_at' in 'where clause'
+#0 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\web-master\Modules\AdminController\Controllers\Data_controller.php(20): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Modules\AdminController\Controllers\Data_controller->index()
+#8 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminController\Controllers\Data_controller))
+#9 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2021-04-03 08:19:21 --> Argument 1 passed to CodeIgniter\BaseModel::findAll() must be of the type int, string given, called in C:\xampp\htdocs\web-master\Modules\AdminController\Controllers\Data_controller.php on line 20
+#0 C:\xampp\htdocs\web-master\Modules\AdminController\Controllers\Data_controller.php(20): CodeIgniter\BaseModel->findAll('nama')
+#1 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Modules\AdminController\Controllers\Data_controller->index()
+#2 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminController\Controllers\Data_controller))
+#3 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}

@@ -1,0 +1,909 @@
+CRITICAL - 2021-04-10 10:32:18 --> Declaration of Myth\Auth\Filters\LoginFilter::before(CodeIgniter\HTTP\RequestInterface $request) must be compatible with CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = NULL)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-04-10 10:36:33 --> Undefined variable: title
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\modules\AdminLogin\Views\login.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\WEBSITE\\xamp...', 7, Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\View\View.php(220): include('D:\\WEBSITE\\xamp...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\AdminLo...', Array, true)
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\myth\auth\src\Controllers\AuthController.php(54): view('Modules\\AdminLo...', Array)
+#5 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Myth\Auth\Controllers\AuthController->login()
+#6 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#7 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#10 {main}
+CRITICAL - 2021-04-10 10:37:04 --> Undefined variable: title
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\modules\AdminLogin\Views\login.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\WEBSITE\\xamp...', 7, Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\View\View.php(220): include('D:\\WEBSITE\\xamp...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\AdminLo...', Array, true)
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\myth\auth\src\Controllers\AuthController.php(54): view('Modules\\AdminLo...', Array)
+#5 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Myth\Auth\Controllers\AuthController->login()
+#6 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#7 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#10 {main}
+CRITICAL - 2021-04-10 10:37:59 --> Invalid file: Modules\AdminLogin\Views\login.php
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\AdminLo...')
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\AdminLo...', Array, true)
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\myth\auth\src\Controllers\AuthController.php(54): view('Modules\\AdminLo...', Array)
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Myth\Auth\Controllers\AuthController->login()
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#5 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#8 {main}
+CRITICAL - 2021-04-10 11:08:24 --> Undefined variable: config
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\modules\Login\Views\login.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\WEBSITE\\xamp...', 29, Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\View\View.php(220): include('D:\\WEBSITE\\xamp...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\Login\\V...', Array, true)
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\modules\Login\Controllers\Login.php(28): view('Modules\\Login\\V...', Array)
+#5 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Modules\Login\Controllers\Login->index()
+#6 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Modules\Login\Controllers\Login))
+#7 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#10 {main}
+CRITICAL - 2021-04-10 11:09:55 --> Undefined variable: config
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\modules\Login\Views\login.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\WEBSITE\\xamp...', 30, Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\View\View.php(220): include('D:\\WEBSITE\\xamp...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\Login\\V...', Array, true)
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\modules\Login\Controllers\Login.php(28): view('Modules\\Login\\V...', Array)
+#5 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Modules\Login\Controllers\Login->index()
+#6 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Modules\Login\Controllers\Login))
+#7 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#10 {main}
+CRITICAL - 2021-04-10 11:13:39 --> Undefined variable: config
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\modules\Login\Views\login.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\WEBSITE\\xamp...', 31, Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\View\View.php(220): include('D:\\WEBSITE\\xamp...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\Login\\V...', Array, true)
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\modules\Login\Controllers\Login.php(28): view('Modules\\Login\\V...', Array)
+#5 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Modules\Login\Controllers\Login->index()
+#6 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Modules\Login\Controllers\Login))
+#7 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#10 {main}
+CRITICAL - 2021-04-10 11:17:24 --> Invalid file: \Modules\AdminLogin\Views\register.php
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('\\Modules\\AdminL...')
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('\\Modules\\AdminL...', Array, true)
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\myth\auth\src\Controllers\AuthController.php(136): view('\\Modules\\AdminL...', Array)
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Myth\Auth\Controllers\AuthController->register()
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#5 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#8 {main}
+CRITICAL - 2021-04-10 11:17:43 --> Undefined variable: config
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\modules\Login\Views\login.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\WEBSITE\\xamp...', 31, Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\View\View.php(220): include('D:\\WEBSITE\\xamp...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\Login\\V...', Array, true)
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\modules\Login\Controllers\Login.php(28): view('Modules\\Login\\V...', Array)
+#5 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Modules\Login\Controllers\Login->index()
+#6 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Modules\Login\Controllers\Login))
+#7 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#10 {main}
+CRITICAL - 2021-04-10 11:18:38 --> Undefined variable: config
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\modules\Login\Views\login.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\WEBSITE\\xamp...', 31, Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\View\View.php(220): include('D:\\WEBSITE\\xamp...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\Login\\V...', Array, true)
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\modules\Login\Controllers\Login.php(28): view('Modules\\Login\\V...', Array)
+#5 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Modules\Login\Controllers\Login->index()
+#6 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Modules\Login\Controllers\Login))
+#7 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#10 {main}
+CRITICAL - 2021-04-10 11:20:52 --> Undefined variable: config
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\modules\Login\Views\login.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\WEBSITE\\xamp...', 31, Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\View\View.php(220): include('D:\\WEBSITE\\xamp...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\Login\\V...', Array, true)
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\modules\Login\Controllers\Login.php(37): view('Modules\\Login\\V...', Array)
+#5 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Modules\Login\Controllers\Login->index()
+#6 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Modules\Login\Controllers\Login))
+#7 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#10 {main}
+CRITICAL - 2021-04-10 11:20:54 --> Undefined variable: config
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\modules\Login\Views\login.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\WEBSITE\\xamp...', 31, Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\View\View.php(220): include('D:\\WEBSITE\\xamp...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\Login\\V...', Array, true)
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\modules\Login\Controllers\Login.php(37): view('Modules\\Login\\V...', Array)
+#5 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Modules\Login\Controllers\Login->index()
+#6 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Modules\Login\Controllers\Login))
+#7 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#10 {main}
+CRITICAL - 2021-04-10 11:22:55 --> syntax error, unexpected ';'
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\WEBSITE\\xamp...')
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Modules\\Login\\C...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Modules\\Login\\C...')
+#3 [internal function]: spl_autoload_call('Modules\\Login\\C...')
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(893): class_exists('\\Modules\\Login\\...', true)
+#5 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#9 {main}
+CRITICAL - 2021-04-10 11:30:40 --> Undefined offset: 1
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\myth\auth\src\Authentication\Passwords\NothingPersonalValidator.php(91): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\WEBSITE\\xamp...', 91, Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\myth\auth\src\Authentication\Passwords\NothingPersonalValidator.php(40): Myth\Auth\Authentication\Passwords\NothingPersonalValidator->isNotPersonal('sangatmudah', Object(Myth\Auth\Entities\User))
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\myth\auth\src\Authentication\Passwords\PasswordValidator.php(55): Myth\Auth\Authentication\Passwords\NothingPersonalValidator->check('sangatmudah', Object(Myth\Auth\Entities\User))
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\myth\auth\src\Authentication\Passwords\ValidationRules.php(46): Myth\Auth\Authentication\Passwords\PasswordValidator->check('sangatmudah', Object(Myth\Auth\Entities\User))
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Validation\Validation.php(306): Myth\Auth\Authentication\Passwords\ValidationRules->strong_password('sangatmudah', NULL)
+#5 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Validation\Validation.php(164): CodeIgniter\Validation\Validation->processRules('password', 'password', 'sangatmudah', Array, Array)
+#6 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Controller.php(181): CodeIgniter\Validation\Validation->run()
+#7 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\myth\auth\src\Controllers\AuthController.php(161): CodeIgniter\Controller->validate(Array)
+#8 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Myth\Auth\Controllers\AuthController->attemptRegister()
+#9 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#10 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#13 {main}
+CRITICAL - 2021-04-10 11:38:34 --> Undefined variable: config
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\modules\Login\Views\login.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\WEBSITE\\xamp...', 19, Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\View\View.php(220): include('D:\\WEBSITE\\xamp...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\Login\\V...', Array, true)
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\modules\Login\Controllers\Login.php(40): view('Modules\\Login\\V...', Array)
+#5 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Modules\Login\Controllers\Login->index()
+#6 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Modules\Login\Controllers\Login))
+#7 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#10 {main}
+CRITICAL - 2021-04-10 11:40:39 --> Undefined variable: config
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\modules\Login\Views\login.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\WEBSITE\\xamp...', 19, Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\View\View.php(220): include('D:\\WEBSITE\\xamp...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\Login\\V...', Array, true)
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\modules\Login\Controllers\Login.php(40): view('Modules\\Login\\V...', Array)
+#5 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Modules\Login\Controllers\Login->index()
+#6 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Modules\Login\Controllers\Login))
+#7 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#10 {main}
+CRITICAL - 2021-04-10 11:40:41 --> Undefined variable: config
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\modules\Login\Views\login.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\WEBSITE\\xamp...', 19, Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\View\View.php(220): include('D:\\WEBSITE\\xamp...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\Login\\V...', Array, true)
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\modules\Login\Controllers\Login.php(40): view('Modules\\Login\\V...', Array)
+#5 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Modules\Login\Controllers\Login->index()
+#6 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Modules\Login\Controllers\Login))
+#7 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#10 {main}
+CRITICAL - 2021-04-10 11:41:23 --> Undefined variable: config
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\modules\Login\Views\login.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\WEBSITE\\xamp...', 19, Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\View\View.php(220): include('D:\\WEBSITE\\xamp...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\Login\\V...', Array, true)
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\modules\Login\Controllers\Login.php(40): view('Modules\\Login\\V...', Array)
+#5 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Modules\Login\Controllers\Login->index()
+#6 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Modules\Login\Controllers\Login))
+#7 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#10 {main}
+CRITICAL - 2021-04-10 11:41:25 --> Undefined variable: config
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\modules\Login\Views\login.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\WEBSITE\\xamp...', 19, Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\View\View.php(220): include('D:\\WEBSITE\\xamp...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\Login\\V...', Array, true)
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\modules\Login\Controllers\Login.php(40): view('Modules\\Login\\V...', Array)
+#5 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Modules\Login\Controllers\Login->index()
+#6 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Modules\Login\Controllers\Login))
+#7 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#10 {main}
+CRITICAL - 2021-04-10 11:42:24 --> Invalid file: \Modules\AdminLogin\Views\login.php
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('\\Modules\\AdminL...')
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('\\Modules\\AdminL...', Array, true)
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\myth\auth\src\Controllers\AuthController.php(54): view('\\Modules\\AdminL...', Array)
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Myth\Auth\Controllers\AuthController->login()
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#5 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#8 {main}
+CRITICAL - 2021-04-10 11:43:08 --> Invalid file: \Modules\AdminLogin\Views\register.php
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('\\Modules\\AdminL...')
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('\\Modules\\AdminL...', Array, true)
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\myth\auth\src\Controllers\AuthController.php(136): view('\\Modules\\AdminL...', Array)
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Myth\Auth\Controllers\AuthController->register()
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#5 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#8 {main}
+CRITICAL - 2021-04-10 11:43:10 --> Undefined variable: config
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\modules\Login\Views\login.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\WEBSITE\\xamp...', 19, Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\View\View.php(220): include('D:\\WEBSITE\\xamp...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\Login\\V...', Array, true)
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\modules\Login\Controllers\Login.php(40): view('Modules\\Login\\V...', Array)
+#5 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Modules\Login\Controllers\Login->index()
+#6 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Modules\Login\Controllers\Login))
+#7 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#10 {main}
+CRITICAL - 2021-04-10 11:43:12 --> Invalid file: \Modules\AdminLogin\Views\register.php
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('\\Modules\\AdminL...')
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('\\Modules\\AdminL...', Array, true)
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\myth\auth\src\Controllers\AuthController.php(136): view('\\Modules\\AdminL...', Array)
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Myth\Auth\Controllers\AuthController->register()
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#5 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#8 {main}
+CRITICAL - 2021-04-10 11:43:23 --> Invalid file: \Modules\AdminLogin\Views\register.php
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('\\Modules\\AdminL...')
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('\\Modules\\AdminL...', Array, true)
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\myth\auth\src\Controllers\AuthController.php(136): view('\\Modules\\AdminL...', Array)
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Myth\Auth\Controllers\AuthController->register()
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#5 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#8 {main}
+CRITICAL - 2021-04-10 11:43:28 --> Invalid file: \Modules\AdminLogin\Views\register.php
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('\\Modules\\AdminL...')
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('\\Modules\\AdminL...', Array, true)
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\myth\auth\src\Controllers\AuthController.php(136): view('\\Modules\\AdminL...', Array)
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Myth\Auth\Controllers\AuthController->register()
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#5 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#8 {main}
+CRITICAL - 2021-04-10 11:48:32 --> Invalid file: \Modules\AdminLogin\Views\login.php
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('\\Modules\\AdminL...')
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('\\Modules\\AdminL...', Array, true)
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\myth\auth\src\Controllers\AuthController.php(54): view('\\Modules\\AdminL...', Array)
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Myth\Auth\Controllers\AuthController->login()
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#5 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#8 {main}
+CRITICAL - 2021-04-10 11:53:24 --> Undefined offset: 1
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\myth\auth\src\Authentication\Passwords\NothingPersonalValidator.php(91): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\WEBSITE\\xamp...', 91, Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\myth\auth\src\Authentication\Passwords\NothingPersonalValidator.php(40): Myth\Auth\Authentication\Passwords\NothingPersonalValidator->isNotPersonal('sangatmudah', Object(Myth\Auth\Entities\User))
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\myth\auth\src\Authentication\Passwords\PasswordValidator.php(55): Myth\Auth\Authentication\Passwords\NothingPersonalValidator->check('sangatmudah', Object(Myth\Auth\Entities\User))
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\myth\auth\src\Authentication\Passwords\ValidationRules.php(46): Myth\Auth\Authentication\Passwords\PasswordValidator->check('sangatmudah', Object(Myth\Auth\Entities\User))
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Validation\Validation.php(306): Myth\Auth\Authentication\Passwords\ValidationRules->strong_password('sangatmudah', NULL)
+#5 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Validation\Validation.php(164): CodeIgniter\Validation\Validation->processRules('password', 'password', 'sangatmudah', Array, Array)
+#6 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Controller.php(181): CodeIgniter\Validation\Validation->run()
+#7 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\myth\auth\src\Controllers\AuthController.php(161): CodeIgniter\Controller->validate(Array)
+#8 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Myth\Auth\Controllers\AuthController->attemptRegister()
+#9 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#10 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#13 {main}
+ERROR - 2021-04-10 11:57:40 --> Email: sendWithSmtp throwed fsockopen(): php_network_getaddresses: getaddrinfo failed: A non-recoverable error occurred during a database lookup. 
+ERROR - 2021-04-10 11:57:40 --> Failed to send activation messaage to: ecoweb435@gmail.com
+CRITICAL - 2021-04-10 12:00:55 --> Undefined offset: 1
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\myth\auth\src\Authentication\Passwords\NothingPersonalValidator.php(91): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\WEBSITE\\xamp...', 91, Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\myth\auth\src\Authentication\Passwords\NothingPersonalValidator.php(40): Myth\Auth\Authentication\Passwords\NothingPersonalValidator->isNotPersonal('sangatmudah', Object(Myth\Auth\Entities\User))
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\myth\auth\src\Authentication\Passwords\PasswordValidator.php(55): Myth\Auth\Authentication\Passwords\NothingPersonalValidator->check('sangatmudah', Object(Myth\Auth\Entities\User))
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\myth\auth\src\Authentication\Passwords\ValidationRules.php(46): Myth\Auth\Authentication\Passwords\PasswordValidator->check('sangatmudah', Object(Myth\Auth\Entities\User))
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Validation\Validation.php(306): Myth\Auth\Authentication\Passwords\ValidationRules->strong_password('sangatmudah', NULL)
+#5 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Validation\Validation.php(164): CodeIgniter\Validation\Validation->processRules('password', 'password', 'sangatmudah', Array, Array)
+#6 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Controller.php(181): CodeIgniter\Validation\Validation->run()
+#7 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\myth\auth\src\Controllers\AuthController.php(161): CodeIgniter\Controller->validate(Array)
+#8 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Myth\Auth\Controllers\AuthController->attemptRegister()
+#9 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#10 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#13 {main}
+ERROR - 2021-04-10 12:09:54 --> [ERROR] 6 : Could not resolve host: api.pwnedpasswords.com D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\myth\auth\src\Exceptions\AuthException.php:55
+CRITICAL - 2021-04-10 12:09:54 --> 6 : Could not resolve host: api.pwnedpasswords.com
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\myth\auth\src\Authentication\Passwords\PwnedValidator.php(68): Myth\Auth\Exceptions\AuthException::forHIBPCurlFail(Object(CodeIgniter\HTTP\Exceptions\HTTPException))
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\myth\auth\src\Authentication\Passwords\PasswordValidator.php(55): Myth\Auth\Authentication\Passwords\PwnedValidator->check('sangatmudah', Object(Myth\Auth\Entities\User))
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\myth\auth\src\Authentication\Passwords\ValidationRules.php(46): Myth\Auth\Authentication\Passwords\PasswordValidator->check('sangatmudah', Object(Myth\Auth\Entities\User))
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Validation\Validation.php(306): Myth\Auth\Authentication\Passwords\ValidationRules->strong_password('sangatmudah', NULL)
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Validation\Validation.php(164): CodeIgniter\Validation\Validation->processRules('password', 'password', 'sangatmudah', Array, Array)
+#5 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Controller.php(181): CodeIgniter\Validation\Validation->run()
+#6 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\myth\auth\src\Controllers\AuthController.php(161): CodeIgniter\Controller->validate(Array)
+#7 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Myth\Auth\Controllers\AuthController->attemptRegister()
+#8 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#9 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#12 {main}
+ERROR - 2021-04-10 12:14:28 --> Email: sendWithSmtp throwed fsockopen(): php_network_getaddresses: getaddrinfo failed: A non-recoverable error occurred during a database lookup. 
+ERROR - 2021-04-10 12:14:28 --> Failed to send activation messaage to: e1304h@gmail.com
+ERROR - 2021-04-10 12:17:43 --> Email: sendWithSmtp throwed fsockopen(): php_network_getaddresses: getaddrinfo failed: A non-recoverable error occurred during a database lookup. 
+ERROR - 2021-04-10 12:17:43 --> Failed to send activation messaage to: e1304h@gmail.com
+CRITICAL - 2021-04-10 20:36:28 --> Undefined offset: 1
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\myth\auth\src\Authentication\Passwords\NothingPersonalValidator.php(91): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\WEBSITE\\xamp...', 91, Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\myth\auth\src\Authentication\Passwords\NothingPersonalValidator.php(40): Myth\Auth\Authentication\Passwords\NothingPersonalValidator->isNotPersonal('riski12345', Object(Myth\Auth\Entities\User))
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\myth\auth\src\Authentication\Passwords\PasswordValidator.php(55): Myth\Auth\Authentication\Passwords\NothingPersonalValidator->check('riski12345', Object(Myth\Auth\Entities\User))
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\myth\auth\src\Authentication\Passwords\ValidationRules.php(46): Myth\Auth\Authentication\Passwords\PasswordValidator->check('riski12345', Object(Myth\Auth\Entities\User))
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Validation\Validation.php(306): Myth\Auth\Authentication\Passwords\ValidationRules->strong_password('riski12345', NULL)
+#5 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Validation\Validation.php(164): CodeIgniter\Validation\Validation->processRules('password', 'password', 'riski12345', Array, Array)
+#6 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Controller.php(181): CodeIgniter\Validation\Validation->run()
+#7 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\myth\auth\src\Controllers\AuthController.php(161): CodeIgniter\Controller->validate(Array)
+#8 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Myth\Auth\Controllers\AuthController->attemptRegister()
+#9 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#10 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#13 {main}
+CRITICAL - 2021-04-10 20:59:16 --> Array to string conversion
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\modules\AdminLayout\Config\Routes.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\WEBSITE\\xamp...', 6, Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Router\RouteCollection.php(728): CodeIgniter\CodeIgniter->{closure}(Object(CodeIgniter\Router\RouteCollection))
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\modules\AdminLayout\Config\Routes.php(7): CodeIgniter\Router\RouteCollection->group('/', Array, Object(Closure))
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\app\Config\Routes.php(72): require('D:\\WEBSITE\\xamp...')
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(803): require('D:\\WEBSITE\\xamp...')
+#5 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#6 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#9 {main}
+CRITICAL - 2021-04-10 21:00:09 --> Declaration of Myth\Auth\Filters\RoleFilter::after(CodeIgniter\HTTP\RequestInterface $request, CodeIgniter\HTTP\ResponseInterface $response) must be compatible with CodeIgniter\Filters\FilterInterface::after(CodeIgniter\HTTP\RequestInterface $request, CodeIgniter\HTTP\ResponseInterface $response, $arguments = NULL)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-04-10 21:00:11 --> Declaration of Myth\Auth\Filters\RoleFilter::after(CodeIgniter\HTTP\RequestInterface $request, CodeIgniter\HTTP\ResponseInterface $response) must be compatible with CodeIgniter\Filters\FilterInterface::after(CodeIgniter\HTTP\RequestInterface $request, CodeIgniter\HTTP\ResponseInterface $response, $arguments = NULL)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-04-10 21:01:17 --> You do not have sufficient permissions to access that page.
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Filters\Filters.php(181): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('admin', 'before')
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#5 {main}
+CRITICAL - 2021-04-10 21:02:11 --> You do not have sufficient permissions to access that page.
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Filters\Filters.php(181): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('admin/index', 'before')
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#5 {main}
+CRITICAL - 2021-04-10 21:02:34 --> You do not have sufficient permissions to access that page.
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Filters\Filters.php(181): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('admin', 'before')
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#5 {main}
+CRITICAL - 2021-04-10 21:02:35 --> You do not have sufficient permissions to access that page.
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Filters\Filters.php(181): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('admin', 'before')
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#5 {main}
+CRITICAL - 2021-04-10 21:11:00 --> You do not have sufficient permissions to access that page.
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Filters\Filters.php(181): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('admin/index', 'before')
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#5 {main}
+CRITICAL - 2021-04-10 21:11:04 --> You do not have sufficient permissions to access that page.
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Filters\Filters.php(181): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('admin', 'before')
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#5 {main}
+CRITICAL - 2021-04-10 21:11:04 --> You do not have sufficient permissions to access that page.
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Filters\Filters.php(181): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('admin', 'before')
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#5 {main}
+CRITICAL - 2021-04-10 21:12:14 --> Undefined offset: 1
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\myth\auth\src\Authentication\Passwords\NothingPersonalValidator.php(91): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\WEBSITE\\xamp...', 91, Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\myth\auth\src\Authentication\Passwords\NothingPersonalValidator.php(40): Myth\Auth\Authentication\Passwords\NothingPersonalValidator->isNotPersonal('qwerty12345', Object(Myth\Auth\Entities\User))
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\myth\auth\src\Authentication\Passwords\PasswordValidator.php(55): Myth\Auth\Authentication\Passwords\NothingPersonalValidator->check('qwerty12345', Object(Myth\Auth\Entities\User))
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\myth\auth\src\Authentication\Passwords\ValidationRules.php(46): Myth\Auth\Authentication\Passwords\PasswordValidator->check('qwerty12345', Object(Myth\Auth\Entities\User))
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Validation\Validation.php(306): Myth\Auth\Authentication\Passwords\ValidationRules->strong_password('qwerty12345', NULL)
+#5 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Validation\Validation.php(164): CodeIgniter\Validation\Validation->processRules('password', 'password', 'qwerty12345', Array, Array)
+#6 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Controller.php(181): CodeIgniter\Validation\Validation->run()
+#7 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\myth\auth\src\Controllers\AuthController.php(163): CodeIgniter\Controller->validate(Array)
+#8 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Myth\Auth\Controllers\AuthController->attemptRegister()
+#9 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#10 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#13 {main}
+CRITICAL - 2021-04-10 21:16:03 --> Undefined offset: 1
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\myth\auth\src\Authentication\Passwords\NothingPersonalValidator.php(91): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\WEBSITE\\xamp...', 91, Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\myth\auth\src\Authentication\Passwords\NothingPersonalValidator.php(40): Myth\Auth\Authentication\Passwords\NothingPersonalValidator->isNotPersonal('ekoehair1304', Object(Myth\Auth\Entities\User))
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\myth\auth\src\Authentication\Passwords\PasswordValidator.php(55): Myth\Auth\Authentication\Passwords\NothingPersonalValidator->check('ekoehair1304', Object(Myth\Auth\Entities\User))
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\myth\auth\src\Authentication\Passwords\ValidationRules.php(46): Myth\Auth\Authentication\Passwords\PasswordValidator->check('ekoehair1304', Object(Myth\Auth\Entities\User))
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Validation\Validation.php(306): Myth\Auth\Authentication\Passwords\ValidationRules->strong_password('ekoehair1304', NULL)
+#5 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Validation\Validation.php(164): CodeIgniter\Validation\Validation->processRules('password', 'password', 'ekoehair1304', Array, Array)
+#6 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Controller.php(181): CodeIgniter\Validation\Validation->run()
+#7 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\myth\auth\src\Controllers\AuthController.php(163): CodeIgniter\Controller->validate(Array)
+#8 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Myth\Auth\Controllers\AuthController->attemptRegister()
+#9 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#10 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#13 {main}
+CRITICAL - 2021-04-10 21:17:59 --> array_merge(): Expected parameter 1 to be an array, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_merge(): ...', 'D:\\WEBSITE\\xamp...', 169, Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\myth\auth\src\Controllers\AuthController.php(169): array_merge('11c0619d7080079...', Array, Array, Array)
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Myth\Auth\Controllers\AuthController->attemptRegister()
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#7 {main}
+CRITICAL - 2021-04-10 21:28:10 --> You do not have sufficient permissions to access that page.
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Filters\Filters.php(181): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('admin', 'before')
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#5 {main}
+CRITICAL - 2021-04-10 21:28:10 --> You do not have sufficient permissions to access that page.
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Filters\Filters.php(181): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('admin', 'before')
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#5 {main}
+CRITICAL - 2021-04-10 21:28:34 --> You do not have sufficient permissions to access that page.
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Filters\Filters.php(181): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('admin', 'before')
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#5 {main}
+CRITICAL - 2021-04-10 21:28:37 --> You do not have sufficient permissions to access that page.
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Filters\Filters.php(181): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('admin', 'before')
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#5 {main}
+CRITICAL - 2021-04-10 21:35:41 --> You do not have sufficient permissions to access that page.
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Filters\Filters.php(181): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('admin', 'before')
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#5 {main}
+CRITICAL - 2021-04-10 21:35:42 --> You do not have sufficient permissions to access that page.
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Filters\Filters.php(181): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('admin', 'before')
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#5 {main}
+CRITICAL - 2021-04-10 21:35:58 --> You do not have sufficient permissions to access that page.
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Filters\Filters.php(181): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('admin', 'before')
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#5 {main}
+CRITICAL - 2021-04-10 21:36:12 --> You do not have sufficient permissions to access that page.
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Filters\Filters.php(181): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('admin', 'before')
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#5 {main}
+CRITICAL - 2021-04-10 21:36:23 --> You do not have sufficient permissions to access that page.
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Filters\Filters.php(181): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('admin', 'before')
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#5 {main}
+CRITICAL - 2021-04-10 21:36:39 --> You do not have sufficient permissions to access that page.
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Filters\Filters.php(181): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('admin', 'before')
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#5 {main}
+CRITICAL - 2021-04-10 21:36:41 --> You do not have sufficient permissions to access that page.
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Filters\Filters.php(181): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('admin', 'before')
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#5 {main}
+CRITICAL - 2021-04-10 21:36:41 --> You do not have sufficient permissions to access that page.
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Filters\Filters.php(181): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('admin', 'before')
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#5 {main}
+CRITICAL - 2021-04-10 21:37:07 --> You do not have sufficient permissions to access that page.
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Filters\Filters.php(181): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('admin', 'before')
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#5 {main}
+CRITICAL - 2021-04-10 21:37:11 --> You do not have sufficient permissions to access that page.
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Filters\Filters.php(181): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('admin', 'before')
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#5 {main}
+CRITICAL - 2021-04-10 21:37:26 --> You do not have sufficient permissions to access that page.
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Filters\Filters.php(181): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('admin', 'before')
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#5 {main}
+CRITICAL - 2021-04-10 21:37:27 --> You do not have sufficient permissions to access that page.
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Filters\Filters.php(181): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('admin', 'before')
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#5 {main}
+CRITICAL - 2021-04-10 21:37:27 --> You do not have sufficient permissions to access that page.
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Filters\Filters.php(181): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('admin', 'before')
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#5 {main}
+CRITICAL - 2021-04-10 21:37:28 --> You do not have sufficient permissions to access that page.
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Filters\Filters.php(181): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('admin', 'before')
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#5 {main}
+CRITICAL - 2021-04-10 21:37:44 --> You do not have sufficient permissions to access that page.
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Filters\Filters.php(181): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('admin', 'before')
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#5 {main}
+CRITICAL - 2021-04-10 21:38:05 --> You do not have sufficient permissions to access that page.
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Filters\Filters.php(181): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('admin', 'before')
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#5 {main}
+CRITICAL - 2021-04-10 21:38:06 --> You do not have sufficient permissions to access that page.
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Filters\Filters.php(181): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('admin', 'before')
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#5 {main}
+CRITICAL - 2021-04-10 21:38:11 --> You do not have sufficient permissions to access that page.
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Filters\Filters.php(181): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('admin', 'before')
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#5 {main}
+CRITICAL - 2021-04-10 21:50:17 --> Class 'Modules\AdminUsers\Controllers\ModelUsers' not found
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(908): Modules\AdminUsers\Controllers\DataUsers->__construct()
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#5 {main}
+CRITICAL - 2021-04-10 21:51:09 --> Undefined index: nama
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\modules\AdminUsers\Views\tabel.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\WEBSITE\\xamp...', 35, Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\View\View.php(220): include('D:\\WEBSITE\\xamp...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\AdminUs...', Array, true)
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\modules\AdminUsers\Controllers\DataUsers.php(29): view('Modules\\AdminUs...', Array)
+#5 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Modules\AdminUsers\Controllers\DataUsers->index()
+#6 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminUsers\Controllers\DataUsers))
+#7 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#10 {main}
+CRITICAL - 2021-04-10 21:53:00 --> Undefined index: rand_users
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\modules\AdminUsers\Views\tabel.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\WEBSITE\\xamp...', 39, Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\View\View.php(220): include('D:\\WEBSITE\\xamp...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\AdminUs...', Array, true)
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\modules\AdminUsers\Controllers\DataUsers.php(29): view('Modules\\AdminUs...', Array)
+#5 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Modules\AdminUsers\Controllers\DataUsers->index()
+#6 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminUsers\Controllers\DataUsers))
+#7 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#10 {main}
+ERROR - 2021-04-10 22:18:42 --> mysqli_sql_exception: Unknown column 'auth_groups_users.groups_id' in 'on clause' in D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `users`....')
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`....')
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`....')
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `users`....', Array, false)
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\modules\AdminUsers\Controllers\DataUsers.php(27): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Modules\AdminUsers\Controllers\DataUsers->index()
+#6 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminUsers\Controllers\DataUsers))
+#7 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#10 {main}
+CRITICAL - 2021-04-10 22:18:42 --> Unknown column 'auth_groups_users.groups_id' in 'on clause'
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `users`....')
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`....')
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`....')
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `users`....', Array, false)
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\modules\AdminUsers\Controllers\DataUsers.php(27): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Modules\AdminUsers\Controllers\DataUsers->index()
+#6 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminUsers\Controllers\DataUsers))
+#7 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#10 {main}
+CRITICAL - 2021-04-10 22:19:12 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getArray()
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Modules\AdminUsers\Controllers\DataUsers->index()
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminUsers\Controllers\DataUsers))
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#5 {main}
+CRITICAL - 2021-04-10 22:20:42 --> Undefined index: username
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\modules\AdminUsers\Views\tabel.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\WEBSITE\\xamp...', 35, Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\View\View.php(220): include('D:\\WEBSITE\\xamp...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\AdminUs...', Array, true)
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\modules\AdminUsers\Controllers\DataUsers.php(38): view('Modules\\AdminUs...', Array)
+#5 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Modules\AdminUsers\Controllers\DataUsers->index()
+#6 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminUsers\Controllers\DataUsers))
+#7 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#10 {main}
+CRITICAL - 2021-04-10 22:21:11 --> Cannot use object of type stdClass as array
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\View\View.php(220): include()
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\AdminUs...', Array, true)
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\modules\AdminUsers\Controllers\DataUsers.php(38): view('Modules\\AdminUs...', Array)
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Modules\AdminUsers\Controllers\DataUsers->index()
+#5 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminUsers\Controllers\DataUsers))
+#6 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#9 {main}
+CRITICAL - 2021-04-10 22:21:24 --> Undefined index: username
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\modules\AdminUsers\Views\tabel.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\WEBSITE\\xamp...', 35, Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\View\View.php(220): include('D:\\WEBSITE\\xamp...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\AdminUs...', Array, true)
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\modules\AdminUsers\Controllers\DataUsers.php(38): view('Modules\\AdminUs...', Array)
+#5 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Modules\AdminUsers\Controllers\DataUsers->index()
+#6 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminUsers\Controllers\DataUsers))
+#7 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#10 {main}
+CRITICAL - 2021-04-10 22:22:29 --> Undefined index: rand_user
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\modules\AdminUsers\Views\tabel.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\WEBSITE\\xamp...', 39, Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\View\View.php(220): include('D:\\WEBSITE\\xamp...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\AdminUs...', Array, true)
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\modules\AdminUsers\Controllers\DataUsers.php(38): view('Modules\\AdminUs...', Array)
+#5 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Modules\AdminUsers\Controllers\DataUsers->index()
+#6 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminUsers\Controllers\DataUsers))
+#7 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#10 {main}
+CRITICAL - 2021-04-10 22:42:08 --> Undefined index: username
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\modules\AdminUsers\Views\detail.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\WEBSITE\\xamp...', 33, Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\View\View.php(220): include('D:\\WEBSITE\\xamp...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\AdminUs...', Array, true)
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\modules\AdminUsers\Controllers\DataUsers.php(45): view('Modules\\AdminUs...', Array)
+#5 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Modules\AdminUsers\Controllers\DataUsers->detail('ad0c6e5c44ec39f...')
+#6 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminUsers\Controllers\DataUsers))
+#7 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#10 {main}
+CRITICAL - 2021-04-10 22:43:20 --> Undefined index: username
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\modules\AdminUsers\Views\detail.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\WEBSITE\\xamp...', 33, Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\View\View.php(220): include('D:\\WEBSITE\\xamp...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\AdminUs...', Array, true)
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\modules\AdminUsers\Controllers\DataUsers.php(45): view('Modules\\AdminUs...', Array)
+#5 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Modules\AdminUsers\Controllers\DataUsers->detail('ad0c6e5c44ec39f...')
+#6 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminUsers\Controllers\DataUsers))
+#7 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#10 {main}
+CRITICAL - 2021-04-10 22:44:09 --> Cannot use object of type stdClass as array
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\View\View.php(220): include()
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\AdminUs...', Array, true)
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\modules\AdminUsers\Controllers\DataUsers.php(45): view('Modules\\AdminUs...', Array)
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Modules\AdminUsers\Controllers\DataUsers->detail('ad0c6e5c44ec39f...')
+#5 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminUsers\Controllers\DataUsers))
+#6 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#9 {main}
+CRITICAL - 2021-04-10 22:45:30 --> Undefined index: user_image
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\modules\AdminUsers\Views\detail.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\WEBSITE\\xamp...', 26, Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\View\View.php(220): include('D:\\WEBSITE\\xamp...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\AdminUs...', Array, true)
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\modules\AdminUsers\Controllers\DataUsers.php(45): view('Modules\\AdminUs...', Array)
+#5 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Modules\AdminUsers\Controllers\DataUsers->detail('ad0c6e5c44ec39f...')
+#6 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminUsers\Controllers\DataUsers))
+#7 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#10 {main}
+ERROR - 2021-04-10 22:45:49 --> mysqli_sql_exception: Unknown column 'user_name' in 'field list' in D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `rand_us...')
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `rand_us...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `rand_us...')
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `rand_us...', Array, false)
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\modules\AdminUsers\Models\ModelUsers.php(27): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\WEBSITE\xampp-7.4\htdocs\web-master\modules\AdminUsers\Controllers\DataUsers.php(36): Modules\AdminUsers\Models\ModelUsers->get_users_detail('ad0c6e5c44ec39f...')
+#6 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Modules\AdminUsers\Controllers\DataUsers->detail('ad0c6e5c44ec39f...')
+#7 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminUsers\Controllers\DataUsers))
+#8 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#11 {main}
+CRITICAL - 2021-04-10 22:45:49 --> Unknown column 'user_name' in 'field list'
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `rand_us...')
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `rand_us...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `rand_us...')
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `rand_us...', Array, false)
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\modules\AdminUsers\Models\ModelUsers.php(27): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\WEBSITE\xampp-7.4\htdocs\web-master\modules\AdminUsers\Controllers\DataUsers.php(36): Modules\AdminUsers\Models\ModelUsers->get_users_detail('ad0c6e5c44ec39f...')
+#6 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Modules\AdminUsers\Controllers\DataUsers->detail('ad0c6e5c44ec39f...')
+#7 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminUsers\Controllers\DataUsers))
+#8 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#11 {main}
+CRITICAL - 2021-04-10 23:06:00 --> You do not have sufficient permissions to access that page.
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Filters\Filters.php(181): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('admin', 'before')
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#5 {main}
+CRITICAL - 2021-04-10 23:06:01 --> You do not have sufficient permissions to access that page.
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Filters\Filters.php(181): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('admin', 'before')
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#5 {main}
+CRITICAL - 2021-04-10 23:06:32 --> You do not have sufficient permissions to access that page.
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Filters\Filters.php(181): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('admin', 'before')
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#5 {main}
+CRITICAL - 2021-04-10 23:11:37 --> You do not have sufficient permissions to access that page.
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Filters\Filters.php(181): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('admin-users-pro...', 'before')
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#5 {main}
+CRITICAL - 2021-04-10 23:11:53 --> You do not have sufficient permissions to access that page.
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Filters\Filters.php(181): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('admin-users', 'before')
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#5 {main}
+CRITICAL - 2021-04-10 23:20:45 --> You do not have sufficient permissions to access that page.
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Filters\Filters.php(181): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('admin', 'before')
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#5 {main}
+CRITICAL - 2021-04-10 23:20:46 --> You do not have sufficient permissions to access that page.
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Filters\Filters.php(181): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('admin', 'before')
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#5 {main}
+ERROR - 2021-04-10 23:32:21 --> Email: sendWithSmtp throwed fsockopen(): php_network_getaddresses: getaddrinfo failed: A non-recoverable error occurred during a database lookup. 
+ERROR - 2021-04-10 23:32:21 --> Failed to send activation messaage to: e1304e@gmail.com
+CRITICAL - 2021-04-10 23:54:45 --> Call to undefined function Myth\Auth\Controllers\in_groups()
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Myth\Auth\Controllers\AuthController->attemptLogin()
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#5 {main}
+CRITICAL - 2021-04-10 23:56:07 --> Call to undefined function Myth\Auth\Controllers\in_groups()
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Myth\Auth\Controllers\AuthController->attemptLogin()
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#5 {main}
+CRITICAL - 2021-04-10 23:56:35 --> Call to undefined function Myth\Auth\Controllers\in_groups()
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Myth\Auth\Controllers\AuthController->attemptLogin()
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#5 {main}
+CRITICAL - 2021-04-10 23:56:47 --> You do not have sufficient permissions to access that page.
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Filters\Filters.php(181): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('admin', 'before')
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#5 {main}
+CRITICAL - 2021-04-10 23:56:51 --> You do not have sufficient permissions to access that page.
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Filters\Filters.php(181): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('admin', 'before')
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#5 {main}
+CRITICAL - 2021-04-10 23:57:12 --> Call to undefined function Myth\Auth\Controllers\in_groups()
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Myth\Auth\Controllers\AuthController->attemptLogin()
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#5 {main}
+CRITICAL - 2021-04-10 23:59:01 --> You do not have sufficient permissions to access that page.
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Filters\Filters.php(181): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('admin', 'before')
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#5 {main}
+CRITICAL - 2021-04-10 23:59:36 --> Invalid file: \Modules\AdminLogin\Views\layout.php
+#0 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('\\Modules\\AdminL...')
+#1 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\View\View.php(236): CodeIgniter\View\View->render('\\Modules\\AdminL...', Array, true)
+#2 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Myth\\Auth\\Views...', Array, true)
+#3 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\myth\auth\src\Controllers\AuthController.php(270): view('Myth\\Auth\\Views...', Array)
+#4 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Myth\Auth\Controllers\AuthController->resetPassword()
+#5 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#6 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\WEBSITE\xampp-7.4\htdocs\web-master\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 D:\WEBSITE\xampp-7.4\htdocs\web-master\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#9 {main}

@@ -1,0 +1,518 @@
+CRITICAL - 2022-01-19 10:26:23 --> syntax error, unexpected ';'
+#0 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Modules\\Desain\\...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Modules\\Desain\\...')
+#3 [internal function]: spl_autoload_call('Modules\\Desain\\...')
+#4 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(897): class_exists('\\Modules\\Desain...', true)
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2022-01-19 10:52:39 --> mysqli_sql_exception: Unknown column 'iduser' in 'where clause' in C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1966): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\github\kebunku\modules\SosmedAdm\Controllers\DataPendaftarPMB.php(259): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\SosmedAdm\Controllers\DataPendaftarPMB->tambah_pendaftar()
+#6 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\SosmedAdm\Controllers\DataPendaftarPMB))
+#7 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-19 10:52:39 --> Unknown column 'iduser' in 'where clause'
+#0 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1966): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\github\kebunku\modules\SosmedAdm\Controllers\DataPendaftarPMB.php(259): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\SosmedAdm\Controllers\DataPendaftarPMB->tambah_pendaftar()
+#6 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\SosmedAdm\Controllers\DataPendaftarPMB))
+#7 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-01-19 10:52:44 --> mysqli_sql_exception: Unknown column 'iduser' in 'where clause' in C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1966): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\github\kebunku\modules\SosmedAdm\Controllers\DataPendaftarPMB.php(259): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\SosmedAdm\Controllers\DataPendaftarPMB->tambah_pendaftar()
+#6 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\SosmedAdm\Controllers\DataPendaftarPMB))
+#7 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-19 10:52:44 --> Unknown column 'iduser' in 'where clause'
+#0 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1966): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\github\kebunku\modules\SosmedAdm\Controllers\DataPendaftarPMB.php(259): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\SosmedAdm\Controllers\DataPendaftarPMB->tambah_pendaftar()
+#6 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\SosmedAdm\Controllers\DataPendaftarPMB))
+#7 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-01-19 10:52:45 --> mysqli_sql_exception: Unknown column 'iduser' in 'where clause' in C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1966): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\github\kebunku\modules\SosmedAdm\Controllers\DataPendaftarPMB.php(259): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\SosmedAdm\Controllers\DataPendaftarPMB->tambah_pendaftar()
+#6 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\SosmedAdm\Controllers\DataPendaftarPMB))
+#7 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-19 10:52:45 --> Unknown column 'iduser' in 'where clause'
+#0 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1966): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\github\kebunku\modules\SosmedAdm\Controllers\DataPendaftarPMB.php(259): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\SosmedAdm\Controllers\DataPendaftarPMB->tambah_pendaftar()
+#6 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\SosmedAdm\Controllers\DataPendaftarPMB))
+#7 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-01-19 10:52:53 --> mysqli_sql_exception: Unknown column 'iduser' in 'where clause' in C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1966): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\github\kebunku\modules\SosmedAdm\Controllers\DataPendaftarPMB.php(259): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\SosmedAdm\Controllers\DataPendaftarPMB->tambah_pendaftar()
+#6 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\SosmedAdm\Controllers\DataPendaftarPMB))
+#7 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-19 10:52:53 --> Unknown column 'iduser' in 'where clause'
+#0 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1966): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\github\kebunku\modules\SosmedAdm\Controllers\DataPendaftarPMB.php(259): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\SosmedAdm\Controllers\DataPendaftarPMB->tambah_pendaftar()
+#6 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\SosmedAdm\Controllers\DataPendaftarPMB))
+#7 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-19 11:14:59 --> strip_tags() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'strip_tags() ex...', 'C:\\xampp\\htdocs...', 153, Array)
+#1 C:\xampp\htdocs\github\kebunku\app\Helpers\my_helpers.php(153): strip_tags(Array)
+#2 C:\xampp\htdocs\github\kebunku\modules\Desain\Controllers\DataTugasDesain.php(135): filterdata(Array)
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Desain\Controllers\DataTugasDesain->tambah_tugas()
+#4 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Desain\Controllers\DataTugasDesain))
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-19 11:48:48 --> strip_tags() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'strip_tags() ex...', 'C:\\xampp\\htdocs...', 153, Array)
+#1 C:\xampp\htdocs\github\kebunku\app\Helpers\my_helpers.php(153): strip_tags(Array)
+#2 C:\xampp\htdocs\github\kebunku\modules\Desain\Controllers\DataTugasDesain.php(135): filterdata(Array)
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Desain\Controllers\DataTugasDesain->tambah_tugas()
+#4 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Desain\Controllers\DataTugasDesain))
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-19 13:30:11 --> explode() expects parameter 2 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'explode() expec...', 'C:\\xampp\\htdocs...', 173, Array)
+#1 C:\xampp\htdocs\github\kebunku\modules\Desain\Controllers\DataTugasDesain.php(173): explode(',', Array)
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Desain\Controllers\DataTugasDesain->tambah_tugas()
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Desain\Controllers\DataTugasDesain))
+#4 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-01-19 14:05:53 --> Undefined variable: tanggal
+#0 C:\xampp\htdocs\github\kebunku\modules\Desain\Controllers\DataTugasDesain.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 89, Array)
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Desain\Controllers\DataTugasDesain->tugasjson('adm')
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Desain\Controllers\DataTugasDesain))
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-19 14:15:55 --> Too few arguments to function CodeIgniter\Database\BaseBuilder::join(), 0 passed in C:\xampp\htdocs\github\kebunku\modules\Desain\Controllers\DataTugasDesain.php on line 91 and at least 2 expected
+#0 C:\xampp\htdocs\github\kebunku\modules\Desain\Controllers\DataTugasDesain.php(91): CodeIgniter\Database\BaseBuilder->join()
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Desain\Controllers\DataTugasDesain->tugasjson('adm')
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Desain\Controllers\DataTugasDesain))
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-19 14:16:14 --> Too few arguments to function CodeIgniter\Database\BaseBuilder::join(), 0 passed in C:\xampp\htdocs\github\kebunku\modules\Desain\Controllers\DataTugasDesain.php on line 91 and at least 2 expected
+#0 C:\xampp\htdocs\github\kebunku\modules\Desain\Controllers\DataTugasDesain.php(91): CodeIgniter\Database\BaseBuilder->join()
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Desain\Controllers\DataTugasDesain->tugasjson('adm')
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Desain\Controllers\DataTugasDesain))
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-19 14:16:20 --> Too few arguments to function CodeIgniter\Database\BaseBuilder::join(), 0 passed in C:\xampp\htdocs\github\kebunku\modules\Desain\Controllers\DataTugasDesain.php on line 91 and at least 2 expected
+#0 C:\xampp\htdocs\github\kebunku\modules\Desain\Controllers\DataTugasDesain.php(91): CodeIgniter\Database\BaseBuilder->join()
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Desain\Controllers\DataTugasDesain->tugasjson('adm')
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Desain\Controllers\DataTugasDesain))
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-19 14:16:22 --> Too few arguments to function CodeIgniter\Database\BaseBuilder::join(), 0 passed in C:\xampp\htdocs\github\kebunku\modules\Desain\Controllers\DataTugasDesain.php on line 91 and at least 2 expected
+#0 C:\xampp\htdocs\github\kebunku\modules\Desain\Controllers\DataTugasDesain.php(91): CodeIgniter\Database\BaseBuilder->join()
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Desain\Controllers\DataTugasDesain->tugasjson('adm')
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Desain\Controllers\DataTugasDesain))
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-19 14:16:50 --> Too few arguments to function CodeIgniter\Database\BaseBuilder::join(), 0 passed in C:\xampp\htdocs\github\kebunku\modules\Desain\Controllers\DataTugasDesain.php on line 91 and at least 2 expected
+#0 C:\xampp\htdocs\github\kebunku\modules\Desain\Controllers\DataTugasDesain.php(91): CodeIgniter\Database\BaseBuilder->join()
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Desain\Controllers\DataTugasDesain->tugasjson('adm')
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Desain\Controllers\DataTugasDesain))
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-01-19 14:19:42 --> mysqli_sql_exception: Column 'deleted_at' in where clause is ambiguous in C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `fullnam...')
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `fullnam...')
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `fullnam...')
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `fullnam...', Array, false)
+#4 C:\xampp\htdocs\github\kebunku\modules\Desain\Controllers\DataTugasDesain.php(94): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Desain\Controllers\DataTugasDesain->tugasjson('adm')
+#6 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Desain\Controllers\DataTugasDesain))
+#7 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-19 14:19:42 --> Column 'deleted_at' in where clause is ambiguous
+#0 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `fullnam...')
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `fullnam...')
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `fullnam...')
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `fullnam...', Array, false)
+#4 C:\xampp\htdocs\github\kebunku\modules\Desain\Controllers\DataTugasDesain.php(94): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Desain\Controllers\DataTugasDesain->tugasjson('adm')
+#6 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Desain\Controllers\DataTugasDesain))
+#7 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-01-19 14:19:49 --> mysqli_sql_exception: Column 'deleted_at' in where clause is ambiguous in C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `fullnam...')
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `fullnam...')
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `fullnam...')
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `fullnam...', Array, false)
+#4 C:\xampp\htdocs\github\kebunku\modules\Desain\Controllers\DataTugasDesain.php(94): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Desain\Controllers\DataTugasDesain->tugasjson('adm')
+#6 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Desain\Controllers\DataTugasDesain))
+#7 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-19 14:19:49 --> Column 'deleted_at' in where clause is ambiguous
+#0 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `fullnam...')
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `fullnam...')
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `fullnam...')
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `fullnam...', Array, false)
+#4 C:\xampp\htdocs\github\kebunku\modules\Desain\Controllers\DataTugasDesain.php(94): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Desain\Controllers\DataTugasDesain->tugasjson('adm')
+#6 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Desain\Controllers\DataTugasDesain))
+#7 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-01-19 14:20:02 --> mysqli_sql_exception: Column 'iduser' in group statement is ambiguous in C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `fullnam...')
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `fullnam...')
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `fullnam...')
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `fullnam...', Array, false)
+#4 C:\xampp\htdocs\github\kebunku\modules\Desain\Controllers\DataTugasDesain.php(94): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Desain\Controllers\DataTugasDesain->tugasjson('adm')
+#6 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Desain\Controllers\DataTugasDesain))
+#7 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-19 14:20:02 --> Column 'iduser' in group statement is ambiguous
+#0 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `fullnam...')
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `fullnam...')
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `fullnam...')
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `fullnam...', Array, false)
+#4 C:\xampp\htdocs\github\kebunku\modules\Desain\Controllers\DataTugasDesain.php(94): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Desain\Controllers\DataTugasDesain->tugasjson('adm')
+#6 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Desain\Controllers\DataTugasDesain))
+#7 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-19 14:23:03 --> Undefined variable: nmuser
+#0 C:\xampp\htdocs\github\kebunku\modules\Desain\Controllers\DataTugasDesain.php(100): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 100, Array)
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Desain\Controllers\DataTugasDesain->tugasjson('adm')
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Desain\Controllers\DataTugasDesain))
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-01-19 14:29:12 --> mysqli_sql_exception: Column 'iduser' in group statement is ambiguous in C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `fullnam...')
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `fullnam...')
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `fullnam...')
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `fullnam...', Array, false)
+#4 C:\xampp\htdocs\github\kebunku\modules\Desain\Controllers\DataTugasDesain.php(94): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Desain\Controllers\DataTugasDesain->tugasjson('adm')
+#6 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Desain\Controllers\DataTugasDesain))
+#7 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-19 14:29:12 --> Column 'iduser' in group statement is ambiguous
+#0 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `fullnam...')
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `fullnam...')
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `fullnam...')
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `fullnam...', Array, false)
+#4 C:\xampp\htdocs\github\kebunku\modules\Desain\Controllers\DataTugasDesain.php(94): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Desain\Controllers\DataTugasDesain->tugasjson('adm')
+#6 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Desain\Controllers\DataTugasDesain))
+#7 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-19 14:31:48 --> json_decode() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() e...', 'C:\\xampp\\htdocs...', 102, Array)
+#1 C:\xampp\htdocs\github\kebunku\modules\Desain\Controllers\DataTugasDesain.php(102): json_decode(Array)
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Desain\Controllers\DataTugasDesain->tugasjson('adm')
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Desain\Controllers\DataTugasDesain))
+#4 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-01-19 14:33:09 --> json_decode() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() e...', 'C:\\xampp\\htdocs...', 102, Array)
+#1 C:\xampp\htdocs\github\kebunku\modules\Desain\Controllers\DataTugasDesain.php(102): json_decode(Array)
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Desain\Controllers\DataTugasDesain->tugasjson('adm')
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Desain\Controllers\DataTugasDesain))
+#4 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-01-19 14:43:58 --> syntax error, unexpected 'class' (T_CLASS)
+#0 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Modules\\Desain\\...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Modules\\Desain\\...')
+#3 [internal function]: spl_autoload_call('Modules\\Desain\\...')
+#4 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(897): class_exists('\\Modules\\Desain...', true)
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-01-19 14:50:33 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Modules\\Desain\\...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Modules\\Desain\\...')
+#3 [internal function]: spl_autoload_call('Modules\\Desain\\...')
+#4 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(897): class_exists('\\Modules\\Desain...', true)
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-01-19 14:51:11 --> Undefined variable: linkedit
+#0 C:\xampp\htdocs\github\kebunku\modules\Desain\Controllers\DataTugasDesain.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 64, Array)
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Desain\Controllers\DataTugasDesain->tugasjson('adm')
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Desain\Controllers\DataTugasDesain))
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-19 14:51:30 --> Undefined variable: linkedit
+#0 C:\xampp\htdocs\github\kebunku\modules\Desain\Controllers\DataTugasDesain.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 64, Array)
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Desain\Controllers\DataTugasDesain->tugasjson('adm')
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Desain\Controllers\DataTugasDesain))
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-19 14:52:41 --> Undefined offset: 2
+#0 C:\xampp\htdocs\github\kebunku\modules\Desain\Models\ModelDesain.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 53, Array)
+#1 C:\xampp\htdocs\github\kebunku\modules\Desain\Models\ModelDesain.php(62): Modules\Desain\Models\ModelDesain->_get_datatables_query()
+#2 C:\xampp\htdocs\github\kebunku\modules\Desain\Controllers\DataTugasDesain.php(76): Modules\Desain\Models\ModelDesain->get_datatables()
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Desain\Controllers\DataTugasDesain->tugasjson('adm')
+#4 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Desain\Controllers\DataTugasDesain))
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-19 15:04:03 --> unlink(assets/images/tugasdesain/): Is a directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(assets/i...', 'C:\\xampp\\htdocs...', 466, Array)
+#1 C:\xampp\htdocs\github\kebunku\modules\Desain\Controllers\DataTugasDesain.php(466): unlink('assets/images/t...')
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Desain\Controllers\DataTugasDesain->delete_tugas()
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Desain\Controllers\DataTugasDesain))
+#4 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-01-19 15:04:32 --> unlink(assets/images/tugasdesain/): Is a directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(assets/i...', 'C:\\xampp\\htdocs...', 466, Array)
+#1 C:\xampp\htdocs\github\kebunku\modules\Desain\Controllers\DataTugasDesain.php(466): unlink('assets/images/t...')
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Desain\Controllers\DataTugasDesain->delete_tugas()
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Desain\Controllers\DataTugasDesain))
+#4 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-01-19 15:20:52 --> Too few arguments to function Modules\Desain\Models\ModelDesain::_get_datatables_query(), 0 passed in C:\xampp\htdocs\github\kebunku\modules\Desain\Models\ModelDesain.php on line 62 and exactly 1 expected
+#0 C:\xampp\htdocs\github\kebunku\modules\Desain\Models\ModelDesain.php(62): Modules\Desain\Models\ModelDesain->_get_datatables_query()
+#1 C:\xampp\htdocs\github\kebunku\modules\Desain\Controllers\DataTugasDesain.php(76): Modules\Desain\Models\ModelDesain->get_datatables('adm')
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Desain\Controllers\DataTugasDesain->tugasjson('adm')
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Desain\Controllers\DataTugasDesain))
+#4 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-01-19 15:20:55 --> Too few arguments to function Modules\Desain\Models\ModelDesain::_get_datatables_query(), 0 passed in C:\xampp\htdocs\github\kebunku\modules\Desain\Models\ModelDesain.php on line 62 and exactly 1 expected
+#0 C:\xampp\htdocs\github\kebunku\modules\Desain\Models\ModelDesain.php(62): Modules\Desain\Models\ModelDesain->_get_datatables_query()
+#1 C:\xampp\htdocs\github\kebunku\modules\Desain\Controllers\DataTugasDesain.php(76): Modules\Desain\Models\ModelDesain->get_datatables('magang')
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Desain\Controllers\DataTugasDesain->tugasjson('magang')
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Desain\Controllers\DataTugasDesain))
+#4 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-01-19 15:20:57 --> Too few arguments to function Modules\Desain\Models\ModelDesain::_get_datatables_query(), 0 passed in C:\xampp\htdocs\github\kebunku\modules\Desain\Models\ModelDesain.php on line 62 and exactly 1 expected
+#0 C:\xampp\htdocs\github\kebunku\modules\Desain\Models\ModelDesain.php(62): Modules\Desain\Models\ModelDesain->_get_datatables_query()
+#1 C:\xampp\htdocs\github\kebunku\modules\Desain\Controllers\DataTugasDesain.php(76): Modules\Desain\Models\ModelDesain->get_datatables('aspri')
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Desain\Controllers\DataTugasDesain->tugasjson('aspri')
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Desain\Controllers\DataTugasDesain))
+#4 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-01-19 15:21:00 --> Too few arguments to function Modules\Desain\Models\ModelDesain::_get_datatables_query(), 0 passed in C:\xampp\htdocs\github\kebunku\modules\Desain\Models\ModelDesain.php on line 62 and exactly 1 expected
+#0 C:\xampp\htdocs\github\kebunku\modules\Desain\Models\ModelDesain.php(62): Modules\Desain\Models\ModelDesain->_get_datatables_query()
+#1 C:\xampp\htdocs\github\kebunku\modules\Desain\Controllers\DataTugasDesain.php(76): Modules\Desain\Models\ModelDesain->get_datatables('adm')
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Desain\Controllers\DataTugasDesain->tugasjson('adm')
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Desain\Controllers\DataTugasDesain))
+#4 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-01-19 15:21:03 --> Too few arguments to function Modules\Desain\Models\ModelDesain::_get_datatables_query(), 0 passed in C:\xampp\htdocs\github\kebunku\modules\Desain\Models\ModelDesain.php on line 62 and exactly 1 expected
+#0 C:\xampp\htdocs\github\kebunku\modules\Desain\Models\ModelDesain.php(62): Modules\Desain\Models\ModelDesain->_get_datatables_query()
+#1 C:\xampp\htdocs\github\kebunku\modules\Desain\Controllers\DataTugasDesain.php(76): Modules\Desain\Models\ModelDesain->get_datatables('adm')
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Desain\Controllers\DataTugasDesain->tugasjson('adm')
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Desain\Controllers\DataTugasDesain))
+#4 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-01-19 15:21:09 --> Too few arguments to function Modules\Desain\Models\ModelDesain::_get_datatables_query(), 0 passed in C:\xampp\htdocs\github\kebunku\modules\Desain\Models\ModelDesain.php on line 62 and exactly 1 expected
+#0 C:\xampp\htdocs\github\kebunku\modules\Desain\Models\ModelDesain.php(62): Modules\Desain\Models\ModelDesain->_get_datatables_query()
+#1 C:\xampp\htdocs\github\kebunku\modules\Desain\Controllers\DataTugasDesain.php(76): Modules\Desain\Models\ModelDesain->get_datatables('adm')
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Desain\Controllers\DataTugasDesain->tugasjson('adm')
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Desain\Controllers\DataTugasDesain))
+#4 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-01-19 15:22:42 --> Undefined index: iduserdesain
+#0 C:\xampp\htdocs\github\kebunku\app\Controllers\BaseController.php(86): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 86, Array)
+#1 C:\xampp\htdocs\github\kebunku\modules\Desain\Controllers\DataTugasDesain.php(343): App\Controllers\BaseController->notif('x_tugasdesain', Array, 'Tugas Desain De...', 'Tema : 1. Toplo...', 'Mohon Segera Di...', 'iduserdesain')
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Desain\Controllers\DataTugasDesain->tambah_tugas()
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Desain\Controllers\DataTugasDesain))
+#4 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-01-19 15:31:29 --> Undefined variable: query
+#0 C:\xampp\htdocs\github\kebunku\modules\Desain\Views\detaildesain.php(178): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 178, Array)
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\Desain\\...', Array, true)
+#4 C:\xampp\htdocs\github\kebunku\modules\Desain\Controllers\DataTugasDesain.php(52): view('Modules\\Desain\\...', Array)
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Desain\Controllers\DataTugasDesain->detail('adm', '7fb0978cef93a06...')
+#6 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Desain\Controllers\DataTugasDesain))
+#7 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-19 15:40:40 --> Class 'Modules\Desain\Models\ModelDesainDetail' not found
+#0 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(912): Modules\Desain\Controllers\DataTugasDesain->__construct()
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-19 15:41:12 --> Undefined property: Modules\Desain\Controllers\DataTugasDesain::$ModelDesaindetail
+#0 C:\xampp\htdocs\github\kebunku\modules\Desain\Controllers\DataTugasDesain.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 77, Array)
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Desain\Controllers\DataTugasDesain->detailjson('adm')
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Desain\Controllers\DataTugasDesain))
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-19 15:41:33 --> Undefined property: Modules\Desain\Controllers\DataTugasDesain::$ModelDesaindetail
+#0 C:\xampp\htdocs\github\kebunku\modules\Desain\Controllers\DataTugasDesain.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 77, Array)
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Desain\Controllers\DataTugasDesain->detailjson('adm')
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Desain\Controllers\DataTugasDesain))
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-19 15:41:41 --> Undefined property: Modules\Desain\Controllers\DataTugasDesain::$ModelDesaindetail
+#0 C:\xampp\htdocs\github\kebunku\modules\Desain\Controllers\DataTugasDesain.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 77, Array)
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Desain\Controllers\DataTugasDesain->detailjson('adm')
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Desain\Controllers\DataTugasDesain))
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-19 15:42:14 --> Undefined variable: idtugasdesain
+#0 C:\xampp\htdocs\github\kebunku\modules\Desain\Controllers\DataTugasDesain.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 78, Array)
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Desain\Controllers\DataTugasDesain->detailjson('adm')
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Desain\Controllers\DataTugasDesain))
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-19 15:50:06 --> Undefined variable: random
+#0 C:\xampp\htdocs\github\kebunku\modules\Desain\Controllers\DataTugasDesain.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 78, Array)
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Desain\Controllers\DataTugasDesain->detailjson('adm')
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Desain\Controllers\DataTugasDesain))
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-19 15:50:51 --> Undefined variable: random
+#0 C:\xampp\htdocs\github\kebunku\modules\Desain\Controllers\DataTugasDesain.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 78, Array)
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Desain\Controllers\DataTugasDesain->detailjson('adm')
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Desain\Controllers\DataTugasDesain))
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-19 15:50:58 --> Undefined variable: random
+#0 C:\xampp\htdocs\github\kebunku\modules\Desain\Controllers\DataTugasDesain.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 78, Array)
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Desain\Controllers\DataTugasDesain->detailjson('adm')
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Desain\Controllers\DataTugasDesain))
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}

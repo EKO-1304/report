@@ -1,0 +1,243 @@
+CRITICAL - 2022-01-18 08:19:22 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\github\kebunku\modules\TikTok\Views\profiletiktok.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 35, Array)
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\TikTok\\...', Array, true)
+#4 C:\xampp\htdocs\github\kebunku\modules\TikTok\Controllers\DataProfileTikTok.php(93): view('Modules\\TikTok\\...', Array)
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\TikTok\Controllers\DataProfileTikTok->index()
+#6 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\TikTok\Controllers\DataProfileTikTok))
+#7 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-18 08:19:26 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\github\kebunku\modules\TikTok\Views\profiletiktok.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 35, Array)
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\TikTok\\...', Array, true)
+#4 C:\xampp\htdocs\github\kebunku\modules\TikTok\Controllers\DataProfileTikTok.php(93): view('Modules\\TikTok\\...', Array)
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\TikTok\Controllers\DataProfileTikTok->index()
+#6 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\TikTok\Controllers\DataProfileTikTok))
+#7 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-18 11:02:02 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::gerResultArray()
+#0 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\Kelasem...', Array, true)
+#3 C:\xampp\htdocs\github\kebunku\modules\Kelasemen\Controllers\DataKelasemen.php(40): view('Modules\\Kelasem...', Array)
+#4 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Kelasemen\Controllers\DataKelasemen->index()
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Kelasemen\Controllers\DataKelasemen))
+#6 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-01-18 11:21:54 --> Undefined variable: thn
+#0 C:\xampp\htdocs\github\kebunku\modules\Kelasemen\Views\kelasmenmou.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 36, Array)
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\Kelasem...', Array, true)
+#4 C:\xampp\htdocs\github\kebunku\modules\Kelasemen\Controllers\DataKelasemen.php(40): view('Modules\\Kelasem...', Array)
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Kelasemen\Controllers\DataKelasemen->index()
+#6 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Kelasemen\Controllers\DataKelasemen))
+#7 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-18 11:37:10 --> Too few arguments to function Modules\Kelasemen\Models\ModelKelasemen::get_datatables(), 1 passed in C:\xampp\htdocs\github\kebunku\modules\Kelasemen\Controllers\DataKelasemen.php on line 59 and exactly 2 expected
+#0 C:\xampp\htdocs\github\kebunku\modules\Kelasemen\Controllers\DataKelasemen.php(59): Modules\Kelasemen\Models\ModelKelasemen->get_datatables('2022-01-11')
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Kelasemen\Controllers\DataKelasemen->kelasemen_json()
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Kelasemen\Controllers\DataKelasemen))
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-18 11:37:13 --> Too few arguments to function Modules\Kelasemen\Models\ModelKelasemen::get_datatables(), 1 passed in C:\xampp\htdocs\github\kebunku\modules\Kelasemen\Controllers\DataKelasemen.php on line 59 and exactly 2 expected
+#0 C:\xampp\htdocs\github\kebunku\modules\Kelasemen\Controllers\DataKelasemen.php(59): Modules\Kelasemen\Models\ModelKelasemen->get_datatables('2022-01-11')
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Kelasemen\Controllers\DataKelasemen->kelasemen_json()
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Kelasemen\Controllers\DataKelasemen))
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-18 11:37:13 --> Too few arguments to function Modules\Kelasemen\Models\ModelKelasemen::get_datatables(), 1 passed in C:\xampp\htdocs\github\kebunku\modules\Kelasemen\Controllers\DataKelasemen.php on line 59 and exactly 2 expected
+#0 C:\xampp\htdocs\github\kebunku\modules\Kelasemen\Controllers\DataKelasemen.php(59): Modules\Kelasemen\Models\ModelKelasemen->get_datatables('2022-01-11')
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Kelasemen\Controllers\DataKelasemen->kelasemen_json()
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Kelasemen\Controllers\DataKelasemen))
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-18 11:37:14 --> Too few arguments to function Modules\Kelasemen\Models\ModelKelasemen::get_datatables(), 1 passed in C:\xampp\htdocs\github\kebunku\modules\Kelasemen\Controllers\DataKelasemen.php on line 59 and exactly 2 expected
+#0 C:\xampp\htdocs\github\kebunku\modules\Kelasemen\Controllers\DataKelasemen.php(59): Modules\Kelasemen\Models\ModelKelasemen->get_datatables('2022-01-11')
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Kelasemen\Controllers\DataKelasemen->kelasemen_json()
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Kelasemen\Controllers\DataKelasemen))
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-18 11:37:23 --> Too few arguments to function Modules\Kelasemen\Models\ModelKelasemen::get_datatables(), 1 passed in C:\xampp\htdocs\github\kebunku\modules\Kelasemen\Controllers\DataKelasemen.php on line 59 and exactly 2 expected
+#0 C:\xampp\htdocs\github\kebunku\modules\Kelasemen\Controllers\DataKelasemen.php(59): Modules\Kelasemen\Models\ModelKelasemen->get_datatables('2022-01-11')
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Kelasemen\Controllers\DataKelasemen->kelasemen_json()
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Kelasemen\Controllers\DataKelasemen))
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-18 11:37:35 --> Too few arguments to function Modules\Kelasemen\Models\ModelKelasemen::get_datatables(), 1 passed in C:\xampp\htdocs\github\kebunku\modules\Kelasemen\Controllers\DataKelasemen.php on line 59 and exactly 2 expected
+#0 C:\xampp\htdocs\github\kebunku\modules\Kelasemen\Controllers\DataKelasemen.php(59): Modules\Kelasemen\Models\ModelKelasemen->get_datatables('2022-01-11')
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Kelasemen\Controllers\DataKelasemen->kelasemen_json()
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Kelasemen\Controllers\DataKelasemen))
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-18 11:37:49 --> Too few arguments to function Modules\Kelasemen\Models\ModelKelasemen::get_datatables(), 1 passed in C:\xampp\htdocs\github\kebunku\modules\Kelasemen\Controllers\DataKelasemen.php on line 59 and exactly 2 expected
+#0 C:\xampp\htdocs\github\kebunku\modules\Kelasemen\Controllers\DataKelasemen.php(59): Modules\Kelasemen\Models\ModelKelasemen->get_datatables('2022-01-11')
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Kelasemen\Controllers\DataKelasemen->kelasemen_json()
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Kelasemen\Controllers\DataKelasemen))
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-18 13:38:58 --> You do not have sufficient permissions to access that page.
+#0 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Filters\Filters.php(181): Myth\Auth\Filters\PermissionFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-data-sek...', 'before')
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-18 13:45:42 --> You do not have sufficient permissions to access that page.
+#0 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Filters\Filters.php(181): Myth\Auth\Filters\PermissionFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-data-sek...', 'before')
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-18 13:45:58 --> You do not have sufficient permissions to access that page.
+#0 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Filters\Filters.php(181): Myth\Auth\Filters\PermissionFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-data-sek...', 'before')
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-18 13:48:05 --> You do not have sufficient permissions to access that page.
+#0 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Filters\Filters.php(181): Myth\Auth\Filters\PermissionFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-data-sek...', 'before')
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-18 13:48:47 --> You do not have sufficient permissions to access that page.
+#0 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Filters\Filters.php(181): Myth\Auth\Filters\PermissionFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-data-sek...', 'before')
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-18 13:51:01 --> You do not have sufficient permissions to access that page.
+#0 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Filters\Filters.php(181): Myth\Auth\Filters\PermissionFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-data-sek...', 'before')
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-18 13:51:06 --> You do not have sufficient permissions to access that page.
+#0 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Filters\Filters.php(181): Myth\Auth\Filters\PermissionFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-data-sek...', 'before')
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-18 13:51:07 --> You do not have sufficient permissions to access that page.
+#0 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Filters\Filters.php(181): Myth\Auth\Filters\PermissionFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-data-sek...', 'before')
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2022-01-18 14:10:27 --> mysqli_sql_exception: Table 'database_master.id' doesn't exist in C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `namabla...')
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `namabla...')
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `namabla...')
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `namabla...', Array, false)
+#4 C:\xampp\htdocs\github\kebunku\app\Models\ModelMaster.php(208): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\github\kebunku\modules\Poster\Controllers\DataPoster.php(51): App\Models\ModelMaster->tampildatarow('id,x_blangkojob...', 'namablangko,img...', Array, '', '')
+#6 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Poster\Controllers\DataPoster->index2('2393e2df1da4b93...')
+#7 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Poster\Controllers\DataPoster))
+#8 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-01-18 14:10:27 --> Table 'database_master.id' doesn't exist
+#0 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `namabla...')
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `namabla...')
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `namabla...')
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `namabla...', Array, false)
+#4 C:\xampp\htdocs\github\kebunku\app\Models\ModelMaster.php(208): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\github\kebunku\modules\Poster\Controllers\DataPoster.php(51): App\Models\ModelMaster->tampildatarow('id,x_blangkojob...', 'namablangko,img...', Array, '', '')
+#6 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Poster\Controllers\DataPoster->index2('2393e2df1da4b93...')
+#7 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Poster\Controllers\DataPoster))
+#8 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-01-18 15:21:21 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-data-sek...', 'before')
+#4 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-01-18 15:38:26 --> Undefined variable: sek
+#0 C:\xampp\htdocs\github\kebunku\modules\D3FastTrack\Controllers\DataSekolah.php(325): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 325, Array)
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\D3FastTrack\Controllers\DataSekolah->sekolahtambah()
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\D3FastTrack\Controllers\DataSekolah))
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-18 15:38:27 --> Undefined variable: sek
+#0 C:\xampp\htdocs\github\kebunku\modules\D3FastTrack\Controllers\DataSekolah.php(325): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 325, Array)
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\D3FastTrack\Controllers\DataSekolah->sekolahtambah()
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\D3FastTrack\Controllers\DataSekolah))
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-18 15:38:32 --> Undefined variable: sek
+#0 C:\xampp\htdocs\github\kebunku\modules\D3FastTrack\Controllers\DataSekolah.php(325): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 325, Array)
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\D3FastTrack\Controllers\DataSekolah->sekolahtambah()
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\D3FastTrack\Controllers\DataSekolah))
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-18 15:38:53 --> Undefined variable: save
+#0 C:\xampp\htdocs\github\kebunku\modules\D3FastTrack\Controllers\DataSekolah.php(377): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 377, Array)
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\D3FastTrack\Controllers\DataSekolah->sekolahtambah()
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\D3FastTrack\Controllers\DataSekolah))
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-18 15:41:49 --> Undefined variable: output
+#0 C:\xampp\htdocs\github\kebunku\modules\D3FastTrack\Controllers\DataSekolah.php(386): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 386, Array)
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\D3FastTrack\Controllers\DataSekolah->sekolahtambah()
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\D3FastTrack\Controllers\DataSekolah))
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-18 15:42:03 --> Undefined variable: output
+#0 C:\xampp\htdocs\github\kebunku\modules\D3FastTrack\Controllers\DataSekolah.php(386): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 386, Array)
+#1 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\D3FastTrack\Controllers\DataSekolah->sekolahtambah()
+#2 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\D3FastTrack\Controllers\DataSekolah))
+#3 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\github\kebunku\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\github\kebunku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}

@@ -1,0 +1,263 @@
+CRITICAL - 2021-06-21 09:09:40 --> Call to a member function table() on null
+#0 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\View\View.php(220): include()
+#1 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\AdminMb...', Array, true)
+#3 D:\WEBSITE\xampp-7.4\htdocs\master-web\modules\AdminMbkm\Controllers\DataMbkmPertukaranPelajar.php(34): view('Modules\\AdminMb...', Array)
+#4 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\AdminMbkm\Controllers\DataMbkmPertukaranPelajar->mbkm()
+#5 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminMbkm\Controllers\DataMbkmPertukaranPelajar))
+#6 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\WEBSITE\xampp-7.4\htdocs\master-web\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#9 {main}
+CRITICAL - 2021-06-21 09:09:56 --> Undefined variable: db
+#0 D:\WEBSITE\xampp-7.4\htdocs\master-web\modules\AdminMbkm\Views\pertukaran_pelajar.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\WEBSITE\\xamp...', 69, Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\View\View.php(220): include('D:\\WEBSITE\\xamp...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\AdminMb...', Array, true)
+#4 D:\WEBSITE\xampp-7.4\htdocs\master-web\modules\AdminMbkm\Controllers\DataMbkmPertukaranPelajar.php(34): view('Modules\\AdminMb...', Array)
+#5 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\AdminMbkm\Controllers\DataMbkmPertukaranPelajar->mbkm()
+#6 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminMbkm\Controllers\DataMbkmPertukaranPelajar))
+#7 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\WEBSITE\xampp-7.4\htdocs\master-web\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#10 {main}
+CRITICAL - 2021-06-21 09:10:13 --> Undefined index: id_r
+#0 D:\WEBSITE\xampp-7.4\htdocs\master-web\modules\AdminMbkm\Views\pertukaran_pelajar.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\WEBSITE\\xamp...', 73, Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\View\View.php(220): include('D:\\WEBSITE\\xamp...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\AdminMb...', Array, true)
+#4 D:\WEBSITE\xampp-7.4\htdocs\master-web\modules\AdminMbkm\Controllers\DataMbkmPertukaranPelajar.php(34): view('Modules\\AdminMb...', Array)
+#5 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\AdminMbkm\Controllers\DataMbkmPertukaranPelajar->mbkm()
+#6 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminMbkm\Controllers\DataMbkmPertukaranPelajar))
+#7 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\WEBSITE\xampp-7.4\htdocs\master-web\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#10 {main}
+CRITICAL - 2021-06-21 09:12:02 --> Undefined variable: db
+#0 D:\WEBSITE\xampp-7.4\htdocs\master-web\modules\AdminMbkm\Views\magang_praktik_kerja.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\WEBSITE\\xamp...', 69, Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\View\View.php(220): include('D:\\WEBSITE\\xamp...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\AdminMb...', Array, true)
+#4 D:\WEBSITE\xampp-7.4\htdocs\master-web\modules\AdminMbkm\Controllers\DataMbkmMagangPraktikKerja.php(34): view('Modules\\AdminMb...', Array)
+#5 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\AdminMbkm\Controllers\DataMbkmMagangPraktikKerja->mbkm()
+#6 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminMbkm\Controllers\DataMbkmMagangPraktikKerja))
+#7 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\WEBSITE\xampp-7.4\htdocs\master-web\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#10 {main}
+CRITICAL - 2021-06-21 09:16:23 --> unlink(assets/mbkm/mengajar_sekolah/11623807136_41c6edcfdbe9488db0b3.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(assets/m...', 'D:\\WEBSITE\\xamp...', 312, Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\master-web\modules\AdminMbkm\Controllers\DataMbkmMengajarDiSekolah.php(312): unlink('assets/mbkm/men...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\AdminMbkm\Controllers\DataMbkmMengajarDiSekolah->mbkm_update()
+#3 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminMbkm\Controllers\DataMbkmMengajarDiSekolah))
+#4 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\WEBSITE\xampp-7.4\htdocs\master-web\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#7 {main}
+CRITICAL - 2021-06-21 09:17:22 --> Trying to access array offset on value of type null
+#0 D:\WEBSITE\xampp-7.4\htdocs\master-web\modules\AdminMbkm\Views\mengajar_sekolah_edit.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\WEBSITE\\xamp...', 56, Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\View\View.php(220): include('D:\\WEBSITE\\xamp...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\AdminMb...', Array, true)
+#4 D:\WEBSITE\xampp-7.4\htdocs\master-web\modules\AdminMbkm\Controllers\DataMbkmMengajarDiSekolah.php(63): view('Modules\\AdminMb...', Array)
+#5 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\AdminMbkm\Controllers\DataMbkmMengajarDiSekolah->mbkm_edit('2b3415786a6e3e7...')
+#6 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminMbkm\Controllers\DataMbkmMengajarDiSekolah))
+#7 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\WEBSITE\xampp-7.4\htdocs\master-web\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#10 {main}
+CRITICAL - 2021-06-21 09:53:38 --> Undefined variable: verifkasi
+#0 D:\WEBSITE\xampp-7.4\htdocs\master-web\modules\AdminMbkm\Views\pertukaran_pelajar.php(100): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\WEBSITE\\xamp...', 100, Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\View\View.php(220): include('D:\\WEBSITE\\xamp...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\AdminMb...', Array, true)
+#4 D:\WEBSITE\xampp-7.4\htdocs\master-web\modules\AdminMbkm\Controllers\DataMbkmPertukaranPelajar.php(34): view('Modules\\AdminMb...', Array)
+#5 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\AdminMbkm\Controllers\DataMbkmPertukaranPelajar->mbkm()
+#6 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminMbkm\Controllers\DataMbkmPertukaranPelajar))
+#7 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\WEBSITE\xampp-7.4\htdocs\master-web\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#10 {main}
+CRITICAL - 2021-06-21 10:18:30 --> Undefined index: id_r
+#0 D:\WEBSITE\xampp-7.4\htdocs\master-web\modules\MahasiswaSimkatmawa\Views\rekognisi.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\WEBSITE\\xamp...', 76, Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\View\View.php(220): include('D:\\WEBSITE\\xamp...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\Mahasis...', Array, true)
+#4 D:\WEBSITE\xampp-7.4\htdocs\master-web\modules\MahasiswaSimkatmawa\Controllers\DataSimkatmawaRekognisi.php(34): view('Modules\\Mahasis...', Array)
+#5 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\MahasiswaSimkatmawa\Controllers\DataSimkatmawaRekognisi->simkatmawa()
+#6 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\MahasiswaSimkatmawa\Controllers\DataSimkatmawaRekognisi))
+#7 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\WEBSITE\xampp-7.4\htdocs\master-web\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#10 {main}
+ERROR - 2021-06-21 11:58:00 --> mysqli_sql_exception: Column 'nama' cannot be null in D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `mb...')
+#1 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `mb...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `mb...')
+#3 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `mb...', Array, false)
+#4 D:\WEBSITE\xampp-7.4\htdocs\master-web\modules\MahasiswaMbkm\Models\ModelMbkmMagangPraktikKerja.php(102): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\WEBSITE\xampp-7.4\htdocs\master-web\modules\MahasiswaMbkm\Controllers\DataMbkmMagangPraktikKerja.php(181): Modules\MahasiswaMbkm\Models\ModelMbkmMagangPraktikKerja->save_mahasiswa('6', '888740102150006', NULL)
+#6 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\MahasiswaMbkm\Controllers\DataMbkmMagangPraktikKerja->mbkm_save()
+#7 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\MahasiswaMbkm\Controllers\DataMbkmMagangPraktikKerja))
+#8 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\WEBSITE\xampp-7.4\htdocs\master-web\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#11 {main}
+CRITICAL - 2021-06-21 11:58:00 --> Column 'nama' cannot be null
+#0 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `mb...')
+#1 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `mb...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `mb...')
+#3 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `mb...', Array, false)
+#4 D:\WEBSITE\xampp-7.4\htdocs\master-web\modules\MahasiswaMbkm\Models\ModelMbkmMagangPraktikKerja.php(102): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\WEBSITE\xampp-7.4\htdocs\master-web\modules\MahasiswaMbkm\Controllers\DataMbkmMagangPraktikKerja.php(181): Modules\MahasiswaMbkm\Models\ModelMbkmMagangPraktikKerja->save_mahasiswa('6', '888740102150006', NULL)
+#6 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\MahasiswaMbkm\Controllers\DataMbkmMagangPraktikKerja->mbkm_save()
+#7 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\MahasiswaMbkm\Controllers\DataMbkmMagangPraktikKerja))
+#8 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\WEBSITE\xampp-7.4\htdocs\master-web\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#11 {main}
+ERROR - 2021-06-21 12:01:36 --> mysqli_sql_exception: Column 'nama' cannot be null in D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `mb...')
+#1 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `mb...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `mb...')
+#3 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `mb...', Array, false)
+#4 D:\WEBSITE\xampp-7.4\htdocs\master-web\modules\MahasiswaMbkm\Models\ModelMbkmMagangPraktikKerja.php(102): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\WEBSITE\xampp-7.4\htdocs\master-web\modules\MahasiswaMbkm\Controllers\DataMbkmMagangPraktikKerja.php(181): Modules\MahasiswaMbkm\Models\ModelMbkmMagangPraktikKerja->save_mahasiswa('7', '888740102150006', NULL)
+#6 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\MahasiswaMbkm\Controllers\DataMbkmMagangPraktikKerja->mbkm_save()
+#7 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\MahasiswaMbkm\Controllers\DataMbkmMagangPraktikKerja))
+#8 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\WEBSITE\xampp-7.4\htdocs\master-web\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#11 {main}
+CRITICAL - 2021-06-21 12:01:36 --> Column 'nama' cannot be null
+#0 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `mb...')
+#1 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `mb...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `mb...')
+#3 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `mb...', Array, false)
+#4 D:\WEBSITE\xampp-7.4\htdocs\master-web\modules\MahasiswaMbkm\Models\ModelMbkmMagangPraktikKerja.php(102): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\WEBSITE\xampp-7.4\htdocs\master-web\modules\MahasiswaMbkm\Controllers\DataMbkmMagangPraktikKerja.php(181): Modules\MahasiswaMbkm\Models\ModelMbkmMagangPraktikKerja->save_mahasiswa('7', '888740102150006', NULL)
+#6 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\MahasiswaMbkm\Controllers\DataMbkmMagangPraktikKerja->mbkm_save()
+#7 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\MahasiswaMbkm\Controllers\DataMbkmMagangPraktikKerja))
+#8 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\WEBSITE\xampp-7.4\htdocs\master-web\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#11 {main}
+CRITICAL - 2021-06-21 13:13:30 --> Too few arguments to function Modules\Login\Controllers\Login::cek_Login(), 0 passed in D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php on line 940 and exactly 1 expected
+#0 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Login\Controllers\Login->cek_Login()
+#1 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Login\Controllers\Login))
+#2 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\WEBSITE\xampp-7.4\htdocs\master-web\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#5 {main}
+CRITICAL - 2021-06-21 13:14:03 --> Too few arguments to function Modules\Login\Controllers\Login::cek_login(), 0 passed in D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php on line 940 and exactly 1 expected
+#0 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Login\Controllers\Login->cek_login()
+#1 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Login\Controllers\Login))
+#2 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\WEBSITE\xampp-7.4\htdocs\master-web\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#5 {main}
+CRITICAL - 2021-06-21 13:14:20 --> Trying to get property 'status' of non-object
+#0 D:\WEBSITE\xampp-7.4\htdocs\master-web\modules\Login\Controllers\Login.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\WEBSITE\\xamp...', 67, Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Login\Controllers\Login->cek_login('sda')
+#2 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Login\Controllers\Login))
+#3 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\WEBSITE\xampp-7.4\htdocs\master-web\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#6 {main}
+CRITICAL - 2021-06-21 13:15:27 --> Trying to get property 'status' of non-object
+#0 D:\WEBSITE\xampp-7.4\htdocs\master-web\modules\Login\Controllers\Login.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\WEBSITE\\xamp...', 67, Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Login\Controllers\Login->cek_login('23414124nfjsdjb...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Login\Controllers\Login))
+#3 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\WEBSITE\xampp-7.4\htdocs\master-web\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#6 {main}
+CRITICAL - 2021-06-21 13:16:04 --> Trying to access array offset on value of type null
+#0 D:\WEBSITE\xampp-7.4\htdocs\master-web\modules\Login\Controllers\Login.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\WEBSITE\\xamp...', 67, Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Login\Controllers\Login->cek_login('23414124nfjsdjb...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Login\Controllers\Login))
+#3 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\WEBSITE\xampp-7.4\htdocs\master-web\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#6 {main}
+CRITICAL - 2021-06-21 13:16:13 --> Trying to get property 'status' of non-object
+#0 D:\WEBSITE\xampp-7.4\htdocs\master-web\modules\Login\Controllers\Login.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\WEBSITE\\xamp...', 67, Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Login\Controllers\Login->cek_login('23414124nfjsdjb...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Login\Controllers\Login))
+#3 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\WEBSITE\xampp-7.4\htdocs\master-web\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#6 {main}
+CRITICAL - 2021-06-21 13:16:58 --> Trying to get property 'status' of non-object
+#0 D:\WEBSITE\xampp-7.4\htdocs\master-web\modules\Login\Controllers\Login.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\WEBSITE\\xamp...', 68, Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Login\Controllers\Login->cek_login('23414124nfjsdjb...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Login\Controllers\Login))
+#3 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\WEBSITE\xampp-7.4\htdocs\master-web\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#6 {main}
+CRITICAL - 2021-06-21 13:17:18 --> Trying to get property 'status' of non-object
+#0 D:\WEBSITE\xampp-7.4\htdocs\master-web\modules\Login\Controllers\Login.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\WEBSITE\\xamp...', 68, Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Login\Controllers\Login->cek_login('23414124nfjsdjb...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Login\Controllers\Login))
+#3 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\WEBSITE\xampp-7.4\htdocs\master-web\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#6 {main}
+CRITICAL - 2021-06-21 13:43:38 --> Trying to get property 'status' of non-object
+#0 D:\WEBSITE\xampp-7.4\htdocs\master-web\modules\Login\Controllers\Login.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\WEBSITE\\xamp...', 68, Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Login\Controllers\Login->cek_login('89f87a98092fd9c...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Login\Controllers\Login))
+#3 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\WEBSITE\xampp-7.4\htdocs\master-web\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#6 {main}
+CRITICAL - 2021-06-21 13:44:01 --> Trying to get property 'status' of non-object
+#0 D:\WEBSITE\xampp-7.4\htdocs\master-web\modules\Login\Controllers\Login.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\WEBSITE\\xamp...', 68, Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Login\Controllers\Login->cek_login('89f87a98092fd9c...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Login\Controllers\Login))
+#3 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\WEBSITE\xampp-7.4\htdocs\master-web\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#6 {main}
+CRITICAL - 2021-06-21 13:48:53 --> syntax error, unexpected 'remember' (T_STRING)
+#0 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\WEBSITE\\xamp...')
+#1 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Modules\\Login\\C...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Modules\\Login\\C...')
+#3 [internal function]: spl_autoload_call('Modules\\Login\\C...')
+#4 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(897): class_exists('\\Modules\\Login\\...', true)
+#5 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#6 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\WEBSITE\xampp-7.4\htdocs\master-web\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#9 {main}
+CRITICAL - 2021-06-21 13:50:33 --> Trying to get property 'status' of non-object
+#0 D:\WEBSITE\xampp-7.4\htdocs\master-web\modules\Login\Controllers\Login.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\WEBSITE\\xamp...', 68, Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Login\Controllers\Login->cek_login('81dbc96297861af...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Login\Controllers\Login))
+#3 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\WEBSITE\xampp-7.4\htdocs\master-web\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#6 {main}
+CRITICAL - 2021-06-21 13:54:45 --> Undefined variable: db
+#0 D:\WEBSITE\xampp-7.4\htdocs\master-web\modules\Login\Controllers\Login.php(82): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\WEBSITE\\xamp...', 82, Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Login\Controllers\Login->cek_login('547eda1da60ee31...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Login\Controllers\Login))
+#3 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\WEBSITE\xampp-7.4\htdocs\master-web\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#6 {main}
+CRITICAL - 2021-06-21 15:39:35 --> Undefined variable: prestasi
+#0 D:\WEBSITE\xampp-7.4\htdocs\master-web\modules\MahasiswaSimkatmawa\Views\kegiatan_mandiri.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\WEBSITE\\xamp...', 31, Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\View\View.php(220): include('D:\\WEBSITE\\xamp...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\Mahasis...', Array, true)
+#4 D:\WEBSITE\xampp-7.4\htdocs\master-web\modules\MahasiswaSimkatmawa\Controllers\DataSimkatmawaKegiatanMandiri.php(34): view('Modules\\Mahasis...', Array)
+#5 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\MahasiswaSimkatmawa\Controllers\DataSimkatmawaKegiatanMandiri->simkatmawa()
+#6 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\MahasiswaSimkatmawa\Controllers\DataSimkatmawaKegiatanMandiri))
+#7 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\WEBSITE\xampp-7.4\htdocs\master-web\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#10 {main}

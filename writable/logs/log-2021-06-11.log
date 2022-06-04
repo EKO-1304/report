@@ -1,0 +1,115 @@
+CRITICAL - 2021-06-11 08:45:32 --> Undefined property: stdClass::$nama
+#0 D:\WEBSITE\xampp-7.4\htdocs\master-web\modules\Login\Controllers\Login.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\WEBSITE\\xamp...', 83, Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Modules\Login\Controllers\Login->attemptLoginmahasiswa()
+#2 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Modules\Login\Controllers\Login))
+#3 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\WEBSITE\xampp-7.4\htdocs\master-web\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#6 {main}
+CRITICAL - 2021-06-11 09:02:35 --> You do not have sufficient permissions to access that page.
+#0 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Filters\Filters.php(181): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('mahasiswa', 'before')
+#2 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\WEBSITE\xampp-7.4\htdocs\master-web\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#5 {main}
+CRITICAL - 2021-06-11 09:37:50 --> Class 'Modules\AdminPresma\Models\ModelLaporanKompetisiIndividu' not found
+#0 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(908): Modules\AdminPresma\Controllers\LaporanKompetisiIndividu->__construct()
+#1 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\WEBSITE\xampp-7.4\htdocs\master-web\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#5 {main}
+CRITICAL - 2021-06-11 10:24:00 --> Class 'Modules\AdminProdi\Models\ModelProdi' not found
+#0 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(908): Modules\AdminProdi\Controllers\DataProdi->__construct()
+#1 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\WEBSITE\xampp-7.4\htdocs\master-web\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#5 {main}
+CRITICAL - 2021-06-11 10:24:17 --> Invalid file: Modules\AdminBlog\Views\prodi.php
+#0 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\AdminBl...')
+#1 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\AdminBl...', Array, true)
+#2 D:\WEBSITE\xampp-7.4\htdocs\master-web\modules\AdminProdi\Controllers\DataProdi.php(34): view('Modules\\AdminBl...', Array)
+#3 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Modules\AdminProdi\Controllers\DataProdi->prodi()
+#4 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminProdi\Controllers\DataProdi))
+#5 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\WEBSITE\xampp-7.4\htdocs\master-web\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#8 {main}
+ERROR - 2021-06-11 10:25:26 --> mysqli_sql_exception: Table 'database_web_master.prodi' doesn't exist in D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT 1\nFROM `...')
+#1 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Validation\Rules.php(212): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Validation\Validation.php(306): CodeIgniter\Validation\Rules->is_unique('S1 - Sistem Kom...', 'nama_prodi', Array, NULL)
+#6 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Validation\Validation.php(164): CodeIgniter\Validation\Validation->processRules('name', 'name', 'S1 - Sistem Kom...', Array, Array)
+#7 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Controller.php(181): CodeIgniter\Validation\Validation->run()
+#8 D:\WEBSITE\xampp-7.4\htdocs\master-web\modules\AdminProdi\Controllers\DataProdi.php(49): CodeIgniter\Controller->validate(Array)
+#9 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Modules\AdminProdi\Controllers\DataProdi->prodi_tambah()
+#10 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminProdi\Controllers\DataProdi))
+#11 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\WEBSITE\xampp-7.4\htdocs\master-web\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#13 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#14 {main}
+CRITICAL - 2021-06-11 10:25:26 --> Table 'database_web_master.prodi' doesn't exist
+#0 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT 1\nFROM `...')
+#1 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Validation\Rules.php(212): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Validation\Validation.php(306): CodeIgniter\Validation\Rules->is_unique('S1 - Sistem Kom...', 'nama_prodi', Array, NULL)
+#6 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Validation\Validation.php(164): CodeIgniter\Validation\Validation->processRules('name', 'name', 'S1 - Sistem Kom...', Array, Array)
+#7 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Controller.php(181): CodeIgniter\Validation\Validation->run()
+#8 D:\WEBSITE\xampp-7.4\htdocs\master-web\modules\AdminProdi\Controllers\DataProdi.php(49): CodeIgniter\Controller->validate(Array)
+#9 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Modules\AdminProdi\Controllers\DataProdi->prodi_tambah()
+#10 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminProdi\Controllers\DataProdi))
+#11 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\WEBSITE\xampp-7.4\htdocs\master-web\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#13 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#14 {main}
+CRITICAL - 2021-06-11 10:59:08 --> Undefined property: CodeIgniter\View\View::$uri
+#0 D:\WEBSITE\xampp-7.4\htdocs\master-web\modules\Test\Views\test.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\WEBSITE\\xamp...', 49, Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\View\View.php(220): include('D:\\WEBSITE\\xamp...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\Test\\Vi...', Array, true)
+#4 D:\WEBSITE\xampp-7.4\htdocs\master-web\modules\Test\Controllers\DataTest.php(24): view('Modules\\Test\\Vi...')
+#5 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Modules\Test\Controllers\DataTest->test()
+#6 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Modules\Test\Controllers\DataTest))
+#7 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\WEBSITE\xampp-7.4\htdocs\master-web\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#10 {main}
+CRITICAL - 2021-06-11 14:57:48 --> Undefined variable: content
+#0 D:\WEBSITE\xampp-7.4\htdocs\master-web\modules\AdminLayout\Views\sidebar.php(440): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\WEBSITE\\xamp...', 440, Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\View\View.php(220): include('D:\\WEBSITE\\xamp...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\View\View.php(468): CodeIgniter\View\View->render('Modules\\AdminLa...', NULL, true)
+#4 D:\WEBSITE\xampp-7.4\htdocs\master-web\modules\AdminLayout\Views\layout.php(89): CodeIgniter\View\View->include('Modules\\AdminLa...')
+#5 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\View\View.php(220): include('D:\\WEBSITE\\xamp...')
+#6 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\View\View.php(236): CodeIgniter\View\View->render('Modules\\AdminLa...', Array, true)
+#8 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\AdminUs...', Array, true)
+#9 D:\WEBSITE\xampp-7.4\htdocs\master-web\modules\AdminUsers\Controllers\DataGroupsPermissions.php(38): view('Modules\\AdminUs...', Array)
+#10 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Modules\AdminUsers\Controllers\DataGroupsPermissions->index()
+#11 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminUsers\Controllers\DataGroupsPermissions))
+#12 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 D:\WEBSITE\xampp-7.4\htdocs\master-web\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#14 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#15 {main}
+CRITICAL - 2021-06-11 15:48:50 --> simkatmawa-manage-pertukaran-pelajar filter must have a matching alias defined.
+#0 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Filters\Filters.php(354): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('simkatmawa-mana...')
+#1 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(394): CodeIgniter\Filters\Filters->enableFilter('simkatmawa-mana...', 'before')
+#2 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\WEBSITE\xampp-7.4\htdocs\master-web\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#5 {main}
+CRITICAL - 2021-06-11 15:49:15 --> simkatmawa-manage-pertukaran-pelajar filter must have a matching alias defined.
+#0 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Filters\Filters.php(354): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('simkatmawa-mana...')
+#1 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(394): CodeIgniter\Filters\Filters->enableFilter('simkatmawa-mana...', 'before')
+#2 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\WEBSITE\xampp-7.4\htdocs\master-web\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 D:\WEBSITE\xampp-7.4\htdocs\master-web\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#5 {main}

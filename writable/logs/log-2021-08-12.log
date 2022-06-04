@@ -1,0 +1,1294 @@
+ERROR - 2021-08-12 09:50:36 --> Error connecting to the database: Unknown database 'database_ptic'
+CRITICAL - 2021-08-12 09:50:36 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Model.php(247): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\BaseModel.php(624): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\ptic\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(202): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\ptic\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(66): Myth\Auth\Authentication\LocalAuthenticator->validate(Array, true)
+#6 C:\xampp\htdocs\ptic\vendor\myth\auth\src\Controllers\AuthController.php(88): Myth\Auth\Authentication\LocalAuthenticator->attempt(Array, false)
+#7 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Myth\Auth\Controllers\AuthController->attemptLogin()
+#8 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#9 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ptic\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2021-08-12 10:03:20 --> Undefined variable: output
+#0 C:\xampp\htdocs\ptic\modules\ManageRegistrasiFront\Models\ModelRegistrasi.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 30, Array)
+#1 C:\xampp\htdocs\ptic\modules\ManageRegistrasiFront\Controllers\DataRegistrasi.php(507): Modules\ManageRegistrasiFront\Models\ModelRegistrasi->get_cetak_kta('7758876d87bb40d...')
+#2 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageRegistrasiFront\Controllers\DataRegistrasi->download('7758876d87bb40d...')
+#3 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageRegistrasiFront\Controllers\DataRegistrasi))
+#4 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ptic\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-08-12 10:03:37 --> Undefined variable: output
+#0 C:\xampp\htdocs\ptic\modules\ManageRegistrasiFront\Models\ModelRegistrasi.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 30, Array)
+#1 C:\xampp\htdocs\ptic\modules\ManageRegistrasiFront\Controllers\DataRegistrasi.php(507): Modules\ManageRegistrasiFront\Models\ModelRegistrasi->get_cetak_kta('7758876d87bb40d...')
+#2 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageRegistrasiFront\Controllers\DataRegistrasi->download('7758876d87bb40d...')
+#3 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageRegistrasiFront\Controllers\DataRegistrasi))
+#4 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ptic\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-08-12 10:03:38 --> Undefined variable: output
+#0 C:\xampp\htdocs\ptic\modules\ManageRegistrasiFront\Models\ModelRegistrasi.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 30, Array)
+#1 C:\xampp\htdocs\ptic\modules\ManageRegistrasiFront\Controllers\DataRegistrasi.php(507): Modules\ManageRegistrasiFront\Models\ModelRegistrasi->get_cetak_kta('7758876d87bb40d...')
+#2 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageRegistrasiFront\Controllers\DataRegistrasi->download('7758876d87bb40d...')
+#3 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageRegistrasiFront\Controllers\DataRegistrasi))
+#4 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ptic\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-08-12 10:03:41 --> Undefined variable: output
+#0 C:\xampp\htdocs\ptic\modules\ManageRegistrasiFront\Models\ModelRegistrasi.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 30, Array)
+#1 C:\xampp\htdocs\ptic\modules\ManageRegistrasiFront\Controllers\DataRegistrasi.php(507): Modules\ManageRegistrasiFront\Models\ModelRegistrasi->get_cetak_kta('7758876d87bb40d...')
+#2 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageRegistrasiFront\Controllers\DataRegistrasi->download('7758876d87bb40d...')
+#3 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageRegistrasiFront\Controllers\DataRegistrasi))
+#4 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ptic\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-08-12 10:04:01 --> Undefined variable: output
+#0 C:\xampp\htdocs\ptic\modules\ManageRegistrasiFront\Models\ModelRegistrasi.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 30, Array)
+#1 C:\xampp\htdocs\ptic\modules\ManageRegistrasiFront\Controllers\DataRegistrasi.php(507): Modules\ManageRegistrasiFront\Models\ModelRegistrasi->get_cetak_kta('7758876d87bb40d...')
+#2 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageRegistrasiFront\Controllers\DataRegistrasi->download('7758876d87bb40d...')
+#3 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageRegistrasiFront\Controllers\DataRegistrasi))
+#4 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ptic\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-08-12 10:04:01 --> Undefined variable: output
+#0 C:\xampp\htdocs\ptic\modules\ManageRegistrasiFront\Models\ModelRegistrasi.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 30, Array)
+#1 C:\xampp\htdocs\ptic\modules\ManageRegistrasiFront\Controllers\DataRegistrasi.php(507): Modules\ManageRegistrasiFront\Models\ModelRegistrasi->get_cetak_kta('7758876d87bb40d...')
+#2 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageRegistrasiFront\Controllers\DataRegistrasi->download('7758876d87bb40d...')
+#3 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageRegistrasiFront\Controllers\DataRegistrasi))
+#4 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ptic\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-08-12 10:04:02 --> Undefined variable: output
+#0 C:\xampp\htdocs\ptic\modules\ManageRegistrasiFront\Models\ModelRegistrasi.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 30, Array)
+#1 C:\xampp\htdocs\ptic\modules\ManageRegistrasiFront\Controllers\DataRegistrasi.php(507): Modules\ManageRegistrasiFront\Models\ModelRegistrasi->get_cetak_kta('7758876d87bb40d...')
+#2 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageRegistrasiFront\Controllers\DataRegistrasi->download('7758876d87bb40d...')
+#3 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageRegistrasiFront\Controllers\DataRegistrasi))
+#4 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ptic\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-08-12 10:04:03 --> Undefined variable: output
+#0 C:\xampp\htdocs\ptic\modules\ManageRegistrasiFront\Models\ModelRegistrasi.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 30, Array)
+#1 C:\xampp\htdocs\ptic\modules\ManageRegistrasiFront\Controllers\DataRegistrasi.php(507): Modules\ManageRegistrasiFront\Models\ModelRegistrasi->get_cetak_kta('7758876d87bb40d...')
+#2 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageRegistrasiFront\Controllers\DataRegistrasi->download('7758876d87bb40d...')
+#3 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageRegistrasiFront\Controllers\DataRegistrasi))
+#4 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ptic\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-08-12 10:04:03 --> Undefined variable: output
+#0 C:\xampp\htdocs\ptic\modules\ManageRegistrasiFront\Models\ModelRegistrasi.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 30, Array)
+#1 C:\xampp\htdocs\ptic\modules\ManageRegistrasiFront\Controllers\DataRegistrasi.php(507): Modules\ManageRegistrasiFront\Models\ModelRegistrasi->get_cetak_kta('7758876d87bb40d...')
+#2 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageRegistrasiFront\Controllers\DataRegistrasi->download('7758876d87bb40d...')
+#3 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageRegistrasiFront\Controllers\DataRegistrasi))
+#4 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ptic\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-08-12 10:04:04 --> Undefined variable: output
+#0 C:\xampp\htdocs\ptic\modules\ManageRegistrasiFront\Models\ModelRegistrasi.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 30, Array)
+#1 C:\xampp\htdocs\ptic\modules\ManageRegistrasiFront\Controllers\DataRegistrasi.php(507): Modules\ManageRegistrasiFront\Models\ModelRegistrasi->get_cetak_kta('7758876d87bb40d...')
+#2 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageRegistrasiFront\Controllers\DataRegistrasi->download('7758876d87bb40d...')
+#3 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageRegistrasiFront\Controllers\DataRegistrasi))
+#4 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ptic\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-08-12 10:04:04 --> Undefined variable: output
+#0 C:\xampp\htdocs\ptic\modules\ManageRegistrasiFront\Models\ModelRegistrasi.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 30, Array)
+#1 C:\xampp\htdocs\ptic\modules\ManageRegistrasiFront\Controllers\DataRegistrasi.php(507): Modules\ManageRegistrasiFront\Models\ModelRegistrasi->get_cetak_kta('7758876d87bb40d...')
+#2 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageRegistrasiFront\Controllers\DataRegistrasi->download('7758876d87bb40d...')
+#3 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageRegistrasiFront\Controllers\DataRegistrasi))
+#4 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ptic\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-08-12 10:04:04 --> Undefined variable: output
+#0 C:\xampp\htdocs\ptic\modules\ManageRegistrasiFront\Models\ModelRegistrasi.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 30, Array)
+#1 C:\xampp\htdocs\ptic\modules\ManageRegistrasiFront\Controllers\DataRegistrasi.php(507): Modules\ManageRegistrasiFront\Models\ModelRegistrasi->get_cetak_kta('7758876d87bb40d...')
+#2 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageRegistrasiFront\Controllers\DataRegistrasi->download('7758876d87bb40d...')
+#3 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageRegistrasiFront\Controllers\DataRegistrasi))
+#4 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ptic\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-08-12 10:04:04 --> Undefined variable: output
+#0 C:\xampp\htdocs\ptic\modules\ManageRegistrasiFront\Models\ModelRegistrasi.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 30, Array)
+#1 C:\xampp\htdocs\ptic\modules\ManageRegistrasiFront\Controllers\DataRegistrasi.php(507): Modules\ManageRegistrasiFront\Models\ModelRegistrasi->get_cetak_kta('7758876d87bb40d...')
+#2 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageRegistrasiFront\Controllers\DataRegistrasi->download('7758876d87bb40d...')
+#3 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageRegistrasiFront\Controllers\DataRegistrasi))
+#4 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ptic\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-08-12 10:04:05 --> Undefined variable: output
+#0 C:\xampp\htdocs\ptic\modules\ManageRegistrasiFront\Models\ModelRegistrasi.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 30, Array)
+#1 C:\xampp\htdocs\ptic\modules\ManageRegistrasiFront\Controllers\DataRegistrasi.php(507): Modules\ManageRegistrasiFront\Models\ModelRegistrasi->get_cetak_kta('7758876d87bb40d...')
+#2 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageRegistrasiFront\Controllers\DataRegistrasi->download('7758876d87bb40d...')
+#3 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageRegistrasiFront\Controllers\DataRegistrasi))
+#4 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ptic\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-08-12 10:04:05 --> Undefined variable: output
+#0 C:\xampp\htdocs\ptic\modules\ManageRegistrasiFront\Models\ModelRegistrasi.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 30, Array)
+#1 C:\xampp\htdocs\ptic\modules\ManageRegistrasiFront\Controllers\DataRegistrasi.php(507): Modules\ManageRegistrasiFront\Models\ModelRegistrasi->get_cetak_kta('7758876d87bb40d...')
+#2 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageRegistrasiFront\Controllers\DataRegistrasi->download('7758876d87bb40d...')
+#3 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageRegistrasiFront\Controllers\DataRegistrasi))
+#4 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ptic\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-08-12 10:04:05 --> Undefined variable: output
+#0 C:\xampp\htdocs\ptic\modules\ManageRegistrasiFront\Models\ModelRegistrasi.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 30, Array)
+#1 C:\xampp\htdocs\ptic\modules\ManageRegistrasiFront\Controllers\DataRegistrasi.php(507): Modules\ManageRegistrasiFront\Models\ModelRegistrasi->get_cetak_kta('7758876d87bb40d...')
+#2 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageRegistrasiFront\Controllers\DataRegistrasi->download('7758876d87bb40d...')
+#3 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageRegistrasiFront\Controllers\DataRegistrasi))
+#4 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ptic\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-08-12 10:04:05 --> Undefined variable: output
+#0 C:\xampp\htdocs\ptic\modules\ManageRegistrasiFront\Models\ModelRegistrasi.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 30, Array)
+#1 C:\xampp\htdocs\ptic\modules\ManageRegistrasiFront\Controllers\DataRegistrasi.php(507): Modules\ManageRegistrasiFront\Models\ModelRegistrasi->get_cetak_kta('7758876d87bb40d...')
+#2 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageRegistrasiFront\Controllers\DataRegistrasi->download('7758876d87bb40d...')
+#3 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageRegistrasiFront\Controllers\DataRegistrasi))
+#4 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ptic\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-08-12 10:04:05 --> Undefined variable: output
+#0 C:\xampp\htdocs\ptic\modules\ManageRegistrasiFront\Models\ModelRegistrasi.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 30, Array)
+#1 C:\xampp\htdocs\ptic\modules\ManageRegistrasiFront\Controllers\DataRegistrasi.php(507): Modules\ManageRegistrasiFront\Models\ModelRegistrasi->get_cetak_kta('7758876d87bb40d...')
+#2 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageRegistrasiFront\Controllers\DataRegistrasi->download('7758876d87bb40d...')
+#3 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageRegistrasiFront\Controllers\DataRegistrasi))
+#4 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ptic\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-08-12 10:04:06 --> Undefined variable: output
+#0 C:\xampp\htdocs\ptic\modules\ManageRegistrasiFront\Models\ModelRegistrasi.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 30, Array)
+#1 C:\xampp\htdocs\ptic\modules\ManageRegistrasiFront\Controllers\DataRegistrasi.php(507): Modules\ManageRegistrasiFront\Models\ModelRegistrasi->get_cetak_kta('7758876d87bb40d...')
+#2 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageRegistrasiFront\Controllers\DataRegistrasi->download('7758876d87bb40d...')
+#3 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageRegistrasiFront\Controllers\DataRegistrasi))
+#4 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ptic\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-08-12 10:04:06 --> Undefined variable: output
+#0 C:\xampp\htdocs\ptic\modules\ManageRegistrasiFront\Models\ModelRegistrasi.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 30, Array)
+#1 C:\xampp\htdocs\ptic\modules\ManageRegistrasiFront\Controllers\DataRegistrasi.php(507): Modules\ManageRegistrasiFront\Models\ModelRegistrasi->get_cetak_kta('7758876d87bb40d...')
+#2 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageRegistrasiFront\Controllers\DataRegistrasi->download('7758876d87bb40d...')
+#3 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageRegistrasiFront\Controllers\DataRegistrasi))
+#4 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ptic\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-08-12 10:04:06 --> Undefined variable: output
+#0 C:\xampp\htdocs\ptic\modules\ManageRegistrasiFront\Models\ModelRegistrasi.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 30, Array)
+#1 C:\xampp\htdocs\ptic\modules\ManageRegistrasiFront\Controllers\DataRegistrasi.php(507): Modules\ManageRegistrasiFront\Models\ModelRegistrasi->get_cetak_kta('7758876d87bb40d...')
+#2 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageRegistrasiFront\Controllers\DataRegistrasi->download('7758876d87bb40d...')
+#3 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageRegistrasiFront\Controllers\DataRegistrasi))
+#4 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ptic\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-08-12 10:04:40 --> Undefined variable: output
+#0 C:\xampp\htdocs\ptic\modules\ManageRegistrasiFront\Models\ModelRegistrasi.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 30, Array)
+#1 C:\xampp\htdocs\ptic\modules\ManageRegistrasiFront\Controllers\DataRegistrasi.php(507): Modules\ManageRegistrasiFront\Models\ModelRegistrasi->get_cetak_kta('7758876d87bb40d...')
+#2 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageRegistrasiFront\Controllers\DataRegistrasi->download('7758876d87bb40d...')
+#3 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageRegistrasiFront\Controllers\DataRegistrasi))
+#4 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ptic\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-08-12 10:04:41 --> Undefined variable: output
+#0 C:\xampp\htdocs\ptic\modules\ManageRegistrasiFront\Models\ModelRegistrasi.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 30, Array)
+#1 C:\xampp\htdocs\ptic\modules\ManageRegistrasiFront\Controllers\DataRegistrasi.php(507): Modules\ManageRegistrasiFront\Models\ModelRegistrasi->get_cetak_kta('7758876d87bb40d...')
+#2 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageRegistrasiFront\Controllers\DataRegistrasi->download('7758876d87bb40d...')
+#3 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageRegistrasiFront\Controllers\DataRegistrasi))
+#4 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ptic\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-08-12 10:04:41 --> Undefined variable: output
+#0 C:\xampp\htdocs\ptic\modules\ManageRegistrasiFront\Models\ModelRegistrasi.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 30, Array)
+#1 C:\xampp\htdocs\ptic\modules\ManageRegistrasiFront\Controllers\DataRegistrasi.php(507): Modules\ManageRegistrasiFront\Models\ModelRegistrasi->get_cetak_kta('7758876d87bb40d...')
+#2 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageRegistrasiFront\Controllers\DataRegistrasi->download('7758876d87bb40d...')
+#3 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageRegistrasiFront\Controllers\DataRegistrasi))
+#4 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ptic\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-08-12 10:07:11 --> Undefined variable: output
+#0 C:\xampp\htdocs\ptic\modules\ManageRegistrasiFront\Models\ModelRegistrasi.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 30, Array)
+#1 C:\xampp\htdocs\ptic\modules\ManageRegistrasiFront\Controllers\DataRegistrasi.php(519): Modules\ManageRegistrasiFront\Models\ModelRegistrasi->get_cetak_kta('7758876d87bb40d...')
+#2 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageRegistrasiFront\Controllers\DataRegistrasi->download('7758876d87bb40d...')
+#3 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageRegistrasiFront\Controllers\DataRegistrasi))
+#4 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ptic\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-08-12 10:07:12 --> Undefined variable: output
+#0 C:\xampp\htdocs\ptic\modules\ManageRegistrasiFront\Models\ModelRegistrasi.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 30, Array)
+#1 C:\xampp\htdocs\ptic\modules\ManageRegistrasiFront\Controllers\DataRegistrasi.php(519): Modules\ManageRegistrasiFront\Models\ModelRegistrasi->get_cetak_kta('7758876d87bb40d...')
+#2 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageRegistrasiFront\Controllers\DataRegistrasi->download('7758876d87bb40d...')
+#3 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageRegistrasiFront\Controllers\DataRegistrasi))
+#4 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ptic\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-08-12 10:12:48 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-08-12 10:14:56 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-08-12 10:20:01 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-08-12 10:21:01 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-08-12 10:31:53 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-08-12 10:33:48 --> Class 'Modules\ManageRegistrasiFront\Controllers\Options' not found
+#0 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageRegistrasiFront\Controllers\DataRegistrasi->download('7758876d87bb40d...')
+#1 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageRegistrasiFront\Controllers\DataRegistrasi))
+#2 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ptic\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-08-12 10:34:03 --> Call to undefined method Dompdf\Dompdf::set()
+#0 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageRegistrasiFront\Controllers\DataRegistrasi->download('7758876d87bb40d...')
+#1 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageRegistrasiFront\Controllers\DataRegistrasi))
+#2 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ptic\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-08-12 10:35:55 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-08-12 13:10:55 --> Undefined variable: kat
+#0 C:\xampp\htdocs\ptic\modules\ManageRegistrasiFront\Views\blangko_kta.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\ManageR...', Array, true)
+#4 C:\xampp\htdocs\ptic\modules\ManageRegistrasiFront\Controllers\DataRegistrasi.php(508): view('Modules\\ManageR...', Array)
+#5 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageRegistrasiFront\Controllers\DataRegistrasi->download('7758876d87bb40d...')
+#6 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageRegistrasiFront\Controllers\DataRegistrasi))
+#7 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ptic\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-08-12 13:23:46 --> Undefined property: Modules\ManageRegistrasiFront\Controllers\DataRegistrasi::$load
+#0 C:\xampp\htdocs\ptic\modules\ManageRegistrasiFront\Controllers\DataRegistrasi.php(503): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 503, Array)
+#1 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageRegistrasiFront\Controllers\DataRegistrasi->download('7758876d87bb40d...')
+#2 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageRegistrasiFront\Controllers\DataRegistrasi))
+#3 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ptic\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-08-12 13:29:51 --> Undefined property: Modules\ManageRegistrasiFront\Controllers\DataRegistrasi::$load
+#0 C:\xampp\htdocs\ptic\modules\ManageRegistrasiFront\Controllers\DataRegistrasi.php(503): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 503, Array)
+#1 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageRegistrasiFront\Controllers\DataRegistrasi->download('7758876d87bb40d...')
+#2 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageRegistrasiFront\Controllers\DataRegistrasi))
+#3 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ptic\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-08-12 13:30:22 --> Undefined property: Modules\ManageRegistrasiFront\Controllers\DataRegistrasi::$load
+#0 C:\xampp\htdocs\ptic\modules\ManageRegistrasiFront\Controllers\DataRegistrasi.php(503): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 503, Array)
+#1 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageRegistrasiFront\Controllers\DataRegistrasi->download('7758876d87bb40d...')
+#2 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageRegistrasiFront\Controllers\DataRegistrasi))
+#3 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ptic\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-08-12 13:30:23 --> Undefined property: Modules\ManageRegistrasiFront\Controllers\DataRegistrasi::$load
+#0 C:\xampp\htdocs\ptic\modules\ManageRegistrasiFront\Controllers\DataRegistrasi.php(503): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 503, Array)
+#1 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageRegistrasiFront\Controllers\DataRegistrasi->download('7758876d87bb40d...')
+#2 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageRegistrasiFront\Controllers\DataRegistrasi))
+#3 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ptic\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-08-12 13:30:23 --> Undefined property: Modules\ManageRegistrasiFront\Controllers\DataRegistrasi::$load
+#0 C:\xampp\htdocs\ptic\modules\ManageRegistrasiFront\Controllers\DataRegistrasi.php(503): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 503, Array)
+#1 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageRegistrasiFront\Controllers\DataRegistrasi->download('7758876d87bb40d...')
+#2 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageRegistrasiFront\Controllers\DataRegistrasi))
+#3 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ptic\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-08-12 13:48:55 --> Class 'Illuminate\Support\Facades\Facade' not found
+#0 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(294): include_once()
+#1 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('SimpleSoftwareI...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('SimpleSoftwareI...')
+#4 C:\xampp\htdocs\ptic\modules\ManageRegistrasiFront\Controllers\DataRegistrasi.php(502): spl_autoload_call('SimpleSoftwareI...')
+#5 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageRegistrasiFront\Controllers\DataRegistrasi->download('7758876d87bb40d...')
+#6 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageRegistrasiFront\Controllers\DataRegistrasi))
+#7 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ptic\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-08-12 13:56:55 --> Invalid data at path "C:\xampp\htdocs\ptic\modules\ManageRegistrasiFront\Controllers/assets/kta/qrcode/contoh.png"
+#0 C:\xampp\htdocs\ptic\vendor\endroid\qr-code\src\Writer\PngWriter.php(133): Endroid\QrCode\ImageData\LogoImageData::createForLogo(Object(Endroid\QrCode\Logo\Logo))
+#1 C:\xampp\htdocs\ptic\vendor\endroid\qr-code\src\Writer\PngWriter.php(121): Endroid\QrCode\Writer\PngWriter->addLogo(Object(Endroid\QrCode\Logo\Logo), Object(Endroid\QrCode\Writer\Result\PngResult))
+#2 C:\xampp\htdocs\ptic\modules\ManageRegistrasiFront\Controllers\DataRegistrasi.php(531): Endroid\QrCode\Writer\PngWriter->write(Object(Endroid\QrCode\QrCode), Object(Endroid\QrCode\Logo\Logo), Object(Endroid\QrCode\Label\Label))
+#3 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageRegistrasiFront\Controllers\DataRegistrasi->download('7758876d87bb40d...')
+#4 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageRegistrasiFront\Controllers\DataRegistrasi))
+#5 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ptic\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-08-12 13:57:24 --> Invalid data at path "C:\xampp\htdocs\ptic\public\/assets/kta/qrcode/contoh.png"
+#0 C:\xampp\htdocs\ptic\vendor\endroid\qr-code\src\Writer\PngWriter.php(133): Endroid\QrCode\ImageData\LogoImageData::createForLogo(Object(Endroid\QrCode\Logo\Logo))
+#1 C:\xampp\htdocs\ptic\vendor\endroid\qr-code\src\Writer\PngWriter.php(121): Endroid\QrCode\Writer\PngWriter->addLogo(Object(Endroid\QrCode\Logo\Logo), Object(Endroid\QrCode\Writer\Result\PngResult))
+#2 C:\xampp\htdocs\ptic\modules\ManageRegistrasiFront\Controllers\DataRegistrasi.php(531): Endroid\QrCode\Writer\PngWriter->write(Object(Endroid\QrCode\QrCode), Object(Endroid\QrCode\Logo\Logo), Object(Endroid\QrCode\Label\Label))
+#3 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageRegistrasiFront\Controllers\DataRegistrasi->download('7758876d87bb40d...')
+#4 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageRegistrasiFront\Controllers\DataRegistrasi))
+#5 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ptic\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-08-12 14:03:23 --> Undefined variable: result
+#0 C:\xampp\htdocs\ptic\modules\ManageRegistrasiFront\Controllers\DataRegistrasi.php(527): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 527, Array)
+#1 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageRegistrasiFront\Controllers\DataRegistrasi->download('7758876d87bb40d...')
+#2 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageRegistrasiFront\Controllers\DataRegistrasi))
+#3 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ptic\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-08-12 14:03:34 --> Invalid data at path "C:\xampp\htdocs\ptic\public\/assets/kta/qrcode/contoh.png"
+#0 C:\xampp\htdocs\ptic\vendor\endroid\qr-code\src\Writer\PngWriter.php(133): Endroid\QrCode\ImageData\LogoImageData::createForLogo(Object(Endroid\QrCode\Logo\Logo))
+#1 C:\xampp\htdocs\ptic\vendor\endroid\qr-code\src\Writer\PngWriter.php(121): Endroid\QrCode\Writer\PngWriter->addLogo(Object(Endroid\QrCode\Logo\Logo), Object(Endroid\QrCode\Writer\Result\PngResult))
+#2 C:\xampp\htdocs\ptic\modules\ManageRegistrasiFront\Controllers\DataRegistrasi.php(531): Endroid\QrCode\Writer\PngWriter->write(Object(Endroid\QrCode\QrCode), Object(Endroid\QrCode\Logo\Logo), Object(Endroid\QrCode\Label\Label))
+#3 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageRegistrasiFront\Controllers\DataRegistrasi->download('7758876d87bb40d...')
+#4 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageRegistrasiFront\Controllers\DataRegistrasi))
+#5 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ptic\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-08-12 14:03:35 --> Invalid data at path "C:\xampp\htdocs\ptic\public\/assets/kta/qrcode/contoh.png"
+#0 C:\xampp\htdocs\ptic\vendor\endroid\qr-code\src\Writer\PngWriter.php(133): Endroid\QrCode\ImageData\LogoImageData::createForLogo(Object(Endroid\QrCode\Logo\Logo))
+#1 C:\xampp\htdocs\ptic\vendor\endroid\qr-code\src\Writer\PngWriter.php(121): Endroid\QrCode\Writer\PngWriter->addLogo(Object(Endroid\QrCode\Logo\Logo), Object(Endroid\QrCode\Writer\Result\PngResult))
+#2 C:\xampp\htdocs\ptic\modules\ManageRegistrasiFront\Controllers\DataRegistrasi.php(531): Endroid\QrCode\Writer\PngWriter->write(Object(Endroid\QrCode\QrCode), Object(Endroid\QrCode\Logo\Logo), Object(Endroid\QrCode\Label\Label))
+#3 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageRegistrasiFront\Controllers\DataRegistrasi->download('7758876d87bb40d...')
+#4 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageRegistrasiFront\Controllers\DataRegistrasi))
+#5 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ptic\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-08-12 14:03:42 --> Invalid data at path "C:\xampp\htdocs\ptic\public\/assets/kta/qrcode/contoh.png"
+#0 C:\xampp\htdocs\ptic\vendor\endroid\qr-code\src\Writer\PngWriter.php(133): Endroid\QrCode\ImageData\LogoImageData::createForLogo(Object(Endroid\QrCode\Logo\Logo))
+#1 C:\xampp\htdocs\ptic\vendor\endroid\qr-code\src\Writer\PngWriter.php(121): Endroid\QrCode\Writer\PngWriter->addLogo(Object(Endroid\QrCode\Logo\Logo), Object(Endroid\QrCode\Writer\Result\PngResult))
+#2 C:\xampp\htdocs\ptic\modules\ManageRegistrasiFront\Controllers\DataRegistrasi.php(531): Endroid\QrCode\Writer\PngWriter->write(Object(Endroid\QrCode\QrCode), Object(Endroid\QrCode\Logo\Logo), Object(Endroid\QrCode\Label\Label))
+#3 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageRegistrasiFront\Controllers\DataRegistrasi->download('7758876d87bb40d...')
+#4 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageRegistrasiFront\Controllers\DataRegistrasi))
+#5 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ptic\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-08-12 14:04:30 --> Invalid data at path "C:\xampp\htdocs\ptic\public\/assets/kta/qrcode/contoh.png"
+#0 C:\xampp\htdocs\ptic\vendor\endroid\qr-code\src\Writer\PngWriter.php(133): Endroid\QrCode\ImageData\LogoImageData::createForLogo(Object(Endroid\QrCode\Logo\Logo))
+#1 C:\xampp\htdocs\ptic\vendor\endroid\qr-code\src\Writer\PngWriter.php(121): Endroid\QrCode\Writer\PngWriter->addLogo(Object(Endroid\QrCode\Logo\Logo), Object(Endroid\QrCode\Writer\Result\PngResult))
+#2 C:\xampp\htdocs\ptic\modules\ManageRegistrasiFront\Controllers\DataRegistrasi.php(531): Endroid\QrCode\Writer\PngWriter->write(Object(Endroid\QrCode\QrCode), Object(Endroid\QrCode\Logo\Logo), Object(Endroid\QrCode\Label\Label))
+#3 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageRegistrasiFront\Controllers\DataRegistrasi->download('7758876d87bb40d...')
+#4 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageRegistrasiFront\Controllers\DataRegistrasi))
+#5 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ptic\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-08-12 14:04:31 --> Invalid data at path "C:\xampp\htdocs\ptic\public\/assets/kta/qrcode/contoh.png"
+#0 C:\xampp\htdocs\ptic\vendor\endroid\qr-code\src\Writer\PngWriter.php(133): Endroid\QrCode\ImageData\LogoImageData::createForLogo(Object(Endroid\QrCode\Logo\Logo))
+#1 C:\xampp\htdocs\ptic\vendor\endroid\qr-code\src\Writer\PngWriter.php(121): Endroid\QrCode\Writer\PngWriter->addLogo(Object(Endroid\QrCode\Logo\Logo), Object(Endroid\QrCode\Writer\Result\PngResult))
+#2 C:\xampp\htdocs\ptic\modules\ManageRegistrasiFront\Controllers\DataRegistrasi.php(531): Endroid\QrCode\Writer\PngWriter->write(Object(Endroid\QrCode\QrCode), Object(Endroid\QrCode\Logo\Logo), Object(Endroid\QrCode\Label\Label))
+#3 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageRegistrasiFront\Controllers\DataRegistrasi->download('7758876d87bb40d...')
+#4 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageRegistrasiFront\Controllers\DataRegistrasi))
+#5 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ptic\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-08-12 14:06:31 --> Invalid data at path "C:\xampp\htdocs\ptic\public\/assets/kta/qrcode/contoh.png"
+#0 C:\xampp\htdocs\ptic\vendor\endroid\qr-code\src\Writer\PngWriter.php(133): Endroid\QrCode\ImageData\LogoImageData::createForLogo(Object(Endroid\QrCode\Logo\Logo))
+#1 C:\xampp\htdocs\ptic\vendor\endroid\qr-code\src\Writer\PngWriter.php(121): Endroid\QrCode\Writer\PngWriter->addLogo(Object(Endroid\QrCode\Logo\Logo), Object(Endroid\QrCode\Writer\Result\PngResult))
+#2 C:\xampp\htdocs\ptic\modules\ManageRegistrasiFront\Controllers\DataRegistrasi.php(531): Endroid\QrCode\Writer\PngWriter->write(Object(Endroid\QrCode\QrCode), Object(Endroid\QrCode\Logo\Logo), Object(Endroid\QrCode\Label\Label))
+#3 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageRegistrasiFront\Controllers\DataRegistrasi->download('7758876d87bb40d...')
+#4 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageRegistrasiFront\Controllers\DataRegistrasi))
+#5 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ptic\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-08-12 14:07:08 --> Invalid data at path "C:\xampp\htdocs\ptic\public\/assets/kta/qrcode/contoh.png"
+#0 C:\xampp\htdocs\ptic\vendor\endroid\qr-code\src\Writer\PngWriter.php(133): Endroid\QrCode\ImageData\LogoImageData::createForLogo(Object(Endroid\QrCode\Logo\Logo))
+#1 C:\xampp\htdocs\ptic\vendor\endroid\qr-code\src\Writer\PngWriter.php(121): Endroid\QrCode\Writer\PngWriter->addLogo(Object(Endroid\QrCode\Logo\Logo), Object(Endroid\QrCode\Writer\Result\PngResult))
+#2 C:\xampp\htdocs\ptic\modules\ManageRegistrasiFront\Controllers\DataRegistrasi.php(531): Endroid\QrCode\Writer\PngWriter->write(Object(Endroid\QrCode\QrCode), Object(Endroid\QrCode\Logo\Logo), Object(Endroid\QrCode\Label\Label))
+#3 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageRegistrasiFront\Controllers\DataRegistrasi->download('7758876d87bb40d...')
+#4 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageRegistrasiFront\Controllers\DataRegistrasi))
+#5 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ptic\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-08-12 14:07:09 --> Invalid data at path "C:\xampp\htdocs\ptic\public\/assets/kta/qrcode/contoh.png"
+#0 C:\xampp\htdocs\ptic\vendor\endroid\qr-code\src\Writer\PngWriter.php(133): Endroid\QrCode\ImageData\LogoImageData::createForLogo(Object(Endroid\QrCode\Logo\Logo))
+#1 C:\xampp\htdocs\ptic\vendor\endroid\qr-code\src\Writer\PngWriter.php(121): Endroid\QrCode\Writer\PngWriter->addLogo(Object(Endroid\QrCode\Logo\Logo), Object(Endroid\QrCode\Writer\Result\PngResult))
+#2 C:\xampp\htdocs\ptic\modules\ManageRegistrasiFront\Controllers\DataRegistrasi.php(531): Endroid\QrCode\Writer\PngWriter->write(Object(Endroid\QrCode\QrCode), Object(Endroid\QrCode\Logo\Logo), Object(Endroid\QrCode\Label\Label))
+#3 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageRegistrasiFront\Controllers\DataRegistrasi->download('7758876d87bb40d...')
+#4 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageRegistrasiFront\Controllers\DataRegistrasi))
+#5 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ptic\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-08-12 14:07:10 --> Invalid data at path "C:\xampp\htdocs\ptic\public\/assets/kta/qrcode/contoh.png"
+#0 C:\xampp\htdocs\ptic\vendor\endroid\qr-code\src\Writer\PngWriter.php(133): Endroid\QrCode\ImageData\LogoImageData::createForLogo(Object(Endroid\QrCode\Logo\Logo))
+#1 C:\xampp\htdocs\ptic\vendor\endroid\qr-code\src\Writer\PngWriter.php(121): Endroid\QrCode\Writer\PngWriter->addLogo(Object(Endroid\QrCode\Logo\Logo), Object(Endroid\QrCode\Writer\Result\PngResult))
+#2 C:\xampp\htdocs\ptic\modules\ManageRegistrasiFront\Controllers\DataRegistrasi.php(531): Endroid\QrCode\Writer\PngWriter->write(Object(Endroid\QrCode\QrCode), Object(Endroid\QrCode\Logo\Logo), Object(Endroid\QrCode\Label\Label))
+#3 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageRegistrasiFront\Controllers\DataRegistrasi->download('7758876d87bb40d...')
+#4 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageRegistrasiFront\Controllers\DataRegistrasi))
+#5 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ptic\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-08-12 14:07:10 --> Invalid data at path "C:\xampp\htdocs\ptic\public\/assets/kta/qrcode/contoh.png"
+#0 C:\xampp\htdocs\ptic\vendor\endroid\qr-code\src\Writer\PngWriter.php(133): Endroid\QrCode\ImageData\LogoImageData::createForLogo(Object(Endroid\QrCode\Logo\Logo))
+#1 C:\xampp\htdocs\ptic\vendor\endroid\qr-code\src\Writer\PngWriter.php(121): Endroid\QrCode\Writer\PngWriter->addLogo(Object(Endroid\QrCode\Logo\Logo), Object(Endroid\QrCode\Writer\Result\PngResult))
+#2 C:\xampp\htdocs\ptic\modules\ManageRegistrasiFront\Controllers\DataRegistrasi.php(531): Endroid\QrCode\Writer\PngWriter->write(Object(Endroid\QrCode\QrCode), Object(Endroid\QrCode\Logo\Logo), Object(Endroid\QrCode\Label\Label))
+#3 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageRegistrasiFront\Controllers\DataRegistrasi->download('7758876d87bb40d...')
+#4 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageRegistrasiFront\Controllers\DataRegistrasi))
+#5 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ptic\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-08-12 14:07:11 --> Invalid data at path "C:\xampp\htdocs\ptic\public\/assets/kta/qrcode/contoh.png"
+#0 C:\xampp\htdocs\ptic\vendor\endroid\qr-code\src\Writer\PngWriter.php(133): Endroid\QrCode\ImageData\LogoImageData::createForLogo(Object(Endroid\QrCode\Logo\Logo))
+#1 C:\xampp\htdocs\ptic\vendor\endroid\qr-code\src\Writer\PngWriter.php(121): Endroid\QrCode\Writer\PngWriter->addLogo(Object(Endroid\QrCode\Logo\Logo), Object(Endroid\QrCode\Writer\Result\PngResult))
+#2 C:\xampp\htdocs\ptic\modules\ManageRegistrasiFront\Controllers\DataRegistrasi.php(531): Endroid\QrCode\Writer\PngWriter->write(Object(Endroid\QrCode\QrCode), Object(Endroid\QrCode\Logo\Logo), Object(Endroid\QrCode\Label\Label))
+#3 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageRegistrasiFront\Controllers\DataRegistrasi->download('7758876d87bb40d...')
+#4 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageRegistrasiFront\Controllers\DataRegistrasi))
+#5 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ptic\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-08-12 14:07:11 --> Invalid data at path "C:\xampp\htdocs\ptic\public\/assets/kta/qrcode/contoh.png"
+#0 C:\xampp\htdocs\ptic\vendor\endroid\qr-code\src\Writer\PngWriter.php(133): Endroid\QrCode\ImageData\LogoImageData::createForLogo(Object(Endroid\QrCode\Logo\Logo))
+#1 C:\xampp\htdocs\ptic\vendor\endroid\qr-code\src\Writer\PngWriter.php(121): Endroid\QrCode\Writer\PngWriter->addLogo(Object(Endroid\QrCode\Logo\Logo), Object(Endroid\QrCode\Writer\Result\PngResult))
+#2 C:\xampp\htdocs\ptic\modules\ManageRegistrasiFront\Controllers\DataRegistrasi.php(531): Endroid\QrCode\Writer\PngWriter->write(Object(Endroid\QrCode\QrCode), Object(Endroid\QrCode\Logo\Logo), Object(Endroid\QrCode\Label\Label))
+#3 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageRegistrasiFront\Controllers\DataRegistrasi->download('7758876d87bb40d...')
+#4 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageRegistrasiFront\Controllers\DataRegistrasi))
+#5 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ptic\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-08-12 14:07:17 --> Invalid data at path "C:\xampp\htdocs\ptic\public\/assets/kta/qrcode/contoh.png"
+#0 C:\xampp\htdocs\ptic\vendor\endroid\qr-code\src\Writer\PngWriter.php(133): Endroid\QrCode\ImageData\LogoImageData::createForLogo(Object(Endroid\QrCode\Logo\Logo))
+#1 C:\xampp\htdocs\ptic\vendor\endroid\qr-code\src\Writer\PngWriter.php(121): Endroid\QrCode\Writer\PngWriter->addLogo(Object(Endroid\QrCode\Logo\Logo), Object(Endroid\QrCode\Writer\Result\PngResult))
+#2 C:\xampp\htdocs\ptic\modules\ManageRegistrasiFront\Controllers\DataRegistrasi.php(531): Endroid\QrCode\Writer\PngWriter->write(Object(Endroid\QrCode\QrCode), Object(Endroid\QrCode\Logo\Logo), Object(Endroid\QrCode\Label\Label))
+#3 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageRegistrasiFront\Controllers\DataRegistrasi->download('7758876d87bb40d...')
+#4 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageRegistrasiFront\Controllers\DataRegistrasi))
+#5 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ptic\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-08-12 14:07:42 --> file_put_contents(C:\xampp\htdocs\ptic\modules\ManageRegistrasiFront\Controllers/assets/kta/qrcode.png): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_put_conten...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\ptic\vendor\endroid\qr-code\src\Writer\Result\AbstractResult.php(17): file_put_contents('C:\\xampp\\htdocs...', '\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 C:\xampp\htdocs\ptic\modules\ManageRegistrasiFront\Controllers\DataRegistrasi.php(535): Endroid\QrCode\Writer\Result\AbstractResult->saveToFile('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageRegistrasiFront\Controllers\DataRegistrasi->download('7758876d87bb40d...')
+#4 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageRegistrasiFront\Controllers\DataRegistrasi))
+#5 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ptic\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-08-12 14:07:48 --> file_put_contents(C:\xampp\htdocs\ptic\modules\ManageRegistrasiFront\Controllers/assets/kta/qrcode.png): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_put_conten...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\ptic\vendor\endroid\qr-code\src\Writer\Result\AbstractResult.php(17): file_put_contents('C:\\xampp\\htdocs...', '\x89PNG\r\n\x1A\n\x00\x00\x00\rIHD...')
+#2 C:\xampp\htdocs\ptic\modules\ManageRegistrasiFront\Controllers\DataRegistrasi.php(535): Endroid\QrCode\Writer\Result\AbstractResult->saveToFile('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageRegistrasiFront\Controllers\DataRegistrasi->download('7758876d87bb40d...')
+#4 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageRegistrasiFront\Controllers\DataRegistrasi))
+#5 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ptic\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-08-12 14:22:18 --> syntax error, unexpected ')'
+#0 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Modules\\ManageR...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Modules\\ManageR...')
+#3 [internal function]: spl_autoload_call('Modules\\ManageR...')
+#4 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(897): class_exists('\\Modules\\Manage...', true)
+#5 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ptic\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-08-12 14:26:06 --> Undefined variable: qrcode
+#0 C:\xampp\htdocs\ptic\modules\ManageRegistrasiFront\Controllers\DataRegistrasi.php(548): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 548, Array)
+#1 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageRegistrasiFront\Controllers\DataRegistrasi->download('7758876d87bb40d...')
+#2 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageRegistrasiFront\Controllers\DataRegistrasi))
+#3 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ptic\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-08-12 14:33:17 --> Undefined variable: nomor
+#0 C:\xampp\htdocs\ptic\modules\ManageRegistrasiFront\Controllers\DataRegistrasi.php(530): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 530, Array)
+#1 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageRegistrasiFront\Controllers\DataRegistrasi->download('7758876d87bb40d...')
+#2 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageRegistrasiFront\Controllers\DataRegistrasi))
+#3 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ptic\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2021-08-12 15:58:26 --> Error connecting to the database: Unknown database 'database_kemahasiswaan'
+CRITICAL - 2021-08-12 15:58:26 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Model.php(169): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\BaseModel.php(518): CodeIgniter\Model->doFind(true, '9')
+#4 C:\xampp\htdocs\kemahasiswaan\vendor\myth\auth\src\Authentication\AuthenticationBase.php(137): CodeIgniter\BaseModel->find('9')
+#5 C:\xampp\htdocs\kemahasiswaan\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(116): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+#6 C:\xampp\htdocs\kemahasiswaan\vendor\myth\auth\src\Filters\PermissionFilter.php(40): Myth\Auth\Authentication\LocalAuthenticator->check()
+#7 C:\xampp\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Filters\Filters.php(181): Myth\Auth\Filters\PermissionFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#8 C:\xampp\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-slide-we...', 'before')
+#9 C:\xampp\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\kemahasiswaan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2021-08-12 19:29:47 --> mysqli_sql_exception: Table 'database_kemahasiswaan.simkatmawa_tingkat' doesn't exist in D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\modules\ManageSimkatmawa\Models\ModelKategoriTingkat.php(23): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\modules\ManageSimkatmawa\Controllers\DataKategoriTingkat.php(24): Modules\ManageSImkatmawa\Models\ModelKategoriTingkat->get_kategori_tingkat()
+#6 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageSImkatmawa\Controllers\DataKategoriTingkat->kategori_tingkat()
+#7 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageSImkatmawa\Controllers\DataKategoriTingkat))
+#8 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#11 {main}
+CRITICAL - 2021-08-12 19:29:47 --> Table 'database_kemahasiswaan.simkatmawa_tingkat' doesn't exist
+#0 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\modules\ManageSimkatmawa\Models\ModelKategoriTingkat.php(23): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\modules\ManageSimkatmawa\Controllers\DataKategoriTingkat.php(24): Modules\ManageSImkatmawa\Models\ModelKategoriTingkat->get_kategori_tingkat()
+#6 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageSImkatmawa\Controllers\DataKategoriTingkat->kategori_tingkat()
+#7 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageSImkatmawa\Controllers\DataKategoriTingkat))
+#8 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#11 {main}
+ERROR - 2021-08-12 19:30:07 --> mysqli_sql_exception: Table 'database_kemahasiswaan.simkatmawa_tingkat' doesn't exist in D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\modules\ManageSimkatmawa\Models\ModelKategoriTingkat.php(23): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\modules\ManageSimkatmawa\Controllers\DataKategoriTingkat.php(24): Modules\ManageSImkatmawa\Models\ModelKategoriTingkat->get_kategori_tingkat()
+#6 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageSImkatmawa\Controllers\DataKategoriTingkat->kategori_tingkat()
+#7 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageSImkatmawa\Controllers\DataKategoriTingkat))
+#8 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#11 {main}
+CRITICAL - 2021-08-12 19:30:07 --> Table 'database_kemahasiswaan.simkatmawa_tingkat' doesn't exist
+#0 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\modules\ManageSimkatmawa\Models\ModelKategoriTingkat.php(23): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\modules\ManageSimkatmawa\Controllers\DataKategoriTingkat.php(24): Modules\ManageSImkatmawa\Models\ModelKategoriTingkat->get_kategori_tingkat()
+#6 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageSImkatmawa\Controllers\DataKategoriTingkat->kategori_tingkat()
+#7 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageSImkatmawa\Controllers\DataKategoriTingkat))
+#8 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#11 {main}
+CRITICAL - 2021-08-12 19:38:23 --> Undefined variable: tingkat
+#0 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\modules\ManageSimkatmawa\Views\kategori_prestasi.php(132): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\WEBSITE\\xamp...', 132, Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\View\View.php(220): include('D:\\WEBSITE\\xamp...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\ManageS...', Array, true)
+#4 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\modules\ManageSimkatmawa\Controllers\DataKategoriPrestasi.php(33): view('Modules\\ManageS...', Array)
+#5 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageSimkatmawa\Controllers\DataKategoriPrestasi->kategori_prestasi()
+#6 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageSimkatmawa\Controllers\DataKategoriPrestasi))
+#7 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#10 {main}
+CRITICAL - 2021-08-12 19:42:34 --> Undefined index: nama_prestasi
+#0 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\modules\ManageSimkatmawa\Views\kategori_pmk.php(136): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\WEBSITE\\xamp...', 136, Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\View\View.php(220): include('D:\\WEBSITE\\xamp...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\ManageS...', Array, true)
+#4 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\modules\ManageSimkatmawa\Controllers\DataKategoriPmk.php(33): view('Modules\\ManageS...', Array)
+#5 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageSimkatmawa\Controllers\DataKategoriPmk->kategori_pmk()
+#6 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageSimkatmawa\Controllers\DataKategoriPmk))
+#7 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#10 {main}
+CRITICAL - 2021-08-12 19:49:39 --> You must set the database table to be used with your query.
+#0 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Model.php(615): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Model.php(834): CodeIgniter\Model->builder()
+#2 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\modules\ManageSimkatmawa\Controllers\DataKategoriRekognisi.php(24): CodeIgniter\Model->__call('get_kategori_re...', Array)
+#3 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageSimkatmawa\Controllers\DataKategoriRekognisi->kategori_rekognisi()
+#4 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageSimkatmawa\Controllers\DataKategoriRekognisi))
+#5 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#8 {main}
+CRITICAL - 2021-08-12 19:59:24 --> Undefined variable: title_sub
+#0 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\modules\ManageSimkatmawa\Views\kegiatan_mandiri.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\WEBSITE\\xamp...', 23, Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\View\View.php(220): include('D:\\WEBSITE\\xamp...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\ManageS...', Array, true)
+#4 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\modules\ManageSimkatmawa\Controllers\DataSimkatmawaKegiatanMandiri.php(33): view('Modules\\ManageS...', Array)
+#5 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageSimkatmawa\Controllers\DataSimkatmawaKegiatanMandiri->simkatmawa()
+#6 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageSimkatmawa\Controllers\DataSimkatmawaKegiatanMandiri))
+#7 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#10 {main}
+CRITICAL - 2021-08-12 20:02:58 --> Undefined variable: db
+#0 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\modules\ManageSimkatmawa\Views\kegiatan_mandiri.php(101): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\WEBSITE\\xamp...', 101, Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\View\View.php(220): include('D:\\WEBSITE\\xamp...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\ManageS...', Array, true)
+#4 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\modules\ManageSimkatmawa\Controllers\DataSimkatmawaKegiatanMandiri.php(33): view('Modules\\ManageS...', Array)
+#5 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageSimkatmawa\Controllers\DataSimkatmawaKegiatanMandiri->simkatmawa()
+#6 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageSimkatmawa\Controllers\DataSimkatmawaKegiatanMandiri))
+#7 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#10 {main}
+CRITICAL - 2021-08-12 20:03:13 --> Undefined index: img_slide
+#0 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\modules\ManageSimkatmawa\Views\kegiatan_mandiri.php(210): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\WEBSITE\\xamp...', 210, Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\View\View.php(220): include('D:\\WEBSITE\\xamp...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\ManageS...', Array, true)
+#4 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\modules\ManageSimkatmawa\Controllers\DataSimkatmawaKegiatanMandiri.php(33): view('Modules\\ManageS...', Array)
+#5 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageSimkatmawa\Controllers\DataSimkatmawaKegiatanMandiri->simkatmawa()
+#6 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageSimkatmawa\Controllers\DataSimkatmawaKegiatanMandiri))
+#7 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#10 {main}
+CRITICAL - 2021-08-12 20:05:11 --> Invalid file: Modules\AdminLayout\Views\layout.php
+#0 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\AdminLa...')
+#1 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\View\View.php(236): CodeIgniter\View\View->render('Modules\\AdminLa...', Array, true)
+#2 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\ManageS...', Array, true)
+#3 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\modules\ManageSimkatmawa\Controllers\DataSimkatmawaKegiatanMandiri.php(50): view('Modules\\ManageS...', Array)
+#4 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageSimkatmawa\Controllers\DataSimkatmawaKegiatanMandiri->simkatmawa_tambah()
+#5 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageSimkatmawa\Controllers\DataSimkatmawaKegiatanMandiri))
+#6 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#9 {main}
+CRITICAL - 2021-08-12 20:07:45 --> Undefined variable: pretitle
+#0 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\modules\ManageSimkatmawa\Views\kegiatan_mandiri_tambah.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\WEBSITE\\xamp...', 38, Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\View\View.php(220): include('D:\\WEBSITE\\xamp...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\ManageS...', Array, true)
+#4 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\modules\ManageSimkatmawa\Controllers\DataSimkatmawaKegiatanMandiri.php(50): view('Modules\\ManageS...', Array)
+#5 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageSimkatmawa\Controllers\DataSimkatmawaKegiatanMandiri->simkatmawa_tambah()
+#6 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageSimkatmawa\Controllers\DataSimkatmawaKegiatanMandiri))
+#7 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#10 {main}
+CRITICAL - 2021-08-12 20:32:36 --> Trying to access array offset on value of type null
+#0 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\modules\ManageSimkatmawa\Controllers\DataSimkatmawaKegiatanMandiri.php(196): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\WEBSITE\\xamp...', 196, Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageSimkatmawa\Controllers\DataSimkatmawaKegiatanMandiri->simkatmawa_save()
+#2 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageSimkatmawa\Controllers\DataSimkatmawaKegiatanMandiri))
+#3 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#6 {main}
+CRITICAL - 2021-08-12 20:38:23 --> You do not have sufficient permissions to access that page.
+#0 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Filters\Filters.php(181): Myth\Auth\Filters\PermissionFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('admin-simkatmaw...', 'before')
+#2 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#5 {main}
+CRITICAL - 2021-08-12 20:39:24 --> Undefined variable: title_sub
+#0 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\modules\ManageSimkatmawa\Views\kegiatan_mandiri_edit.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\WEBSITE\\xamp...', 16, Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\View\View.php(220): include('D:\\WEBSITE\\xamp...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\ManageS...', Array, true)
+#4 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\modules\ManageSimkatmawa\Controllers\DataSimkatmawaKegiatanMandiri.php(68): view('Modules\\ManageS...', Array)
+#5 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageSimkatmawa\Controllers\DataSimkatmawaKegiatanMandiri->simkatmawa_edit('582d7aba76ee3dd...')
+#6 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageSimkatmawa\Controllers\DataSimkatmawaKegiatanMandiri))
+#7 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#10 {main}
+CRITICAL - 2021-08-12 20:39:32 --> unlink(assets/simkatmawa/kegiatan_mandiri/file_1/11624940054_e1e47839e8c91e80eaa8.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(assets/s...', 'D:\\WEBSITE\\xamp...', 572, Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\modules\ManageSimkatmawa\Controllers\DataSimkatmawaKegiatanMandiri.php(572): unlink('assets/simkatma...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageSimkatmawa\Controllers\DataSimkatmawaKegiatanMandiri->simkatmawa_delete()
+#3 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageSimkatmawa\Controllers\DataSimkatmawaKegiatanMandiri))
+#4 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#7 {main}
+CRITICAL - 2021-08-12 20:46:04 --> Undefined index: status
+#0 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\modules\ManageSimkatmawa\Views\kegiatan_mandiri.php(258): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\WEBSITE\\xamp...', 258, Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\View\View.php(220): include('D:\\WEBSITE\\xamp...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\ManageS...', Array, true)
+#4 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\modules\ManageSimkatmawa\Controllers\DataSimkatmawaKegiatanMandiri.php(33): view('Modules\\ManageS...', Array)
+#5 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageSimkatmawa\Controllers\DataSimkatmawaKegiatanMandiri->simkatmawa()
+#6 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageSimkatmawa\Controllers\DataSimkatmawaKegiatanMandiri))
+#7 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#10 {main}
+CRITICAL - 2021-08-12 20:54:21 --> Undefined variable: r
+#0 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\modules\ManageSimkatmawa\Views\kegiatan_mandiri_edit.php(88): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\WEBSITE\\xamp...', 88, Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\View\View.php(220): include('D:\\WEBSITE\\xamp...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\ManageS...', Array, true)
+#4 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\modules\ManageSimkatmawa\Controllers\DataSimkatmawaKegiatanMandiri.php(68): view('Modules\\ManageS...', Array)
+#5 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageSimkatmawa\Controllers\DataSimkatmawaKegiatanMandiri->simkatmawa_edit('582d7aba76ee3dd...')
+#6 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageSimkatmawa\Controllers\DataSimkatmawaKegiatanMandiri))
+#7 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#10 {main}
+CRITICAL - 2021-08-12 20:54:41 --> Undefined variable: mahasiswa
+#0 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\modules\ManageSimkatmawa\Views\kegiatan_mandiri_edit.php(239): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\WEBSITE\\xamp...', 239, Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\View\View.php(220): include('D:\\WEBSITE\\xamp...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\ManageS...', Array, true)
+#4 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\modules\ManageSimkatmawa\Controllers\DataSimkatmawaKegiatanMandiri.php(68): view('Modules\\ManageS...', Array)
+#5 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageSimkatmawa\Controllers\DataSimkatmawaKegiatanMandiri->simkatmawa_edit('582d7aba76ee3dd...')
+#6 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageSimkatmawa\Controllers\DataSimkatmawaKegiatanMandiri))
+#7 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#10 {main}
+CRITICAL - 2021-08-12 20:56:13 --> unlink(assets/simkatmawa/kegiatan_mandiri/file_1/11624940054_e1e47839e8c91e80eaa8.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(assets/s...', 'D:\\WEBSITE\\xamp...', 572, Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\modules\ManageSimkatmawa\Controllers\DataSimkatmawaKegiatanMandiri.php(572): unlink('assets/simkatma...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageSimkatmawa\Controllers\DataSimkatmawaKegiatanMandiri->simkatmawa_delete()
+#3 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageSimkatmawa\Controllers\DataSimkatmawaKegiatanMandiri))
+#4 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#7 {main}
+CRITICAL - 2021-08-12 21:12:20 --> Undefined variable: title_sub
+#0 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\modules\ManageSimkatmawa\Views\pmk_tambah.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\WEBSITE\\xamp...', 16, Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\View\View.php(220): include('D:\\WEBSITE\\xamp...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\ManageS...', Array, true)
+#4 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\modules\ManageSimkatmawa\Controllers\DataSimkatmawaPmk.php(49): view('Modules\\ManageS...', Array)
+#5 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageSimkatmawa\Controllers\DataSimkatmawaPmk->simkatmawa_tambah()
+#6 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageSimkatmawa\Controllers\DataSimkatmawaPmk))
+#7 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#10 {main}
+CRITICAL - 2021-08-12 21:17:01 --> Undefined variable: title_sub
+#0 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\modules\ManageSimkatmawa\Views\pmk_edit.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\WEBSITE\\xamp...', 16, Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\View\View.php(220): include('D:\\WEBSITE\\xamp...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\ManageS...', Array, true)
+#4 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\modules\ManageSimkatmawa\Controllers\DataSimkatmawaPmk.php(68): view('Modules\\ManageS...', Array)
+#5 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageSimkatmawa\Controllers\DataSimkatmawaPmk->simkatmawa_edit('868652b0c846059...')
+#6 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageSimkatmawa\Controllers\DataSimkatmawaPmk))
+#7 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#10 {main}
+CRITICAL - 2021-08-12 21:19:46 --> Undefined variable: r
+#0 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\modules\ManageSimkatmawa\Views\pmk_edit.php(85): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\WEBSITE\\xamp...', 85, Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\View\View.php(220): include('D:\\WEBSITE\\xamp...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\ManageS...', Array, true)
+#4 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\modules\ManageSimkatmawa\Controllers\DataSimkatmawaPmk.php(68): view('Modules\\ManageS...', Array)
+#5 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageSimkatmawa\Controllers\DataSimkatmawaPmk->simkatmawa_edit('868652b0c846059...')
+#6 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageSimkatmawa\Controllers\DataSimkatmawaPmk))
+#7 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#10 {main}
+CRITICAL - 2021-08-12 21:20:06 --> Undefined index: nama_kegiatan
+#0 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\modules\ManageSimkatmawa\Views\pmk_edit.php(88): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\WEBSITE\\xamp...', 88, Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\View\View.php(220): include('D:\\WEBSITE\\xamp...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\ManageS...', Array, true)
+#4 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\modules\ManageSimkatmawa\Controllers\DataSimkatmawaPmk.php(68): view('Modules\\ManageS...', Array)
+#5 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageSimkatmawa\Controllers\DataSimkatmawaPmk->simkatmawa_edit('868652b0c846059...')
+#6 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageSimkatmawa\Controllers\DataSimkatmawaPmk))
+#7 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#10 {main}
+CRITICAL - 2021-08-12 21:27:49 --> Undefined variable: title_sub
+#0 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\modules\ManageSimkatmawa\Views\rekognisi_tambah.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\WEBSITE\\xamp...', 16, Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\View\View.php(220): include('D:\\WEBSITE\\xamp...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\ManageS...', Array, true)
+#4 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\modules\ManageSimkatmawa\Controllers\DataSimkatmawaRekognisi.php(47): view('Modules\\ManageS...', Array)
+#5 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageSimkatmawa\Controllers\DataSimkatmawaRekognisi->simkatmawa_tambah()
+#6 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageSimkatmawa\Controllers\DataSimkatmawaRekognisi))
+#7 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#10 {main}
+CRITICAL - 2021-08-12 21:33:20 --> Undefined variable: title_sub
+#0 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\modules\ManageSimkatmawa\Views\rekognisi_edit.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\WEBSITE\\xamp...', 16, Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\View\View.php(220): include('D:\\WEBSITE\\xamp...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\ManageS...', Array, true)
+#4 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\modules\ManageSimkatmawa\Controllers\DataSimkatmawaRekognisi.php(64): view('Modules\\ManageS...', Array)
+#5 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageSimkatmawa\Controllers\DataSimkatmawaRekognisi->simkatmawa_edit('6d0d764fa1b7f6b...')
+#6 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageSimkatmawa\Controllers\DataSimkatmawaRekognisi))
+#7 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#10 {main}
+ERROR - 2021-08-12 21:38:11 --> mysqli_sql_exception: Unknown column 'id_kegiatan_mandiri' in 'where clause' in D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\modules\ManageSimkatmawa\Views\rekognisi_edit.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\View\View.php(220): include('D:\\WEBSITE\\xamp...')
+#6 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\ManageS...', Array, true)
+#8 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\modules\ManageSimkatmawa\Controllers\DataSimkatmawaRekognisi.php(64): view('Modules\\ManageS...', Array)
+#9 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageSimkatmawa\Controllers\DataSimkatmawaRekognisi->simkatmawa_edit('6d0d764fa1b7f6b...')
+#10 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageSimkatmawa\Controllers\DataSimkatmawaRekognisi))
+#11 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#13 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#14 {main}
+CRITICAL - 2021-08-12 21:38:11 --> Unknown column 'id_kegiatan_mandiri' in 'where clause'
+#0 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\modules\ManageSimkatmawa\Views\rekognisi_edit.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\View\View.php(220): include('D:\\WEBSITE\\xamp...')
+#6 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\ManageS...', Array, true)
+#8 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\modules\ManageSimkatmawa\Controllers\DataSimkatmawaRekognisi.php(64): view('Modules\\ManageS...', Array)
+#9 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageSimkatmawa\Controllers\DataSimkatmawaRekognisi->simkatmawa_edit('6d0d764fa1b7f6b...')
+#10 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageSimkatmawa\Controllers\DataSimkatmawaRekognisi))
+#11 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#13 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#14 {main}
+ERROR - 2021-08-12 21:48:04 --> mysqli_sql_exception: Table 'database_kemahasiswaan.mbkm_magang' doesn't exist in D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\modules\ManageMbkm\Models\ModelMbkmMagangPraktikKerja.php(24): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\modules\ManageMbkm\Controllers\DataMbkmMagangPraktikKerja.php(24): Modules\ManageMbkm\Models\ModelMbkmMagangPraktikKerja->get_mbkm()
+#6 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageMbkm\Controllers\DataMbkmMagangPraktikKerja->mbkm()
+#7 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageMbkm\Controllers\DataMbkmMagangPraktikKerja))
+#8 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#11 {main}
+CRITICAL - 2021-08-12 21:48:04 --> Table 'database_kemahasiswaan.mbkm_magang' doesn't exist
+#0 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\modules\ManageMbkm\Models\ModelMbkmMagangPraktikKerja.php(24): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\modules\ManageMbkm\Controllers\DataMbkmMagangPraktikKerja.php(24): Modules\ManageMbkm\Models\ModelMbkmMagangPraktikKerja->get_mbkm()
+#6 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageMbkm\Controllers\DataMbkmMagangPraktikKerja->mbkm()
+#7 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageMbkm\Controllers\DataMbkmMagangPraktikKerja))
+#8 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#11 {main}
+CRITICAL - 2021-08-12 21:51:43 --> Invalid file: Modules\AdminLayout\Views\layout.php
+#0 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\AdminLa...')
+#1 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\View\View.php(236): CodeIgniter\View\View->render('Modules\\AdminLa...', Array, true)
+#2 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\ManageM...', Array, true)
+#3 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\modules\ManageMbkm\Controllers\DataMbkmMagangPraktikKerja.php(47): view('Modules\\ManageM...', Array)
+#4 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageMbkm\Controllers\DataMbkmMagangPraktikKerja->mbkm_tambah()
+#5 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageMbkm\Controllers\DataMbkmMagangPraktikKerja))
+#6 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#9 {main}
+CRITICAL - 2021-08-12 21:53:59 --> Undefined variable: pretitle
+#0 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\modules\ManageMbkm\Views\magang_praktik_kerja_tambah.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\WEBSITE\\xamp...', 38, Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\View\View.php(220): include('D:\\WEBSITE\\xamp...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\ManageM...', Array, true)
+#4 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\modules\ManageMbkm\Controllers\DataMbkmMagangPraktikKerja.php(47): view('Modules\\ManageM...', Array)
+#5 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageMbkm\Controllers\DataMbkmMagangPraktikKerja->mbkm_tambah()
+#6 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageMbkm\Controllers\DataMbkmMagangPraktikKerja))
+#7 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#10 {main}
+ERROR - 2021-08-12 21:56:17 --> mysqli_sql_exception: Column 'nim' cannot be null in D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `mb...')
+#1 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `mb...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `mb...')
+#3 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `mb...', Array, false)
+#4 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\modules\ManageMbkm\Models\ModelMbkmMagangPraktikKerja.php(99): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\modules\ManageMbkm\Controllers\DataMbkmMagangPraktikKerja.php(184): Modules\ManageMbkm\Models\ModelMbkmMagangPraktikKerja->save_mahasiswa('9', NULL, 'Eko Hary')
+#6 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageMbkm\Controllers\DataMbkmMagangPraktikKerja->mbkm_save()
+#7 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageMbkm\Controllers\DataMbkmMagangPraktikKerja))
+#8 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#11 {main}
+CRITICAL - 2021-08-12 21:56:17 --> Column 'nim' cannot be null
+#0 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `mb...')
+#1 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `mb...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `mb...')
+#3 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `mb...', Array, false)
+#4 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\modules\ManageMbkm\Models\ModelMbkmMagangPraktikKerja.php(99): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\modules\ManageMbkm\Controllers\DataMbkmMagangPraktikKerja.php(184): Modules\ManageMbkm\Models\ModelMbkmMagangPraktikKerja->save_mahasiswa('9', NULL, 'Eko Hary')
+#6 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageMbkm\Controllers\DataMbkmMagangPraktikKerja->mbkm_save()
+#7 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageMbkm\Controllers\DataMbkmMagangPraktikKerja))
+#8 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#11 {main}
+ERROR - 2021-08-12 21:58:28 --> mysqli_sql_exception: Column 'nim' cannot be null in D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `mb...')
+#1 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `mb...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `mb...')
+#3 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `mb...', Array, false)
+#4 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\modules\ManageMbkm\Models\ModelMbkmMagangPraktikKerja.php(99): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\modules\ManageMbkm\Controllers\DataMbkmMagangPraktikKerja.php(184): Modules\ManageMbkm\Models\ModelMbkmMagangPraktikKerja->save_mahasiswa('10', NULL, 'Eko Hary')
+#6 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageMbkm\Controllers\DataMbkmMagangPraktikKerja->mbkm_save()
+#7 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageMbkm\Controllers\DataMbkmMagangPraktikKerja))
+#8 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#11 {main}
+CRITICAL - 2021-08-12 21:58:28 --> Column 'nim' cannot be null
+#0 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `mb...')
+#1 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `mb...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `mb...')
+#3 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `mb...', Array, false)
+#4 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\modules\ManageMbkm\Models\ModelMbkmMagangPraktikKerja.php(99): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\modules\ManageMbkm\Controllers\DataMbkmMagangPraktikKerja.php(184): Modules\ManageMbkm\Models\ModelMbkmMagangPraktikKerja->save_mahasiswa('10', NULL, 'Eko Hary')
+#6 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageMbkm\Controllers\DataMbkmMagangPraktikKerja->mbkm_save()
+#7 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageMbkm\Controllers\DataMbkmMagangPraktikKerja))
+#8 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#11 {main}
+ERROR - 2021-08-12 22:00:03 --> mysqli_sql_exception: Column 'nim' cannot be null in D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `mb...')
+#1 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `mb...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `mb...')
+#3 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `mb...', Array, false)
+#4 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\modules\ManageMbkm\Models\ModelMbkmMagangPraktikKerja.php(99): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\modules\ManageMbkm\Controllers\DataMbkmMagangPraktikKerja.php(184): Modules\ManageMbkm\Models\ModelMbkmMagangPraktikKerja->save_mahasiswa('11', NULL, 'Eko Hary')
+#6 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageMbkm\Controllers\DataMbkmMagangPraktikKerja->mbkm_save()
+#7 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageMbkm\Controllers\DataMbkmMagangPraktikKerja))
+#8 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#11 {main}
+CRITICAL - 2021-08-12 22:00:03 --> Column 'nim' cannot be null
+#0 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `mb...')
+#1 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `mb...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `mb...')
+#3 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `mb...', Array, false)
+#4 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\modules\ManageMbkm\Models\ModelMbkmMagangPraktikKerja.php(99): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\modules\ManageMbkm\Controllers\DataMbkmMagangPraktikKerja.php(184): Modules\ManageMbkm\Models\ModelMbkmMagangPraktikKerja->save_mahasiswa('11', NULL, 'Eko Hary')
+#6 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageMbkm\Controllers\DataMbkmMagangPraktikKerja->mbkm_save()
+#7 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageMbkm\Controllers\DataMbkmMagangPraktikKerja))
+#8 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#11 {main}
+CRITICAL - 2021-08-12 22:01:26 --> Undefined offset: 1
+#0 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\modules\ManageMbkm\Controllers\DataMbkmMagangPraktikKerja.php(173): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\WEBSITE\\xamp...', 173, Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageMbkm\Controllers\DataMbkmMagangPraktikKerja->mbkm_save()
+#2 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageMbkm\Controllers\DataMbkmMagangPraktikKerja))
+#3 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#6 {main}
+ERROR - 2021-08-12 22:02:16 --> mysqli_sql_exception: Column 'nim' cannot be null in D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `mb...')
+#1 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `mb...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `mb...')
+#3 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `mb...', Array, false)
+#4 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\modules\ManageMbkm\Models\ModelMbkmMagangPraktikKerja.php(99): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\modules\ManageMbkm\Controllers\DataMbkmMagangPraktikKerja.php(184): Modules\ManageMbkm\Models\ModelMbkmMagangPraktikKerja->save_mahasiswa('13', NULL, 'Eko Hary')
+#6 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageMbkm\Controllers\DataMbkmMagangPraktikKerja->mbkm_save()
+#7 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageMbkm\Controllers\DataMbkmMagangPraktikKerja))
+#8 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#11 {main}
+CRITICAL - 2021-08-12 22:02:16 --> Column 'nim' cannot be null
+#0 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `mb...')
+#1 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `mb...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `mb...')
+#3 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `mb...', Array, false)
+#4 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\modules\ManageMbkm\Models\ModelMbkmMagangPraktikKerja.php(99): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\modules\ManageMbkm\Controllers\DataMbkmMagangPraktikKerja.php(184): Modules\ManageMbkm\Models\ModelMbkmMagangPraktikKerja->save_mahasiswa('13', NULL, 'Eko Hary')
+#6 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageMbkm\Controllers\DataMbkmMagangPraktikKerja->mbkm_save()
+#7 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageMbkm\Controllers\DataMbkmMagangPraktikKerja))
+#8 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#11 {main}
+ERROR - 2021-08-12 22:03:55 --> mysqli_sql_exception: Column 'nim' cannot be null in D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `mb...')
+#1 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `mb...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `mb...')
+#3 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `mb...', Array, false)
+#4 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\modules\ManageMbkm\Models\ModelMbkmMagangPraktikKerja.php(99): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\modules\ManageMbkm\Controllers\DataMbkmMagangPraktikKerja.php(185): Modules\ManageMbkm\Models\ModelMbkmMagangPraktikKerja->save_mahasiswa('15', NULL, 'Eko Hary')
+#6 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageMbkm\Controllers\DataMbkmMagangPraktikKerja->mbkm_save()
+#7 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageMbkm\Controllers\DataMbkmMagangPraktikKerja))
+#8 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#11 {main}
+CRITICAL - 2021-08-12 22:03:55 --> Column 'nim' cannot be null
+#0 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `mb...')
+#1 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `mb...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `mb...')
+#3 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `mb...', Array, false)
+#4 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\modules\ManageMbkm\Models\ModelMbkmMagangPraktikKerja.php(99): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\modules\ManageMbkm\Controllers\DataMbkmMagangPraktikKerja.php(185): Modules\ManageMbkm\Models\ModelMbkmMagangPraktikKerja->save_mahasiswa('15', NULL, 'Eko Hary')
+#6 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageMbkm\Controllers\DataMbkmMagangPraktikKerja->mbkm_save()
+#7 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageMbkm\Controllers\DataMbkmMagangPraktikKerja))
+#8 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#11 {main}
+ERROR - 2021-08-12 22:04:34 --> mysqli_sql_exception: Column 'nim' cannot be null in D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `mb...')
+#1 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `mb...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `mb...')
+#3 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `mb...', Array, false)
+#4 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\modules\ManageMbkm\Models\ModelMbkmMagangPraktikKerja.php(99): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\modules\ManageMbkm\Controllers\DataMbkmMagangPraktikKerja.php(185): Modules\ManageMbkm\Models\ModelMbkmMagangPraktikKerja->save_mahasiswa('16', NULL, 'Eko Hary')
+#6 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageMbkm\Controllers\DataMbkmMagangPraktikKerja->mbkm_save()
+#7 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageMbkm\Controllers\DataMbkmMagangPraktikKerja))
+#8 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#11 {main}
+CRITICAL - 2021-08-12 22:04:35 --> Column 'nim' cannot be null
+#0 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `mb...')
+#1 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `mb...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `mb...')
+#3 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `mb...', Array, false)
+#4 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\modules\ManageMbkm\Models\ModelMbkmMagangPraktikKerja.php(99): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\modules\ManageMbkm\Controllers\DataMbkmMagangPraktikKerja.php(185): Modules\ManageMbkm\Models\ModelMbkmMagangPraktikKerja->save_mahasiswa('16', NULL, 'Eko Hary')
+#6 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageMbkm\Controllers\DataMbkmMagangPraktikKerja->mbkm_save()
+#7 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageMbkm\Controllers\DataMbkmMagangPraktikKerja))
+#8 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#11 {main}
+CRITICAL - 2021-08-12 22:05:15 --> You do not have sufficient permissions to access that page.
+#0 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Filters\Filters.php(181): Myth\Auth\Filters\PermissionFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('admin-mbkm-maga...', 'before')
+#2 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#5 {main}
+CRITICAL - 2021-08-12 22:05:53 --> You do not have sufficient permissions to access that page.
+#0 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Filters\Filters.php(181): Myth\Auth\Filters\PermissionFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('admin-mbkm-maga...', 'before')
+#2 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#5 {main}
+CRITICAL - 2021-08-12 22:06:08 --> You do not have sufficient permissions to access that page.
+#0 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Filters\Filters.php(181): Myth\Auth\Filters\PermissionFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('admin-mbkm-maga...', 'before')
+#2 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#5 {main}
+CRITICAL - 2021-08-12 22:06:38 --> Undefined variable: title_sub
+#0 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\modules\ManageMbkm\Views\magang_praktik_kerja_edit.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\WEBSITE\\xamp...', 16, Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\View\View.php(220): include('D:\\WEBSITE\\xamp...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\ManageM...', Array, true)
+#4 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\modules\ManageMbkm\Controllers\DataMbkmMagangPraktikKerja.php(60): view('Modules\\ManageM...', Array)
+#5 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageMbkm\Controllers\DataMbkmMagangPraktikKerja->mbkm_edit('bd1ea459d64aaea...')
+#6 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageMbkm\Controllers\DataMbkmMagangPraktikKerja))
+#7 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#10 {main}
+ERROR - 2021-08-12 22:07:09 --> mysqli_sql_exception: Column 'nim' cannot be null in D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `mb...')
+#1 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `mb...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `mb...')
+#3 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `mb...', Array, false)
+#4 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\modules\ManageMbkm\Models\ModelMbkmMagangPraktikKerja.php(99): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\modules\ManageMbkm\Controllers\DataMbkmMagangPraktikKerja.php(185): Modules\ManageMbkm\Models\ModelMbkmMagangPraktikKerja->save_mahasiswa('17', NULL, 'Eko Hary')
+#6 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageMbkm\Controllers\DataMbkmMagangPraktikKerja->mbkm_save()
+#7 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageMbkm\Controllers\DataMbkmMagangPraktikKerja))
+#8 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#11 {main}
+CRITICAL - 2021-08-12 22:07:09 --> Column 'nim' cannot be null
+#0 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `mb...')
+#1 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `mb...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `mb...')
+#3 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `mb...', Array, false)
+#4 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\modules\ManageMbkm\Models\ModelMbkmMagangPraktikKerja.php(99): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\modules\ManageMbkm\Controllers\DataMbkmMagangPraktikKerja.php(185): Modules\ManageMbkm\Models\ModelMbkmMagangPraktikKerja->save_mahasiswa('17', NULL, 'Eko Hary')
+#6 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageMbkm\Controllers\DataMbkmMagangPraktikKerja->mbkm_save()
+#7 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageMbkm\Controllers\DataMbkmMagangPraktikKerja))
+#8 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#11 {main}
+ERROR - 2021-08-12 22:10:05 --> mysqli_sql_exception: Column 'nim' cannot be null in D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `mb...')
+#1 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `mb...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `mb...')
+#3 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `mb...', Array, false)
+#4 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\modules\ManageMbkm\Models\ModelMbkmMagangPraktikKerja.php(99): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\modules\ManageMbkm\Controllers\DataMbkmMagangPraktikKerja.php(185): Modules\ManageMbkm\Models\ModelMbkmMagangPraktikKerja->save_mahasiswa('19', NULL, 'Eko Hary')
+#6 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageMbkm\Controllers\DataMbkmMagangPraktikKerja->mbkm_save()
+#7 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageMbkm\Controllers\DataMbkmMagangPraktikKerja))
+#8 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#11 {main}
+CRITICAL - 2021-08-12 22:10:05 --> Column 'nim' cannot be null
+#0 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `mb...')
+#1 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `mb...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `mb...')
+#3 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `mb...', Array, false)
+#4 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\modules\ManageMbkm\Models\ModelMbkmMagangPraktikKerja.php(99): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\modules\ManageMbkm\Controllers\DataMbkmMagangPraktikKerja.php(185): Modules\ManageMbkm\Models\ModelMbkmMagangPraktikKerja->save_mahasiswa('19', NULL, 'Eko Hary')
+#6 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageMbkm\Controllers\DataMbkmMagangPraktikKerja->mbkm_save()
+#7 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageMbkm\Controllers\DataMbkmMagangPraktikKerja))
+#8 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#11 {main}
+CRITICAL - 2021-08-12 22:16:34 --> You do not have sufficient permissions to access that page.
+#0 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Filters\Filters.php(181): Myth\Auth\Filters\PermissionFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('admin-mbkm-maga...', 'before')
+#2 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#5 {main}
+CRITICAL - 2021-08-12 22:19:18 --> Undefined variable: title_sub
+#0 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\modules\ManageMbkm\Views\magang_praktik_kerja_edit.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\WEBSITE\\xamp...', 16, Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\View\View.php(220): include('D:\\WEBSITE\\xamp...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\ManageM...', Array, true)
+#4 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\modules\ManageMbkm\Controllers\DataMbkmMagangPraktikKerja.php(60): view('Modules\\ManageM...', Array)
+#5 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageMbkm\Controllers\DataMbkmMagangPraktikKerja->mbkm_edit('f40e8aa75c4c0d5...')
+#6 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageMbkm\Controllers\DataMbkmMagangPraktikKerja))
+#7 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#10 {main}
+CRITICAL - 2021-08-12 22:19:26 --> Undefined variable: title_sub
+#0 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\modules\ManageMbkm\Views\magang_praktik_kerja_edit.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\WEBSITE\\xamp...', 16, Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\View\View.php(220): include('D:\\WEBSITE\\xamp...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\ManageM...', Array, true)
+#4 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\modules\ManageMbkm\Controllers\DataMbkmMagangPraktikKerja.php(60): view('Modules\\ManageM...', Array)
+#5 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageMbkm\Controllers\DataMbkmMagangPraktikKerja->mbkm_edit('7a07a58589ec565...')
+#6 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageMbkm\Controllers\DataMbkmMagangPraktikKerja))
+#7 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#10 {main}
+CRITICAL - 2021-08-12 22:59:42 --> Undefined variable: foto_profile
+#0 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\modules\ManageGaleri\Controllers\DataGaleriMaster.php(109): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\WEBSITE\\xamp...', 109, Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageGaleri\Controllers\DataGaleriMaster->galeri_save()
+#2 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageGaleri\Controllers\DataGaleriMaster))
+#3 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#6 {main}
+CRITICAL - 2021-08-12 23:00:04 --> Undefined index: img_slide
+#0 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\modules\ManageGaleri\Views\galeri_master.php(145): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\WEBSITE\\xamp...', 145, Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\View\View.php(220): include('D:\\WEBSITE\\xamp...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\ManageG...', Array, true)
+#4 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\modules\ManageGaleri\Controllers\DataGaleriMaster.php(33): view('Modules\\ManageG...', Array)
+#5 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageGaleri\Controllers\DataGaleriMaster->galeri()
+#6 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageGaleri\Controllers\DataGaleriMaster))
+#7 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#10 {main}
+CRITICAL - 2021-08-12 23:00:57 --> Invalid file: Modules\ManageGaleri\Views\galeri_edit.php
+#0 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\ManageG...')
+#1 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\ManageG...', Array, true)
+#2 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\modules\ManageGaleri\Controllers\DataGaleriMaster.php(59): view('Modules\\ManageG...', Array)
+#3 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageGaleri\Controllers\DataGaleriMaster->galeri_edit('332b2b8c8b5729b...')
+#4 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageGaleri\Controllers\DataGaleriMaster))
+#5 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#8 {main}
+CRITICAL - 2021-08-12 23:01:14 --> Undefined variable: slide
+#0 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\modules\ManageGaleri\Views\galeri_master_edit.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\WEBSITE\\xamp...', 78, Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\View\View.php(220): include('D:\\WEBSITE\\xamp...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\ManageG...', Array, true)
+#4 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\modules\ManageGaleri\Controllers\DataGaleriMaster.php(59): view('Modules\\ManageG...', Array)
+#5 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageGaleri\Controllers\DataGaleriMaster->galeri_edit('332b2b8c8b5729b...')
+#6 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageGaleri\Controllers\DataGaleriMaster))
+#7 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#10 {main}
+CRITICAL - 2021-08-12 23:08:58 --> Undefined variable: img_galeri
+#0 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\modules\ManageGaleri\Controllers\DataGaleriMaster.php(158): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\WEBSITE\\xamp...', 158, Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageGaleri\Controllers\DataGaleriMaster->galeri_update()
+#2 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageGaleri\Controllers\DataGaleriMaster))
+#3 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#6 {main}
+CRITICAL - 2021-08-12 23:09:14 --> Undefined variable: id_rand
+#0 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\modules\ManageGaleri\Controllers\DataGaleriMaster.php(183): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\WEBSITE\\xamp...', 183, Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageGaleri\Controllers\DataGaleriMaster->galeri_update()
+#2 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageGaleri\Controllers\DataGaleriMaster))
+#3 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\WEBSITE\xampp-7.4\htdocs\kemahasiswaan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#6 {main}

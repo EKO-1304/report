@@ -1,0 +1,225 @@
+CRITICAL - 2021-08-10 11:17:51 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('wilayah/action', 'before')
+#4 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ptic\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-08-10 11:17:53 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('wilayah/action', 'before')
+#4 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ptic\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-08-10 11:17:54 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('wilayah/action', 'before')
+#4 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ptic\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-08-10 11:17:54 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('wilayah/action', 'before')
+#4 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ptic\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-08-10 11:18:12 --> strpos() expects parameter 1 to be string, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'strpos() expect...', 'C:\\xampp\\htdocs...', 790, Array)
+#1 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Email\Email.php(790): strpos(Object(CodeIgniter\Email\Email), ',')
+#2 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Email\Email.php(568): CodeIgniter\Email\Email->stringToArray(Object(CodeIgniter\Email\Email))
+#3 C:\xampp\htdocs\ptic\modules\ManageRegistrasiFront\Controllers\DataRegistrasi.php(472): CodeIgniter\Email\Email->setTo(Object(CodeIgniter\Email\Email))
+#4 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageRegistrasiFront\Controllers\DataRegistrasi->kta_save()
+#5 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageRegistrasiFront\Controllers\DataRegistrasi))
+#6 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ptic\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-08-10 11:21:51 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('wilayah/action', 'before')
+#4 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ptic\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-08-10 11:21:51 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('wilayah/action', 'before')
+#4 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ptic\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-08-10 11:21:52 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('wilayah/action', 'before')
+#4 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ptic\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-08-10 11:21:53 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('wilayah/action', 'before')
+#4 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ptic\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-08-10 11:21:55 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('wilayah/action', 'before')
+#4 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ptic\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-08-10 11:22:04 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('wilayah/action', 'before')
+#4 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ptic\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-08-10 11:22:05 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('wilayah/action', 'before')
+#4 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ptic\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-08-10 11:22:28 --> Undefined index: b5bd5d5551c17cf1bcf46c9e47b290cde76f83d2
+#0 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\HTTP\URI.php(287): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 287, Array)
+#1 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\HTTP\URI.php(590): CodeIgniter\HTTP\URI->getAuthority()
+#2 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Helpers\url_helper.php(119): CodeIgniter\HTTP\URI->__toString()
+#3 C:\xampp\htdocs\ptic\modules\ManageRegistrasiFront\Controllers\DataRegistrasi.php(476): base_url('edit-kta', 'b5bd5d5551c17cf...')
+#4 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageRegistrasiFront\Controllers\DataRegistrasi->kta_save()
+#5 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageRegistrasiFront\Controllers\DataRegistrasi))
+#6 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ptic\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-08-10 11:44:40 --> Undefined variable: groups_access
+#0 C:\xampp\htdocs\ptic\modules\ManageRegistrasiFront\Controllers\DataRegistrasi.php(470): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 470, Array)
+#1 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageRegistrasiFront\Controllers\DataRegistrasi->kta_save()
+#2 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageRegistrasiFront\Controllers\DataRegistrasi))
+#3 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ptic\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-08-10 14:18:35 --> Argument 2 passed to view() must be of the type array, null given, called in C:\xampp\htdocs\ptic\modules\ManageRegistrasiFront\Controllers\DataRegistrasi.php on line 504
+#0 C:\xampp\htdocs\ptic\modules\ManageRegistrasiFront\Controllers\DataRegistrasi.php(504): view('Modules\\ManageR...', NULL)
+#1 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageRegistrasiFront\Controllers\DataRegistrasi->download('adadasdad')
+#2 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageRegistrasiFront\Controllers\DataRegistrasi))
+#3 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ptic\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-08-10 14:19:47 --> Argument 2 passed to view() must be of the type array, null given, called in C:\xampp\htdocs\ptic\modules\ManageRegistrasiFront\Controllers\DataRegistrasi.php on line 510
+#0 C:\xampp\htdocs\ptic\modules\ManageRegistrasiFront\Controllers\DataRegistrasi.php(510): view('Modules/ManageR...', NULL)
+#1 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageRegistrasiFront\Controllers\DataRegistrasi->download('adadasdad')
+#2 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageRegistrasiFront\Controllers\DataRegistrasi))
+#3 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ptic\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-08-10 14:19:48 --> Argument 2 passed to view() must be of the type array, null given, called in C:\xampp\htdocs\ptic\modules\ManageRegistrasiFront\Controllers\DataRegistrasi.php on line 510
+#0 C:\xampp\htdocs\ptic\modules\ManageRegistrasiFront\Controllers\DataRegistrasi.php(510): view('Modules/ManageR...', NULL)
+#1 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageRegistrasiFront\Controllers\DataRegistrasi->download('adadasdad')
+#2 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageRegistrasiFront\Controllers\DataRegistrasi))
+#3 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ptic\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-08-10 14:20:16 --> Invalid file: Modules/ManageRegistrasiFront/Views/blangko_kta.php
+#0 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules/ManageR...')
+#1 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules/ManageR...', Array, true)
+#2 C:\xampp\htdocs\ptic\modules\ManageRegistrasiFront\Controllers\DataRegistrasi.php(505): view('Modules/ManageR...', Array)
+#3 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageRegistrasiFront\Controllers\DataRegistrasi->download('adadasdad')
+#4 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageRegistrasiFront\Controllers\DataRegistrasi))
+#5 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ptic\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-08-10 14:20:47 --> Invalid file: ManageRegistrasiFront/Views/blangko_kta.php
+#0 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('ManageRegistras...')
+#1 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('ManageRegistras...', Array, true)
+#2 C:\xampp\htdocs\ptic\modules\ManageRegistrasiFront\Controllers\DataRegistrasi.php(505): view('ManageRegistras...', Array)
+#3 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageRegistrasiFront\Controllers\DataRegistrasi->download('adadasdad')
+#4 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageRegistrasiFront\Controllers\DataRegistrasi))
+#5 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ptic\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-08-10 14:21:54 --> Class 'Modules\ManageRegistrasiFront\Controllers\TCPDF' not found
+#0 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageRegistrasiFront\Controllers\DataRegistrasi->download('adadasdad')
+#1 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageRegistrasiFront\Controllers\DataRegistrasi))
+#2 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ptic\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-08-10 14:21:56 --> Class 'Modules\ManageRegistrasiFront\Controllers\TCPDF' not found
+#0 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageRegistrasiFront\Controllers\DataRegistrasi->download('adadasdad')
+#1 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageRegistrasiFront\Controllers\DataRegistrasi))
+#2 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ptic\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-08-10 14:33:03 --> Class 'Modules\ManageRegistrasiFront\Controllers\CUSTOMPDF' not found
+#0 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageRegistrasiFront\Controllers\DataRegistrasi->download('adadasdad')
+#1 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageRegistrasiFront\Controllers\DataRegistrasi))
+#2 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ptic\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-08-10 14:33:13 --> Call to undefined method TCPDF::addFormat()
+#0 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageRegistrasiFront\Controllers\DataRegistrasi->download('adadasdad')
+#1 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageRegistrasiFront\Controllers\DataRegistrasi))
+#2 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ptic\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-08-10 15:50:53 --> Undefined index: editor
+#0 C:\xampp\htdocs\ptic\modules\ManageContent\Views\content.php(128): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 128, Array)
+#1 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\ManageC...', Array, true)
+#4 C:\xampp\htdocs\ptic\modules\ManageContent\Controllers\DataContent.php(33): view('Modules\\ManageC...', Array)
+#5 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageContent\Controllers\DataContent->content()
+#6 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageContent\Controllers\DataContent))
+#7 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ptic\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-08-10 15:58:58 --> Undefined variable: id_content
+#0 C:\xampp\htdocs\ptic\modules\ManageContent\Views\content.php(109): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 109, Array)
+#1 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\ManageC...', Array, true)
+#4 C:\xampp\htdocs\ptic\modules\ManageContent\Controllers\DataContent.php(33): view('Modules\\ManageC...', Array)
+#5 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageContent\Controllers\DataContent->content()
+#6 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageContent\Controllers\DataContent))
+#7 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ptic\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}

@@ -1,0 +1,290 @@
+CRITICAL - 2021-08-31 08:57:30 --> You do not have sufficient permissions to access that page.
+#0 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Filters/Filters.php(181): Myth\Auth\Filters\PermissionFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-users/pr...', 'before')
+#2 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/okesofti/kemahasiswaan.stekom.ac.id/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2021-08-31 13:35:26 --> mysqli_sql_exception: Duplicate entry '' for key 'email' in /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query('INSERT INTO `us...')
+#1 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/Login/Controllers/Login.php(130): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\Login\Controllers\Login->cek_login('3fba29d1386ea07...')
+#6 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Login\Controllers\Login))
+#7 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/okesofti/kemahasiswaan.stekom.ac.id/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-08-31 13:35:26 --> mysqli_sql_exception: Column 'user_id' cannot be null in /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query('INSERT INTO `au...')
+#1 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `au...')
+#2 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `au...')
+#3 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `au...', Array, false)
+#4 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/Login/Controllers/Login.php(150): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\Login\Controllers\Login->cek_login('3fba29d1386ea07...')
+#6 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Login\Controllers\Login))
+#7 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/okesofti/kemahasiswaan.stekom.ac.id/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-08-31 14:48:23 --> mysqli_sql_exception: Unknown column 'id_kategori' in 'field list' in /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query('INSERT INTO `ga...')
+#1 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ga...')
+#2 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ga...')
+#3 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ga...', Array, false)
+#4 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageGaleri/Models/ModelGaleriMaster.php(116): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageGaleri/Controllers/DataGaleriMaster.php(150): Modules\ManageGaleri\Models\ModelGaleriMaster->save_master_galeri('7029e3bca23225b...', 'Juara Lomba III...', 'juara-lomba-iii...', '0', '1630396103_b0b8...', '3')
+#6 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageGaleri\Controllers\DataGaleriMaster->galeri_save()
+#7 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageGaleri\Controllers\DataGaleriMaster))
+#8 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/okesofti/kemahasiswaan.stekom.ac.id/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-08-31 14:48:23 --> mysqli_sql_exception: Column 'id_galeri' cannot be null in /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query('INSERT INTO `ga...')
+#1 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ga...')
+#2 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ga...')
+#3 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ga...', Array, false)
+#4 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageGaleri/Models/ModelGaleriMaster.php(127): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageGaleri/Controllers/DataGaleriMaster.php(163): Modules\ManageGaleri\Models\ModelGaleriMaster->save_img_galeri(NULL, '11630396103_c1e...')
+#6 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageGaleri\Controllers\DataGaleriMaster->galeri_save()
+#7 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageGaleri\Controllers\DataGaleriMaster))
+#8 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/okesofti/kemahasiswaan.stekom.ac.id/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-08-31 14:48:23 --> mysqli_sql_exception: Column 'id_galeri' cannot be null in /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query('INSERT INTO `ga...')
+#1 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ga...')
+#2 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ga...')
+#3 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ga...', Array, false)
+#4 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageGaleri/Models/ModelGaleriMaster.php(127): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageGaleri/Controllers/DataGaleriMaster.php(163): Modules\ManageGaleri\Models\ModelGaleriMaster->save_img_galeri(NULL, '21630396103_f3f...')
+#6 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageGaleri\Controllers\DataGaleriMaster->galeri_save()
+#7 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageGaleri\Controllers\DataGaleriMaster))
+#8 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/okesofti/kemahasiswaan.stekom.ac.id/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-08-31 14:49:00 --> mysqli_sql_exception: Unknown column 'id_kategori' in 'field list' in /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query('INSERT INTO `ga...')
+#1 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ga...')
+#2 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ga...')
+#3 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ga...', Array, false)
+#4 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageGaleri/Models/ModelGaleriMaster.php(116): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageGaleri/Controllers/DataGaleriMaster.php(150): Modules\ManageGaleri\Models\ModelGaleriMaster->save_master_galeri('8cfd77cd6a6e528...', 'Juara Lomba III...', 'juara-lomba-iii...', '0', '1630396140_e8da...', '3')
+#6 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageGaleri\Controllers\DataGaleriMaster->galeri_save()
+#7 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageGaleri\Controllers\DataGaleriMaster))
+#8 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/okesofti/kemahasiswaan.stekom.ac.id/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-08-31 14:49:00 --> mysqli_sql_exception: Column 'id_galeri' cannot be null in /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query('INSERT INTO `ga...')
+#1 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ga...')
+#2 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ga...')
+#3 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ga...', Array, false)
+#4 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageGaleri/Models/ModelGaleriMaster.php(127): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageGaleri/Controllers/DataGaleriMaster.php(163): Modules\ManageGaleri\Models\ModelGaleriMaster->save_img_galeri(NULL, '11630396140_9ca...')
+#6 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageGaleri\Controllers\DataGaleriMaster->galeri_save()
+#7 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageGaleri\Controllers\DataGaleriMaster))
+#8 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/okesofti/kemahasiswaan.stekom.ac.id/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-08-31 14:49:00 --> mysqli_sql_exception: Column 'id_galeri' cannot be null in /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query('INSERT INTO `ga...')
+#1 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ga...')
+#2 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ga...')
+#3 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ga...', Array, false)
+#4 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageGaleri/Models/ModelGaleriMaster.php(127): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageGaleri/Controllers/DataGaleriMaster.php(163): Modules\ManageGaleri\Models\ModelGaleriMaster->save_img_galeri(NULL, '21630396140_6f9...')
+#6 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageGaleri\Controllers\DataGaleriMaster->galeri_save()
+#7 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageGaleri\Controllers\DataGaleriMaster))
+#8 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/okesofti/kemahasiswaan.stekom.ac.id/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-08-31 14:51:53 --> mysqli_sql_exception: Unknown column 'id_kategori' in 'field list' in /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query('INSERT INTO `ga...')
+#1 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ga...')
+#2 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ga...')
+#3 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ga...', Array, false)
+#4 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageGaleri/Models/ModelGaleriMaster.php(116): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageGaleri/Controllers/DataGaleriMaster.php(150): Modules\ManageGaleri\Models\ModelGaleriMaster->save_master_galeri('22444829d235f7f...', 'Juara Lomba III...', 'juara-lomba-iii...', '0', '1630396313_e192...', '3')
+#6 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageGaleri\Controllers\DataGaleriMaster->galeri_save()
+#7 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageGaleri\Controllers\DataGaleriMaster))
+#8 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/okesofti/kemahasiswaan.stekom.ac.id/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-08-31 14:51:53 --> mysqli_sql_exception: Column 'id_galeri' cannot be null in /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query('INSERT INTO `ga...')
+#1 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ga...')
+#2 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ga...')
+#3 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ga...', Array, false)
+#4 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageGaleri/Models/ModelGaleriMaster.php(127): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageGaleri/Controllers/DataGaleriMaster.php(163): Modules\ManageGaleri\Models\ModelGaleriMaster->save_img_galeri(NULL, '11630396313_61c...')
+#6 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageGaleri\Controllers\DataGaleriMaster->galeri_save()
+#7 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageGaleri\Controllers\DataGaleriMaster))
+#8 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/okesofti/kemahasiswaan.stekom.ac.id/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-08-31 14:51:53 --> mysqli_sql_exception: Column 'id_galeri' cannot be null in /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query('INSERT INTO `ga...')
+#1 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ga...')
+#2 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ga...')
+#3 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ga...', Array, false)
+#4 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageGaleri/Models/ModelGaleriMaster.php(127): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageGaleri/Controllers/DataGaleriMaster.php(163): Modules\ManageGaleri\Models\ModelGaleriMaster->save_img_galeri(NULL, '21630396313_b98...')
+#6 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageGaleri\Controllers\DataGaleriMaster->galeri_save()
+#7 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageGaleri\Controllers\DataGaleriMaster))
+#8 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/okesofti/kemahasiswaan.stekom.ac.id/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-08-31 14:56:05 --> mysqli_sql_exception: Unknown column 'id_kategori' in 'field list' in /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query('INSERT INTO `ga...')
+#1 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ga...')
+#2 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ga...')
+#3 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ga...', Array, false)
+#4 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageGaleri/Models/ModelGaleriMaster.php(116): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageGaleri/Controllers/DataGaleriMaster.php(150): Modules\ManageGaleri\Models\ModelGaleriMaster->save_master_galeri('902a5c7f0a05cde...', 'Juara Lomba III...', 'juara-lomba-iii...', '0', '1630396565_dc3a...', '2')
+#6 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageGaleri\Controllers\DataGaleriMaster->galeri_save()
+#7 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageGaleri\Controllers\DataGaleriMaster))
+#8 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/okesofti/kemahasiswaan.stekom.ac.id/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-08-31 14:56:05 --> mysqli_sql_exception: Column 'id_galeri' cannot be null in /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query('INSERT INTO `ga...')
+#1 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ga...')
+#2 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ga...')
+#3 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ga...', Array, false)
+#4 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageGaleri/Models/ModelGaleriMaster.php(127): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageGaleri/Controllers/DataGaleriMaster.php(163): Modules\ManageGaleri\Models\ModelGaleriMaster->save_img_galeri(NULL, '11630396565_8d7...')
+#6 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageGaleri\Controllers\DataGaleriMaster->galeri_save()
+#7 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageGaleri\Controllers\DataGaleriMaster))
+#8 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/okesofti/kemahasiswaan.stekom.ac.id/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-08-31 14:56:05 --> mysqli_sql_exception: Column 'id_galeri' cannot be null in /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query('INSERT INTO `ga...')
+#1 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ga...')
+#2 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ga...')
+#3 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ga...', Array, false)
+#4 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageGaleri/Models/ModelGaleriMaster.php(127): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageGaleri/Controllers/DataGaleriMaster.php(163): Modules\ManageGaleri\Models\ModelGaleriMaster->save_img_galeri(NULL, '21630396565_00d...')
+#6 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageGaleri\Controllers\DataGaleriMaster->galeri_save()
+#7 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageGaleri\Controllers\DataGaleriMaster))
+#8 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/okesofti/kemahasiswaan.stekom.ac.id/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-08-31 14:56:19 --> mysqli_sql_exception: Unknown column 'id_kategori' in 'field list' in /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query('INSERT INTO `ga...')
+#1 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ga...')
+#2 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ga...')
+#3 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ga...', Array, false)
+#4 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageGaleri/Models/ModelGaleriMaster.php(116): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageGaleri/Controllers/DataGaleriMaster.php(150): Modules\ManageGaleri\Models\ModelGaleriMaster->save_master_galeri('718c7489d07e7d7...', 'asdad', 'asdad', '0', '1630396579_bb20...', '1')
+#6 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageGaleri\Controllers\DataGaleriMaster->galeri_save()
+#7 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageGaleri\Controllers\DataGaleriMaster))
+#8 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/okesofti/kemahasiswaan.stekom.ac.id/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-08-31 14:56:19 --> mysqli_sql_exception: Column 'id_galeri' cannot be null in /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query('INSERT INTO `ga...')
+#1 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ga...')
+#2 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ga...')
+#3 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ga...', Array, false)
+#4 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageGaleri/Models/ModelGaleriMaster.php(127): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageGaleri/Controllers/DataGaleriMaster.php(163): Modules\ManageGaleri\Models\ModelGaleriMaster->save_img_galeri(NULL, '11630396579_4c9...')
+#6 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageGaleri\Controllers\DataGaleriMaster->galeri_save()
+#7 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageGaleri\Controllers\DataGaleriMaster))
+#8 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/okesofti/kemahasiswaan.stekom.ac.id/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-08-31 14:59:29 --> mysqli_sql_exception: Unknown column 'id_kategori' in 'field list' in /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query('INSERT INTO `ga...')
+#1 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ga...')
+#2 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ga...')
+#3 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ga...', Array, false)
+#4 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageGaleri/Models/ModelGaleriMaster.php(116): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageGaleri/Controllers/DataGaleriMaster.php(152): Modules\ManageGaleri\Models\ModelGaleriMaster->save_master_galeri('445744578dbb5dd...', 'Juara Lomba III...', 'juara-lomba-iii...', '0', '1630396769_aa58...', '3')
+#6 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageGaleri\Controllers\DataGaleriMaster->galeri_save()
+#7 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageGaleri\Controllers\DataGaleriMaster))
+#8 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/okesofti/kemahasiswaan.stekom.ac.id/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-08-31 14:59:29 --> mysqli_sql_exception: Column 'id_galeri' cannot be null in /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query('INSERT INTO `ga...')
+#1 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ga...')
+#2 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ga...')
+#3 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ga...', Array, false)
+#4 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageGaleri/Models/ModelGaleriMaster.php(127): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageGaleri/Controllers/DataGaleriMaster.php(165): Modules\ManageGaleri\Models\ModelGaleriMaster->save_img_galeri(NULL, '11630396769_347...')
+#6 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageGaleri\Controllers\DataGaleriMaster->galeri_save()
+#7 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageGaleri\Controllers\DataGaleriMaster))
+#8 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/okesofti/kemahasiswaan.stekom.ac.id/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-08-31 14:59:29 --> mysqli_sql_exception: Column 'id_galeri' cannot be null in /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query('INSERT INTO `ga...')
+#1 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ga...')
+#2 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ga...')
+#3 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ga...', Array, false)
+#4 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageGaleri/Models/ModelGaleriMaster.php(127): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageGaleri/Controllers/DataGaleriMaster.php(165): Modules\ManageGaleri\Models\ModelGaleriMaster->save_img_galeri(NULL, '21630396769_270...')
+#6 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageGaleri\Controllers\DataGaleriMaster->galeri_save()
+#7 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageGaleri\Controllers\DataGaleriMaster))
+#8 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/okesofti/kemahasiswaan.stekom.ac.id/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-08-31 15:03:01 --> mysqli_sql_exception: Unknown column 'id_kategori' in 'field list' in /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query('INSERT INTO `ga...')
+#1 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ga...')
+#2 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ga...')
+#3 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ga...', Array, false)
+#4 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageGaleri/Models/ModelGaleriMaster.php(116): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageGaleri/Controllers/DataGaleriMaster.php(151): Modules\ManageGaleri\Models\ModelGaleriMaster->save_master_galeri('8c5abf6fab465fe...', 'Juara Lomba III...', 'juara-lomba-iii...', '0', '1630396981_cc99...', '3')
+#6 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageGaleri\Controllers\DataGaleriMaster->galeri_save()
+#7 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageGaleri\Controllers\DataGaleriMaster))
+#8 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/okesofti/kemahasiswaan.stekom.ac.id/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-08-31 15:03:01 --> mysqli_sql_exception: Column 'id_galeri' cannot be null in /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query('INSERT INTO `ga...')
+#1 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ga...')
+#2 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ga...')
+#3 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ga...', Array, false)
+#4 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageGaleri/Models/ModelGaleriMaster.php(127): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageGaleri/Controllers/DataGaleriMaster.php(164): Modules\ManageGaleri\Models\ModelGaleriMaster->save_img_galeri(NULL, '11630396981_9eb...')
+#6 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageGaleri\Controllers\DataGaleriMaster->galeri_save()
+#7 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageGaleri\Controllers\DataGaleriMaster))
+#8 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/okesofti/kemahasiswaan.stekom.ac.id/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-08-31 15:03:01 --> mysqli_sql_exception: Column 'id_galeri' cannot be null in /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query('INSERT INTO `ga...')
+#1 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ga...')
+#2 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ga...')
+#3 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ga...', Array, false)
+#4 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageGaleri/Models/ModelGaleriMaster.php(127): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageGaleri/Controllers/DataGaleriMaster.php(164): Modules\ManageGaleri\Models\ModelGaleriMaster->save_img_galeri(NULL, '21630396981_2e7...')
+#6 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageGaleri\Controllers\DataGaleriMaster->galeri_save()
+#7 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageGaleri\Controllers\DataGaleriMaster))
+#8 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/okesofti/kemahasiswaan.stekom.ac.id/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}

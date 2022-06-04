@@ -1,0 +1,18 @@
+CRITICAL - 2021-09-05 06:29:26 --> You do not have sufficient permissions to access that page.
+#0 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Filters/Filters.php(181): Myth\Auth\Filters\PermissionFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-users/pr...', 'before')
+#2 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/okesofti/kemahasiswaan.stekom.ac.id/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2021-09-05 15:50:08 --> mysqli_sql_exception: Duplicate entry 'agenstekom@gmail.com' for key 'email' in /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query('UPDATE `users` ...')
+#1 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `users` ...')
+#2 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `users` ...')
+#3 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2468): CodeIgniter\Database\BaseConnection->query('UPDATE `users` ...', Array, false)
+#4 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/Login/Controllers/Login.php(103): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\Login\Controllers\Login->cek_login('ae2a65a9c6aa02b...')
+#6 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Login\Controllers\Login))
+#7 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/okesofti/kemahasiswaan.stekom.ac.id/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}

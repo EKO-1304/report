@@ -1,0 +1,71 @@
+ERROR - 2021-09-20 11:08:33 --> Error connecting to the database: Unknown database 'database_stie'
+CRITICAL - 2021-09-20 11:08:33 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\github\stie-stekom\vendor\codeigniter4\framework\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\github\stie-stekom\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `berita`...', Array, false)
+#2 C:\xampp\htdocs\github\stie-stekom\modules\ManageLayoutFront\Models\ModelLayout.php(55): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\github\stie-stekom\modules\ManageLayoutFront\Controllers\Layout.php(23): Modules\ManageLayoutFront\Models\ModelLayout->get_berita(3)
+#4 C:\xampp\htdocs\github\stie-stekom\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageLayoutFront\Controllers\Layout->index()
+#5 C:\xampp\htdocs\github\stie-stekom\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageLayoutFront\Controllers\Layout))
+#6 C:\xampp\htdocs\github\stie-stekom\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\github\stie-stekom\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\github\stie-stekom\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2021-09-20 11:08:43 --> Error connecting to the database: Unknown database 'database_stie'
+CRITICAL - 2021-09-20 11:08:43 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\github\stie-stekom\vendor\codeigniter4\framework\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\github\stie-stekom\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `berita`...', Array, false)
+#2 C:\xampp\htdocs\github\stie-stekom\modules\ManageLayoutFront\Models\ModelLayout.php(55): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\github\stie-stekom\modules\ManageLayoutFront\Controllers\Layout.php(23): Modules\ManageLayoutFront\Models\ModelLayout->get_berita(3)
+#4 C:\xampp\htdocs\github\stie-stekom\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageLayoutFront\Controllers\Layout->index()
+#5 C:\xampp\htdocs\github\stie-stekom\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageLayoutFront\Controllers\Layout))
+#6 C:\xampp\htdocs\github\stie-stekom\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\github\stie-stekom\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\github\stie-stekom\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-09-20 11:16:59 --> Use of undefined constant a - assumed 'a' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\github\stie-stekom\modules\ManageUsers\Controllers\DataUsers.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 34, Array)
+#1 C:\xampp\htdocs\github\stie-stekom\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageUsers\Controllers\DataUsers->index()
+#2 C:\xampp\htdocs\github\stie-stekom\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageUsers\Controllers\DataUsers))
+#3 C:\xampp\htdocs\github\stie-stekom\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\github\stie-stekom\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\github\stie-stekom\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-20 13:48:22 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\github\stie-stekom\modules\ManageContentFront\Controllers\Content.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 25, Array)
+#1 C:\xampp\htdocs\github\stie-stekom\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageContentFront\Controllers\Content->index('tenaga-administ...')
+#2 C:\xampp\htdocs\github\stie-stekom\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageContentFront\Controllers\Content))
+#3 C:\xampp\htdocs\github\stie-stekom\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\github\stie-stekom\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\github\stie-stekom\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-20 13:48:50 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\github\stie-stekom\modules\ManageContentFront\Controllers\Content.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 25, Array)
+#1 C:\xampp\htdocs\github\stie-stekom\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageContentFront\Controllers\Content->index('tenaga-administ...')
+#2 C:\xampp\htdocs\github\stie-stekom\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageContentFront\Controllers\Content))
+#3 C:\xampp\htdocs\github\stie-stekom\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\github\stie-stekom\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\github\stie-stekom\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-20 13:49:10 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\github\stie-stekom\modules\ManageContentFront\Controllers\Content.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 25, Array)
+#1 C:\xampp\htdocs\github\stie-stekom\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageContentFront\Controllers\Content->index('tenaga-administ...')
+#2 C:\xampp\htdocs\github\stie-stekom\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageContentFront\Controllers\Content))
+#3 C:\xampp\htdocs\github\stie-stekom\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\github\stie-stekom\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\github\stie-stekom\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-20 13:49:32 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\github\stie-stekom\modules\ManageContentFront\Controllers\Content.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 25, Array)
+#1 C:\xampp\htdocs\github\stie-stekom\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageContentFront\Controllers\Content->index('tenaga-administ...')
+#2 C:\xampp\htdocs\github\stie-stekom\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageContentFront\Controllers\Content))
+#3 C:\xampp\htdocs\github\stie-stekom\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\github\stie-stekom\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\github\stie-stekom\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-20 15:57:24 --> Class 'Modules\ManageUpload\Models\ModelUpload' not found
+#0 C:\xampp\htdocs\github\stie-stekom\vendor\codeigniter4\framework\system\CodeIgniter.php(912): Modules\ManageUpload\Controllers\DataUpload->__construct()
+#1 C:\xampp\htdocs\github\stie-stekom\vendor\codeigniter4\framework\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\github\stie-stekom\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\github\stie-stekom\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\github\stie-stekom\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}

@@ -1,0 +1,70 @@
+CRITICAL - 2021-08-09 13:39:33 --> Invalid file: Modules\ManageLayout\Views\layout-front.php
+#0 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\ManageL...')
+#1 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\View\View.php(236): CodeIgniter\View\View->render('Modules\\ManageL...', Array, true)
+#2 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\ManageR...', Array, true)
+#3 C:\xampp\htdocs\ptic\modules\ManageRegistrasiFront\Controllers\DataRegistrasi.php(118): view('Modules\\ManageR...', Array)
+#4 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageRegistrasiFront\Controllers\DataRegistrasi->kta('b96691ae647531c...')
+#5 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageRegistrasiFront\Controllers\DataRegistrasi))
+#6 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ptic\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2021-08-09 15:48:31 --> mysqli_sql_exception: Unknown column 'no_urut' in 'order clause' in C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, `r...')
+#1 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `r...')
+#2 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `r...')
+#3 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `r...', Array, false)
+#4 C:\xampp\htdocs\ptic\modules\ManageKerjasama\Models\ModelJenisKerjasama.php(25): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ptic\modules\ManageKerjasama\Controllers\DataJenisKerjasama.php(23): Modules\ManageKerjasama\Models\ModelJenisKerjasama->get_jenis()
+#6 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageKerjasama\Controllers\DataJenisKerjasama->jenis()
+#7 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageKerjasama\Controllers\DataJenisKerjasama))
+#8 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ptic\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-08-09 15:48:31 --> Unknown column 'no_urut' in 'order clause'
+#0 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, `r...')
+#1 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `r...')
+#2 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `r...')
+#3 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `r...', Array, false)
+#4 C:\xampp\htdocs\ptic\modules\ManageKerjasama\Models\ModelJenisKerjasama.php(25): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ptic\modules\ManageKerjasama\Controllers\DataJenisKerjasama.php(23): Modules\ManageKerjasama\Models\ModelJenisKerjasama->get_jenis()
+#6 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageKerjasama\Controllers\DataJenisKerjasama->jenis()
+#7 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageKerjasama\Controllers\DataJenisKerjasama))
+#8 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ptic\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-08-09 15:48:44 --> Invalid file: Modules\ManageKerjasama\Views\menu.php
+#0 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\ManageK...')
+#1 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\ManageK...', Array, true)
+#2 C:\xampp\htdocs\ptic\modules\ManageKerjasama\Controllers\DataJenisKerjasama.php(32): view('Modules\\ManageK...', Array)
+#3 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageKerjasama\Controllers\DataJenisKerjasama->jenis()
+#4 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageKerjasama\Controllers\DataJenisKerjasama))
+#5 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ptic\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-08-09 15:56:34 --> Undefined index: jenis_kerjasama_menu
+#0 C:\xampp\htdocs\ptic\modules\ManageKerjasama\Views\jenis_kerjasama.php(163): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 163, Array)
+#1 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\ManageK...', Array, true)
+#4 C:\xampp\htdocs\ptic\modules\ManageKerjasama\Controllers\DataJenisKerjasama.php(32): view('Modules\\ManageK...', Array)
+#5 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageKerjasama\Controllers\DataJenisKerjasama->jenis()
+#6 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageKerjasama\Controllers\DataJenisKerjasama))
+#7 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ptic\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-08-09 15:59:14 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Model.php(615): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Model.php(834): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\ptic\modules\ManageKerjasama\Controllers\DataJenisKerjasama.php(102): CodeIgniter\Model->__call('delete_menu', Array)
+#3 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\ManageKerjasama\Controllers\DataJenisKerjasama->jenis_delete()
+#4 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageKerjasama\Controllers\DataJenisKerjasama))
+#5 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ptic\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ptic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}

@@ -1,0 +1,119 @@
+ERROR - 2021-08-30 11:47:21 --> mysqli_sql_exception: Table 'okesofti_kemahasiswaan.galeri_kategori' doesn't exist in /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageGaleri/Models/ModelGaleriMaster.php(30): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageGaleri/Controllers/DataKategori.php(24): Modules\ManageGaleri\Models\ModelGaleriMaster->get_kategori()
+#6 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageGaleri\Controllers\DataKategori->kategori_galeri()
+#7 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageGaleri\Controllers\DataKategori))
+#8 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/okesofti/kemahasiswaan.stekom.ac.id/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-08-30 11:47:25 --> mysqli_sql_exception: Table 'okesofti_kemahasiswaan.galeri_kategori' doesn't exist in /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageGaleri/Models/ModelGaleriMaster.php(30): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageGaleri/Controllers/DataKategori.php(24): Modules\ManageGaleri\Models\ModelGaleriMaster->get_kategori()
+#6 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageGaleri\Controllers\DataKategori->kategori_galeri()
+#7 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageGaleri\Controllers\DataKategori))
+#8 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/okesofti/kemahasiswaan.stekom.ac.id/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-08-30 11:48:06 --> mysqli_sql_exception: Table 'okesofti_kemahasiswaan.galeri_kategori' doesn't exist in /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageGaleri/Models/ModelGaleriMaster.php(30): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageGaleri/Controllers/DataKategori.php(24): Modules\ManageGaleri\Models\ModelGaleriMaster->get_kategori()
+#6 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageGaleri\Controllers\DataKategori->kategori_galeri()
+#7 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageGaleri\Controllers\DataKategori))
+#8 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/okesofti/kemahasiswaan.stekom.ac.id/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-08-30 11:48:08 --> mysqli_sql_exception: Table 'okesofti_kemahasiswaan.galeri_kategori' doesn't exist in /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageGaleri/Models/ModelGaleriMaster.php(30): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageGaleri/Controllers/DataKategori.php(24): Modules\ManageGaleri\Models\ModelGaleriMaster->get_kategori()
+#6 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageGaleri\Controllers\DataKategori->kategori_galeri()
+#7 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageGaleri\Controllers\DataKategori))
+#8 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/okesofti/kemahasiswaan.stekom.ac.id/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-08-30 11:49:11 --> mysqli_sql_exception: Unknown column 'id_kategori' in 'field list' in /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query('UPDATE `galeri_...')
+#1 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `galeri_...')
+#2 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `galeri_...')
+#3 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2468): CodeIgniter\Database\BaseConnection->query('UPDATE `galeri_...', Array, false)
+#4 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageGaleri/Models/ModelGaleriMaster.php(147): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageGaleri/Controllers/DataGaleriMaster.php(315): Modules\ManageGaleri\Models\ModelGaleriMaster->edit_master_galeri('691ca2e96f4aec0...', 'cek', 'cek', '0', '1628817600_5e4c...', '3')
+#6 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageGaleri\Controllers\DataGaleriMaster->galeri_update()
+#7 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageGaleri\Controllers\DataGaleriMaster))
+#8 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/okesofti/kemahasiswaan.stekom.ac.id/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-08-30 11:51:12 --> mysqli_sql_exception: Unknown column 'id_kategori' in 'where clause' in /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT `nama_ga...')
+#1 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `nama_ga...')
+#2 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `nama_ga...')
+#3 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `nama_ga...', Array, false)
+#4 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageGaleriFront/Views/galeri_all.php(76): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/View/View.php(220): include('/home/okesofti/...')
+#6 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render('Modules\\ManageG...', Array, true)
+#8 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageGaleriFront/Controllers/Galeri.php(51): view('Modules\\ManageG...', Array)
+#9 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageGaleriFront\Controllers\Galeri->galeri()
+#10 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageGaleriFront\Controllers\Galeri))
+#11 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /home/okesofti/kemahasiswaan.stekom.ac.id/index.php(44): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2021-08-30 11:51:13 --> mysqli_sql_exception: Unknown column 'id_kategori' in 'where clause' in /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT `nama_ga...')
+#1 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `nama_ga...')
+#2 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `nama_ga...')
+#3 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `nama_ga...', Array, false)
+#4 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageGaleriFront/Views/galeri_all.php(76): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/View/View.php(220): include('/home/okesofti/...')
+#6 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render('Modules\\ManageG...', Array, true)
+#8 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageGaleriFront/Controllers/Galeri.php(51): view('Modules\\ManageG...', Array)
+#9 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageGaleriFront\Controllers\Galeri->galeri()
+#10 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageGaleriFront\Controllers\Galeri))
+#11 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /home/okesofti/kemahasiswaan.stekom.ac.id/index.php(44): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2021-08-30 11:51:14 --> mysqli_sql_exception: Unknown column 'id_kategori' in 'where clause' in /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT `nama_ga...')
+#1 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `nama_ga...')
+#2 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `nama_ga...')
+#3 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `nama_ga...', Array, false)
+#4 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageGaleriFront/Views/galeri_all.php(76): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/View/View.php(220): include('/home/okesofti/...')
+#6 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render('Modules\\ManageG...', Array, true)
+#8 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageGaleriFront/Controllers/Galeri.php(51): view('Modules\\ManageG...', Array)
+#9 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageGaleriFront\Controllers\Galeri->galeri()
+#10 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageGaleriFront\Controllers\Galeri))
+#11 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /home/okesofti/kemahasiswaan.stekom.ac.id/index.php(44): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-08-30 15:07:53 --> You do not have sufficient permissions to access that page.
+#0 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Filters/Filters.php(181): Myth\Auth\Filters\PermissionFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('manage-users/pr...', 'before')
+#2 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/okesofti/kemahasiswaan.stekom.ac.id/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}

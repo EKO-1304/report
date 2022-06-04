@@ -1,0 +1,672 @@
+ERROR - 2021-08-20 09:28:53 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2021-08-20 09:28:53 --> Unable to connect to the database.
+#0 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1966): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#2 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/Login/Controllers/Login.php(89): CodeIgniter\Database\BaseBuilder->countAllResults()
+#3 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\Login\Controllers\Login->cek_login('7e4afe6b5a33236...')
+#4 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Login\Controllers\Login))
+#5 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/okesofti/kemahasiswaan.stekom.ac.id/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-20 09:28:53 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/app/Views/errors/html/error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home/okesofti/...', 100, Array)
+#1 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/app/Views/errors/html/error_exception.php(100): print_r(Object(Modules\Login\Controllers\Login), true)
+#2 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Debug/Exceptions.php(281): include('/home/okesofti/...')
+#3 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Debug/Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2021-08-20 11:25:03 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2021-08-20 11:25:03 --> Unable to connect to the database.
+#0 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `berita`...', Array, false)
+#2 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageLayoutFront/Models/ModelLayout.php(55): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageLayoutFront/Controllers/Layout.php(23): Modules\ManageLayoutFront\Models\ModelLayout->get_berita(3)
+#4 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageLayoutFront\Controllers\Layout->index()
+#5 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageLayoutFront\Controllers\Layout))
+#6 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/okesofti/kemahasiswaan.stekom.ac.id/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-08-20 11:25:04 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/app/Views/errors/html/error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home/okesofti/...', 100, Array)
+#1 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/app/Views/errors/html/error_exception.php(100): print_r(Object(Modules\ManageLayoutFront\Controllers\Layout), true)
+#2 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Debug/Exceptions.php(281): include('/home/okesofti/...')
+#3 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Debug/Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2021-08-20 11:25:13 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2021-08-20 11:25:13 --> Unable to connect to the database.
+#0 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `berita`...', Array, false)
+#2 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageLayoutFront/Models/ModelLayout.php(55): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageLayoutFront/Controllers/Layout.php(23): Modules\ManageLayoutFront\Models\ModelLayout->get_berita(3)
+#4 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageLayoutFront\Controllers\Layout->index()
+#5 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageLayoutFront\Controllers\Layout))
+#6 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/okesofti/kemahasiswaan.stekom.ac.id/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-08-20 11:25:13 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/app/Views/errors/html/error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home/okesofti/...', 100, Array)
+#1 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/app/Views/errors/html/error_exception.php(100): print_r(Object(Modules\ManageLayoutFront\Controllers\Layout), true)
+#2 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Debug/Exceptions.php(281): include('/home/okesofti/...')
+#3 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Debug/Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2021-08-20 11:25:14 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2021-08-20 11:25:14 --> Unable to connect to the database.
+#0 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `berita`...', Array, false)
+#2 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageLayoutFront/Models/ModelLayout.php(55): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageLayoutFront/Controllers/Layout.php(23): Modules\ManageLayoutFront\Models\ModelLayout->get_berita(3)
+#4 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageLayoutFront\Controllers\Layout->index()
+#5 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageLayoutFront\Controllers\Layout))
+#6 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/okesofti/kemahasiswaan.stekom.ac.id/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-08-20 11:25:14 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/app/Views/errors/html/error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home/okesofti/...', 100, Array)
+#1 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/app/Views/errors/html/error_exception.php(100): print_r(Object(Modules\ManageLayoutFront\Controllers\Layout), true)
+#2 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Debug/Exceptions.php(281): include('/home/okesofti/...')
+#3 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Debug/Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2021-08-20 11:28:18 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2021-08-20 11:28:18 --> Unable to connect to the database.
+#0 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `berita`...', Array, false)
+#2 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageLayoutFront/Models/ModelLayout.php(55): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageLayoutFront/Controllers/Layout.php(23): Modules\ManageLayoutFront\Models\ModelLayout->get_berita(3)
+#4 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageLayoutFront\Controllers\Layout->index()
+#5 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageLayoutFront\Controllers\Layout))
+#6 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/okesofti/kemahasiswaan.stekom.ac.id/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-08-20 11:28:18 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/app/Views/errors/html/error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home/okesofti/...', 100, Array)
+#1 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/app/Views/errors/html/error_exception.php(100): print_r(Object(Modules\ManageLayoutFront\Controllers\Layout), true)
+#2 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Debug/Exceptions.php(281): include('/home/okesofti/...')
+#3 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Debug/Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2021-08-20 12:57:28 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2021-08-20 12:57:28 --> Unable to connect to the database.
+#0 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1966): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#2 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/Login/Controllers/Login.php(89): CodeIgniter\Database\BaseBuilder->countAllResults()
+#3 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\Login\Controllers\Login->cek_login('f2d1a30d63493b9...')
+#4 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Login\Controllers\Login))
+#5 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/okesofti/kemahasiswaan.stekom.ac.id/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-20 12:57:28 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/app/Views/errors/html/error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home/okesofti/...', 100, Array)
+#1 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/app/Views/errors/html/error_exception.php(100): print_r(Object(Modules\Login\Controllers\Login), true)
+#2 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Debug/Exceptions.php(281): include('/home/okesofti/...')
+#3 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Debug/Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2021-08-20 13:18:20 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2021-08-20 13:18:20 --> Unable to connect to the database.
+#0 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `berita`...', Array, false)
+#2 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageLayoutFront/Models/ModelLayout.php(55): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageLayoutFront/Controllers/Layout.php(23): Modules\ManageLayoutFront\Models\ModelLayout->get_berita(3)
+#4 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageLayoutFront\Controllers\Layout->index()
+#5 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageLayoutFront\Controllers\Layout))
+#6 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/okesofti/kemahasiswaan.stekom.ac.id/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-08-20 13:18:20 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/app/Views/errors/html/error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home/okesofti/...', 100, Array)
+#1 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/app/Views/errors/html/error_exception.php(100): print_r(Object(Modules\ManageLayoutFront\Controllers\Layout), true)
+#2 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Debug/Exceptions.php(281): include('/home/okesofti/...')
+#3 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Debug/Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2021-08-20 13:20:20 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2021-08-20 13:20:20 --> Unable to connect to the database.
+#0 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `berita`...', Array, false)
+#2 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageLayoutFront/Models/ModelLayout.php(55): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageLayoutFront/Controllers/Layout.php(23): Modules\ManageLayoutFront\Models\ModelLayout->get_berita(3)
+#4 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageLayoutFront\Controllers\Layout->index()
+#5 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageLayoutFront\Controllers\Layout))
+#6 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/okesofti/kemahasiswaan.stekom.ac.id/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-08-20 13:20:20 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/app/Views/errors/html/error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home/okesofti/...', 100, Array)
+#1 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/app/Views/errors/html/error_exception.php(100): print_r(Object(Modules\ManageLayoutFront\Controllers\Layout), true)
+#2 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Debug/Exceptions.php(281): include('/home/okesofti/...')
+#3 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Debug/Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2021-08-20 13:21:12 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2021-08-20 13:21:12 --> Unable to connect to the database.
+#0 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `berita`...', Array, false)
+#2 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageLayoutFront/Models/ModelLayout.php(55): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageLayoutFront/Controllers/Layout.php(23): Modules\ManageLayoutFront\Models\ModelLayout->get_berita(3)
+#4 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageLayoutFront\Controllers\Layout->index()
+#5 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageLayoutFront\Controllers\Layout))
+#6 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/okesofti/kemahasiswaan.stekom.ac.id/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-08-20 13:21:13 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/app/Views/errors/html/error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home/okesofti/...', 100, Array)
+#1 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/app/Views/errors/html/error_exception.php(100): print_r(Object(Modules\ManageLayoutFront\Controllers\Layout), true)
+#2 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Debug/Exceptions.php(281): include('/home/okesofti/...')
+#3 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Debug/Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2021-08-20 13:21:35 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2021-08-20 13:21:35 --> Unable to connect to the database.
+#0 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `berita`...', Array, false)
+#2 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageLayoutFront/Models/ModelLayout.php(55): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageLayoutFront/Controllers/Layout.php(23): Modules\ManageLayoutFront\Models\ModelLayout->get_berita(3)
+#4 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageLayoutFront\Controllers\Layout->index()
+#5 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageLayoutFront\Controllers\Layout))
+#6 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/okesofti/kemahasiswaan.stekom.ac.id/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-08-20 13:21:40 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2021-08-20 13:21:40 --> Unable to connect to the database.
+#0 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `berita`...', Array, false)
+#2 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageLayoutFront/Models/ModelLayout.php(55): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageLayoutFront/Controllers/Layout.php(23): Modules\ManageLayoutFront\Models\ModelLayout->get_berita(3)
+#4 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageLayoutFront\Controllers\Layout->index()
+#5 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageLayoutFront\Controllers\Layout))
+#6 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/okesofti/kemahasiswaan.stekom.ac.id/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-08-20 13:21:48 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2021-08-20 13:21:48 --> Unable to connect to the database.
+#0 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `berita`...', Array, false)
+#2 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageLayoutFront/Models/ModelLayout.php(55): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageLayoutFront/Controllers/Layout.php(23): Modules\ManageLayoutFront\Models\ModelLayout->get_berita(3)
+#4 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageLayoutFront\Controllers\Layout->index()
+#5 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageLayoutFront\Controllers\Layout))
+#6 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/okesofti/kemahasiswaan.stekom.ac.id/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-08-20 13:22:19 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2021-08-20 13:22:19 --> Unable to connect to the database.
+#0 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `berita`...', Array, false)
+#2 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageLayoutFront/Models/ModelLayout.php(55): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageLayoutFront/Controllers/Layout.php(23): Modules\ManageLayoutFront\Models\ModelLayout->get_berita(3)
+#4 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageLayoutFront\Controllers\Layout->index()
+#5 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageLayoutFront\Controllers\Layout))
+#6 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/okesofti/kemahasiswaan.stekom.ac.id/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-08-20 13:24:42 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2021-08-20 13:24:42 --> Unable to connect to the database.
+#0 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `berita`...', Array, false)
+#2 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageLayoutFront/Models/ModelLayout.php(55): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageLayoutFront/Controllers/Layout.php(23): Modules\ManageLayoutFront\Models\ModelLayout->get_berita(3)
+#4 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageLayoutFront\Controllers\Layout->index()
+#5 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageLayoutFront\Controllers\Layout))
+#6 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/okesofti/kemahasiswaan.stekom.ac.id/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-08-20 14:44:02 --> mysqli_sql_exception: Table 'okesofti_kemahasiswaan.users' doesn't exist in /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Model.php(169): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/BaseModel.php(518): CodeIgniter\Model->doFind(true, '53')
+#6 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/myth/auth/src/Authentication/AuthenticationBase.php(137): CodeIgniter\BaseModel->find('53')
+#7 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/myth/auth/src/Authentication/LocalAuthenticator.php(116): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+#8 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageLayout/Controllers/Layout.php(30): Myth\Auth\Authentication\LocalAuthenticator->check()
+#9 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageLayout\Controllers\Layout->index()
+#10 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageLayout\Controllers\Layout))
+#11 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /home/okesofti/kemahasiswaan.stekom.ac.id/index.php(44): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2021-08-20 14:45:33 --> mysqli_sql_exception: Table 'okesofti_kemahasiswaan.users' doesn't exist in /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Model.php(247): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/BaseModel.php(624): CodeIgniter\Model->doFirst()
+#6 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/myth/auth/src/Authentication/LocalAuthenticator.php(202): CodeIgniter\BaseModel->first()
+#7 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/myth/auth/src/Authentication/LocalAuthenticator.php(66): Myth\Auth\Authentication\LocalAuthenticator->validate(Array, true)
+#8 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/myth/auth/src/Controllers/AuthController.php(88): Myth\Auth\Authentication\LocalAuthenticator->attempt(Array, false)
+#9 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Myth\Auth\Controllers\AuthController->attemptLogin()
+#10 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#11 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /home/okesofti/kemahasiswaan.stekom.ac.id/index.php(44): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2021-08-20 14:45:33 --> mysqli_sql_exception: Table 'okesofti_kemahasiswaan.auth_logins' doesn't exist in /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query('INSERT INTO `au...')
+#1 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `au...')
+#2 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `au...')
+#3 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `au...', Array, false)
+#4 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/myth/auth/src/Authentication/AuthenticationBase.php(212): CodeIgniter\Model->insert(Array)
+#8 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/myth/auth/src/Authentication/LocalAuthenticator.php(72): Myth\Auth\Authentication\AuthenticationBase->recordLoginAttempt('ecoweb435', '23.106.248.251', NULL, false)
+#9 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/myth/auth/src/Controllers/AuthController.php(88): Myth\Auth\Authentication\LocalAuthenticator->attempt(Array, false)
+#10 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Myth\Auth\Controllers\AuthController->attemptLogin()
+#11 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#12 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 /home/okesofti/kemahasiswaan.stekom.ac.id/index.php(44): CodeIgniter\CodeIgniter->run()
+#14 {main}
+ERROR - 2021-08-20 14:45:41 --> mysqli_sql_exception: Table 'okesofti_kemahasiswaan.users' doesn't exist in /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT COUNT(*)...')
+#1 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1966): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/Login/Controllers/Login.php(89): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\Login\Controllers\Login->cek_login('8cefa1ac516a005...')
+#6 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Login\Controllers\Login))
+#7 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/okesofti/kemahasiswaan.stekom.ac.id/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-08-20 14:45:41 --> mysqli_sql_exception: Table 'okesofti_kemahasiswaan.users' doesn't exist in /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query('INSERT INTO `us...')
+#1 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/Login/Controllers/Login.php(130): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\Login\Controllers\Login->cek_login('8cefa1ac516a005...')
+#6 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Login\Controllers\Login))
+#7 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/okesofti/kemahasiswaan.stekom.ac.id/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-08-20 14:45:41 --> mysqli_sql_exception: Table 'okesofti_kemahasiswaan.mahasiswa' doesn't exist in /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query('INSERT INTO `ma...')
+#1 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ma...')
+#2 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ma...')
+#3 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ma...', Array, false)
+#4 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/Login/Controllers/Login.php(142): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\Login\Controllers\Login->cek_login('8cefa1ac516a005...')
+#6 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Login\Controllers\Login))
+#7 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/okesofti/kemahasiswaan.stekom.ac.id/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-08-20 14:45:41 --> mysqli_sql_exception: Table 'okesofti_kemahasiswaan.users' doesn't exist in /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/Login/Controllers/Login.php(145): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\Login\Controllers\Login->cek_login('8cefa1ac516a005...')
+#6 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Login\Controllers\Login))
+#7 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/okesofti/kemahasiswaan.stekom.ac.id/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-08-20 14:45:41 --> mysqli_sql_exception: Table 'okesofti_kemahasiswaan.auth_groups_users' doesn't exist in /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query('INSERT INTO `au...')
+#1 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `au...')
+#2 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `au...')
+#3 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `au...', Array, false)
+#4 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/Login/Controllers/Login.php(150): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\Login\Controllers\Login->cek_login('8cefa1ac516a005...')
+#6 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Login\Controllers\Login))
+#7 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/okesofti/kemahasiswaan.stekom.ac.id/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-08-20 14:45:41 --> mysqli_sql_exception: Table 'okesofti_kemahasiswaan.users' doesn't exist in /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Model.php(247): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/BaseModel.php(624): CodeIgniter\Model->doFirst()
+#6 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/myth/auth/src/Authentication/LocalAuthenticator.php(202): CodeIgniter\BaseModel->first()
+#7 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/myth/auth/src/Authentication/LocalAuthenticator.php(21): Myth\Auth\Authentication\LocalAuthenticator->validate(Array, true)
+#8 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/Login/Controllers/Login.php(165): Myth\Auth\Authentication\LocalAuthenticator->attempt_mahasiswa(Array, false)
+#9 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\Login\Controllers\Login->cek_login('8cefa1ac516a005...')
+#10 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Login\Controllers\Login))
+#11 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /home/okesofti/kemahasiswaan.stekom.ac.id/index.php(44): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2021-08-20 14:45:41 --> mysqli_sql_exception: Table 'okesofti_kemahasiswaan.auth_logins' doesn't exist in /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query('INSERT INTO `au...')
+#1 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `au...')
+#2 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `au...')
+#3 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `au...', Array, false)
+#4 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/myth/auth/src/Authentication/AuthenticationBase.php(212): CodeIgniter\Model->insert(Array)
+#8 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/myth/auth/src/Authentication/LocalAuthenticator.php(27): Myth\Auth\Authentication\AuthenticationBase->recordLoginAttempt('888740102150006', '23.106.248.251', NULL, false)
+#9 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/Login/Controllers/Login.php(165): Myth\Auth\Authentication\LocalAuthenticator->attempt_mahasiswa(Array, false)
+#10 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\Login\Controllers\Login->cek_login('8cefa1ac516a005...')
+#11 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Login\Controllers\Login))
+#12 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 /home/okesofti/kemahasiswaan.stekom.ac.id/index.php(44): CodeIgniter\CodeIgniter->run()
+#14 {main}
+ERROR - 2021-08-20 14:47:47 --> mysqli_sql_exception: Table 'okesofti_kemahasiswaan.users' doesn't exist in /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT COUNT(*)...')
+#1 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1966): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/Login/Controllers/Login.php(89): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\Login\Controllers\Login->cek_login('1410bbe0d7dbca0...')
+#6 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Login\Controllers\Login))
+#7 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/okesofti/kemahasiswaan.stekom.ac.id/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-08-20 14:47:47 --> mysqli_sql_exception: Table 'okesofti_kemahasiswaan.users' doesn't exist in /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query('INSERT INTO `us...')
+#1 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/Login/Controllers/Login.php(130): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\Login\Controllers\Login->cek_login('1410bbe0d7dbca0...')
+#6 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Login\Controllers\Login))
+#7 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/okesofti/kemahasiswaan.stekom.ac.id/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-08-20 14:47:47 --> mysqli_sql_exception: Table 'okesofti_kemahasiswaan.mahasiswa' doesn't exist in /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query('INSERT INTO `ma...')
+#1 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ma...')
+#2 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ma...')
+#3 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ma...', Array, false)
+#4 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/Login/Controllers/Login.php(142): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\Login\Controllers\Login->cek_login('1410bbe0d7dbca0...')
+#6 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Login\Controllers\Login))
+#7 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/okesofti/kemahasiswaan.stekom.ac.id/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-08-20 14:47:47 --> mysqli_sql_exception: Table 'okesofti_kemahasiswaan.users' doesn't exist in /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/Login/Controllers/Login.php(145): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\Login\Controllers\Login->cek_login('1410bbe0d7dbca0...')
+#6 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Login\Controllers\Login))
+#7 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/okesofti/kemahasiswaan.stekom.ac.id/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-08-20 14:47:47 --> mysqli_sql_exception: Table 'okesofti_kemahasiswaan.auth_groups_users' doesn't exist in /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query('INSERT INTO `au...')
+#1 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `au...')
+#2 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `au...')
+#3 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `au...', Array, false)
+#4 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/Login/Controllers/Login.php(150): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\Login\Controllers\Login->cek_login('1410bbe0d7dbca0...')
+#6 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Login\Controllers\Login))
+#7 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/okesofti/kemahasiswaan.stekom.ac.id/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-08-20 14:47:47 --> mysqli_sql_exception: Table 'okesofti_kemahasiswaan.users' doesn't exist in /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Model.php(247): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/BaseModel.php(624): CodeIgniter\Model->doFirst()
+#6 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/myth/auth/src/Authentication/LocalAuthenticator.php(202): CodeIgniter\BaseModel->first()
+#7 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/myth/auth/src/Authentication/LocalAuthenticator.php(21): Myth\Auth\Authentication\LocalAuthenticator->validate(Array, true)
+#8 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/Login/Controllers/Login.php(165): Myth\Auth\Authentication\LocalAuthenticator->attempt_mahasiswa(Array, false)
+#9 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\Login\Controllers\Login->cek_login('1410bbe0d7dbca0...')
+#10 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Login\Controllers\Login))
+#11 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /home/okesofti/kemahasiswaan.stekom.ac.id/index.php(44): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2021-08-20 14:47:47 --> mysqli_sql_exception: Table 'okesofti_kemahasiswaan.auth_logins' doesn't exist in /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query('INSERT INTO `au...')
+#1 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `au...')
+#2 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `au...')
+#3 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `au...', Array, false)
+#4 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/myth/auth/src/Authentication/AuthenticationBase.php(212): CodeIgniter\Model->insert(Array)
+#8 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/myth/auth/src/Authentication/LocalAuthenticator.php(27): Myth\Auth\Authentication\AuthenticationBase->recordLoginAttempt('888740102150006', '23.106.248.251', NULL, false)
+#9 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/Login/Controllers/Login.php(165): Myth\Auth\Authentication\LocalAuthenticator->attempt_mahasiswa(Array, false)
+#10 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\Login\Controllers\Login->cek_login('1410bbe0d7dbca0...')
+#11 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Login\Controllers\Login))
+#12 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 /home/okesofti/kemahasiswaan.stekom.ac.id/index.php(44): CodeIgniter\CodeIgniter->run()
+#14 {main}
+ERROR - 2021-08-20 14:47:53 --> mysqli_sql_exception: Table 'okesofti_kemahasiswaan.berita' doesn't exist in /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT `berita`...')
+#1 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `berita`...')
+#2 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `berita`...')
+#3 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `berita`...', Array, false)
+#4 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageLayoutFront/Models/ModelLayout.php(55): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageLayoutFront/Controllers/Layout.php(23): Modules\ManageLayoutFront\Models\ModelLayout->get_berita(3)
+#6 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageLayoutFront\Controllers\Layout->index()
+#7 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageLayoutFront\Controllers\Layout))
+#8 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/okesofti/kemahasiswaan.stekom.ac.id/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-08-20 14:47:53 --> mysqli_sql_exception: Table 'okesofti_kemahasiswaan.contact' doesn't exist in /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageLayoutFront/Models/ModelLayout.php(21): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageLayoutFront/Controllers/Layout.php(24): Modules\ManageLayoutFront\Models\ModelLayout->get_contact()
+#6 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageLayoutFront\Controllers\Layout->index()
+#7 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageLayoutFront\Controllers\Layout))
+#8 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/okesofti/kemahasiswaan.stekom.ac.id/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-08-20 14:47:53 --> mysqli_sql_exception: Table 'okesofti_kemahasiswaan.reg_agenda' doesn't exist in /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT `nama_ag...')
+#1 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `nama_ag...')
+#2 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `nama_ag...')
+#3 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `nama_ag...', Array, false)
+#4 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageLayoutFront/Views/home.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/View/View.php(220): include('/home/okesofti/...')
+#6 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render('Modules\\ManageL...', Array, true)
+#8 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageLayoutFront/Controllers/Layout.php(33): view('Modules\\ManageL...', Array)
+#9 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageLayoutFront\Controllers\Layout->index()
+#10 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageLayoutFront\Controllers\Layout))
+#11 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /home/okesofti/kemahasiswaan.stekom.ac.id/index.php(44): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2021-08-20 14:47:53 --> mysqli_sql_exception: Table 'okesofti_kemahasiswaan.berita' doesn't exist in /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT `berita`...')
+#1 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `berita`...')
+#2 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `berita`...')
+#3 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `berita`...', Array, false)
+#4 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageLayoutFront/Views/home.php(77): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/View/View.php(220): include('/home/okesofti/...')
+#6 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render('Modules\\ManageL...', Array, true)
+#8 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageLayoutFront/Controllers/Layout.php(33): view('Modules\\ManageL...', Array)
+#9 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageLayoutFront\Controllers\Layout->index()
+#10 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageLayoutFront\Controllers\Layout))
+#11 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /home/okesofti/kemahasiswaan.stekom.ac.id/index.php(44): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2021-08-20 14:47:53 --> mysqli_sql_exception: Table 'okesofti_kemahasiswaan.berita' doesn't exist in /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT `berita`...')
+#1 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `berita`...')
+#2 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `berita`...')
+#3 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `berita`...', Array, false)
+#4 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageLayoutFront/Views/home.php(106): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/View/View.php(220): include('/home/okesofti/...')
+#6 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render('Modules\\ManageL...', Array, true)
+#8 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageLayoutFront/Controllers/Layout.php(33): view('Modules\\ManageL...', Array)
+#9 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageLayoutFront\Controllers\Layout->index()
+#10 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageLayoutFront\Controllers\Layout))
+#11 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /home/okesofti/kemahasiswaan.stekom.ac.id/index.php(44): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2021-08-20 14:47:53 --> mysqli_sql_exception: Table 'okesofti_kemahasiswaan.berita_kategori' doesn't exist in /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT `berita_...')
+#1 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `berita_...')
+#2 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `berita_...')
+#3 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `berita_...', Array, false)
+#4 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageLayoutFront/Views/home.php(153): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/View/View.php(220): include('/home/okesofti/...')
+#6 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render('Modules\\ManageL...', Array, true)
+#8 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageLayoutFront/Controllers/Layout.php(33): view('Modules\\ManageL...', Array)
+#9 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageLayoutFront\Controllers\Layout->index()
+#10 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageLayoutFront\Controllers\Layout))
+#11 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /home/okesofti/kemahasiswaan.stekom.ac.id/index.php(44): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2021-08-20 14:47:53 --> mysqli_sql_exception: Table 'okesofti_kemahasiswaan.menu_website' doesn't exist in /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT `id`, `l...')
+#1 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `l...')
+#2 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `l...')
+#3 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `l...', Array, false)
+#4 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageLayoutFront/Views/navbar.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/View/View.php(220): include('/home/okesofti/...')
+#6 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/View/View.php(468): CodeIgniter\View\View->render('Modules\\ManageL...', NULL, true)
+#8 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageLayoutFront/Views/layout.php(102): CodeIgniter\View\View->include('Modules\\ManageL...')
+#9 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/View/View.php(220): include('/home/okesofti/...')
+#10 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#11 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/View/View.php(236): CodeIgniter\View\View->render('Modules\\ManageL...', Array, true)
+#12 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render('Modules\\ManageL...', Array, true)
+#13 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageLayoutFront/Controllers/Layout.php(33): view('Modules\\ManageL...', Array)
+#14 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageLayoutFront\Controllers\Layout->index()
+#15 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageLayoutFront\Controllers\Layout))
+#16 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#17 /home/okesofti/kemahasiswaan.stekom.ac.id/index.php(44): CodeIgniter\CodeIgniter->run()
+#18 {main}
+ERROR - 2021-08-20 14:47:53 --> mysqli_sql_exception: Table 'okesofti_kemahasiswaan.slideshow' doesn't exist in /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageLayoutFront/Views/slide.php(12): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/View/View.php(220): include('/home/okesofti/...')
+#6 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/View/View.php(468): CodeIgniter\View\View->render('Modules\\ManageL...', NULL, true)
+#8 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageLayoutFront/Views/layout.php(107): CodeIgniter\View\View->include('Modules\\ManageL...')
+#9 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/View/View.php(220): include('/home/okesofti/...')
+#10 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#11 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/View/View.php(236): CodeIgniter\View\View->render('Modules\\ManageL...', Array, true)
+#12 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render('Modules\\ManageL...', Array, true)
+#13 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageLayoutFront/Controllers/Layout.php(33): view('Modules\\ManageL...', Array)
+#14 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageLayoutFront\Controllers\Layout->index()
+#15 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageLayoutFront\Controllers\Layout))
+#16 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#17 /home/okesofti/kemahasiswaan.stekom.ac.id/index.php(44): CodeIgniter\CodeIgniter->run()
+#18 {main}
+ERROR - 2021-08-20 14:47:53 --> mysqli_sql_exception: Table 'okesofti_kemahasiswaan.sub_menu_website' doesn't exist in /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT `nama_su...')
+#1 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `nama_su...')
+#2 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `nama_su...')
+#3 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `nama_su...', Array, false)
+#4 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageLayoutFront/Views/footer.php(31): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/View/View.php(220): include('/home/okesofti/...')
+#6 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/View/View.php(468): CodeIgniter\View\View->render('Modules\\ManageL...', NULL, true)
+#8 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageLayoutFront/Views/layout.php(115): CodeIgniter\View\View->include('Modules\\ManageL...')
+#9 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/View/View.php(220): include('/home/okesofti/...')
+#10 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#11 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/View/View.php(236): CodeIgniter\View\View->render('Modules\\ManageL...', Array, true)
+#12 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render('Modules\\ManageL...', Array, true)
+#13 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageLayoutFront/Controllers/Layout.php(33): view('Modules\\ManageL...', Array)
+#14 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageLayoutFront\Controllers\Layout->index()
+#15 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageLayoutFront\Controllers\Layout))
+#16 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#17 /home/okesofti/kemahasiswaan.stekom.ac.id/index.php(44): CodeIgniter\CodeIgniter->run()
+#18 {main}
+CRITICAL - 2021-08-20 14:52:24 --> Trying to access array offset on value of type null
+#0 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageLayoutFront/Views/home.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/okesofti/...', 83, Array)
+#1 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/View/View.php(220): include('/home/okesofti/...')
+#2 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render('Modules\\ManageL...', Array, true)
+#4 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageLayoutFront/Controllers/Layout.php(33): view('Modules\\ManageL...', Array)
+#5 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageLayoutFront\Controllers\Layout->index()
+#6 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageLayoutFront\Controllers\Layout))
+#7 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/okesofti/kemahasiswaan.stekom.ac.id/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-20 14:52:27 --> Trying to access array offset on value of type null
+#0 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageLayoutFront/Views/home.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/okesofti/...', 83, Array)
+#1 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/View/View.php(220): include('/home/okesofti/...')
+#2 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render('Modules\\ManageL...', Array, true)
+#4 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageLayoutFront/Controllers/Layout.php(33): view('Modules\\ManageL...', Array)
+#5 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageLayoutFront\Controllers\Layout->index()
+#6 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageLayoutFront\Controllers\Layout))
+#7 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/okesofti/kemahasiswaan.stekom.ac.id/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-20 14:55:13 --> Trying to access array offset on value of type null
+#0 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageLayoutFront/Views/home.php(161): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/okesofti/...', 161, Array)
+#1 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/View/View.php(220): include('/home/okesofti/...')
+#2 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render('Modules\\ManageL...', Array, true)
+#4 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/modules/ManageLayoutFront/Controllers/Layout.php(33): view('Modules\\ManageL...', Array)
+#5 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(940): Modules\ManageLayoutFront\Controllers\Layout->index()
+#6 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\ManageLayoutFront\Controllers\Layout))
+#7 /home/okesofti/kemahasiswaan.stekom.ac.id/kemahasiswaan/vendor/codeigniter4/framework/system/CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/okesofti/kemahasiswaan.stekom.ac.id/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}

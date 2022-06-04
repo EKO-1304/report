@@ -1,0 +1,382 @@
+CRITICAL - 2021-07-12 08:52:07 --> You do not have sufficient permissions to access that page.
+#0 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Filters\Filters.php(181): Myth\Auth\Filters\PermissionFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('data-master-per...', 'before')
+#2 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kegiatan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2021-07-12 14:37:39 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' null
+ORDER BY `fulname` ASC' at line 3 in C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, `f...')
+#1 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `f...')
+#2 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `f...')
+#3 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `f...', Array, false)
+#4 C:\xampp\htdocs\kegiatan\modules\AdminMasterKerjasama\Models\ModelMasterKerjasama.php(53): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\kegiatan\modules\AdminMasterKerjasama\Controllers\DataMasterKerjasama.php(27): Modules\AdminMasterKerjasama\Models\ModelMasterKerjasama->get_user()
+#6 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\AdminMasterKerjasama\Controllers\DataMasterKerjasama->master()
+#7 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminMasterKerjasama\Controllers\DataMasterKerjasama))
+#8 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\kegiatan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-07-12 14:37:39 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' null
+ORDER BY `fulname` ASC' at line 3
+#0 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, `f...')
+#1 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `f...')
+#2 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `f...')
+#3 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `f...', Array, false)
+#4 C:\xampp\htdocs\kegiatan\modules\AdminMasterKerjasama\Models\ModelMasterKerjasama.php(53): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\kegiatan\modules\AdminMasterKerjasama\Controllers\DataMasterKerjasama.php(27): Modules\AdminMasterKerjasama\Models\ModelMasterKerjasama->get_user()
+#6 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\AdminMasterKerjasama\Controllers\DataMasterKerjasama->master()
+#7 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminMasterKerjasama\Controllers\DataMasterKerjasama))
+#8 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\kegiatan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-07-12 14:37:48 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' null
+ORDER BY `fulname` ASC' at line 3 in C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, `f...')
+#1 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `f...')
+#2 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `f...')
+#3 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `f...', Array, false)
+#4 C:\xampp\htdocs\kegiatan\modules\AdminMasterKerjasama\Models\ModelMasterKerjasama.php(53): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\kegiatan\modules\AdminMasterKerjasama\Controllers\DataMasterKerjasama.php(27): Modules\AdminMasterKerjasama\Models\ModelMasterKerjasama->get_user()
+#6 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\AdminMasterKerjasama\Controllers\DataMasterKerjasama->master()
+#7 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminMasterKerjasama\Controllers\DataMasterKerjasama))
+#8 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\kegiatan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-07-12 14:37:48 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' null
+ORDER BY `fulname` ASC' at line 3
+#0 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, `f...')
+#1 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `f...')
+#2 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `f...')
+#3 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `f...', Array, false)
+#4 C:\xampp\htdocs\kegiatan\modules\AdminMasterKerjasama\Models\ModelMasterKerjasama.php(53): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\kegiatan\modules\AdminMasterKerjasama\Controllers\DataMasterKerjasama.php(27): Modules\AdminMasterKerjasama\Models\ModelMasterKerjasama->get_user()
+#6 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\AdminMasterKerjasama\Controllers\DataMasterKerjasama->master()
+#7 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminMasterKerjasama\Controllers\DataMasterKerjasama))
+#8 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\kegiatan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-07-12 14:38:02 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' null
+ORDER BY `fulname` ASC' at line 3 in C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, `f...')
+#1 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `f...')
+#2 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `f...')
+#3 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `f...', Array, false)
+#4 C:\xampp\htdocs\kegiatan\modules\AdminMasterKerjasama\Models\ModelMasterKerjasama.php(53): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\kegiatan\modules\AdminMasterKerjasama\Controllers\DataMasterKerjasama.php(27): Modules\AdminMasterKerjasama\Models\ModelMasterKerjasama->get_user()
+#6 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\AdminMasterKerjasama\Controllers\DataMasterKerjasama->master()
+#7 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminMasterKerjasama\Controllers\DataMasterKerjasama))
+#8 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\kegiatan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-07-12 14:38:02 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' null
+ORDER BY `fulname` ASC' at line 3
+#0 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, `f...')
+#1 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `f...')
+#2 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `f...')
+#3 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `f...', Array, false)
+#4 C:\xampp\htdocs\kegiatan\modules\AdminMasterKerjasama\Models\ModelMasterKerjasama.php(53): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\kegiatan\modules\AdminMasterKerjasama\Controllers\DataMasterKerjasama.php(27): Modules\AdminMasterKerjasama\Models\ModelMasterKerjasama->get_user()
+#6 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\AdminMasterKerjasama\Controllers\DataMasterKerjasama->master()
+#7 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminMasterKerjasama\Controllers\DataMasterKerjasama))
+#8 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\kegiatan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-07-12 14:38:13 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' null
+ORDER BY `fullname` ASC' at line 3 in C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, `f...')
+#1 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `f...')
+#2 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `f...')
+#3 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `f...', Array, false)
+#4 C:\xampp\htdocs\kegiatan\modules\AdminMasterKerjasama\Models\ModelMasterKerjasama.php(53): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\kegiatan\modules\AdminMasterKerjasama\Controllers\DataMasterKerjasama.php(27): Modules\AdminMasterKerjasama\Models\ModelMasterKerjasama->get_user()
+#6 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\AdminMasterKerjasama\Controllers\DataMasterKerjasama->master()
+#7 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminMasterKerjasama\Controllers\DataMasterKerjasama))
+#8 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\kegiatan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-07-12 14:38:13 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' null
+ORDER BY `fullname` ASC' at line 3
+#0 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, `f...')
+#1 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `f...')
+#2 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `f...')
+#3 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `f...', Array, false)
+#4 C:\xampp\htdocs\kegiatan\modules\AdminMasterKerjasama\Models\ModelMasterKerjasama.php(53): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\kegiatan\modules\AdminMasterKerjasama\Controllers\DataMasterKerjasama.php(27): Modules\AdminMasterKerjasama\Models\ModelMasterKerjasama->get_user()
+#6 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\AdminMasterKerjasama\Controllers\DataMasterKerjasama->master()
+#7 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminMasterKerjasama\Controllers\DataMasterKerjasama))
+#8 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\kegiatan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-07-12 14:38:45 --> mysqli_sql_exception: Unknown column 'deleted_ata' in 'where clause' in C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, `f...')
+#1 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `f...')
+#2 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `f...')
+#3 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `f...', Array, false)
+#4 C:\xampp\htdocs\kegiatan\modules\AdminMasterKerjasama\Models\ModelMasterKerjasama.php(53): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\kegiatan\modules\AdminMasterKerjasama\Controllers\DataMasterKerjasama.php(27): Modules\AdminMasterKerjasama\Models\ModelMasterKerjasama->get_user()
+#6 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\AdminMasterKerjasama\Controllers\DataMasterKerjasama->master()
+#7 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminMasterKerjasama\Controllers\DataMasterKerjasama))
+#8 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\kegiatan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-07-12 14:38:45 --> Unknown column 'deleted_ata' in 'where clause'
+#0 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, `f...')
+#1 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `f...')
+#2 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `f...')
+#3 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `f...', Array, false)
+#4 C:\xampp\htdocs\kegiatan\modules\AdminMasterKerjasama\Models\ModelMasterKerjasama.php(53): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\kegiatan\modules\AdminMasterKerjasama\Controllers\DataMasterKerjasama.php(27): Modules\AdminMasterKerjasama\Models\ModelMasterKerjasama->get_user()
+#6 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\AdminMasterKerjasama\Controllers\DataMasterKerjasama->master()
+#7 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminMasterKerjasama\Controllers\DataMasterKerjasama))
+#8 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\kegiatan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-07-12 14:38:45 --> mysqli_sql_exception: Unknown column 'deleted_ata' in 'where clause' in C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, `f...')
+#1 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `f...')
+#2 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `f...')
+#3 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `f...', Array, false)
+#4 C:\xampp\htdocs\kegiatan\modules\AdminMasterKerjasama\Models\ModelMasterKerjasama.php(53): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\kegiatan\modules\AdminMasterKerjasama\Controllers\DataMasterKerjasama.php(27): Modules\AdminMasterKerjasama\Models\ModelMasterKerjasama->get_user()
+#6 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\AdminMasterKerjasama\Controllers\DataMasterKerjasama->master()
+#7 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminMasterKerjasama\Controllers\DataMasterKerjasama))
+#8 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\kegiatan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-07-12 14:38:45 --> Unknown column 'deleted_ata' in 'where clause'
+#0 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, `f...')
+#1 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `f...')
+#2 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `f...')
+#3 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `f...', Array, false)
+#4 C:\xampp\htdocs\kegiatan\modules\AdminMasterKerjasama\Models\ModelMasterKerjasama.php(53): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\kegiatan\modules\AdminMasterKerjasama\Controllers\DataMasterKerjasama.php(27): Modules\AdminMasterKerjasama\Models\ModelMasterKerjasama->get_user()
+#6 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\AdminMasterKerjasama\Controllers\DataMasterKerjasama->master()
+#7 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminMasterKerjasama\Controllers\DataMasterKerjasama))
+#8 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\kegiatan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-07-12 14:38:51 --> mysqli_sql_exception: Unknown column 'deleted_ata' in 'where clause' in C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, `f...')
+#1 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `f...')
+#2 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `f...')
+#3 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `f...', Array, false)
+#4 C:\xampp\htdocs\kegiatan\modules\AdminMasterKerjasama\Models\ModelMasterKerjasama.php(53): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\kegiatan\modules\AdminMasterKerjasama\Controllers\DataMasterKerjasama.php(27): Modules\AdminMasterKerjasama\Models\ModelMasterKerjasama->get_user()
+#6 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\AdminMasterKerjasama\Controllers\DataMasterKerjasama->master()
+#7 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminMasterKerjasama\Controllers\DataMasterKerjasama))
+#8 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\kegiatan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-07-12 14:38:51 --> Unknown column 'deleted_ata' in 'where clause'
+#0 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `id`, `f...')
+#1 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `f...')
+#2 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `f...')
+#3 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `f...', Array, false)
+#4 C:\xampp\htdocs\kegiatan\modules\AdminMasterKerjasama\Models\ModelMasterKerjasama.php(53): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\kegiatan\modules\AdminMasterKerjasama\Controllers\DataMasterKerjasama.php(27): Modules\AdminMasterKerjasama\Models\ModelMasterKerjasama->get_user()
+#6 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\AdminMasterKerjasama\Controllers\DataMasterKerjasama->master()
+#7 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminMasterKerjasama\Controllers\DataMasterKerjasama))
+#8 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\kegiatan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-07-12 14:38:56 --> Undefined index: fulname
+#0 C:\xampp\htdocs\kegiatan\modules\AdminMasterKerjasama\Views\kerjasama.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 84, Array)
+#1 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\AdminMa...', Array, true)
+#4 C:\xampp\htdocs\kegiatan\modules\AdminMasterKerjasama\Controllers\DataMasterKerjasama.php(39): view('Modules\\AdminMa...', Array)
+#5 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\AdminMasterKerjasama\Controllers\DataMasterKerjasama->master()
+#6 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminMasterKerjasama\Controllers\DataMasterKerjasama))
+#7 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kegiatan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-07-12 14:39:54 --> Undefined index: fulname
+#0 C:\xampp\htdocs\kegiatan\modules\AdminMasterKerjasama\Views\kerjasama.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 84, Array)
+#1 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\AdminMa...', Array, true)
+#4 C:\xampp\htdocs\kegiatan\modules\AdminMasterKerjasama\Controllers\DataMasterKerjasama.php(39): view('Modules\\AdminMa...', Array)
+#5 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\AdminMasterKerjasama\Controllers\DataMasterKerjasama->master()
+#6 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminMasterKerjasama\Controllers\DataMasterKerjasama))
+#7 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kegiatan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2021-07-12 15:19:20 --> mysqli_sql_exception: Unknown column 'random' in 'field list' in C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `ke...')
+#1 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ke...')
+#2 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ke...')
+#3 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ke...', Array, false)
+#4 C:\xampp\htdocs\kegiatan\modules\AdminDataKerjasama\Models\ModelKerjasama.php(71): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\kegiatan\modules\AdminDataKerjasama\Controllers\DataKerjasama.php(78): Modules\AdminDataKerjasama\Models\ModelKerjasama->save_kerjasama('Kerjasama Magan...', 'kerjasama-magan...', 'CV. OKESOFT IND...', '2021-07-13')
+#6 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\AdminDataKerjasama\Controllers\DataKerjasama->master_save()
+#7 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminDataKerjasama\Controllers\DataKerjasama))
+#8 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\kegiatan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-07-12 15:19:20 --> Unknown column 'random' in 'field list'
+#0 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `ke...')
+#1 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ke...')
+#2 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ke...')
+#3 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ke...', Array, false)
+#4 C:\xampp\htdocs\kegiatan\modules\AdminDataKerjasama\Models\ModelKerjasama.php(71): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\kegiatan\modules\AdminDataKerjasama\Controllers\DataKerjasama.php(78): Modules\AdminDataKerjasama\Models\ModelKerjasama->save_kerjasama('Kerjasama Magan...', 'kerjasama-magan...', 'CV. OKESOFT IND...', '2021-07-13')
+#6 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\AdminDataKerjasama\Controllers\DataKerjasama->master_save()
+#7 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminDataKerjasama\Controllers\DataKerjasama))
+#8 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\kegiatan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-07-12 15:20:11 --> mysqli_sql_exception: Unknown column 'slug_nama_kerjasama' in 'field list' in C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `ke...')
+#1 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ke...')
+#2 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ke...')
+#3 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ke...', Array, false)
+#4 C:\xampp\htdocs\kegiatan\modules\AdminDataKerjasama\Models\ModelKerjasama.php(71): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\kegiatan\modules\AdminDataKerjasama\Controllers\DataKerjasama.php(78): Modules\AdminDataKerjasama\Models\ModelKerjasama->save_kerjasama('Kerjasama Magan...', 'kerjasama-magan...', 'CV. OKESOFT IND...', '2021-07-12')
+#6 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\AdminDataKerjasama\Controllers\DataKerjasama->master_save()
+#7 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminDataKerjasama\Controllers\DataKerjasama))
+#8 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\kegiatan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-07-12 15:20:11 --> Unknown column 'slug_nama_kerjasama' in 'field list'
+#0 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `ke...')
+#1 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ke...')
+#2 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ke...')
+#3 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ke...', Array, false)
+#4 C:\xampp\htdocs\kegiatan\modules\AdminDataKerjasama\Models\ModelKerjasama.php(71): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\kegiatan\modules\AdminDataKerjasama\Controllers\DataKerjasama.php(78): Modules\AdminDataKerjasama\Models\ModelKerjasama->save_kerjasama('Kerjasama Magan...', 'kerjasama-magan...', 'CV. OKESOFT IND...', '2021-07-12')
+#6 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\AdminDataKerjasama\Controllers\DataKerjasama->master_save()
+#7 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminDataKerjasama\Controllers\DataKerjasama))
+#8 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\kegiatan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-07-12 15:20:45 --> Undefined index: nama_kerjasma
+#0 C:\xampp\htdocs\kegiatan\modules\AdminDataKerjasama\Views\kerjasama.php(140): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 140, Array)
+#1 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\AdminDa...', Array, true)
+#4 C:\xampp\htdocs\kegiatan\modules\AdminDataKerjasama\Controllers\DataKerjasama.php(39): view('Modules\\AdminDa...', Array)
+#5 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\AdminDataKerjasama\Controllers\DataKerjasama->master()
+#6 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminDataKerjasama\Controllers\DataKerjasama))
+#7 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kegiatan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-07-12 16:01:42 --> Undefined variable: user
+#0 C:\xampp\htdocs\kegiatan\modules\AdminDataKerjasama\Controllers\DataDokumenKerjasama.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 37, Array)
+#1 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\AdminDataKerjasama\Controllers\DataDokumenKerjasama->master('f861505d41ae69c...')
+#2 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminDataKerjasama\Controllers\DataDokumenKerjasama))
+#3 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kegiatan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-07-12 16:03:21 --> Undefined index: nama_kerjasama
+#0 C:\xampp\htdocs\kegiatan\modules\AdminDataKerjasama\Controllers\DataDokumenKerjasama.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 37, Array)
+#1 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\AdminDataKerjasama\Controllers\DataDokumenKerjasama->master('f861505d41ae69c...')
+#2 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminDataKerjasama\Controllers\DataDokumenKerjasama))
+#3 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kegiatan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-07-12 16:03:25 --> Undefined index: nama_kerjasama
+#0 C:\xampp\htdocs\kegiatan\modules\AdminDataKerjasama\Controllers\DataDokumenKerjasama.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 37, Array)
+#1 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\AdminDataKerjasama\Controllers\DataDokumenKerjasama->master('f861505d41ae69c...')
+#2 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminDataKerjasama\Controllers\DataDokumenKerjasama))
+#3 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kegiatan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-07-12 16:22:36 --> Undefined variable: foto_profile
+#0 C:\xampp\htdocs\kegiatan\modules\AdminDataKerjasama\Controllers\DataDokumenKerjasama.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 77, Array)
+#1 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\AdminDataKerjasama\Controllers\DataDokumenKerjasama->master_save()
+#2 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminDataKerjasama\Controllers\DataDokumenKerjasama))
+#3 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kegiatan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-07-12 16:24:04 --> Undefined property: Modules\AdminDataKerjasama\Controllers\DataDokumenKerjasama::$ModelUsers
+#0 C:\xampp\htdocs\kegiatan\modules\AdminDataKerjasama\Controllers\DataDokumenKerjasama.php(82): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 82, Array)
+#1 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\AdminDataKerjasama\Controllers\DataDokumenKerjasama->master_save()
+#2 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminDataKerjasama\Controllers\DataDokumenKerjasama))
+#3 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kegiatan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-07-12 16:25:07 --> Undefined index: status
+#0 C:\xampp\htdocs\kegiatan\modules\AdminDataKerjasama\Views\data_kerjasama.php(134): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 134, Array)
+#1 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\AdminDa...', Array, true)
+#4 C:\xampp\htdocs\kegiatan\modules\AdminDataKerjasama\Controllers\DataDokumenKerjasama.php(41): view('Modules\\AdminDa...', Array)
+#5 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\AdminDataKerjasama\Controllers\DataDokumenKerjasama->master('f861505d41ae69c...')
+#6 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminDataKerjasama\Controllers\DataDokumenKerjasama))
+#7 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kegiatan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-07-12 16:25:11 --> Undefined index: status
+#0 C:\xampp\htdocs\kegiatan\modules\AdminDataKerjasama\Views\data_kerjasama.php(134): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 134, Array)
+#1 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\AdminDa...', Array, true)
+#4 C:\xampp\htdocs\kegiatan\modules\AdminDataKerjasama\Controllers\DataDokumenKerjasama.php(41): view('Modules\\AdminDa...', Array)
+#5 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\AdminDataKerjasama\Controllers\DataDokumenKerjasama->master('f861505d41ae69c...')
+#6 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminDataKerjasama\Controllers\DataDokumenKerjasama))
+#7 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kegiatan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-07-12 16:25:32 --> Undefined index: nama_kerjasama
+#0 C:\xampp\htdocs\kegiatan\modules\AdminDataKerjasama\Views\data_kerjasama.php(138): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 138, Array)
+#1 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\AdminDa...', Array, true)
+#4 C:\xampp\htdocs\kegiatan\modules\AdminDataKerjasama\Controllers\DataDokumenKerjasama.php(41): view('Modules\\AdminDa...', Array)
+#5 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\AdminDataKerjasama\Controllers\DataDokumenKerjasama->master('f861505d41ae69c...')
+#6 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminDataKerjasama\Controllers\DataDokumenKerjasama))
+#7 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kegiatan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-07-12 16:26:51 --> Undefined offset: 1
+#0 C:\xampp\htdocs\kegiatan\modules\AdminDataKerjasama\Views\data_kerjasama.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 141, Array)
+#1 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\AdminDa...', Array, true)
+#4 C:\xampp\htdocs\kegiatan\modules\AdminDataKerjasama\Controllers\DataDokumenKerjasama.php(41): view('Modules\\AdminDa...', Array)
+#5 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\AdminDataKerjasama\Controllers\DataDokumenKerjasama->master('f861505d41ae69c...')
+#6 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminDataKerjasama\Controllers\DataDokumenKerjasama))
+#7 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kegiatan\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\kegiatan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}

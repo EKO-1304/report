@@ -1,0 +1,36 @@
+ERROR - 2022-05-23 08:06:31 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-05-23 08:06:31 --> Unable to connect to the database.
+#0 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `x_kateg...', Array, false)
+#2 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\modules\LayoutDepan\Controllers\Layout.php(32): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\LayoutDepan\Controllers\Layout->index()
+#4 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\LayoutDepan\Controllers\Layout))
+#5 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\PC Kan...')
+#8 {main}
+CRITICAL - 2022-05-23 16:06:16 --> Undefined variable: ch
+#0 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\modules\Login\Controllers\Login.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\PC Kan...', 116, Array)
+#1 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Login\Controllers\Login->cek_login_ptic('25c7315bcfdfca6...')
+#2 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Login\Controllers\Login))
+#3 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\PC Kan...')
+#6 {main}
+CRITICAL - 2022-05-23 16:21:24 --> Undefined variable: data
+#0 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\modules\Login\Controllers\Login.php(120): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\PC Kan...', 120, Array)
+#1 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Login\Controllers\Login->cek_login_ptic('25c7315bcfdfca6...')
+#2 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Login\Controllers\Login))
+#3 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\PC Kan...')
+#6 {main}
+CRITICAL - 2022-05-23 16:23:55 --> Undefined variable: ch
+#0 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\modules\Login\Controllers\Login.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\PC Kan...', 116, Array)
+#1 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\Login\Controllers\Login->cek_login_ptic('25c7315bcfdfca6...')
+#2 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\Login\Controllers\Login))
+#3 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\tokoonline\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\PC Kan...')
+#6 {main}

@@ -1,0 +1,319 @@
+CRITICAL - 2021-05-28 10:41:17 --> Invalid file: Modules\AdminAbout\Views\hero.php
+#0 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\AdminAb...')
+#1 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\AdminAb...', Array, true)
+#2 D:\WEBSITE\xampp-7.4\htdocs\company\modules\AdminHero\Controllers\DataHero.php(33): view('Modules\\AdminAb...', Array)
+#3 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Modules\AdminHero\Controllers\DataHero->hero_edit('7239e3e2667b7f3...')
+#4 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminHero\Controllers\DataHero))
+#5 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\WEBSITE\xampp-7.4\htdocs\company\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#8 {main}
+CRITICAL - 2021-05-28 10:41:29 --> Invalid file: Modules\AdminAbout\Views\hero.php
+#0 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\AdminAb...')
+#1 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\AdminAb...', Array, true)
+#2 D:\WEBSITE\xampp-7.4\htdocs\company\modules\AdminHero\Controllers\DataHero.php(33): view('Modules\\AdminAb...', Array)
+#3 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Modules\AdminHero\Controllers\DataHero->hero_edit('7239e3e2667b7f3...')
+#4 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminHero\Controllers\DataHero))
+#5 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\WEBSITE\xampp-7.4\htdocs\company\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#8 {main}
+CRITICAL - 2021-05-28 10:56:02 --> syntax error, unexpected '[', expecting variable (T_VARIABLE) or '{' or '$'
+#0 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\AdminHe...', Array, true)
+#2 D:\WEBSITE\xampp-7.4\htdocs\company\modules\AdminHero\Controllers\DataHero.php(33): view('Modules\\AdminHe...', Array)
+#3 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Modules\AdminHero\Controllers\DataHero->hero_edit('7239e3e2667b7f3...')
+#4 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminHero\Controllers\DataHero))
+#5 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\WEBSITE\xampp-7.4\htdocs\company\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#8 {main}
+CRITICAL - 2021-05-28 10:56:32 --> syntax error, unexpected '[', expecting variable (T_VARIABLE) or '{' or '$'
+#0 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\AdminHe...', Array, true)
+#2 D:\WEBSITE\xampp-7.4\htdocs\company\modules\AdminHero\Controllers\DataHero.php(33): view('Modules\\AdminHe...', Array)
+#3 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Modules\AdminHero\Controllers\DataHero->hero_edit('7239e3e2667b7f3...')
+#4 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminHero\Controllers\DataHero))
+#5 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\WEBSITE\xampp-7.4\htdocs\company\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#8 {main}
+CRITICAL - 2021-05-28 11:17:12 --> Call to a member function edit_hero_no_image() on null
+#0 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Modules\AdminHero\Controllers\DataHero->hero_update()
+#1 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminHero\Controllers\DataHero))
+#2 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\WEBSITE\xampp-7.4\htdocs\company\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#5 {main}
+CRITICAL - 2021-05-28 11:17:23 --> Undefined property: Modules\AdminHero\Controllers\DataHero::$Modelhero
+#0 D:\WEBSITE\xampp-7.4\htdocs\company\modules\AdminHero\Controllers\DataHero.php(102): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\WEBSITE\\xamp...', 102, Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Modules\AdminHero\Controllers\DataHero->hero_update()
+#2 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminHero\Controllers\DataHero))
+#3 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\WEBSITE\xampp-7.4\htdocs\company\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#6 {main}
+ERROR - 2021-05-28 11:17:38 --> mysqli_sql_exception: Unknown column 'draf' in 'field list' in D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('UPDATE `hero` S...')
+#1 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `hero` S...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `hero` S...')
+#3 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2468): CodeIgniter\Database\BaseConnection->query('UPDATE `hero` S...', Array, false)
+#4 D:\WEBSITE\xampp-7.4\htdocs\company\modules\AdminHero\Models\ModelHero.php(43): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 D:\WEBSITE\xampp-7.4\htdocs\company\modules\AdminHero\Controllers\DataHero.php(102): Modules\AdminHero\Models\ModelHero->edit_hero_no_image('7239e3e2667b7f3...', 'Welcome to PT. ...', 'welcome-to-pt-d...', 'We are team of ...', '#about', '', '1')
+#6 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Modules\AdminHero\Controllers\DataHero->hero_update()
+#7 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminHero\Controllers\DataHero))
+#8 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\WEBSITE\xampp-7.4\htdocs\company\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#11 {main}
+CRITICAL - 2021-05-28 11:17:38 --> Unknown column 'draf' in 'field list'
+#0 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('UPDATE `hero` S...')
+#1 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `hero` S...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `hero` S...')
+#3 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2468): CodeIgniter\Database\BaseConnection->query('UPDATE `hero` S...', Array, false)
+#4 D:\WEBSITE\xampp-7.4\htdocs\company\modules\AdminHero\Models\ModelHero.php(43): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 D:\WEBSITE\xampp-7.4\htdocs\company\modules\AdminHero\Controllers\DataHero.php(102): Modules\AdminHero\Models\ModelHero->edit_hero_no_image('7239e3e2667b7f3...', 'Welcome to PT. ...', 'welcome-to-pt-d...', 'We are team of ...', '#about', '', '1')
+#6 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Modules\AdminHero\Controllers\DataHero->hero_update()
+#7 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminHero\Controllers\DataHero))
+#8 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\WEBSITE\xampp-7.4\htdocs\company\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#11 {main}
+CRITICAL - 2021-05-28 11:18:20 --> Trying to access array offset on value of type null
+#0 D:\WEBSITE\xampp-7.4\htdocs\company\modules\AdminAbout\Views\about.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\WEBSITE\\xamp...', 55, Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\View\View.php(220): include('D:\\WEBSITE\\xamp...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\AdminAb...', Array, true)
+#4 D:\WEBSITE\xampp-7.4\htdocs\company\modules\AdminAbout\Controllers\DataAbout.php(33): view('Modules\\AdminAb...', Array)
+#5 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Modules\AdminAbout\Controllers\DataAbout->about_edit('7239e3e2667b7f3...')
+#6 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminAbout\Controllers\DataAbout))
+#7 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\WEBSITE\xampp-7.4\htdocs\company\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#10 {main}
+CRITICAL - 2021-05-28 11:19:28 --> Trying to access array offset on value of type null
+#0 D:\WEBSITE\xampp-7.4\htdocs\company\modules\AdminAbout\Views\about.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\WEBSITE\\xamp...', 55, Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\View\View.php(220): include('D:\\WEBSITE\\xamp...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\AdminAb...', Array, true)
+#4 D:\WEBSITE\xampp-7.4\htdocs\company\modules\AdminAbout\Controllers\DataAbout.php(33): view('Modules\\AdminAb...', Array)
+#5 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Modules\AdminAbout\Controllers\DataAbout->about_edit('7239e3e2667b7f3...')
+#6 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminAbout\Controllers\DataAbout))
+#7 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\WEBSITE\xampp-7.4\htdocs\company\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#10 {main}
+CRITICAL - 2021-05-28 11:19:53 --> Trying to access array offset on value of type null
+#0 D:\WEBSITE\xampp-7.4\htdocs\company\modules\AdminAbout\Views\about.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\WEBSITE\\xamp...', 55, Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\View\View.php(220): include('D:\\WEBSITE\\xamp...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\AdminAb...', Array, true)
+#4 D:\WEBSITE\xampp-7.4\htdocs\company\modules\AdminAbout\Controllers\DataAbout.php(33): view('Modules\\AdminAb...', Array)
+#5 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Modules\AdminAbout\Controllers\DataAbout->about_edit('7239e3e2667b7f3...')
+#6 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminAbout\Controllers\DataAbout))
+#7 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\WEBSITE\xampp-7.4\htdocs\company\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#10 {main}
+CRITICAL - 2021-05-28 11:19:55 --> Trying to access array offset on value of type null
+#0 D:\WEBSITE\xampp-7.4\htdocs\company\modules\AdminAbout\Views\about.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\WEBSITE\\xamp...', 55, Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\View\View.php(220): include('D:\\WEBSITE\\xamp...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\AdminAb...', Array, true)
+#4 D:\WEBSITE\xampp-7.4\htdocs\company\modules\AdminAbout\Controllers\DataAbout.php(33): view('Modules\\AdminAb...', Array)
+#5 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Modules\AdminAbout\Controllers\DataAbout->about_edit('7239e3e2667b7f3...')
+#6 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminAbout\Controllers\DataAbout))
+#7 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\WEBSITE\xampp-7.4\htdocs\company\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#10 {main}
+CRITICAL - 2021-05-28 11:20:30 --> Trying to access array offset on value of type null
+#0 D:\WEBSITE\xampp-7.4\htdocs\company\modules\AdminAbout\Views\about.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\WEBSITE\\xamp...', 55, Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\View\View.php(220): include('D:\\WEBSITE\\xamp...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\AdminAb...', Array, true)
+#4 D:\WEBSITE\xampp-7.4\htdocs\company\modules\AdminAbout\Controllers\DataAbout.php(33): view('Modules\\AdminAb...', Array)
+#5 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Modules\AdminAbout\Controllers\DataAbout->about_edit('7239e3e2667b7f3...')
+#6 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminAbout\Controllers\DataAbout))
+#7 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\WEBSITE\xampp-7.4\htdocs\company\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#10 {main}
+CRITICAL - 2021-05-28 11:20:55 --> Trying to access array offset on value of type null
+#0 D:\WEBSITE\xampp-7.4\htdocs\company\modules\AdminAbout\Views\about.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\WEBSITE\\xamp...', 55, Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\View\View.php(220): include('D:\\WEBSITE\\xamp...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Modules\\AdminAb...', Array, true)
+#4 D:\WEBSITE\xampp-7.4\htdocs\company\modules\AdminAbout\Controllers\DataAbout.php(33): view('Modules\\AdminAb...', Array)
+#5 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Modules\AdminAbout\Controllers\DataAbout->about_edit('7239e3e2667b7f3...')
+#6 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminAbout\Controllers\DataAbout))
+#7 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\WEBSITE\xampp-7.4\htdocs\company\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#10 {main}
+CRITICAL - 2021-05-28 13:43:30 --> Undefined variable: id_rand
+#0 D:\WEBSITE\xampp-7.4\htdocs\company\modules\AdminUsers\Controllers\DataUsers.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\WEBSITE\\xamp...', 58, Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Modules\AdminUsers\Controllers\DataUsers->tambah_users()
+#2 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminUsers\Controllers\DataUsers))
+#3 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\WEBSITE\xampp-7.4\htdocs\company\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#6 {main}
+CRITICAL - 2021-05-28 14:05:35 --> syntax error, unexpected ''valid_email'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\WEBSITE\\xamp...')
+#1 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Modules\\AdminUs...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Modules\\AdminUs...')
+#3 [internal function]: spl_autoload_call('Modules\\AdminUs...')
+#4 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\CodeIgniter.php(893): class_exists('\\Modules\\AdminU...', true)
+#5 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\WEBSITE\xampp-7.4\htdocs\company\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#9 {main}
+CRITICAL - 2021-05-28 14:06:10 --> syntax error, unexpected ''valid_email'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\WEBSITE\\xamp...')
+#1 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Modules\\AdminUs...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Modules\\AdminUs...')
+#3 [internal function]: spl_autoload_call('Modules\\AdminUs...')
+#4 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\CodeIgniter.php(893): class_exists('\\Modules\\AdminU...', true)
+#5 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\WEBSITE\xampp-7.4\htdocs\company\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#9 {main}
+CRITICAL - 2021-05-28 15:32:16 --> Cannot redeclare Modules\AdminUsers\Models\ModelUsers::get_groups()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-28 15:32:54 --> Cannot redeclare Modules\AdminUsers\Models\ModelUsers::get_cek_users()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-28 15:33:00 --> Cannot redeclare Modules\AdminUsers\Models\ModelUsers::get_cek_users()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-28 15:38:36 --> password_hash() expects parameter 3 to be array, int given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'password_hash()...', 'D:\\WEBSITE\\xamp...', 110, Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\company\modules\AdminUsers\Models\ModelUsers.php(110): password_hash('ekoharyono', '2y', 10)
+#2 D:\WEBSITE\xampp-7.4\htdocs\company\modules\AdminUsers\Controllers\DataUsers.php(124): Modules\AdminUsers\Models\ModelUsers->save_users('cbcfd5e224dbb7f...', 'ekoharyono@stek...', 'ekoharyono', 'ekoharyono', '1')
+#3 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Modules\AdminUsers\Controllers\DataUsers->save_users()
+#4 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminUsers\Controllers\DataUsers))
+#5 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\WEBSITE\xampp-7.4\htdocs\company\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#8 {main}
+CRITICAL - 2021-05-28 15:40:02 --> password_hash() expects parameter 3 to be array, int given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'password_hash()...', 'D:\\WEBSITE\\xamp...', 122, Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\company\modules\AdminUsers\Controllers\DataUsers.php(122): password_hash('ekoharyono@stek...', '2y', 10)
+#2 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Modules\AdminUsers\Controllers\DataUsers->save_users()
+#3 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminUsers\Controllers\DataUsers))
+#4 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\WEBSITE\xampp-7.4\htdocs\company\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#7 {main}
+CRITICAL - 2021-05-28 15:40:24 --> Undefined variable: password
+#0 D:\WEBSITE\xampp-7.4\htdocs\company\modules\AdminUsers\Controllers\DataUsers.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\WEBSITE\\xamp...', 57, Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Modules\AdminUsers\Controllers\DataUsers->tambah_users()
+#2 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminUsers\Controllers\DataUsers))
+#3 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\WEBSITE\xampp-7.4\htdocs\company\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#6 {main}
+CRITICAL - 2021-05-28 15:40:33 --> password_hash() expects parameter 3 to be array, int given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'password_hash()...', 'D:\\WEBSITE\\xamp...', 57, Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\company\modules\AdminUsers\Controllers\DataUsers.php(57): password_hash('asd', '2y', 10)
+#2 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Modules\AdminUsers\Controllers\DataUsers->tambah_users()
+#3 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminUsers\Controllers\DataUsers))
+#4 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\WEBSITE\xampp-7.4\htdocs\company\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#7 {main}
+CRITICAL - 2021-05-28 15:57:14 --> password_hash() expects parameter 3 to be array, int given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'password_hash()...', 'D:\\WEBSITE\\xamp...', 57, Array)
+#1 D:\WEBSITE\xampp-7.4\htdocs\company\modules\AdminUsers\Controllers\DataUsers.php(57): password_hash('asd', '2y', 10)
+#2 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Modules\AdminUsers\Controllers\DataUsers->tambah_users()
+#3 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminUsers\Controllers\DataUsers))
+#4 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\WEBSITE\xampp-7.4\htdocs\company\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#7 {main}
+ERROR - 2021-05-28 15:58:05 --> mysqli_sql_exception: Unknown column 'password' in 'field list' in D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `us...')
+#1 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\WEBSITE\xampp-7.4\htdocs\company\modules\AdminUsers\Models\ModelUsers.php(111): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\WEBSITE\xampp-7.4\htdocs\company\modules\AdminUsers\Controllers\DataUsers.php(127): Modules\AdminUsers\Models\ModelUsers->save_users('623602fdedbda7c...', 'ekoharyono@stek...', 'ekoharyono', 'ekoharyono@stek...', '1')
+#6 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Modules\AdminUsers\Controllers\DataUsers->save_users()
+#7 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminUsers\Controllers\DataUsers))
+#8 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\WEBSITE\xampp-7.4\htdocs\company\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#11 {main}
+CRITICAL - 2021-05-28 15:58:05 --> Unknown column 'password' in 'field list'
+#0 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `us...')
+#1 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\WEBSITE\xampp-7.4\htdocs\company\modules\AdminUsers\Models\ModelUsers.php(111): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\WEBSITE\xampp-7.4\htdocs\company\modules\AdminUsers\Controllers\DataUsers.php(127): Modules\AdminUsers\Models\ModelUsers->save_users('623602fdedbda7c...', 'ekoharyono@stek...', 'ekoharyono', 'ekoharyono@stek...', '1')
+#6 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Modules\AdminUsers\Controllers\DataUsers->save_users()
+#7 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminUsers\Controllers\DataUsers))
+#8 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\WEBSITE\xampp-7.4\htdocs\company\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#11 {main}
+ERROR - 2021-05-28 15:58:57 --> mysqli_sql_exception: Duplicate entry 'ekoharyono' for key 'username' in D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `us...')
+#1 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\WEBSITE\xampp-7.4\htdocs\company\modules\AdminUsers\Models\ModelUsers.php(111): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\WEBSITE\xampp-7.4\htdocs\company\modules\AdminUsers\Controllers\DataUsers.php(127): Modules\AdminUsers\Models\ModelUsers->save_users('6e8e105f5738663...', 'ekoharyono@stek...', 'ekoharyono', 'ekoharyono@stek...', '1')
+#6 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Modules\AdminUsers\Controllers\DataUsers->save_users()
+#7 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminUsers\Controllers\DataUsers))
+#8 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\WEBSITE\xampp-7.4\htdocs\company\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#11 {main}
+CRITICAL - 2021-05-28 15:58:57 --> Duplicate entry 'ekoharyono' for key 'username'
+#0 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `us...')
+#1 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\WEBSITE\xampp-7.4\htdocs\company\modules\AdminUsers\Models\ModelUsers.php(111): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\WEBSITE\xampp-7.4\htdocs\company\modules\AdminUsers\Controllers\DataUsers.php(127): Modules\AdminUsers\Models\ModelUsers->save_users('6e8e105f5738663...', 'ekoharyono@stek...', 'ekoharyono', 'ekoharyono@stek...', '1')
+#6 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Modules\AdminUsers\Controllers\DataUsers->save_users()
+#7 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminUsers\Controllers\DataUsers))
+#8 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\WEBSITE\xampp-7.4\htdocs\company\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#11 {main}
+ERROR - 2021-05-28 15:59:53 --> mysqli_sql_exception: Table 'database_company_profie.groups_users' doesn't exist in D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `gr...')
+#1 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `gr...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `gr...')
+#3 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `gr...', Array, false)
+#4 D:\WEBSITE\xampp-7.4\htdocs\company\modules\AdminUsers\Models\ModelUsers.php(123): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\WEBSITE\xampp-7.4\htdocs\company\modules\AdminUsers\Controllers\DataUsers.php(132): Modules\AdminUsers\Models\ModelUsers->save_groups_users('1', '15')
+#6 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Modules\AdminUsers\Controllers\DataUsers->save_users()
+#7 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminUsers\Controllers\DataUsers))
+#8 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\WEBSITE\xampp-7.4\htdocs\company\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#11 {main}
+CRITICAL - 2021-05-28 15:59:53 --> Table 'database_company_profie.groups_users' doesn't exist
+#0 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `gr...')
+#1 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `gr...')
+#2 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `gr...')
+#3 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `gr...', Array, false)
+#4 D:\WEBSITE\xampp-7.4\htdocs\company\modules\AdminUsers\Models\ModelUsers.php(123): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\WEBSITE\xampp-7.4\htdocs\company\modules\AdminUsers\Controllers\DataUsers.php(132): Modules\AdminUsers\Models\ModelUsers->save_groups_users('1', '15')
+#6 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\CodeIgniter.php(936): Modules\AdminUsers\Controllers\DataUsers->save_users()
+#7 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(Modules\AdminUsers\Controllers\DataUsers))
+#8 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\WEBSITE\xampp-7.4\htdocs\company\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 D:\WEBSITE\xampp-7.4\htdocs\company\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\WEBSITE\\xamp...')
+#11 {main}
