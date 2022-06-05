@@ -1,0 +1,316 @@
+ERROR - 2022-06-01 09:32:28 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-06-01 09:32:28 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `keyword...', Array, false)
+#2 D:\Project Web\wiki\modules\LayoutDepan\Controllers\Layout.php(26): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\LayoutDepan\Controllers\Layout->index()
+#4 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\LayoutDepan\Controllers\Layout))
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#8 {main}
+CRITICAL - 2022-06-01 09:33:14 --> Undefined variable: datakey
+#0 D:\Project Web\wiki\modules\LayoutDepan\Controllers\Layout.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Project Web\\...', 34, Array)
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\LayoutDepan\Controllers\Layout->index()
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\LayoutDepan\Controllers\Layout))
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#6 {main}
+CRITICAL - 2022-06-01 09:36:09 --> Undefined variable: datasens
+#0 D:\Project Web\wiki\app\Controllers\BaseController.php(203): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Project Web\\...', 203, Array)
+#1 D:\Project Web\wiki\modules\LayoutDepan\Controllers\Layout.php(49): App\Controllers\BaseController->datadata(Array)
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\LayoutDepan\Controllers\Layout->datawiki('id', 'indonesia', '1')
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\LayoutDepan\Controllers\Layout))
+#4 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#7 {main}
+CRITICAL - 2022-06-01 09:39:03 --> Undefined index: parse
+#0 D:\Project Web\wiki\app\Controllers\BaseController.php(262): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project Web\\...', 262, Array)
+#1 D:\Project Web\wiki\modules\LayoutDepan\Controllers\Layout.php(49): App\Controllers\BaseController->datadata(Array)
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\LayoutDepan\Controllers\Layout->datawiki('en', 'indonesia', '1')
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\LayoutDepan\Controllers\Layout))
+#4 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#7 {main}
+CRITICAL - 2022-06-01 09:39:34 --> Undefined index: parse
+#0 D:\Project Web\wiki\app\Controllers\BaseController.php(262): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project Web\\...', 262, Array)
+#1 D:\Project Web\wiki\modules\LayoutDepan\Controllers\Layout.php(49): App\Controllers\BaseController->datadata(Array)
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\LayoutDepan\Controllers\Layout->datawiki('en', 'indonesia', '1')
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\LayoutDepan\Controllers\Layout))
+#4 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#7 {main}
+CRITICAL - 2022-06-01 09:40:13 --> Undefined variable: datakey
+#0 D:\Project Web\wiki\modules\LayoutDepan\Controllers\Layout.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Project Web\\...', 34, Array)
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\LayoutDepan\Controllers\Layout->index()
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\LayoutDepan\Controllers\Layout))
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#6 {main}
+CRITICAL - 2022-06-01 09:56:15 --> Undefined variable: datakey
+#0 D:\Project Web\wiki\modules\LayoutDepan\Controllers\Layout.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Project Web\\...', 34, Array)
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\LayoutDepan\Controllers\Layout->index('0')
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\LayoutDepan\Controllers\Layout))
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#6 {main}
+CRITICAL - 2022-06-01 09:58:08 --> Undefined variable: datakey
+#0 D:\Project Web\wiki\modules\LayoutDepan\Controllers\Layout.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Project Web\\...', 34, Array)
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\LayoutDepan\Controllers\Layout->index('0')
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\LayoutDepan\Controllers\Layout))
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#6 {main}
+CRITICAL - 2022-06-01 09:58:10 --> Undefined variable: datakey
+#0 D:\Project Web\wiki\modules\LayoutDepan\Controllers\Layout.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Project Web\\...', 34, Array)
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\LayoutDepan\Controllers\Layout->index('0')
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\LayoutDepan\Controllers\Layout))
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#6 {main}
+CRITICAL - 2022-06-01 09:58:12 --> Undefined variable: datakey
+#0 D:\Project Web\wiki\modules\LayoutDepan\Controllers\Layout.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Project Web\\...', 34, Array)
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\LayoutDepan\Controllers\Layout->index('0')
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\LayoutDepan\Controllers\Layout))
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#6 {main}
+CRITICAL - 2022-06-01 09:58:19 --> Undefined variable: datakey
+#0 D:\Project Web\wiki\modules\LayoutDepan\Controllers\Layout.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Project Web\\...', 34, Array)
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\LayoutDepan\Controllers\Layout->index('0')
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\LayoutDepan\Controllers\Layout))
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#6 {main}
+CRITICAL - 2022-06-01 09:58:21 --> Undefined variable: datakey
+#0 D:\Project Web\wiki\modules\LayoutDepan\Controllers\Layout.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Project Web\\...', 34, Array)
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\LayoutDepan\Controllers\Layout->index('0')
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\LayoutDepan\Controllers\Layout))
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#6 {main}
+CRITICAL - 2022-06-01 09:58:21 --> Undefined variable: datakey
+#0 D:\Project Web\wiki\modules\LayoutDepan\Controllers\Layout.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Project Web\\...', 34, Array)
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\LayoutDepan\Controllers\Layout->index('0')
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\LayoutDepan\Controllers\Layout))
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#6 {main}
+CRITICAL - 2022-06-01 10:21:24 --> Call to undefined function baase_url()
+#0 D:\Project Web\wiki\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\View\View.php(424): CodeIgniter\View\View->render('Modules\\LayoutD...', NULL, true)
+#3 D:\Project Web\wiki\modules\LayoutDepan\Views\layout.php(49): CodeIgniter\View\View->include('Modules\\LayoutD...')
+#4 D:\Project Web\wiki\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\Project Web\\...')
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 D:\Project Web\wiki\vendor\codeigniter4\framework\system\View\View.php(226): CodeIgniter\View\View->render('Modules\\LayoutD...', Array, true)
+#7 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\Wiki\\Vi...', Array, true)
+#8 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(131): view('Modules\\Wiki\\Vi...', Array)
+#9 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->view('1', 'Energy_in_Indon...')
+#10 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#11 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#13 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#14 {main}
+CRITICAL - 2022-06-01 10:21:27 --> Call to undefined function baase_url()
+#0 D:\Project Web\wiki\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\View\View.php(424): CodeIgniter\View\View->render('Modules\\LayoutD...', NULL, true)
+#3 D:\Project Web\wiki\modules\LayoutDepan\Views\layout.php(49): CodeIgniter\View\View->include('Modules\\LayoutD...')
+#4 D:\Project Web\wiki\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\Project Web\\...')
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 D:\Project Web\wiki\vendor\codeigniter4\framework\system\View\View.php(226): CodeIgniter\View\View->render('Modules\\LayoutD...', Array, true)
+#7 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\Wiki\\Vi...', Array, true)
+#8 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(131): view('Modules\\Wiki\\Vi...', Array)
+#9 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->view('0', 'Geothermal_powe...')
+#10 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#11 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#13 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#14 {main}
+CRITICAL - 2022-06-01 10:35:08 --> Undefined variable: search
+#0 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Project Web\\...', 32, Array)
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->searchlink()
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#6 {main}
+CRITICAL - 2022-06-01 10:39:08 --> Trying to access array offset on value of type null
+#0 D:\Project Web\wiki\app\Controllers\BaseController.php(110): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Project Web\\...', 110, Array)
+#1 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(158): App\Controllers\BaseController->dataview(Array)
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->viewdata('0', 'Buku_Ende', '')
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#4 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#7 {main}
+CRITICAL - 2022-06-01 10:40:25 --> Trying to access array offset on value of type null
+#0 D:\Project Web\wiki\app\Controllers\BaseController.php(110): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Project Web\\...', 110, Array)
+#1 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(158): App\Controllers\BaseController->dataview(Array)
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->viewdata('1', 'Buku', '')
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#4 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#7 {main}
+CRITICAL - 2022-06-01 10:42:49 --> Trying to access array offset on value of type null
+#0 D:\Project Web\wiki\app\Controllers\BaseController.php(110): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Project Web\\...', 110, Array)
+#1 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(158): App\Controllers\BaseController->dataview(Array)
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->viewdata('1', 'Buku', '')
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#4 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#7 {main}
+CRITICAL - 2022-06-01 10:43:52 --> Trying to access array offset on value of type null
+#0 D:\Project Web\wiki\app\Controllers\BaseController.php(110): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Project Web\\...', 110, Array)
+#1 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(158): App\Controllers\BaseController->dataview(Array)
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->viewdata('0', 'Buku', '')
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#4 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#7 {main}
+CRITICAL - 2022-06-01 10:44:58 --> syntax error, unexpected 'if' (T_IF)
+#0 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\Project Web\\...')
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Modules\\Wiki\\Co...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Modules\\Wiki\\Co...')
+#3 [internal function]: spl_autoload_call('Modules\\Wiki\\Co...')
+#4 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(797): class_exists('\\Modules\\Wiki\\C...', true)
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#9 {main}
+CRITICAL - 2022-06-01 10:45:00 --> syntax error, unexpected 'if' (T_IF)
+#0 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\Project Web\\...')
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Modules\\Wiki\\Co...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Modules\\Wiki\\Co...')
+#3 [internal function]: spl_autoload_call('Modules\\Wiki\\Co...')
+#4 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(797): class_exists('\\Modules\\Wiki\\C...', true)
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#9 {main}
+CRITICAL - 2022-06-01 10:45:08 --> Trying to access array offset on value of type null
+#0 D:\Project Web\wiki\app\Controllers\BaseController.php(110): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Project Web\\...', 110, Array)
+#1 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(158): App\Controllers\BaseController->dataview(Array)
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->viewdata('1', 'Buku', '')
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#4 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#7 {main}
+CRITICAL - 2022-06-01 10:45:55 --> Trying to access array offset on value of type null
+#0 D:\Project Web\wiki\app\Controllers\BaseController.php(110): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Project Web\\...', 110, Array)
+#1 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(157): App\Controllers\BaseController->dataview(Array)
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->viewdata('1', 'Buku', '')
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#4 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#7 {main}
+CRITICAL - 2022-06-01 10:46:37 --> Undefined index: en
+#0 D:\Project Web\wiki\app\Controllers\BaseController.php(210): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project Web\\...', 210, Array)
+#1 D:\Project Web\wiki\modules\LayoutDepan\Controllers\Layout.php(50): App\Controllers\BaseController->datadata(Array)
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\LayoutDepan\Controllers\Layout->datawiki('en', 'indonesia', '1')
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\LayoutDepan\Controllers\Layout))
+#4 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#7 {main}
+CRITICAL - 2022-06-01 10:47:39 --> Trying to access array offset on value of type null
+#0 D:\Project Web\wiki\app\Controllers\BaseController.php(110): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Project Web\\...', 110, Array)
+#1 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(157): App\Controllers\BaseController->dataview(Array)
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->viewdata('0', 'Buku', '')
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#4 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#7 {main}
+CRITICAL - 2022-06-01 10:54:52 --> Undefined index: en
+#0 D:\Project Web\wiki\app\Controllers\BaseController.php(212): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project Web\\...', 212, Array)
+#1 D:\Project Web\wiki\modules\LayoutDepan\Controllers\Layout.php(50): App\Controllers\BaseController->datadata(Array)
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\LayoutDepan\Controllers\Layout->datawiki('id', 'indonesia', '1')
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\LayoutDepan\Controllers\Layout))
+#4 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#7 {main}
+CRITICAL - 2022-06-01 20:30:08 --> Undefined variable: datakey
+#0 D:\Project Web\wiki\modules\LayoutDepan\Controllers\Layout.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Project Web\\...', 34, Array)
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\LayoutDepan\Controllers\Layout->index('0')
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\LayoutDepan\Controllers\Layout))
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#6 {main}
+ERROR - 2022-06-01 20:30:14 --> Unknown column 'id' in 'order clause'
+CRITICAL - 2022-06-01 20:30:14 --> Unknown column 'id' in 'order clause'
+#0 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `namahal...', 0)
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `namahal...')
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `namahal...')
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `namahal...', Array, false)
+#4 D:\Project Web\wiki\modules\LayoutDepan\Views\footer.php(23): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\Project Web\\...')
+#6 D:\Project Web\wiki\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\Project Web\wiki\vendor\codeigniter4\framework\system\View\View.php(424): CodeIgniter\View\View->render('Modules\\LayoutD...', NULL, true)
+#8 D:\Project Web\wiki\modules\LayoutDepan\Views\layout.php(60): CodeIgniter\View\View->include('Modules\\LayoutD...')
+#9 D:\Project Web\wiki\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\Project Web\\...')
+#10 D:\Project Web\wiki\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#11 D:\Project Web\wiki\vendor\codeigniter4\framework\system\View\View.php(226): CodeIgniter\View\View->render('Modules\\LayoutD...', Array, true)
+#12 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\LayoutD...', Array, true)
+#13 D:\Project Web\wiki\modules\LayoutDepan\Controllers\Layout.php(40): view('Modules\\LayoutD...', Array)
+#14 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\LayoutDepan\Controllers\Layout->index('1')
+#15 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\LayoutDepan\Controllers\Layout))
+#16 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#17 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#18 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#19 {main}
+ERROR - 2022-06-01 20:34:03 --> MySQL server has gone away
+CRITICAL - 2022-06-01 20:34:03 --> MySQL server has gone away
+#0 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `namahal...', 0)
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `namahal...')
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `namahal...')
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `namahal...', Array, false)
+#4 D:\Project Web\wiki\modules\LayoutDepan\Views\home.php(124): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\Project Web\\...')
+#6 D:\Project Web\wiki\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\LayoutD...', Array, true)
+#8 D:\Project Web\wiki\modules\LayoutDepan\Controllers\Layout.php(40): view('Modules\\LayoutD...', Array)
+#9 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\LayoutDepan\Controllers\Layout->index('1')
+#10 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\LayoutDepan\Controllers\Layout))
+#11 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#13 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#14 {main}
+ERROR - 2022-06-01 20:49:18 --> MySQL server has gone away
+CRITICAL - 2022-06-01 20:49:18 --> MySQL server has gone away
+#0 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `keyword...', 0)
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `keyword...')
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `keyword...')
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `keyword...', Array, false)
+#4 D:\Project Web\wiki\modules\LayoutDepan\Controllers\Layout.php(26): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\LayoutDepan\Controllers\Layout->index('1')
+#6 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\LayoutDepan\Controllers\Layout))
+#7 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#10 {main}

@@ -95,14 +95,9 @@
 						<a class="dropdown-item" href="<?= base_url('manage-users/profile').'/'.user()->random; ?>"><i class="dw dw-settings2"></i> Setting</a>
 						<!-- <a class="dropdown-item" href="faq.html"><i class="dw dw-help"></i> Help</a> -->
 				     <?php } ?>
-					 <?php 
-							if(in_groups("seller")){
-								$linkredirect = "logout-seller";
-							}else{								
+					 <?php 							
 								$linkredirect = "logout";
-							}
 						?>
-						<a class="dropdown-item" href="<?php echo base_url("faq") ?>" target="_blank"><i class="icon-copy dw dw-information"></i> Bantuan / FAQ</a>
 						<a class="dropdown-item" href="<?php echo base_url($linkredirect) ?>"><i class="dw dw-logout"></i> Log Out</a>
 					</div>
 				</div>

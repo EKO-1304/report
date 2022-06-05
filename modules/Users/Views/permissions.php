@@ -31,7 +31,7 @@
             </div>
             <div class="col-sm-4">
                 <div class="pd-20" >
-                    <div class="col-xl-4 mb-1"  style="float:right">
+                    <div class="col-xl-12 mb-1"  style="float:right">
                       <a class="btn btn-sm btn-primary" href="#" data-toggle="modal"  data-backdrop="static" data-target="#tambahdata"  style="width:100%;"><i class="icon-copy dw dw-add"></i> Tambah Data</a>
                     </div>
                 </div>

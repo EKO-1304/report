@@ -39,7 +39,12 @@ class Layout extends BaseController
 		{
 			return redirect()->to('login');
 		}
-		
+
+		$total = $this->profilecek($random = user()->random);;
+		if( $total < 1 ){
+			return redirect()->to("manage-users/profile/".$random);
+		}
+
       	$data = [
 			'seg' => $this->request->uri->getSegments(),
 			'pretitle' => 'Dashboard',

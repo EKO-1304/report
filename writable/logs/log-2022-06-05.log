@@ -1,0 +1,660 @@
+CRITICAL - 2022-06-05 00:01:42 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 D:\Project Web\report\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\Project Web\\...')
+#1 D:\Project Web\report\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Modules\\Perusah...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Modules\\Perusah...')
+#3 [internal function]: spl_autoload_call('Modules\\Perusah...')
+#4 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(797): class_exists('\\Modules\\Perusa...', true)
+#5 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project Web\report\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 D:\Project Web\report\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#9 {main}
+CRITICAL - 2022-06-05 00:02:10 --> Array to string conversion
+#0 D:\Project Web\report\modules\Perusahaan\Views\rekapdatanasabah.php(189): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\Project Web\\...', 189, Array)
+#1 D:\Project Web\report\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\Project Web\\...')
+#2 D:\Project Web\report\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Project Web\report\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\Perusah...', Array, true)
+#4 D:\Project Web\report\modules\Perusahaan\Controllers\DataPerusahaan.php(218): view('Modules\\Perusah...', Array)
+#5 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Perusahaan\Controllers\DataPerusahaan->rekapdatanasabah()
+#6 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Perusahaan\Controllers\DataPerusahaan))
+#7 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Project Web\report\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\Project Web\report\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#10 {main}
+CRITICAL - 2022-06-05 00:02:30 --> Array to string conversion
+#0 D:\Project Web\report\modules\Perusahaan\Views\rekapdatanasabah.php(189): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\Project Web\\...', 189, Array)
+#1 D:\Project Web\report\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\Project Web\\...')
+#2 D:\Project Web\report\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Project Web\report\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\Perusah...', Array, true)
+#4 D:\Project Web\report\modules\Perusahaan\Controllers\DataPerusahaan.php(218): view('Modules\\Perusah...', Array)
+#5 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Perusahaan\Controllers\DataPerusahaan->rekapdatanasabah()
+#6 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Perusahaan\Controllers\DataPerusahaan))
+#7 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Project Web\report\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\Project Web\report\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#10 {main}
+CRITICAL - 2022-06-05 00:02:57 --> Array to string conversion
+#0 D:\Project Web\report\modules\Perusahaan\Views\rekapdatanasabah.php(189): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\Project Web\\...', 189, Array)
+#1 D:\Project Web\report\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\Project Web\\...')
+#2 D:\Project Web\report\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Project Web\report\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\Perusah...', Array, true)
+#4 D:\Project Web\report\modules\Perusahaan\Controllers\DataPerusahaan.php(218): view('Modules\\Perusah...', Array)
+#5 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Perusahaan\Controllers\DataPerusahaan->rekapdatanasabah()
+#6 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Perusahaan\Controllers\DataPerusahaan))
+#7 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Project Web\report\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\Project Web\report\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#10 {main}
+CRITICAL - 2022-06-05 09:27:21 --> Invalid file: Modules\Perusahaan\Views\rekapdatastaf.php
+#0 D:\Project Web\report\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\Perusah...')
+#1 D:\Project Web\report\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\Perusah...', Array, true)
+#2 D:\Project Web\report\modules\Perusahaan\Controllers\DataPerusahaan.php(293): view('Modules\\Perusah...', Array)
+#3 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Perusahaan\Controllers\DataPerusahaan->rekapdatastaf()
+#4 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Perusahaan\Controllers\DataPerusahaan))
+#5 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Project Web\report\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 D:\Project Web\report\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#8 {main}
+ERROR - 2022-06-05 09:51:00 --> Subquery returns more than 1 row
+CRITICAL - 2022-06-05 09:51:00 --> Subquery returns more than 1 row
+#0 D:\Project Web\report\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `fullnam...', 0)
+#1 D:\Project Web\report\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `fullnam...')
+#2 D:\Project Web\report\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `fullnam...')
+#3 D:\Project Web\report\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `fullnam...', Array, false)
+#4 D:\Project Web\report\modules\Perusahaan\Models\ModelPerusahaanRekapStaf.php(74): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Project Web\report\modules\Perusahaan\Controllers\DataPerusahaan.php(313): Modules\Perusahaan\Models\ModelPerusahaanRekapStaf->get_datatables('', 'semua', 'semua')
+#6 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Perusahaan\Controllers\DataPerusahaan->rekapdatastafjson()
+#7 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Perusahaan\Controllers\DataPerusahaan))
+#8 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Project Web\report\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 D:\Project Web\report\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#11 {main}
+ERROR - 2022-06-05 09:51:11 --> Subquery returns more than 1 row
+CRITICAL - 2022-06-05 09:51:11 --> Subquery returns more than 1 row
+#0 D:\Project Web\report\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `fullnam...', 0)
+#1 D:\Project Web\report\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `fullnam...')
+#2 D:\Project Web\report\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `fullnam...')
+#3 D:\Project Web\report\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `fullnam...', Array, false)
+#4 D:\Project Web\report\modules\Perusahaan\Models\ModelPerusahaanRekapStaf.php(74): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Project Web\report\modules\Perusahaan\Controllers\DataPerusahaan.php(313): Modules\Perusahaan\Models\ModelPerusahaanRekapStaf->get_datatables('', 'semua', 'semua')
+#6 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Perusahaan\Controllers\DataPerusahaan->rekapdatastafjson()
+#7 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Perusahaan\Controllers\DataPerusahaan))
+#8 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Project Web\report\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 D:\Project Web\report\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#11 {main}
+ERROR - 2022-06-05 09:51:42 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'group by iduser) as total
+FROM `users`
+ORDER BY `total` DESC, `total` DESC
+ L...' at line 1
+CRITICAL - 2022-06-05 09:51:42 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'group by iduser) as total
+FROM `users`
+ORDER BY `total` DESC, `total` DESC
+ L...' at line 1
+#0 D:\Project Web\report\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `fullnam...', 0)
+#1 D:\Project Web\report\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `fullnam...')
+#2 D:\Project Web\report\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `fullnam...')
+#3 D:\Project Web\report\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `fullnam...', Array, false)
+#4 D:\Project Web\report\modules\Perusahaan\Models\ModelPerusahaanRekapStaf.php(74): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Project Web\report\modules\Perusahaan\Controllers\DataPerusahaan.php(313): Modules\Perusahaan\Models\ModelPerusahaanRekapStaf->get_datatables('', 'semua', 'semua')
+#6 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Perusahaan\Controllers\DataPerusahaan->rekapdatastafjson()
+#7 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Perusahaan\Controllers\DataPerusahaan))
+#8 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Project Web\report\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 D:\Project Web\report\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#11 {main}
+ERROR - 2022-06-05 09:53:19 --> Subquery returns more than 1 row
+CRITICAL - 2022-06-05 09:53:19 --> Subquery returns more than 1 row
+#0 D:\Project Web\report\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `fullnam...', 0)
+#1 D:\Project Web\report\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `fullnam...')
+#2 D:\Project Web\report\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `fullnam...')
+#3 D:\Project Web\report\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `fullnam...', Array, false)
+#4 D:\Project Web\report\modules\Perusahaan\Models\ModelPerusahaanRekapStaf.php(74): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Project Web\report\modules\Perusahaan\Controllers\DataPerusahaan.php(313): Modules\Perusahaan\Models\ModelPerusahaanRekapStaf->get_datatables('', 'semua', 'semua')
+#6 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Perusahaan\Controllers\DataPerusahaan->rekapdatastafjson()
+#7 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Perusahaan\Controllers\DataPerusahaan))
+#8 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Project Web\report\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 D:\Project Web\report\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#11 {main}
+ERROR - 2022-06-05 09:54:51 --> Unknown column 'jeniuser' in 'where clause'
+CRITICAL - 2022-06-05 09:54:51 --> Unknown column 'jeniuser' in 'where clause'
+#0 D:\Project Web\report\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `fullnam...', 0)
+#1 D:\Project Web\report\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `fullnam...')
+#2 D:\Project Web\report\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `fullnam...')
+#3 D:\Project Web\report\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `fullnam...', Array, false)
+#4 D:\Project Web\report\modules\Perusahaan\Models\ModelPerusahaanRekapStaf.php(75): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Project Web\report\modules\Perusahaan\Controllers\DataPerusahaan.php(313): Modules\Perusahaan\Models\ModelPerusahaanRekapStaf->get_datatables('', 'semua', 'semua')
+#6 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Perusahaan\Controllers\DataPerusahaan->rekapdatastafjson()
+#7 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Perusahaan\Controllers\DataPerusahaan))
+#8 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Project Web\report\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 D:\Project Web\report\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#11 {main}
+CRITICAL - 2022-06-05 13:49:31 --> Undefined variable: actsion
+#0 D:\Project Web\report\modules\Staf\Controllers\DataStaf.php(104): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Project Web\\...', 104, Array)
+#1 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Staf\Controllers\DataStaf->staf_json()
+#2 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Staf\Controllers\DataStaf))
+#3 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project Web\report\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Project Web\report\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#6 {main}
+CRITICAL - 2022-06-05 14:14:49 --> Call to a member function getRandomName() on null
+#0 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Perusahaan\Controllers\DataPerusahaan->inputlaporansave()
+#1 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Perusahaan\Controllers\DataPerusahaan))
+#2 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Project Web\report\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 D:\Project Web\report\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#5 {main}
+CRITICAL - 2022-06-05 14:15:12 --> Unable to save the image. Please make sure the image and file directory are writable.
+#0 D:\Project Web\report\vendor\codeigniter4\framework\system\Images\Handlers\GDHandler.php(245): CodeIgniter\Images\Exceptions\ImageException::forSaveFailed()
+#1 D:\Project Web\report\modules\Perusahaan\Controllers\DataPerusahaan.php(99): CodeIgniter\Images\Handlers\GDHandler->save('D:\\Project Web\\...')
+#2 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Perusahaan\Controllers\DataPerusahaan->inputlaporansave()
+#3 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Perusahaan\Controllers\DataPerusahaan))
+#4 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project Web\report\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 D:\Project Web\report\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#7 {main}
+CRITICAL - 2022-06-05 14:19:15 --> Undefined index: dokumntasi
+#0 D:\Project Web\report\modules\Perusahaan\Views\editlaporan.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project Web\\...', 92, Array)
+#1 D:\Project Web\report\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\Project Web\\...')
+#2 D:\Project Web\report\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Project Web\report\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\Perusah...', Array, true)
+#4 D:\Project Web\report\modules\Perusahaan\Controllers\DataPerusahaan.php(435): view('Modules\\Perusah...', Array)
+#5 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Perusahaan\Controllers\DataPerusahaan->editlaporan('9e202db99d4d1cb...')
+#6 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Perusahaan\Controllers\DataPerusahaan))
+#7 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Project Web\report\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\Project Web\report\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#10 {main}
+CRITICAL - 2022-06-05 14:27:08 --> Undefined property: stdClass::$dokumentasi
+#0 D:\Project Web\report\modules\Perusahaan\Controllers\DataPerusahaan.php(275): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Project Web\\...', 275, Array)
+#1 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Perusahaan\Controllers\DataPerusahaan->datanasabahjson()
+#2 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Perusahaan\Controllers\DataPerusahaan))
+#3 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project Web\report\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Project Web\report\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#6 {main}
+CRITICAL - 2022-06-05 14:32:03 --> Undefined variable: action
+#0 D:\Project Web\report\modules\Perusahaan\Controllers\DataPerusahaan.php(358): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Project Web\\...', 358, Array)
+#1 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Perusahaan\Controllers\DataPerusahaan->rekapdatanasabahjson()
+#2 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Perusahaan\Controllers\DataPerusahaan))
+#3 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project Web\report\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Project Web\report\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#6 {main}
+CRITICAL - 2022-06-05 14:32:22 --> Undefined variable: action
+#0 D:\Project Web\report\modules\Perusahaan\Controllers\DataPerusahaan.php(358): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Project Web\\...', 358, Array)
+#1 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Perusahaan\Controllers\DataPerusahaan->rekapdatanasabahjson()
+#2 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Perusahaan\Controllers\DataPerusahaan))
+#3 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project Web\report\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Project Web\report\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#6 {main}
+CRITICAL - 2022-06-05 14:33:08 --> Undefined property: stdClass::$hasil
+#0 D:\Project Web\report\modules\Perusahaan\Controllers\DataPerusahaan.php(416): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Project Web\\...', 416, Array)
+#1 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Perusahaan\Controllers\DataPerusahaan->rekapdatanasabahjson()
+#2 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Perusahaan\Controllers\DataPerusahaan))
+#3 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project Web\report\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Project Web\report\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#6 {main}
+CRITICAL - 2022-06-05 14:33:21 --> Undefined property: stdClass::$hasil
+#0 D:\Project Web\report\modules\Perusahaan\Controllers\DataPerusahaan.php(416): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Project Web\\...', 416, Array)
+#1 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Perusahaan\Controllers\DataPerusahaan->rekapdatanasabahjson()
+#2 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Perusahaan\Controllers\DataPerusahaan))
+#3 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project Web\report\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Project Web\report\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#6 {main}
+CRITICAL - 2022-06-05 15:04:08 --> Undefined variable: minggu
+#0 D:\Project Web\report\modules\Perusahaan\Models\ModelPerusahaanRekapStaf.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Project Web\\...', 25, Array)
+#1 D:\Project Web\report\modules\Perusahaan\Models\ModelPerusahaanRekapStaf.php(183): Modules\Perusahaan\Models\ModelPerusahaanRekapStaf->_get_datatables_query('', 'semua', 'semua')
+#2 D:\Project Web\report\modules\Perusahaan\Controllers\DataPerusahaan.php(493): Modules\Perusahaan\Models\ModelPerusahaanRekapStaf->get_datatables('', 'semua', 'semua', '1')
+#3 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Perusahaan\Controllers\DataPerusahaan->rekapdatastafjson()
+#4 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Perusahaan\Controllers\DataPerusahaan))
+#5 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Project Web\report\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 D:\Project Web\report\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#8 {main}
+CRITICAL - 2022-06-05 15:04:19 --> Undefined variable: minggu
+#0 D:\Project Web\report\modules\Perusahaan\Models\ModelPerusahaanRekapStaf.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Project Web\\...', 25, Array)
+#1 D:\Project Web\report\modules\Perusahaan\Models\ModelPerusahaanRekapStaf.php(183): Modules\Perusahaan\Models\ModelPerusahaanRekapStaf->_get_datatables_query('', 'semua', 'semua')
+#2 D:\Project Web\report\modules\Perusahaan\Controllers\DataPerusahaan.php(493): Modules\Perusahaan\Models\ModelPerusahaanRekapStaf->get_datatables('', 'semua', 'semua', '1')
+#3 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Perusahaan\Controllers\DataPerusahaan->rekapdatastafjson()
+#4 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Perusahaan\Controllers\DataPerusahaan))
+#5 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Project Web\report\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 D:\Project Web\report\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#8 {main}
+CRITICAL - 2022-06-05 15:08:43 --> Call to a member function orderBy() on null
+#0 D:\Project Web\report\modules\Perusahaan\Models\ModelPerusahaanRekapStaf.php(183): Modules\Perusahaan\Models\ModelPerusahaanRekapStaf->_get_datatables_query('', 'semua', 'semua', '1')
+#1 D:\Project Web\report\modules\Perusahaan\Controllers\DataPerusahaan.php(493): Modules\Perusahaan\Models\ModelPerusahaanRekapStaf->get_datatables('', 'semua', 'semua', '1')
+#2 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Perusahaan\Controllers\DataPerusahaan->rekapdatastafjson()
+#3 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Perusahaan\Controllers\DataPerusahaan))
+#4 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project Web\report\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 D:\Project Web\report\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#7 {main}
+CRITICAL - 2022-06-05 15:20:34 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResultArray()
+#0 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Perusahaan\Controllers\DataPerusahaan->cetakexcel()
+#1 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Perusahaan\Controllers\DataPerusahaan))
+#2 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Project Web\report\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 D:\Project Web\report\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#5 {main}
+CRITICAL - 2022-06-05 15:26:31 --> Maximum 31 characters allowed in sheet title.
+#0 D:\Project Web\report\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(889): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet::checkSheetTitle('Data Nasabah Mi...')
+#1 D:\Project Web\report\modules\Perusahaan\Controllers\DataPerusahaan.php(770): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->setTitle('Data Nasabah Mi...')
+#2 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Perusahaan\Controllers\DataPerusahaan->cetakexcel()
+#3 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Perusahaan\Controllers\DataPerusahaan))
+#4 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project Web\report\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 D:\Project Web\report\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#7 {main}
+CRITICAL - 2022-06-05 15:27:28 --> Maximum 31 characters allowed in sheet title.
+#0 D:\Project Web\report\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(889): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet::checkSheetTitle('Data Nasabah Mi...')
+#1 D:\Project Web\report\modules\Perusahaan\Controllers\DataPerusahaan.php(770): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->setTitle('Data Nasabah Mi...')
+#2 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Perusahaan\Controllers\DataPerusahaan->cetakexcel()
+#3 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Perusahaan\Controllers\DataPerusahaan))
+#4 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project Web\report\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 D:\Project Web\report\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#7 {main}
+CRITICAL - 2022-06-05 16:09:50 --> Undefined variable: bulan
+#0 D:\Project Web\report\modules\Perusahaan\Views\bahanpresentasi.php(86): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Project Web\\...', 86, Array)
+#1 D:\Project Web\report\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\Project Web\\...')
+#2 D:\Project Web\report\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Project Web\report\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\Perusah...', Array, true)
+#4 D:\Project Web\report\modules\Perusahaan\Controllers\DataBahan.php(35): view('Modules\\Perusah...', Array)
+#5 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Perusahaan\Controllers\DataBahan->bahanpresentasi()
+#6 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Perusahaan\Controllers\DataBahan))
+#7 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Project Web\report\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\Project Web\report\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#10 {main}
+CRITICAL - 2022-06-05 16:57:07 --> Undefined property: stdClass::$random
+#0 D:\Project Web\report\modules\Perusahaan\Controllers\DataBahan.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Project Web\\...', 56, Array)
+#1 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Perusahaan\Controllers\DataBahan->bahanpresentasijson()
+#2 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Perusahaan\Controllers\DataBahan))
+#3 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project Web\report\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Project Web\report\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#6 {main}
+CRITICAL - 2022-06-05 16:57:44 --> Undefined property: stdClass::$random
+#0 D:\Project Web\report\modules\Perusahaan\Controllers\DataBahan.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Project Web\\...', 56, Array)
+#1 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Perusahaan\Controllers\DataBahan->bahanpresentasijson()
+#2 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Perusahaan\Controllers\DataBahan))
+#3 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project Web\report\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Project Web\report\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#6 {main}
+CRITICAL - 2022-06-05 16:57:59 --> Undefined property: stdClass::$random
+#0 D:\Project Web\report\modules\Perusahaan\Controllers\DataBahan.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Project Web\\...', 56, Array)
+#1 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Perusahaan\Controllers\DataBahan->bahanpresentasijson()
+#2 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Perusahaan\Controllers\DataBahan))
+#3 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project Web\report\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Project Web\report\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#6 {main}
+CRITICAL - 2022-06-05 16:58:21 --> Undefined property: stdClass::$iduser
+#0 D:\Project Web\report\modules\Perusahaan\Controllers\DataBahan.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Project Web\\...', 58, Array)
+#1 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Perusahaan\Controllers\DataBahan->bahanpresentasijson()
+#2 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Perusahaan\Controllers\DataBahan))
+#3 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project Web\report\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Project Web\report\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#6 {main}
+CRITICAL - 2022-06-05 16:58:35 --> Undefined property: stdClass::$iduser
+#0 D:\Project Web\report\modules\Perusahaan\Controllers\DataBahan.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Project Web\\...', 58, Array)
+#1 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Perusahaan\Controllers\DataBahan->bahanpresentasijson()
+#2 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Perusahaan\Controllers\DataBahan))
+#3 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project Web\report\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Project Web\report\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#6 {main}
+CRITICAL - 2022-06-05 17:07:19 --> Undefined index: file
+#0 D:\Project Web\report\modules\Perusahaan\Controllers\DataBahan.php(192): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project Web\\...', 192, Array)
+#1 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Perusahaan\Controllers\DataBahan->bahanpresentasidelete()
+#2 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Perusahaan\Controllers\DataBahan))
+#3 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project Web\report\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Project Web\report\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#6 {main}
+CRITICAL - 2022-06-05 17:08:21 --> Trying to access array offset on value of type null
+#0 D:\Project Web\report\modules\Perusahaan\Views\editlaporan.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Project Web\\...', 49, Array)
+#1 D:\Project Web\report\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\Project Web\\...')
+#2 D:\Project Web\report\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Project Web\report\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\Perusah...', Array, true)
+#4 D:\Project Web\report\modules\Perusahaan\Controllers\DataPerusahaan.php(529): view('Modules\\Perusah...', Array)
+#5 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Perusahaan\Controllers\DataPerusahaan->editlaporan('e4b1be046aeca0a...')
+#6 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Perusahaan\Controllers\DataPerusahaan))
+#7 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Project Web\report\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\Project Web\report\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#10 {main}
+CRITICAL - 2022-06-05 17:13:20 --> Trying to access array offset on value of type null
+#0 D:\Project Web\report\modules\Perusahaan\Views\editlaporan.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Project Web\\...', 49, Array)
+#1 D:\Project Web\report\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\Project Web\\...')
+#2 D:\Project Web\report\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Project Web\report\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\Perusah...', Array, true)
+#4 D:\Project Web\report\modules\Perusahaan\Controllers\DataPerusahaan.php(529): view('Modules\\Perusah...', Array)
+#5 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Perusahaan\Controllers\DataPerusahaan->editlaporan('e4b1be046aeca0a...')
+#6 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Perusahaan\Controllers\DataPerusahaan))
+#7 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Project Web\report\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\Project Web\report\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#10 {main}
+CRITICAL - 2022-06-05 19:02:24 --> Undefined index: icon
+#0 D:\Project Web\report\modules\Master\Views\tujuanmobil.php(152): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project Web\\...', 152, Array)
+#1 D:\Project Web\report\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\Project Web\\...')
+#2 D:\Project Web\report\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Project Web\report\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\Master\\...', Array, true)
+#4 D:\Project Web\report\modules\Master\Controllers\DataTujuanMobil.php(33): view('Modules\\Master\\...', Array)
+#5 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Master\Controllers\DataTujuanMobil->index()
+#6 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Master\Controllers\DataTujuanMobil))
+#7 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Project Web\report\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\Project Web\report\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#10 {main}
+ERROR - 2022-06-05 19:09:18 --> Table 'database_report.x_kategoritoko' doesn't exist
+CRITICAL - 2022-06-05 19:09:18 --> Table 'database_report.x_kategoritoko' doesn't exist
+#0 D:\Project Web\report\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `x_kateg...', 0)
+#1 D:\Project Web\report\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `x_kateg...')
+#2 D:\Project Web\report\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `x_kateg...')
+#3 D:\Project Web\report\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `x_kateg...', Array, false)
+#4 D:\Project Web\report\app\Models\ModelMaster.php(255): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 D:\Project Web\report\modules\Master\Controllers\DataTujuanMobil.php(152): App\Models\ModelMaster->dataedit('x_kategoritoko', Array, Array)
+#6 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Master\Controllers\DataTujuanMobil->deletedata()
+#7 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Master\Controllers\DataTujuanMobil))
+#8 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Project Web\report\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 D:\Project Web\report\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#11 {main}
+CRITICAL - 2022-06-05 19:13:05 --> Undefined variable: k
+#0 D:\Project Web\report\modules\Master\Controllers\DataTujuanMobil.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Project Web\\...', 30, Array)
+#1 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Master\Controllers\DataTujuanMobil->index()
+#2 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Master\Controllers\DataTujuanMobil))
+#3 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project Web\report\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Project Web\report\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#6 {main}
+CRITICAL - 2022-06-05 19:29:54 --> Undefined index: tujuan
+#0 D:\Project Web\report\modules\Master\Views\sesimobil.php(114): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project Web\\...', 114, Array)
+#1 D:\Project Web\report\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\Project Web\\...')
+#2 D:\Project Web\report\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Project Web\report\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\Master\\...', Array, true)
+#4 D:\Project Web\report\modules\Master\Controllers\DataSesiMobil.php(34): view('Modules\\Master\\...', Array)
+#5 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Master\Controllers\DataSesiMobil->index()
+#6 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Master\Controllers\DataSesiMobil))
+#7 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Project Web\report\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\Project Web\report\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#10 {main}
+CRITICAL - 2022-06-05 19:29:56 --> Undefined index: tujuan
+#0 D:\Project Web\report\modules\Master\Views\sesimobil.php(114): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project Web\\...', 114, Array)
+#1 D:\Project Web\report\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\Project Web\\...')
+#2 D:\Project Web\report\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Project Web\report\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\Master\\...', Array, true)
+#4 D:\Project Web\report\modules\Master\Controllers\DataSesiMobil.php(34): view('Modules\\Master\\...', Array)
+#5 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Master\Controllers\DataSesiMobil->index()
+#6 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Master\Controllers\DataSesiMobil))
+#7 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Project Web\report\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\Project Web\report\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#10 {main}
+CRITICAL - 2022-06-05 19:44:31 --> Class 'Modules\DaftarMobil\Models\ModelDaftarMobil' not found
+#0 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(809): Modules\DaftarMobil\Controllers\DataDaftarMobil->__construct()
+#1 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Project Web\report\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 D:\Project Web\report\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#5 {main}
+CRITICAL - 2022-06-05 19:45:04 --> Class 'Modules\DaftarMobil\Models\ModelDaftarMobil' not found
+#0 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(809): Modules\DaftarMobil\Controllers\DataDaftarMobil->__construct()
+#1 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Project Web\report\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 D:\Project Web\report\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#5 {main}
+CRITICAL - 2022-06-05 19:45:06 --> Class 'Modules\DaftarMobil\Models\ModelDaftarMobil' not found
+#0 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(809): Modules\DaftarMobil\Controllers\DataDaftarMobil->__construct()
+#1 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Project Web\report\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 D:\Project Web\report\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#5 {main}
+CRITICAL - 2022-06-05 19:47:29 --> Invalid file: Modules\Perusahaan\Views\tambahdaftarmobil.php
+#0 D:\Project Web\report\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\Perusah...')
+#1 D:\Project Web\report\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\Perusah...', Array, true)
+#2 D:\Project Web\report\modules\DaftarMobil\Controllers\DataDaftarMobil.php(35): view('Modules\\Perusah...', Array)
+#3 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\DaftarMobil\Controllers\DataDaftarMobil->inputmobil()
+#4 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\DaftarMobil\Controllers\DataDaftarMobil))
+#5 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Project Web\report\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 D:\Project Web\report\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#8 {main}
+CRITICAL - 2022-06-05 20:31:19 --> Undefined variable: namaimgdokumentasi
+#0 D:\Project Web\report\modules\DaftarMobil\Controllers\DataDaftarMobil.php(123): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Project Web\\...', 123, Array)
+#1 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\DaftarMobil\Controllers\DataDaftarMobil->inputmobilsave()
+#2 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\DaftarMobil\Controllers\DataDaftarMobil))
+#3 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project Web\report\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Project Web\report\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#6 {main}
+ERROR - 2022-06-05 20:31:31 --> Unknown column 'nomorwa' in 'field list'
+CRITICAL - 2022-06-05 20:31:31 --> Unknown column 'nomorwa' in 'field list'
+#0 D:\Project Web\report\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `x_...', 0)
+#1 D:\Project Web\report\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `x_...')
+#2 D:\Project Web\report\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `x_...')
+#3 D:\Project Web\report\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `x_...', Array, false)
+#4 D:\Project Web\report\app\Models\ModelMaster.php(247): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Project Web\report\modules\DaftarMobil\Controllers\DataDaftarMobil.php(126): App\Models\ModelMaster->datatambah('x_daftarmobil', Array)
+#6 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\DaftarMobil\Controllers\DataDaftarMobil->inputmobilsave()
+#7 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\DaftarMobil\Controllers\DataDaftarMobil))
+#8 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Project Web\report\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 D:\Project Web\report\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#11 {main}
+CRITICAL - 2022-06-05 20:31:41 --> Undefined property: stdClass::$iduser
+#0 D:\Project Web\report\modules\DaftarMobil\Controllers\DataDaftarMobil.php(171): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Project Web\\...', 171, Array)
+#1 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\DaftarMobil\Controllers\DataDaftarMobil->datamobiljson()
+#2 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\DaftarMobil\Controllers\DataDaftarMobil))
+#3 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project Web\report\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Project Web\report\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#6 {main}
+CRITICAL - 2022-06-05 20:32:44 --> Undefined property: stdClass::$iduser
+#0 D:\Project Web\report\modules\DaftarMobil\Controllers\DataDaftarMobil.php(171): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Project Web\\...', 171, Array)
+#1 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\DaftarMobil\Controllers\DataDaftarMobil->datamobiljson()
+#2 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\DaftarMobil\Controllers\DataDaftarMobil))
+#3 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project Web\report\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Project Web\report\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#6 {main}
+CRITICAL - 2022-06-05 20:33:05 --> Undefined property: stdClass::$iduser
+#0 D:\Project Web\report\modules\DaftarMobil\Controllers\DataDaftarMobil.php(171): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Project Web\\...', 171, Array)
+#1 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\DaftarMobil\Controllers\DataDaftarMobil->datamobiljson()
+#2 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\DaftarMobil\Controllers\DataDaftarMobil))
+#3 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project Web\report\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Project Web\report\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#6 {main}
+CRITICAL - 2022-06-05 20:33:24 --> Undefined property: stdClass::$namanasabah
+#0 D:\Project Web\report\modules\DaftarMobil\Controllers\DataDaftarMobil.php(218): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Project Web\\...', 218, Array)
+#1 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\DaftarMobil\Controllers\DataDaftarMobil->datamobiljson()
+#2 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\DaftarMobil\Controllers\DataDaftarMobil))
+#3 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project Web\report\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Project Web\report\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#6 {main}
+ERROR - 2022-06-05 20:35:51 --> Unknown column 'namabroker' in 'field list'
+CRITICAL - 2022-06-05 20:35:51 --> Unknown column 'namabroker' in 'field list'
+#0 D:\Project Web\report\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `x_dafta...', 0)
+#1 D:\Project Web\report\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `x_dafta...')
+#2 D:\Project Web\report\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `x_dafta...')
+#3 D:\Project Web\report\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `x_dafta...', Array, false)
+#4 D:\Project Web\report\modules\DaftarMobil\Models\ModelDaftarMobil.php(66): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Project Web\report\modules\DaftarMobil\Controllers\DataDaftarMobil.php(165): Modules\DaftarMobil\Models\ModelDaftarMobil->get_datatables('')
+#6 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\DaftarMobil\Controllers\DataDaftarMobil->datamobiljson()
+#7 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\DaftarMobil\Controllers\DataDaftarMobil))
+#8 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Project Web\report\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 D:\Project Web\report\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#11 {main}
+CRITICAL - 2022-06-05 21:13:57 --> Trying to access array offset on value of type null
+#0 D:\Project Web\report\app\Controllers\BaseController.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Project Web\\...', 72, Array)
+#1 D:\Project Web\report\modules\DaftarMobil\Controllers\DataDaftarMobil.php(415): App\Controllers\BaseController->logdata('x_daftarmobil', '2', Array)
+#2 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\DaftarMobil\Controllers\DataDaftarMobil->editmobiludpate()
+#3 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\DaftarMobil\Controllers\DataDaftarMobil))
+#4 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project Web\report\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 D:\Project Web\report\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#7 {main}
+ERROR - 2022-06-05 21:37:19 --> Unknown column 'jenisuser' in 'where clause'
+CRITICAL - 2022-06-05 21:37:19 --> Unknown column 'jenisuser' in 'where clause'
+#0 D:\Project Web\report\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `name`, ...', 0)
+#1 D:\Project Web\report\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `name`, ...')
+#2 D:\Project Web\report\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `name`, ...')
+#3 D:\Project Web\report\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `name`, ...', Array, false)
+#4 D:\Project Web\report\modules\Login\Views\register.php(53): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Project Web\report\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\Project Web\\...')
+#6 D:\Project Web\report\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\Project Web\report\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\Login\\V...', Array, true)
+#8 D:\Project Web\report\modules\Login\Controllers\Login.php(65): view('Modules\\Login\\V...', Array)
+#9 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Login\Controllers\Login->register('', 'register', 'login')
+#10 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Login\Controllers\Login))
+#11 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\Project Web\report\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#13 D:\Project Web\report\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#14 {main}
+CRITICAL - 2022-06-05 21:42:28 --> Undefined variable: ket2
+#0 D:\Project Web\report\modules\Login\Views\reset.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Project Web\\...', 72, Array)
+#1 D:\Project Web\report\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\Project Web\\...')
+#2 D:\Project Web\report\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Project Web\report\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\Login\\V...', Array, true)
+#4 D:\Project Web\report\modules\Login\Controllers\Login.php(90): view('Modules\\Login\\V...', Array)
+#5 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Login\Controllers\Login->reset('', 'reset-password')
+#6 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Login\Controllers\Login))
+#7 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Project Web\report\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\Project Web\report\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#10 {main}
+CRITICAL - 2022-06-05 22:04:12 --> You do not have sufficient permissions to access that page.
+#0 D:\Project Web\report\vendor\codeigniter4\framework\system\Filters\Filters.php(173): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('manage-groups-p...', 'before')
+#2 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Project Web\report\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 D:\Project Web\report\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#5 {main}
+CRITICAL - 2022-06-05 22:04:14 --> You do not have sufficient permissions to access that page.
+#0 D:\Project Web\report\vendor\codeigniter4\framework\system\Filters\Filters.php(173): Myth\Auth\Filters\PermissionFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('rekap-data-nasa...', 'before')
+#2 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Project Web\report\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 D:\Project Web\report\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#5 {main}
+CRITICAL - 2022-06-05 22:05:38 --> You do not have sufficient permissions to access that page.
+#0 D:\Project Web\report\vendor\codeigniter4\framework\system\Filters\Filters.php(173): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('manage-groups-p...', 'before')
+#2 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Project Web\report\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 D:\Project Web\report\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#5 {main}
+CRITICAL - 2022-06-05 22:05:43 --> You do not have sufficient permissions to access that page.
+#0 D:\Project Web\report\vendor\codeigniter4\framework\system\Filters\Filters.php(173): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('manage-groups-p...', 'before')
+#2 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Project Web\report\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 D:\Project Web\report\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#5 {main}
+CRITICAL - 2022-06-05 22:05:44 --> You do not have sufficient permissions to access that page.
+#0 D:\Project Web\report\vendor\codeigniter4\framework\system\Filters\Filters.php(173): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('manage-groups-p...', 'before')
+#2 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Project Web\report\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 D:\Project Web\report\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#5 {main}
+CRITICAL - 2022-06-05 22:44:38 --> You do not have sufficient permissions to access that page.
+#0 D:\Project Web\report\vendor\codeigniter4\framework\system\Filters\Filters.php(173): Myth\Auth\Filters\PermissionFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('manage-input-la...', 'before')
+#2 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Project Web\report\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 D:\Project Web\report\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#5 {main}
+CRITICAL - 2022-06-05 22:44:39 --> You do not have sufficient permissions to access that page.
+#0 D:\Project Web\report\vendor\codeigniter4\framework\system\Filters\Filters.php(173): Myth\Auth\Filters\PermissionFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('manage-input-la...', 'before')
+#2 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Project Web\report\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 D:\Project Web\report\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#5 {main}
+CRITICAL - 2022-06-05 22:44:40 --> You do not have sufficient permissions to access that page.
+#0 D:\Project Web\report\vendor\codeigniter4\framework\system\Filters\Filters.php(173): Myth\Auth\Filters\PermissionFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('manage-input-la...', 'before')
+#2 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Project Web\report\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 D:\Project Web\report\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#5 {main}
+CRITICAL - 2022-06-05 22:44:40 --> You do not have sufficient permissions to access that page.
+#0 D:\Project Web\report\vendor\codeigniter4\framework\system\Filters\Filters.php(173): Myth\Auth\Filters\PermissionFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('manage-input-la...', 'before')
+#2 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Project Web\report\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 D:\Project Web\report\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#5 {main}
+CRITICAL - 2022-06-05 22:45:34 --> You do not have sufficient permissions to access that page.
+#0 D:\Project Web\report\vendor\codeigniter4\framework\system\Filters\Filters.php(173): Myth\Auth\Filters\PermissionFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('manage-nasabah/...', 'before')
+#2 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Project Web\report\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 D:\Project Web\report\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#5 {main}
+CRITICAL - 2022-06-05 22:45:50 --> You do not have sufficient permissions to access that page.
+#0 D:\Project Web\report\vendor\codeigniter4\framework\system\Filters\Filters.php(173): Myth\Auth\Filters\PermissionFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('manage-nasabah/...', 'before')
+#2 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Project Web\report\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 D:\Project Web\report\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#5 {main}
+CRITICAL - 2022-06-05 22:48:59 --> You do not have sufficient permissions to access that page.
+#0 D:\Project Web\report\vendor\codeigniter4\framework\system\Filters\Filters.php(173): Myth\Auth\Filters\PermissionFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('manage-input-la...', 'before')
+#2 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Project Web\report\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 D:\Project Web\report\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#5 {main}
+CRITICAL - 2022-06-05 22:49:07 --> You do not have sufficient permissions to access that page.
+#0 D:\Project Web\report\vendor\codeigniter4\framework\system\Filters\Filters.php(173): Myth\Auth\Filters\PermissionFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('manage-input-la...', 'before')
+#2 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Project Web\report\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 D:\Project Web\report\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#5 {main}
+CRITICAL - 2022-06-05 23:07:02 --> syntax error, unexpected ')'
+#0 D:\Project Web\report\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\Project Web\\...')
+#1 D:\Project Web\report\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Modules\\DaftarM...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Modules\\DaftarM...')
+#3 [internal function]: spl_autoload_call('Modules\\DaftarM...')
+#4 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(797): class_exists('\\Modules\\Daftar...', true)
+#5 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project Web\report\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 D:\Project Web\report\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#9 {main}
+CRITICAL - 2022-06-05 23:23:27 --> Undefined variable: routes
+#0 D:\Project Web\report\modules\Perusahaan\Controllers\DataPerusahaan.php(348): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Project Web\\...', 348, Array)
+#1 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Perusahaan\Controllers\DataPerusahaan->rekapdatanasabahjson()
+#2 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Perusahaan\Controllers\DataPerusahaan))
+#3 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project Web\report\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Project Web\report\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#6 {main}
+CRITICAL - 2022-06-05 23:23:37 --> Undefined variable: routes
+#0 D:\Project Web\report\modules\Perusahaan\Controllers\DataPerusahaan.php(348): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Project Web\\...', 348, Array)
+#1 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Perusahaan\Controllers\DataPerusahaan->rekapdatanasabahjson()
+#2 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Perusahaan\Controllers\DataPerusahaan))
+#3 D:\Project Web\report\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project Web\report\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Project Web\report\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#6 {main}

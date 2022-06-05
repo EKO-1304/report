@@ -108,7 +108,7 @@
                         <?= csrf_field() ?>
 
                         <ul class="profile-edit-list row">
-                          <li class="weight-500 col-md-6 py-0">
+                          <li class="weight-500 col-md-12 py-0">
                             <!-- <h4 class="text-blue h5 mb-20">Edit Your Personal Setting</h4> -->
 
                             <input class="form-control" type="hidden" value="<?= $profile['random_users'] ?>" name="random">
@@ -161,9 +161,6 @@
                               <div class="mt-3" >
                               <?= $this->include('Modules\Layout\Views\alert') ?>
                               </div>
-                          </li>
-                          <li class="weight-500 col-md-6">
-
                           </li>
                         </ul>
                       </form>

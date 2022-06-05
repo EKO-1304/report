@@ -27,16 +27,8 @@
 <div class="left-side-bar ">
   <div class="brand-logo">
     <a href="<?php echo base_url('manage-home') ?>" class="d-flex justify-content-center">
-      <h2 class="text-light">
-        <?php 
-          if(user()->jenisuser == "seller"){
-            echo "SELLER";
-          }else{
-            echo "OPERATOR";
-          }
-        ?>  
-
-      </h2>
+      <!-- <h6 class="text-light">PT. KPF SEMARANG</h6> -->
+				<img src="<?= base_url("assets/logo.jpg") ?>" alt="" class="light-logo">
     </a>
     <div class="close-sidebar" data-toggle="left-sidebar-close">
       <i class="ion-close-round"></i>
@@ -49,8 +41,8 @@
       <div id="sidebaruser" class="profile-photo mt-2" style="width:80px;height:80px">
         <img src="<?= base_url('assets/')?>/images/profile/<?= user()->user_image ?>" style="" alt="" class="avatar-photo">
       </div> 
-      <h6 id="sidebaruser" class="text-center h6 mb-0" style="color:#00ECCF"><?= user()->fullname ?></h6>
-      <p id="sidebaruser" class="text-center text-muted font-14"><?= $ur['description']; ?></p>
+      <h6 id="sidebaruser" class="text-center h6 mb-0" style="color:#fff"><?= user()->fullname ?></h6>
+      <p id="sidebaruser" class="text-center text-dark font-weight-bold font-14"><?= $ur['description']; ?></p>
 
     <div class="sidebar-menu" style="margin-bottom:100px">
       <ul id="accordion-menu">
@@ -299,34 +291,21 @@
             </ul>
           </li>
         <?php }else{ 
-        
+          
         ?>
         <li class="dropdown">
           <a href="<?= base_url($mg['linkgroup']) ?>" class="dropdown-toggle no-arrow <?php if($seg[0] == $mg['linkgroup']){echo "active";}else{} ?>">
             <span class="micon dw dw-right-arrow-5"></span><span class="mtext"><?= $mg['nama_group']; ?></span>
           </a> </li>
         <?php }}} ?>
+        <li class="dropdown mt-2">
+          <a href="<?= base_url("logout") ?>" class=" bg-danger dropdown-toggle no-arrow " style="border-radius:5px;">
+            <i class="micon icon-copy dw dw-logout1"></i><span class="mtext">Log Out</span>
+          </a> 
+        </li>
       </ul>
      
    
-    <?php 
-      if(in_groups("seller")){
-        $linkredirect = "logout-seller";
-      }else{								
-        $linkredirect = "logout";
-      }
-    ?>
-    <?php if(in_groups("seller")){ ?>
-    <div class="text-center mx-2" style="margin-top:10px">
-        <a href="<?= base_url() ?>" target="_blank" style="width:100%" class="btn btn-success"><i class="icon-copy dw dw-internet-2"></i> Website Utama</a>
-    </div>
-    <div class="text-center mx-2" style="margin-top:10px">
-        <a href="<?= base_url("faq") ?>" target="_blank" style="width:100%" class="btn btn-warning text-dark"><i class="icon-copy dw dw-information"></i> Bantuan / FAQ</a>
-    </div>
-    <?php } ?>
-    <div class="text-center mx-2" style="margin-top:10px">
-        <a href="<?= base_url($linkredirect) ?>"  style="width:100%" class="btn btn-dark text-light"><span class="dw dw-logout"></span> Log Out</a>
-    </div>
     </div>
   </div>
 </div>

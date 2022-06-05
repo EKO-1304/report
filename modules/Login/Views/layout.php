@@ -30,7 +30,7 @@
 		gtag('config', 'UA-119386393-1');
 	</script>
 </head>
-<body class="login-page">
+<body class="login-page" style="background-color:#27ae61">
 
   <?= $this->renderSection('content') ?>
 	<!-- js -->

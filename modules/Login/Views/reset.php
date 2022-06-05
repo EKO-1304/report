@@ -11,7 +11,7 @@
       <div class="col-md-6">
         <div class="login-box bg-white box-shadow border-radius-10">
           <div class="login-title">
-            <h2 class="text-center text-primary"><?= $title ?></h2>
+            <h2 class="text-center text-success"><?= $title ?></h2>
           </div>
           <h6 class="mb-20">Masukkan password baru Anda, konfirmasi dan kirim</h6>
 					<?= view('Myth\Auth\Views\_message_block') ?>
@@ -19,7 +19,7 @@
             <?= csrf_field() ?>
       		<?php $random = sha1(time().rand(111111,999999)); ?>
               <div class="input-group custom">
-                <input type="text" name="token" class="form-control form-control-lg <?php if(session('errors.token')) : ?>is-invalid<?php endif ?>" placeholder="Token Reset Password" value="<?= $token ?>">
+                <input type="text" name="token" style="border-radius:20px" class="form-control form-control-lg <?php if(session('errors.token')) : ?>is-invalid<?php endif ?>" placeholder="Token Reset Password" value="<?= $token ?>">
                 <div class="input-group-append custom">
                   <span class="input-group-text"><i class="dw dw-padlock1"></i></span>
                 </div>
@@ -28,7 +28,7 @@
                 </div>
               </div>
              <div class="input-group custom">
-              <input type="text" name="email" class="form-control form-control-lg <?php if(session('errors.email')) : ?>is-invalid<?php endif ?>" placeholder="Email" value="<?= $email ?>">
+              <input type="text" name="email" style="border-radius:20px" class="form-control form-control-lg <?php if(session('errors.email')) : ?>is-invalid<?php endif ?>" placeholder="Email" value="<?= $email ?>">
               <div class="input-group-append custom">
                 <span class="input-group-text"><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
               </div>
@@ -37,7 +37,7 @@
               </div>
             </div>
             <div class="input-group custom">
-              <input type="text" name="password" class="form-control form-control-lg <?php if(session('errors.password')) : ?>is-invalid<?php endif ?>" placeholder="New Password" value="<?= old('password') ?>">
+              <input type="text" name="password" style="border-radius:20px" class="form-control form-control-lg <?php if(session('errors.password')) : ?>is-invalid<?php endif ?>" placeholder="New Password" value="<?= old('password') ?>">
               <div class="input-group-append custom">
                 <span class="input-group-text"><i class="dw dw-padlock1"></i></span>
               </div>
@@ -46,7 +46,7 @@
               </div>
             </div>
             <div class="input-group custom">
-              <input type="text" name="pass_confirm" class="form-control form-control-lg <?php if(session('errors.pass_confirm')) : ?>is-invalid<?php endif ?>" placeholder="Confirm New Password" value="<?= old('pass_confirm') ?>">
+              <input type="text" name="pass_confirm" style="border-radius:20px" class="form-control form-control-lg <?php if(session('errors.pass_confirm')) : ?>is-invalid<?php endif ?>" placeholder="Confirm New Password" value="<?= old('pass_confirm') ?>">
               <div class="input-group-append custom">
                 <span class="input-group-text"><i class="dw dw-padlock1"></i></span>
               </div>
@@ -56,15 +56,35 @@
             </div>
             <div class="row align-items-center">
               <div class="col-5">
-                <div class="input-group mb-0">
+                <div class="input-group mb-2">
 
                     <!-- use code for form submit -->
-                    <input class="btn btn-primary btn-lg btn-block" type="submit" value="Submit">
+                    <input class="btn btn-success btn-lg btn-block" style="border-radius:20px" type="submit" value="Submit">
 
-                  <!-- <a class="btn btn-primary btn-lg btn-block" href="index.html">Submit</a> -->
+                  <!-- <a class="btn btn-success btn-lg btn-block" href="index.html">Submit</a> -->
+                </div>
+              </div>
+              <div class="col-2">
+                <div class="font-16 weight-600 text-center" data-color="#707373">OR</div>
+              </div>
+              <div class="col-5">
+                <div class="input-group mb-0">
+                  <a class="btn btn-outline-success btn-lg btn-block"  style="border-radius:20px" href="<?= base_url("login") ?>">Login</a>
                 </div>
               </div>
             </div>
+            <?php /*
+            <div class="row align-items-center">
+              <div class="col-5">
+                <div class="input-group mb-0">
+
+                    <!-- use code for form submit -->
+                    <input class="btn btn-success btn-lg btn-block" style="border-radius:20px" type="submit" value="Submit">
+
+                  <!-- <a class="btn btn-success btn-lg btn-block" href="index.html">Submit</a> -->
+                </div>
+              </div>
+            </div> */?>
           </form>
         </div>
       </div>

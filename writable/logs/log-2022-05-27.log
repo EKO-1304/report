@@ -1,0 +1,67 @@
+CRITICAL - 2022-05-27 16:32:30 --> A non-numeric value encountered
+#0 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\wiki\modules\LayoutDepan\Controllers\Layout.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\Users\\PC Kan...', 29, Array)
+#1 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\LayoutDepan\Controllers\Layout->index('sekolah')
+#2 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\LayoutDepan\Controllers\Layout))
+#3 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\PC Kan...')
+#6 {main}
+CRITICAL - 2022-05-27 16:33:34 --> A non-numeric value encountered
+#0 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\wiki\modules\LayoutDepan\Controllers\Layout.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\Users\\PC Kan...', 29, Array)
+#1 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\LayoutDepan\Controllers\Layout->index('vendors', 'scripts', 'core.js')
+#2 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\LayoutDepan\Controllers\Layout))
+#3 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\PC Kan...')
+#6 {main}
+CRITICAL - 2022-05-27 16:33:34 --> A non-numeric value encountered
+#0 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\wiki\modules\LayoutDepan\Controllers\Layout.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\Users\\PC Kan...', 29, Array)
+#1 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\LayoutDepan\Controllers\Layout->index('vendors', 'scripts', 'script.min.js')
+#2 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\LayoutDepan\Controllers\Layout))
+#3 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\PC Kan...')
+#6 {main}
+CRITICAL - 2022-05-27 16:33:34 --> A non-numeric value encountered
+#0 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\wiki\modules\LayoutDepan\Controllers\Layout.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\Users\\PC Kan...', 29, Array)
+#1 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\LayoutDepan\Controllers\Layout->index('vendors', 'scripts', 'process.js')
+#2 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\LayoutDepan\Controllers\Layout))
+#3 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\PC Kan...')
+#6 {main}
+CRITICAL - 2022-05-27 16:33:34 --> A non-numeric value encountered
+#0 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\wiki\modules\LayoutDepan\Controllers\Layout.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\Users\\PC Kan...', 29, Array)
+#1 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\LayoutDepan\Controllers\Layout->index('vendors', 'scripts', 'layout-settings...')
+#2 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\LayoutDepan\Controllers\Layout))
+#3 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\PC Kan...')
+#6 {main}
+CRITICAL - 2022-05-27 16:33:34 --> A non-numeric value encountered
+#0 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\wiki\modules\LayoutDepan\Controllers\Layout.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\Users\\PC Kan...', 29, Array)
+#1 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\LayoutDepan\Controllers\Layout->index('vendors', 'images', 'favicon-32x32.p...')
+#2 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\LayoutDepan\Controllers\Layout))
+#3 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\PC Kan...')
+#6 {main}
+CRITICAL - 2022-05-27 16:33:34 --> A non-numeric value encountered
+#0 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\wiki\modules\LayoutDepan\Controllers\Layout.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\Users\\PC Kan...', 29, Array)
+#1 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(940): Modules\LayoutDepan\Controllers\Layout->index('vendors', 'images', 'favicon-16x16.p...')
+#2 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Modules\LayoutDepan\Controllers\Layout))
+#3 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\PC Kan...')
+#6 {main}
+CRITICAL - 2022-05-27 16:38:37 --> syntax error, unexpected '}'
+#0 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\wiki\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\PC Kan...')
+#1 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\wiki\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Modules\\LayoutD...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Modules\\LayoutD...')
+#3 [internal function]: spl_autoload_call('Modules\\LayoutD...')
+#4 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(897): class_exists('\\Modules\\Layout...', true)
+#5 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#6 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(337): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\PC Kan...')
+#9 {main}

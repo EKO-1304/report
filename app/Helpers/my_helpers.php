@@ -191,51 +191,6 @@ function fetch_toko($url)
 }
 function fetch_shopee($url)
 {
-		$ch = curl_init();
-		curl_setopt($ch, CURLOPT_URL, $url);
-		curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-		curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, FALSE);
-		$result_data = curl_exec($ch);
-		curl_close($ch);
-
-    $dom = new DomDocument;
-    @$dom->loadHTML($result_data);
-     
-    $xpath = new DOMXPath($dom);
-    # query metatags dengan prefix og
-    $metas1 = $xpath->query('//*/meta[starts-with(@property, \'og:\')]');
-    $metas2 = $xpath->query('//*/meta[starts-with(@itemprop, \'price\')]');
-
-    $og = array();
-
-    foreach($metas1 as $meta){
-        # ambil nama properti tanpa menyertakan og
-        $property = str_replace('og:', '', $meta->getAttribute('property'));
-        # ambil konten dari properti tersebut
-        $content = $meta->getAttribute('content');
-        $og[$property] = $content;
-    }
-    foreach($metas2 as $meta){
-      $og["price"] = $meta->getAttribute('content');
-    }
-    if(count($og) > 3){
-      $data = array(
-        "title" => $og["title"],
-        "description" => $og["description"],
-        "image" => $og["image"],
-        "url" => $og["url"],
-        "price" => round($og["price"]),
-        "status" => "sukses",
-      );
-    }else{
-      $data = array(
-        "status" => "gagal",
-      );
-    }
-    return $data;
-}
-function fetch_shopee_($url)
-{
     $data = file_get_contents($url);
     $dom = new DomDocument;
     @$dom->loadHTML($data);
@@ -268,49 +223,7 @@ function fetch_shopee_($url)
 }
 function fetch_tokopedia($url)
 {
-		$ch = curl_init();
-		curl_setopt($ch, CURLOPT_URL, $url);
-		curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-		curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, FALSE);
-		$result_data = curl_exec($ch);
-		curl_close($ch);
-
-    $dom = new DomDocument;
-    @$dom->loadHTML($result_data);
-     
-    $xpath = new DOMXPath($dom);
-    # query metatags dengan prefix og
-    $metas1 = $xpath->query('//*/meta[starts-with(@property, \'\')]');
-    $metas2 = $xpath->query('shopName');
-    $og = array();
-
-    foreach($metas1 as $meta){
-        # ambil nama properti tanpa menyertakan og
-        $property = str_replace('og:', '', $meta->getAttribute('property'));
-        # ambil konten dari properti tersebut
-        $content = $meta->getAttribute('content');
-        $og[$property] = $content;
-    }
-    if(count($og) > 3){
-      $data = array(
-        "title" => str_replace(" | Tokopedia","",$og["title"]),
-        "description" => $og["description"],
-        "image" => $og["image"],
-        "url" => $og["url"],
-        "price" => $og["product:price:amount"],
-        "status" => "sukses",
-      );
-    }else{
-      $data = array(
-        "status" => "gagal",
-      );
-    }
-    return $data;
-}
-function fetch_tokopedia_($url)
-{
     $data = file_get_contents($url);
-    
     $dom = new DomDocument;
     @$dom->loadHTML($data);
      

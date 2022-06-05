@@ -14,15 +14,20 @@ class ModelPerusahaan extends Model
       parent::__construct();
       $this->db = \Config\Database::connect();
   }
-  protected function _get_datatables_query()
+  protected function _get_datatables_query($statuslap)
   {
-      $column_order   = array('','','','namanasabah','alamat','pekerjaan');
-      $column_search  = array('namanasabah','alamat','pekerjaan');
+      $column_order   = array('','namanasabah','fullname','tanggal','');
+      $column_search  = array('namanasabah','fullname','tanggal');
       $order = array('');
       
       $this->builder = $this->db->table("x_laporan");
-      $this->builder->select('*');     
-      $this->builder->where(["x_laporan.deleted_at"=>null,"x_laporan.iduser"=>user()->id]);
+      $this->builder->select('broker,dokumentasi,nomorwa,pendamping,alamat,pekerjaan,hasil,x_laporan.iduser,x_laporan.random,namanasabah,x_laporan.tanggal,alamat,pekerjaan,fullname');     
+      $this->builder->join("users","users.id=x_laporan.iduser","left");
+      if($statuslap == "iduser"){
+        $this->builder->where(["x_laporan.deleted_at"=>null,"x_laporan.iduser"=>user()->id]);
+      }else{
+        $this->builder->where(["x_laporan.deleted_at"=>null]);
+      }
       $this->builder->orderBy(key($order), $order[key($order)]);
 
       $i = 0;
@@ -51,26 +56,31 @@ class ModelPerusahaan extends Model
       }
   }
 
-  public function get_datatables()
+  public function get_datatables($statuslap)
   {
-      $this->_get_datatables_query();
+      $this->_get_datatables_query($statuslap);
       if ($_POST['length'] != -1)
           $this->builder->limit($_POST['length'], $_POST['start']);
       $query = $this->builder->get();
       return $query->getResult();
   }
 
-  public function count_filtered()
+  public function count_filtered($statuslap)
   {
-      $this->_get_datatables_query();
+      $this->_get_datatables_query($statuslap);
       return $this->builder->countAllResults();
   }
 
-  public function count_all()
+  public function count_all($statuslap)
   {
       $this->builder = $this->db->table("x_laporan");
-      $this->builder->select('*');     
-      $this->builder->where(["x_laporan.deleted_at"=>null,"x_laporan.iduser"=>user()->id]);
+      $this->builder->select('broker,pendamping,x_laporan.iduser,x_laporan.random,namanasabah,x_laporan.tanggal,alamat,pekerjaan,fullname');     
+      $this->builder->join("users","users.id=x_laporan.iduser","left");
+      if($statuslap == "iduser"){
+        $this->builder->where(["x_laporan.deleted_at"=>null,"x_laporan.iduser"=>user()->id]);
+      }else{
+        $this->builder->where(["x_laporan.deleted_at"=>null]);
+      }
       return $this->builder->countAllResults();
   }
 

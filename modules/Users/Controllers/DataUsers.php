@@ -236,6 +236,7 @@ class DataUsers extends BaseController
           'status' 		=> $activeuser,
     			'user_image' 	=> 'default.jpg',
           'jenisuser' 		=> $gr["name"],
+          'active' 		=> 1,
     			'created_at' 	=> date('Y-m-d h:i:s'),
       );
       $status = $this->ModelMaster->datatambah("users",$data);
@@ -417,6 +418,7 @@ class DataUsers extends BaseController
             'password_hash' => $pass,
             'status' => $activeuser,
             'jenisuser' 		=> $gr["name"],
+            'active' 		=> 1,
       			'updated_at' 	=> date('Y-m-d h:i:s'),
         );
       }else{
@@ -426,6 +428,7 @@ class DataUsers extends BaseController
             'username' => $this->request->getPost('username'),
             'status' => $activeuser,
             'jenisuser' 		=> $gr["name"],
+            'active' 		=> 1,
       			'updated_at' 	=> date('Y-m-d h:i:s'),
         );
       }

@@ -9,7 +9,7 @@
       $tambahlink = "manage-laporan-club-tambah";
       
 ?>
-<div class="main-container mx-auto" style="width:1200px;">
+<div class="main-container mx-auto" style="max-width:1200px;">
   <div class="pd-ltr-20 xs-pd-20-10">
     <div class="min-height-200px">
       <div class="page-header">
@@ -44,33 +44,28 @@
             </div>
 
          
-            <form action="<?= route_to('manage-input-laporan-save') ?>" method="post">
+            <form action="<?= route_to('manage-input-laporan-save') ?>" method="post"  enctype="multipart/form-data">
               <?= csrf_field() ?>
 
               <div class="form-group required mb-1">
                 <label class="starlabel">Nama Broker</label>
-                <select class="custom-select2 form-control <?php if(session('errors.namabroker')){ echo "form-control-danger";}else{} ?>" name="namabroker" style="width: 100%; height: 38px;">
-                    <option value="">-- Select Broker --</option>
-                  <?php foreach($broker as $bk){ ?>
-                    <option value="<?= $bk['id'] ?>" <?php if(old('namabroker') == $bk['id']){ echo "selected";}else{} ?> ><?= $bk['fullname'] ?></option>
-                  <?php } ?>
-                </select>
+                <input class="form-control <?php if(session('errors.namabroker')){ echo "form-control-danger";}else{} ?>" type="text" value="<?= old('namabroker') ?>" name="namabroker" placeholder="Nama Broker">
                 <small class="form-control-feedback text-danger"><?= session('errors.namabroker') ?></small>
               </div>
-              <div class="form-group mb-1">
-                <label class="starlabel">Pendamping</label>
-                <select class="custom-select2 form-control <?php if(session('errors.namapendamping')){ echo "form-control-danger";}else{} ?>" name="namapendamping" style="width: 100%; height: 38px;">
-                    <option value="">-- Select Pendamping --</option>
-                  <?php foreach($senior as $pen){ ?>
-                    <option value="<?= $pen['id'] ?>" <?php if(old('namapendamping') == $pen['id']){ echo "selected";}else{} ?> ><?= $pen['fullname'] ?></option>
-                  <?php } ?>
-                </select>
+              <div class="form-group required mb-1">
+                <label class="starlabel">Nama Pendamping</label>
+                <input class="form-control <?php if(session('errors.namapendamping')){ echo "form-control-danger";}else{} ?>" type="text" value="<?= old('namapendamping') ?>" name="namapendamping" placeholder="Nama Pendamping">
                 <small class="form-control-feedback text-danger"><?= session('errors.namapendamping') ?></small>
               </div>
               <div class="form-group required mb-1">
                 <label class="starlabel">Nama Calon Nasabah</label>
                 <input class="form-control <?php if(session('errors.namanasabah')){ echo "form-control-danger";}else{} ?>" type="text" value="<?= old('namanasabah') ?>" name="namanasabah" placeholder="Nama Calon Nasabah">
                 <small class="form-control-feedback text-danger"><?= session('errors.namanasabah') ?></small>
+              </div>
+              <div class="form-group required mb-1">
+                <label class="starlabel">Nomor WhatsApp</label>
+                <input class="form-control <?php if(session('errors.nomorwa')){ echo "form-control-danger";}else{} ?>" type="number" value="<?= old('nomorwa') ?>" name="nomorwa" placeholder="Nomor WhatsApp">
+                <small class="form-control-feedback text-danger"><?= session('errors.nomorwa') ?></small>
               </div>
               <div class="form-group required mb-1">
                 <label class="starlabel">Pekerjaan</label>
@@ -87,8 +82,15 @@
                 <textarea class="form-control <?php if(session('errors.hasil')){ echo "form-control-danger";}else{} ?>" type="text"  name="hasil" placeholder="Hasil"><?= old('hasil') ?></textarea>
                 <small class="form-control-feedback text-danger"><?= session('errors.hasil') ?></small>
               </div>
+              <div class="form-group required mb-1">
+                <label class="starlabel">Dokumentasi Foto</label>   
+                <span class="text-primary font-weight-bold">Format image : jpg | jpeg | png - ukuran max image 200 kb</span>      
+                <input type="file" id="file-input-img" accept="image/*" name="dokumentasi" class="form-control-file form-control height-auto  <?php if(session('errors.dokumentasi')){ echo "form-control-danger";}else{} ?>">
+                <small class="form-control-feedback text-danger"><?= session('errors.dokumentasi') ?></small>
+                <div id="previewimg" class="mt-3"></div>
+              </div>
 
-              <button type="submit" class="btn btn-sm btn-primary mt-3 savedata">Tambah Laporan</button>
+              <button type="submit" class="btn btn-sm btn-success mt-3 savedata">Tambah Laporan</button>
             </form>
 
 				</div>

@@ -267,30 +267,6 @@
       $(document).ready(function() {
 		// console.clear();
 
-		$(function() {
-			$( "#set div" ).draggable({ 
-
-    			containment: 'parent',
-				stack: "#set div",
-				stop: function(event, ui) {
-				var pos_x = ui.position.left;
-				var pos_y = ui.position.top;
-				var need = ui.helper.data("need");
-
-				var token = $('.txt_csrfname').val();
-				var random = document.getElementById("resultrandom2").value;
-
-				$.ajax({
-					type: "POST",
-						url: "<?= base_url('manage-blangko-tambah-setting'); ?>",
-						data:{<?= csrf_token() ?>:token,x: pos_x, y: pos_y,need_id: need,random:random}, 
-					}).done(function( msg ) {
-					// alert( "Data Saved: " + msg );
-						// posisi();
-					}); 
-				}
-			});
-		});
 
         $('.table-dataku').DataTable({
         		scrollCollapse: true,
@@ -408,9 +384,6 @@
 
 	}
 	document.querySelector('#file-input-img2').addEventListener("change", previewImages);
-	</script>
-	<script type="text/javascript">
-		
 	</script>
 </body>
 </html>

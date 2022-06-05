@@ -1,0 +1,44 @@
+CRITICAL - 2022-05-30 08:56:53 --> Undefined variable: datakey
+#0 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\wiki\modules\LayoutDepan\Controllers\Layout.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\PC Kan...', 34, Array)
+#1 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\LayoutDepan\Controllers\Layout->index()
+#2 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\LayoutDepan\Controllers\Layout))
+#3 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\PC Kan...')
+#6 {main}
+CRITICAL - 2022-05-30 09:10:42 --> Undefined offset: 0
+#0 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\wiki\app\Controllers\BaseController.php(238): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\Users\\PC Kan...', 238, Array)
+#1 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\wiki\modules\LayoutDepan\Controllers\Layout.php(48): App\Controllers\BaseController->datadata(Array)
+#2 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\LayoutDepan\Controllers\Layout->datawiki('jawa', '2')
+#3 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\LayoutDepan\Controllers\Layout))
+#4 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\PC Kan...')
+#7 {main}
+CRITICAL - 2022-05-30 12:07:32 --> Undefined offset: 0
+#0 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\wiki\app\Controllers\BaseController.php(238): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\Users\\PC Kan...', 238, Array)
+#1 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\wiki\modules\LayoutDepan\Controllers\Layout.php(48): App\Controllers\BaseController->datadata(Array)
+#2 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\LayoutDepan\Controllers\Layout->datawiki('sekolah', '2')
+#3 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\LayoutDepan\Controllers\Layout))
+#4 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\PC Kan...')
+#7 {main}
+CRITICAL - 2022-05-30 12:07:47 --> Undefined offset: 0
+#0 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\wiki\app\Controllers\BaseController.php(238): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\Users\\PC Kan...', 238, Array)
+#1 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\wiki\modules\LayoutDepan\Controllers\Layout.php(48): App\Controllers\BaseController->datadata(Array)
+#2 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\LayoutDepan\Controllers\Layout->datawiki('sekolah', '2')
+#3 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\LayoutDepan\Controllers\Layout))
+#4 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\PC Kan...')
+#7 {main}
+CRITICAL - 2022-05-30 16:56:38 --> Trying to access array offset on value of type null
+#0 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\wiki\app\Controllers\BaseController.php(255): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\PC Kan...', 255, Array)
+#1 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\wiki\modules\LayoutDepan\Controllers\Layout.php(48): App\Controllers\BaseController->datadata(Array)
+#2 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\LayoutDepan\Controllers\Layout->datawiki('jawa', '1')
+#3 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\LayoutDepan\Controllers\Layout))
+#4 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\PC Kantor-3\Documents\DOCUMENT KANTOR\PROJECT CI4\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\PC Kan...')
+#7 {main}

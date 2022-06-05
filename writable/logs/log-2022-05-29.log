@@ -1,0 +1,1336 @@
+CRITICAL - 2022-05-29 11:16:04 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-29 13:04:56 --> Undefined variable: slug
+#0 D:\Project Web\wiki\app\Controllers\BaseController.php(86): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Project Web\\...', 86, Array)
+#1 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(29): App\Controllers\BaseController->dataview(Array)
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->view('Net1_Indonesia')
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#4 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#7 {main}
+CRITICAL - 2022-05-29 13:11:51 --> Undefined index: judul
+#0 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project Web\\...', 33, Array)
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->view('Net1_Indonesia')
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#6 {main}
+CRITICAL - 2022-05-29 13:12:53 --> Trying to access array offset on value of type null
+#0 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Project Web\\...', 33, Array)
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->view('assets', 'img', 'post-landscape-...')
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#6 {main}
+CRITICAL - 2022-05-29 13:12:58 --> Trying to access array offset on value of type null
+#0 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Project Web\\...', 33, Array)
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->view('assets', 'img', 'post-landscape-...')
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#6 {main}
+CRITICAL - 2022-05-29 13:13:02 --> Trying to access array offset on value of type null
+#0 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Project Web\\...', 33, Array)
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->view('assets', 'img', 'person-5.jpg')
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#6 {main}
+CRITICAL - 2022-05-29 13:13:06 --> Trying to access array offset on value of type null
+#0 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Project Web\\...', 33, Array)
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->view('assets', 'img', 'person-4.jpg')
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#6 {main}
+CRITICAL - 2022-05-29 13:13:10 --> Trying to access array offset on value of type null
+#0 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Project Web\\...', 33, Array)
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->view('assets', 'img', 'person-3.jpg')
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#6 {main}
+CRITICAL - 2022-05-29 13:13:25 --> Trying to access array offset on value of type null
+#0 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Project Web\\...', 33, Array)
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->view('assets', 'img', 'person-2.jpg')
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#6 {main}
+CRITICAL - 2022-05-29 13:14:18 --> Trying to access array offset on value of type null
+#0 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Project Web\\...', 33, Array)
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->view('assets', 'img', 'post-landscape-...')
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#6 {main}
+CRITICAL - 2022-05-29 13:14:26 --> Trying to access array offset on value of type null
+#0 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Project Web\\...', 33, Array)
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->view('assets', 'img', 'post-landscape-...')
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#6 {main}
+CRITICAL - 2022-05-29 13:14:32 --> Trying to access array offset on value of type null
+#0 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Project Web\\...', 33, Array)
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->view('assets', 'img', 'person-5.jpg')
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#6 {main}
+CRITICAL - 2022-05-29 13:14:36 --> Trying to access array offset on value of type null
+#0 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Project Web\\...', 33, Array)
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->view('assets', 'img', 'person-4.jpg')
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#6 {main}
+CRITICAL - 2022-05-29 13:14:40 --> Trying to access array offset on value of type null
+#0 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Project Web\\...', 33, Array)
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->view('assets', 'img', 'person-3.jpg')
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#6 {main}
+CRITICAL - 2022-05-29 13:14:49 --> Trying to access array offset on value of type null
+#0 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Project Web\\...', 33, Array)
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->view('assets', 'img', 'post-landscape-...')
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#6 {main}
+CRITICAL - 2022-05-29 13:14:54 --> Trying to access array offset on value of type null
+#0 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Project Web\\...', 33, Array)
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->view('assets', 'img', 'post-landscape-...')
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#6 {main}
+CRITICAL - 2022-05-29 13:14:59 --> Trying to access array offset on value of type null
+#0 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Project Web\\...', 33, Array)
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->view('assets', 'img', 'person-5.jpg')
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#6 {main}
+CRITICAL - 2022-05-29 13:15:04 --> Trying to access array offset on value of type null
+#0 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Project Web\\...', 33, Array)
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->view('assets', 'img', 'person-4.jpg')
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#6 {main}
+CRITICAL - 2022-05-29 13:15:09 --> Trying to access array offset on value of type null
+#0 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Project Web\\...', 33, Array)
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->view('assets', 'img', 'person-3.jpg')
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#6 {main}
+CRITICAL - 2022-05-29 13:15:14 --> Trying to access array offset on value of type null
+#0 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Project Web\\...', 33, Array)
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->view('assets', 'img', 'person-2.jpg')
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#6 {main}
+CRITICAL - 2022-05-29 13:16:04 --> Trying to access array offset on value of type null
+#0 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Project Web\\...', 33, Array)
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->view('assets', 'img', 'post-landscape-...')
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#6 {main}
+CRITICAL - 2022-05-29 13:16:19 --> Trying to access array offset on value of type null
+#0 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Project Web\\...', 33, Array)
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->view('assets', 'img', 'post-landscape-...')
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#6 {main}
+CRITICAL - 2022-05-29 13:16:55 --> Trying to access array offset on value of type null
+#0 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Project Web\\...', 33, Array)
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->view('assets', 'img', 'post-landscape-...')
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#6 {main}
+CRITICAL - 2022-05-29 13:19:45 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-29 13:20:52 --> Trying to access array offset on value of type null
+#0 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Project Web\\...', 33, Array)
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->view('assets', 'img', 'post-landscape-...')
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#6 {main}
+CRITICAL - 2022-05-29 13:24:35 --> Trying to access array offset on value of type null
+#0 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Project Web\\...', 33, Array)
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->view('assets', 'img', 'post-landscape-...')
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#6 {main}
+CRITICAL - 2022-05-29 13:24:38 --> Trying to access array offset on value of type null
+#0 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Project Web\\...', 33, Array)
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->view('assets', 'img', 'post-landscape-...')
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#6 {main}
+CRITICAL - 2022-05-29 13:24:52 --> Trying to access array offset on value of type null
+#0 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Project Web\\...', 33, Array)
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->view('assets', 'img', 'post-landscape-...')
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#6 {main}
+CRITICAL - 2022-05-29 13:25:12 --> Trying to access array offset on value of type null
+#0 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Project Web\\...', 33, Array)
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->view('assets', 'img', 'post-landscape-...')
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#6 {main}
+CRITICAL - 2022-05-29 13:25:33 --> Trying to access array offset on value of type null
+#0 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Project Web\\...', 33, Array)
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->view('assets', 'img', 'post-landscape-...')
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#6 {main}
+CRITICAL - 2022-05-29 13:25:48 --> Trying to access array offset on value of type null
+#0 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Project Web\\...', 33, Array)
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->view('assets', 'img', 'post-landscape-...')
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#6 {main}
+CRITICAL - 2022-05-29 13:25:51 --> Trying to access array offset on value of type null
+#0 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Project Web\\...', 33, Array)
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->view('assets', 'img', 'post-landscape-...')
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#6 {main}
+CRITICAL - 2022-05-29 13:26:24 --> Trying to access array offset on value of type null
+#0 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Project Web\\...', 33, Array)
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->view('assets', 'img', 'post-landscape-...')
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#6 {main}
+CRITICAL - 2022-05-29 13:27:09 --> Trying to access array offset on value of type null
+#0 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Project Web\\...', 33, Array)
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->view('assets', 'img', 'post-landscape-...')
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#6 {main}
+CRITICAL - 2022-05-29 13:27:50 --> Trying to access array offset on value of type null
+#0 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Project Web\\...', 33, Array)
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->view('assets', 'img', 'post-landscape-...')
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#6 {main}
+CRITICAL - 2022-05-29 13:28:57 --> Trying to access array offset on value of type null
+#0 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Project Web\\...', 33, Array)
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->view('Indonesia_Timu')
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#6 {main}
+CRITICAL - 2022-05-29 13:29:09 --> Trying to access array offset on value of type null
+#0 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Project Web\\...', 33, Array)
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->view('Indonesia_Timu')
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#6 {main}
+CRITICAL - 2022-05-29 13:29:15 --> Trying to access array offset on value of type null
+#0 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Project Web\\...', 33, Array)
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->view('assets', 'img', 'post-landscape-...')
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#6 {main}
+CRITICAL - 2022-05-29 13:31:23 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+#0 D:\Project Web\wiki\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\Wiki\\Vi...', Array, true)
+#2 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(39): view('Modules\\Wiki\\Vi...', Array)
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->view('Indonesia_Timur')
+#4 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#8 {main}
+CRITICAL - 2022-05-29 13:31:47 --> Trying to access array offset on value of type null
+#0 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Project Web\\...', 33, Array)
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->view('assets', 'img', 'post-landscape-...')
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#6 {main}
+CRITICAL - 2022-05-29 13:32:32 --> Trying to access array offset on value of type null
+#0 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Project Web\\...', 33, Array)
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->view('assets', 'img', 'post-landscape-...')
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#6 {main}
+CRITICAL - 2022-05-29 13:40:54 --> Trying to access array offset on value of type null
+#0 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Project Web\\...', 33, Array)
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->view('index.html')
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#6 {main}
+CRITICAL - 2022-05-29 13:43:32 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-29 13:45:30 --> Cannot pass parameter 4 by reference
+#0 D:\Project Web\wiki\modules\LayoutDepan\Controllers\Layout.php(46): App\Controllers\BaseController->datadata(Array)
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\LayoutDepan\Controllers\Layout->datawiki('indonesia', '1')
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\LayoutDepan\Controllers\Layout))
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#6 {main}
+CRITICAL - 2022-05-29 13:48:07 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-29 14:03:24 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-29 14:09:52 --> strtolower() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'strtolower() ex...', 'D:\\Project Web\\...', 35, Array)
+#1 D:\Project Web\wiki\modules\LayoutDepan\Views\footer.php(35): strtolower(Array)
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\Project Web\\...')
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 D:\Project Web\wiki\vendor\codeigniter4\framework\system\View\View.php(424): CodeIgniter\View\View->render('Modules\\LayoutD...', NULL, true)
+#5 D:\Project Web\wiki\modules\LayoutDepan\Views\layout.php(49): CodeIgniter\View\View->include('Modules\\LayoutD...')
+#6 D:\Project Web\wiki\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\Project Web\\...')
+#7 D:\Project Web\wiki\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 D:\Project Web\wiki\vendor\codeigniter4\framework\system\View\View.php(226): CodeIgniter\View\View->render('Modules\\LayoutD...', Array, true)
+#9 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\Wiki\\Vi...', Array, true)
+#10 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(59): view('Modules\\Wiki\\Vi...', Array)
+#11 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->viewdata('indonesia', 'Kepulauan_Maluk...')
+#12 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#13 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#15 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#16 {main}
+CRITICAL - 2022-05-29 14:09:57 --> strtolower() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'strtolower() ex...', 'D:\\Project Web\\...', 35, Array)
+#1 D:\Project Web\wiki\modules\LayoutDepan\Views\footer.php(35): strtolower(Array)
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\Project Web\\...')
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 D:\Project Web\wiki\vendor\codeigniter4\framework\system\View\View.php(424): CodeIgniter\View\View->render('Modules\\LayoutD...', NULL, true)
+#5 D:\Project Web\wiki\modules\LayoutDepan\Views\layout.php(49): CodeIgniter\View\View->include('Modules\\LayoutD...')
+#6 D:\Project Web\wiki\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\Project Web\\...')
+#7 D:\Project Web\wiki\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 D:\Project Web\wiki\vendor\codeigniter4\framework\system\View\View.php(226): CodeIgniter\View\View->render('Modules\\LayoutD...', Array, true)
+#9 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\LayoutD...', Array, true)
+#10 D:\Project Web\wiki\modules\LayoutDepan\Controllers\Layout.php(37): view('Modules\\LayoutD...', Array)
+#11 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\LayoutDepan\Controllers\Layout->index()
+#12 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\LayoutDepan\Controllers\Layout))
+#13 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#15 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#16 {main}
+CRITICAL - 2022-05-29 14:43:55 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-29 15:03:43 --> Undefined index: title
+#0 D:\Project Web\wiki\app\Controllers\BaseController.php(165): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Project Web\\...', 165, Array)
+#1 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(49): App\Controllers\BaseController->datasearch(Array)
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->search('jawa')
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#4 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#7 {main}
+CRITICAL - 2022-05-29 15:05:09 --> [] operator not supported for strings
+#0 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(49): App\Controllers\BaseController->datasearch(Array)
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->search('jawa')
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#6 {main}
+CRITICAL - 2022-05-29 15:05:12 --> [] operator not supported for strings
+#0 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(49): App\Controllers\BaseController->datasearch(Array)
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->search('jawa')
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#6 {main}
+CRITICAL - 2022-05-29 15:08:38 --> Illegal string offset 'wiki'
+#0 D:\Project Web\wiki\app\Controllers\BaseController.php(168): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'D:\\Project Web\\...', 168, Array)
+#1 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(49): App\Controllers\BaseController->datasearch(Array)
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->search('jawa')
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#4 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#7 {main}
+CRITICAL - 2022-05-29 15:09:42 --> Illegal string offset 'judul'
+#0 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'D:\\Project Web\\...', 50, Array)
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->search('jawa')
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#6 {main}
+CRITICAL - 2022-05-29 15:09:56 --> Illegal string offset 'judul'
+#0 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'D:\\Project Web\\...', 50, Array)
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->search('jawa')
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#6 {main}
+CRITICAL - 2022-05-29 15:09:58 --> Illegal string offset 'judul'
+#0 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'D:\\Project Web\\...', 50, Array)
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->search('jawa')
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#6 {main}
+CRITICAL - 2022-05-29 15:11:46 --> Undefined variable: datawiki
+#0 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Project Web\\...', 54, Array)
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->search('indonesia')
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#6 {main}
+CRITICAL - 2022-05-29 15:20:37 --> A non-numeric value encountered
+#0 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'D:\\Project Web\\...', 33, Array)
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->search('assets', 'img', 'person-2.jpg', '')
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#6 {main}
+CRITICAL - 2022-05-29 15:20:38 --> A non-numeric value encountered
+#0 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'D:\\Project Web\\...', 33, Array)
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->search('assets', 'img', 'post-landscape-...', '')
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#6 {main}
+CRITICAL - 2022-05-29 15:21:17 --> A non-numeric value encountered
+#0 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'D:\\Project Web\\...', 33, Array)
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->search('assets', 'img', 'post-landscape-...', '')
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#6 {main}
+CRITICAL - 2022-05-29 15:22:17 --> A non-numeric value encountered
+#0 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'D:\\Project Web\\...', 33, Array)
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->search('assets', 'img', 'post-landscape-...', '')
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#6 {main}
+CRITICAL - 2022-05-29 15:26:31 --> [] operator not supported for strings
+#0 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(57): App\Controllers\BaseController->datasearch(Array)
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->search('jawa', '')
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#6 {main}
+CRITICAL - 2022-05-29 15:27:50 --> syntax error, unexpected 'return' (T_RETURN)
+#0 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\Project Web\\...')
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(8): spl_autoload_call('App\\Controllers...')
+#4 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(264): include_once('D:\\Project Web\\...')
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\Project Web\\...')
+#6 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Modules\\Wiki\\Co...')
+#7 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Modules\\Wiki\\Co...')
+#8 [internal function]: spl_autoload_call('Modules\\Wiki\\Co...')
+#9 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(797): class_exists('\\Modules\\Wiki\\C...', true)
+#10 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#11 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#13 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#14 {main}
+CRITICAL - 2022-05-29 15:29:31 --> [] operator not supported for strings
+#0 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(57): App\Controllers\BaseController->datasearch(Array)
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->search('jawa', '')
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#6 {main}
+CRITICAL - 2022-05-29 15:29:38 --> Illegal string offset 'data'
+#0 D:\Project Web\wiki\app\Controllers\BaseController.php(171): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'D:\\Project Web\\...', 171, Array)
+#1 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(57): App\Controllers\BaseController->datasearch(Array)
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->search('jawa', '')
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#4 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#7 {main}
+CRITICAL - 2022-05-29 15:39:09 --> Undefined variable: judul
+#0 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Project Web\\...', 65, Array)
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->search('jawa', '')
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#6 {main}
+CRITICAL - 2022-05-29 15:39:47 --> Undefined variable: totallist
+#0 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Project Web\\...', 64, Array)
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->search('jawa', '')
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#6 {main}
+CRITICAL - 2022-05-29 15:39:54 --> Undefined variable: judul
+#0 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Project Web\\...', 65, Array)
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->search('jawa', '')
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#6 {main}
+CRITICAL - 2022-05-29 15:40:34 --> Undefined variable: description
+#0 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Project Web\\...', 67, Array)
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->search('jawa', '')
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#6 {main}
+CRITICAL - 2022-05-29 15:41:06 --> Undefined variable: totalsemua
+#0 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Project Web\\...', 72, Array)
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->search('jawa', '')
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#6 {main}
+CRITICAL - 2022-05-29 15:43:55 --> A non-numeric value encountered
+#0 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'D:\\Project Web\\...', 33, Array)
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->search('assets', 'img', 'person-2.jpg', '')
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#6 {main}
+CRITICAL - 2022-05-29 15:43:55 --> A non-numeric value encountered
+#0 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'D:\\Project Web\\...', 33, Array)
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->search('assets', 'img', 'post-landscape-...', '')
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#6 {main}
+CRITICAL - 2022-05-29 15:44:52 --> A non-numeric value encountered
+#0 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'D:\\Project Web\\...', 33, Array)
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->search('assets', 'img', 'person-2.jpg', '')
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#6 {main}
+CRITICAL - 2022-05-29 15:44:52 --> A non-numeric value encountered
+#0 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'D:\\Project Web\\...', 33, Array)
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->search('assets', 'img', 'post-landscape-...', '')
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#6 {main}
+CRITICAL - 2022-05-29 15:45:43 --> A non-numeric value encountered
+#0 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'D:\\Project Web\\...', 33, Array)
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->search('assets', 'img', 'post-landscape-...', '')
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#6 {main}
+CRITICAL - 2022-05-29 15:47:02 --> A non-numeric value encountered
+#0 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'D:\\Project Web\\...', 33, Array)
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->search('indonesia', 'assets', 'img', 'post-landscape-...', '')
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#6 {main}
+CRITICAL - 2022-05-29 15:47:11 --> A non-numeric value encountered
+#0 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'D:\\Project Web\\...', 33, Array)
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->search('assets', 'img', 'post-landscape-...', '')
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#6 {main}
+CRITICAL - 2022-05-29 15:51:42 --> Undefined offset: 2
+#0 D:\Project Web\wiki\modules\Wiki\Views\wikisearch.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\Project Web\\...', 54, Array)
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\Project Web\\...')
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\Wiki\\Vi...', Array, true)
+#4 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(97): view('Modules\\Wiki\\Vi...', Array)
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->search('jawa', '')
+#6 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#7 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#10 {main}
+CRITICAL - 2022-05-29 15:53:11 --> A non-numeric value encountered
+#0 D:\Project Web\wiki\modules\Wiki\Views\wikisearch.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'D:\\Project Web\\...', 66, Array)
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\Project Web\\...')
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\Wiki\\Vi...', Array, true)
+#4 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(98): view('Modules\\Wiki\\Vi...', Array)
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->search('jawa', '')
+#6 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#7 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#10 {main}
+CRITICAL - 2022-05-29 15:54:04 --> A non-numeric value encountered
+#0 D:\Project Web\wiki\modules\Wiki\Views\wikisearch.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'D:\\Project Web\\...', 86, Array)
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\Project Web\\...')
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\Wiki\\Vi...', Array, true)
+#4 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(98): view('Modules\\Wiki\\Vi...', Array)
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->search('indonesia', '')
+#6 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#7 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#10 {main}
+CRITICAL - 2022-05-29 15:54:30 --> A non-numeric value encountered
+#0 D:\Project Web\wiki\modules\Wiki\Views\wikisearch.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'D:\\Project Web\\...', 86, Array)
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\Project Web\\...')
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\Wiki\\Vi...', Array, true)
+#4 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(98): view('Modules\\Wiki\\Vi...', Array)
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->search('indonesia', '')
+#6 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#7 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#10 {main}
+CRITICAL - 2022-05-29 15:54:58 --> A non-numeric value encountered
+#0 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'D:\\Project Web\\...', 34, Array)
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->search('indonesia', 'assets', 'img', 'post-landscape-...', '')
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#6 {main}
+CRITICAL - 2022-05-29 15:55:19 --> A non-numeric value encountered
+#0 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'D:\\Project Web\\...', 34, Array)
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->search('indonesia', 'assets', 'img', 'post-landscape-...', '')
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#6 {main}
+ERROR - 2022-05-29 15:55:22 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-25, 25' at line 5
+CRITICAL - 2022-05-29 15:55:22 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-25, 25' at line 5
+#0 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(47): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->search('indonesia', '0', '')
+#6 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#7 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#10 {main}
+CRITICAL - 2022-05-29 15:55:28 --> A non-numeric value encountered
+#0 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'D:\\Project Web\\...', 34, Array)
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->search('indonesia', 'assets', 'img', 'post-landscape-...', '')
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#6 {main}
+CRITICAL - 2022-05-29 15:59:24 --> A non-numeric value encountered
+#0 D:\Project Web\wiki\modules\Wiki\Views\wikisearch.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'D:\\Project Web\\...', 86, Array)
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\Project Web\\...')
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\Wiki\\Vi...', Array, true)
+#4 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(98): view('Modules\\Wiki\\Vi...', Array)
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->search('indonesia', 'assets', 'img', 'post-landscape-...', '')
+#6 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#7 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#10 {main}
+CRITICAL - 2022-05-29 15:59:30 --> A non-numeric value encountered
+#0 D:\Project Web\wiki\modules\Wiki\Views\wikisearch.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'D:\\Project Web\\...', 86, Array)
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\Project Web\\...')
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\Wiki\\Vi...', Array, true)
+#4 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(98): view('Modules\\Wiki\\Vi...', Array)
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->search('indonesia', 'assets', 'img', 'post-landscape-...', '')
+#6 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#7 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#10 {main}
+CRITICAL - 2022-05-29 15:59:34 --> A non-numeric value encountered
+#0 D:\Project Web\wiki\modules\Wiki\Views\wikisearch.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'D:\\Project Web\\...', 86, Array)
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\Project Web\\...')
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\Wiki\\Vi...', Array, true)
+#4 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(98): view('Modules\\Wiki\\Vi...', Array)
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->search('indonesia', 'assets', 'img', 'post-landscape-...', '')
+#6 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#7 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#10 {main}
+CRITICAL - 2022-05-29 15:59:37 --> A non-numeric value encountered
+#0 D:\Project Web\wiki\modules\Wiki\Views\wikisearch.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'D:\\Project Web\\...', 86, Array)
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\Project Web\\...')
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\Wiki\\Vi...', Array, true)
+#4 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(98): view('Modules\\Wiki\\Vi...', Array)
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->search('indonesia', 'assets', 'img', 'post-landscape-...', '')
+#6 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#7 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#10 {main}
+CRITICAL - 2022-05-29 15:59:47 --> A non-numeric value encountered
+#0 D:\Project Web\wiki\app\Controllers\BaseController.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'D:\\Project Web\\...', 127, Array)
+#1 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(66): App\Controllers\BaseController->datasearch(Array)
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->search('jawa', 'assets', 'img', 'post-landscape-...', '')
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#4 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#7 {main}
+CRITICAL - 2022-05-29 15:59:50 --> A non-numeric value encountered
+#0 D:\Project Web\wiki\modules\Wiki\Views\wikisearch.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'D:\\Project Web\\...', 66, Array)
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\Project Web\\...')
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\Wiki\\Vi...', Array, true)
+#4 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(98): view('Modules\\Wiki\\Vi...', Array)
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->search('jawa', '')
+#6 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#7 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#10 {main}
+CRITICAL - 2022-05-29 16:00:05 --> A non-numeric value encountered
+#0 D:\Project Web\wiki\app\Controllers\BaseController.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'D:\\Project Web\\...', 127, Array)
+#1 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(66): App\Controllers\BaseController->datasearch(Array)
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->search('jawa', 'assets', 'img', 'post-landscape-...', '')
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#4 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#7 {main}
+CRITICAL - 2022-05-29 16:00:09 --> A non-numeric value encountered
+#0 D:\Project Web\wiki\app\Controllers\BaseController.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'D:\\Project Web\\...', 127, Array)
+#1 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(66): App\Controllers\BaseController->datasearch(Array)
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->search('jawa', 'assets', 'img', 'post-landscape-...', '')
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#4 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#7 {main}
+CRITICAL - 2022-05-29 16:00:13 --> A non-numeric value encountered
+#0 D:\Project Web\wiki\modules\Wiki\Views\wikisearch.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'D:\\Project Web\\...', 66, Array)
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\Project Web\\...')
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\Wiki\\Vi...', Array, true)
+#4 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(98): view('Modules\\Wiki\\Vi...', Array)
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->search('jawa', '')
+#6 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#7 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#10 {main}
+CRITICAL - 2022-05-29 16:00:49 --> A non-numeric value encountered
+#0 D:\Project Web\wiki\modules\Wiki\Views\wikisearch.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'D:\\Project Web\\...', 66, Array)
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\Project Web\\...')
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\Wiki\\Vi...', Array, true)
+#4 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(98): view('Modules\\Wiki\\Vi...', Array)
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->search('jawa', '')
+#6 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#7 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#10 {main}
+CRITICAL - 2022-05-29 16:01:42 --> syntax error, unexpected '==' (T_IS_EQUAL), expecting ')'
+#0 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\Project Web\\...')
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Modules\\Wiki\\Co...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Modules\\Wiki\\Co...')
+#3 [internal function]: spl_autoload_call('Modules\\Wiki\\Co...')
+#4 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(797): class_exists('\\Modules\\Wiki\\C...', true)
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#9 {main}
+CRITICAL - 2022-05-29 16:02:26 --> A non-numeric value encountered
+#0 D:\Project Web\wiki\modules\Wiki\Views\wikisearch.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'D:\\Project Web\\...', 66, Array)
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\Project Web\\...')
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\Wiki\\Vi...', Array, true)
+#4 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(98): view('Modules\\Wiki\\Vi...', Array)
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->search('jawa', '')
+#6 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#7 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#10 {main}
+CRITICAL - 2022-05-29 16:02:40 --> A non-numeric value encountered
+#0 D:\Project Web\wiki\modules\Wiki\Views\wikisearch.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'D:\\Project Web\\...', 66, Array)
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\Project Web\\...')
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\Wiki\\Vi...', Array, true)
+#4 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(99): view('Modules\\Wiki\\Vi...', Array)
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->search('jawa', '')
+#6 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#7 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#10 {main}
+CRITICAL - 2022-05-29 16:02:44 --> A non-numeric value encountered
+#0 D:\Project Web\wiki\app\Controllers\BaseController.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'D:\\Project Web\\...', 127, Array)
+#1 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(67): App\Controllers\BaseController->datasearch(Array)
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->search('jawa', 'assets', 'img', 'post-landscape-...', '')
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#4 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#7 {main}
+CRITICAL - 2022-05-29 16:03:04 --> A non-numeric value encountered
+#0 D:\Project Web\wiki\app\Controllers\BaseController.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'D:\\Project Web\\...', 127, Array)
+#1 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(67): App\Controllers\BaseController->datasearch(Array)
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->search('jawa', 'assets', 'img', 'post-landscape-...', '')
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#4 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#7 {main}
+CRITICAL - 2022-05-29 16:03:29 --> A non-numeric value encountered
+#0 D:\Project Web\wiki\app\Controllers\BaseController.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'D:\\Project Web\\...', 127, Array)
+#1 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(67): App\Controllers\BaseController->datasearch(Array)
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->search('jawa', 'assets', 'img', 'post-landscape-...', '')
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#4 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#7 {main}
+CRITICAL - 2022-05-29 16:03:34 --> A non-numeric value encountered
+#0 D:\Project Web\wiki\app\Controllers\BaseController.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'D:\\Project Web\\...', 127, Array)
+#1 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(67): App\Controllers\BaseController->datasearch(Array)
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->search('assets', 'img', 'post-landscape-...', '')
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#4 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#7 {main}
+CRITICAL - 2022-05-29 16:05:53 --> A non-numeric value encountered
+#0 D:\Project Web\wiki\app\Controllers\BaseController.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'D:\\Project Web\\...', 127, Array)
+#1 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(67): App\Controllers\BaseController->datasearch(Array)
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->search('assets', 'img', 'post-landscape-...', '')
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#4 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#7 {main}
+CRITICAL - 2022-05-29 16:06:56 --> A non-numeric value encountered
+#0 D:\Project Web\wiki\app\Controllers\BaseController.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'D:\\Project Web\\...', 127, Array)
+#1 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(67): App\Controllers\BaseController->datasearch(Array)
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->search('assets', 'img', 'post-landscape-...', '')
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#4 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#7 {main}
+CRITICAL - 2022-05-29 16:07:58 --> A non-numeric value encountered
+#0 D:\Project Web\wiki\app\Controllers\BaseController.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'D:\\Project Web\\...', 127, Array)
+#1 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(67): App\Controllers\BaseController->datasearch(Array)
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->search('assets', 'img', 'post-landscape-...', '')
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#4 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#7 {main}
+CRITICAL - 2022-05-29 16:08:32 --> A non-numeric value encountered
+#0 D:\Project Web\wiki\app\Controllers\BaseController.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'D:\\Project Web\\...', 127, Array)
+#1 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(67): App\Controllers\BaseController->datasearch(Array)
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->search('assets', 'img', 'post-landscape-...', '')
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#4 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#7 {main}
+CRITICAL - 2022-05-29 16:08:54 --> A non-numeric value encountered
+#0 D:\Project Web\wiki\app\Controllers\BaseController.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'D:\\Project Web\\...', 127, Array)
+#1 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(67): App\Controllers\BaseController->datasearch(Array)
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->search('assets', 'img', 'post-landscape-...', '')
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#4 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#7 {main}
+CRITICAL - 2022-05-29 16:08:59 --> A non-numeric value encountered
+#0 D:\Project Web\wiki\app\Controllers\BaseController.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'D:\\Project Web\\...', 127, Array)
+#1 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(67): App\Controllers\BaseController->datasearch(Array)
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->search('jawa', 'assets', 'img', 'post-landscape-...', '')
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#4 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#7 {main}
+CRITICAL - 2022-05-29 16:09:05 --> A non-numeric value encountered
+#0 D:\Project Web\wiki\app\Controllers\BaseController.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'D:\\Project Web\\...', 127, Array)
+#1 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(67): App\Controllers\BaseController->datasearch(Array)
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->search('jawa', 'assets', 'img', 'post-landscape-...', '')
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#4 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#7 {main}
+CRITICAL - 2022-05-29 16:09:21 --> Trying to access array offset on value of type null
+#0 D:\Project Web\wiki\app\Controllers\BaseController.php(153): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Project Web\\...', 153, Array)
+#1 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(67): App\Controllers\BaseController->datasearch(Array)
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->search('jawa', '4', '')
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#4 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#7 {main}
+CRITICAL - 2022-05-29 16:09:24 --> A non-numeric value encountered
+#0 D:\Project Web\wiki\app\Controllers\BaseController.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'D:\\Project Web\\...', 127, Array)
+#1 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(67): App\Controllers\BaseController->datasearch(Array)
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->search('jawa', 'assets', 'img', 'post-landscape-...', '')
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#4 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#7 {main}
+CRITICAL - 2022-05-29 16:10:33 --> A non-numeric value encountered
+#0 D:\Project Web\wiki\app\Controllers\BaseController.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'D:\\Project Web\\...', 127, Array)
+#1 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(67): App\Controllers\BaseController->datasearch(Array)
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->search('jawa', 'assets', 'img', 'post-landscape-...', '')
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#4 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#7 {main}
+CRITICAL - 2022-05-29 16:10:42 --> A non-numeric value encountered
+#0 D:\Project Web\wiki\app\Controllers\BaseController.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'D:\\Project Web\\...', 127, Array)
+#1 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(67): App\Controllers\BaseController->datasearch(Array)
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->search('jawa', 'assets', 'img', 'post-landscape-...', '')
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#4 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#7 {main}
+CRITICAL - 2022-05-29 16:10:49 --> A non-numeric value encountered
+#0 D:\Project Web\wiki\app\Controllers\BaseController.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'D:\\Project Web\\...', 127, Array)
+#1 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(67): App\Controllers\BaseController->datasearch(Array)
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->search('jawa', 'assets', 'img', 'post-landscape-...', '')
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#4 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#7 {main}
+CRITICAL - 2022-05-29 16:10:56 --> A non-numeric value encountered
+#0 D:\Project Web\wiki\app\Controllers\BaseController.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'D:\\Project Web\\...', 127, Array)
+#1 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(67): App\Controllers\BaseController->datasearch(Array)
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->search('jawa', 'assets', 'img', 'post-landscape-...', '')
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#4 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#7 {main}
+CRITICAL - 2022-05-29 16:11:02 --> A non-numeric value encountered
+#0 D:\Project Web\wiki\app\Controllers\BaseController.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'D:\\Project Web\\...', 127, Array)
+#1 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(67): App\Controllers\BaseController->datasearch(Array)
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->search('jawa', 'assets', 'img', 'post-landscape-...', '')
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#4 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#7 {main}
+CRITICAL - 2022-05-29 16:11:07 --> Undefined offset: 21
+#0 D:\Project Web\wiki\app\Controllers\BaseController.php(165): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\Project Web\\...', 165, Array)
+#1 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(67): App\Controllers\BaseController->datasearch(Array)
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->search('jawa', '27', '')
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#4 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#7 {main}
+CRITICAL - 2022-05-29 16:11:36 --> A non-numeric value encountered
+#0 D:\Project Web\wiki\app\Controllers\BaseController.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'D:\\Project Web\\...', 127, Array)
+#1 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(67): App\Controllers\BaseController->datasearch(Array)
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->search('jawa', 'assets', 'img', 'post-landscape-...', '')
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#4 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#7 {main}
+CRITICAL - 2022-05-29 16:11:41 --> A non-numeric value encountered
+#0 D:\Project Web\wiki\app\Controllers\BaseController.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'D:\\Project Web\\...', 127, Array)
+#1 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(67): App\Controllers\BaseController->datasearch(Array)
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->search('jawa', 'assets', 'img', 'post-landscape-...', '')
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#4 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#7 {main}
+CRITICAL - 2022-05-29 16:11:47 --> A non-numeric value encountered
+#0 D:\Project Web\wiki\app\Controllers\BaseController.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'D:\\Project Web\\...', 127, Array)
+#1 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(67): App\Controllers\BaseController->datasearch(Array)
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->search('jawa', 'assets', 'img', 'post-landscape-...', '')
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#4 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#7 {main}
+CRITICAL - 2022-05-29 16:11:53 --> A non-numeric value encountered
+#0 D:\Project Web\wiki\app\Controllers\BaseController.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'D:\\Project Web\\...', 127, Array)
+#1 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(67): App\Controllers\BaseController->datasearch(Array)
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->search('jawa', 'assets', 'img', 'post-landscape-...', '')
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#4 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#7 {main}
+CRITICAL - 2022-05-29 16:11:57 --> A non-numeric value encountered
+#0 D:\Project Web\wiki\app\Controllers\BaseController.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'D:\\Project Web\\...', 127, Array)
+#1 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(67): App\Controllers\BaseController->datasearch(Array)
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->search('jawa', 'assets', 'img', 'post-landscape-...', '')
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#4 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#7 {main}
+CRITICAL - 2022-05-29 16:12:02 --> A non-numeric value encountered
+#0 D:\Project Web\wiki\app\Controllers\BaseController.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'D:\\Project Web\\...', 127, Array)
+#1 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(67): App\Controllers\BaseController->datasearch(Array)
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->search('jawa', 'assets', 'img', 'post-landscape-...', '')
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#4 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#7 {main}
+CRITICAL - 2022-05-29 16:12:07 --> A non-numeric value encountered
+#0 D:\Project Web\wiki\app\Controllers\BaseController.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'D:\\Project Web\\...', 127, Array)
+#1 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(67): App\Controllers\BaseController->datasearch(Array)
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->search('jawa', 'assets', 'img', 'post-landscape-...', '')
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#4 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#7 {main}
+CRITICAL - 2022-05-29 16:12:12 --> A non-numeric value encountered
+#0 D:\Project Web\wiki\app\Controllers\BaseController.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'D:\\Project Web\\...', 127, Array)
+#1 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(67): App\Controllers\BaseController->datasearch(Array)
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->search('jawa', 'assets', 'img', 'post-landscape-...', '')
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#4 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#7 {main}
+CRITICAL - 2022-05-29 16:12:18 --> A non-numeric value encountered
+#0 D:\Project Web\wiki\app\Controllers\BaseController.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'D:\\Project Web\\...', 127, Array)
+#1 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(67): App\Controllers\BaseController->datasearch(Array)
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->search('jawa', 'assets', 'img', 'post-landscape-...', '')
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#4 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#7 {main}
+CRITICAL - 2022-05-29 16:12:25 --> Undefined offset: 21
+#0 D:\Project Web\wiki\app\Controllers\BaseController.php(165): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\Project Web\\...', 165, Array)
+#1 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(67): App\Controllers\BaseController->datasearch(Array)
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->search('jawa', '27', '')
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#4 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#7 {main}
+CRITICAL - 2022-05-29 16:18:10 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'D:\\Project Web\\...', 161, Array)
+#1 D:\Project Web\wiki\app\Controllers\BaseController.php(161): count(25)
+#2 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(67): App\Controllers\BaseController->datasearch(Array)
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->search('jawa', '27', '')
+#4 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#8 {main}
+CRITICAL - 2022-05-29 16:23:52 --> A non-numeric value encountered
+#0 D:\Project Web\wiki\app\Controllers\BaseController.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'D:\\Project Web\\...', 127, Array)
+#1 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(67): App\Controllers\BaseController->datasearch(Array)
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->search('jawa', 'assets', 'img', 'post-landscape-...', '')
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#4 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#7 {main}
+CRITICAL - 2022-05-29 16:24:06 --> A non-numeric value encountered
+#0 D:\Project Web\wiki\app\Controllers\BaseController.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'D:\\Project Web\\...', 127, Array)
+#1 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(67): App\Controllers\BaseController->datasearch(Array)
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->search('jawa', 'assets', 'img', 'post-landscape-...', '')
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#4 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#7 {main}
+CRITICAL - 2022-05-29 16:24:12 --> A non-numeric value encountered
+#0 D:\Project Web\wiki\app\Controllers\BaseController.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'D:\\Project Web\\...', 127, Array)
+#1 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(67): App\Controllers\BaseController->datasearch(Array)
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->search('jawa', 'assets', 'img', 'post-landscape-...', '')
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#4 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#7 {main}
+CRITICAL - 2022-05-29 16:25:44 --> A non-numeric value encountered
+#0 D:\Project Web\wiki\app\Controllers\BaseController.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'D:\\Project Web\\...', 127, Array)
+#1 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(67): App\Controllers\BaseController->datasearch(Array)
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->search('jawa', 'assets', 'img', 'post-landscape-...', '')
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#4 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#7 {main}
+CRITICAL - 2022-05-29 16:25:47 --> Trying to access array offset on value of type null
+#0 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(110): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Project Web\\...', 110, Array)
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->view('bahasa_jawa')
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#6 {main}
+CRITICAL - 2022-05-29 16:27:18 --> Trying to access array offset on value of type null
+#0 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Project Web\\...', 113, Array)
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->view('bahasa_jawa')
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#6 {main}
+CRITICAL - 2022-05-29 16:27:21 --> A non-numeric value encountered
+#0 D:\Project Web\wiki\app\Controllers\BaseController.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'D:\\Project Web\\...', 127, Array)
+#1 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(68): App\Controllers\BaseController->datasearch(Array)
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->search('jawa', 'assets', 'img', 'post-landscape-...', '')
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#4 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#7 {main}
+CRITICAL - 2022-05-29 16:27:40 --> A non-numeric value encountered
+#0 D:\Project Web\wiki\app\Controllers\BaseController.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'D:\\Project Web\\...', 127, Array)
+#1 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(68): App\Controllers\BaseController->datasearch(Array)
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->search('jawa', 'assets', 'img', 'post-landscape-...', '')
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#4 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#7 {main}
+CRITICAL - 2022-05-29 18:32:35 --> preg_match(): Compilation failed: missing closing parenthesis at offset 14
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): C...', 'D:\\Project Web\\...', 384, Array)
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Router\Router.php(384): preg_match('#^viewdata/(.*$...', 'viewdata/Bahasa...', Array)
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Router\Router.php(154): CodeIgniter\Router\Router->checkRoutes('viewdata/Bahasa...')
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('viewdata/Bahasa...')
+#4 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#8 {main}
+CRITICAL - 2022-05-29 18:33:00 --> Undefined variable: keyword
+#0 D:\Project Web\wiki\app\Controllers\BaseController.php(102): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Project Web\\...', 102, Array)
+#1 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(134): App\Controllers\BaseController->dataview(Array)
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->viewdata('Bahasa_Jawa', '')
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#4 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#7 {main}
+ERROR - 2022-05-29 18:45:40 --> Unknown column '192314210' in 'order clause'
+CRITICAL - 2022-05-29 18:45:40 --> Unknown column '192314210' in 'order clause'
+#0 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `namahal...', 0)
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `namahal...')
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `namahal...')
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `namahal...', Array, false)
+#4 D:\Project Web\wiki\modules\LayoutDepan\Views\footer.php(45): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\Project Web\\...')
+#6 D:\Project Web\wiki\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\Project Web\wiki\vendor\codeigniter4\framework\system\View\View.php(424): CodeIgniter\View\View->render('Modules\\LayoutD...', NULL, true)
+#8 D:\Project Web\wiki\modules\LayoutDepan\Views\layout.php(49): CodeIgniter\View\View->include('Modules\\LayoutD...')
+#9 D:\Project Web\wiki\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\Project Web\\...')
+#10 D:\Project Web\wiki\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#11 D:\Project Web\wiki\vendor\codeigniter4\framework\system\View\View.php(226): CodeIgniter\View\View->render('Modules\\LayoutD...', Array, true)
+#12 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\Wiki\\Vi...', Array, true)
+#13 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(119): view('Modules\\Wiki\\Vi...', Array)
+#14 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->view('Indonesia_Timur')
+#15 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#16 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#17 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#18 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#19 {main}
+CRITICAL - 2022-05-29 18:51:24 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-29 19:01:02 --> A non-numeric value encountered
+#0 D:\Project Web\wiki\app\Controllers\BaseController.php(131): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'D:\\Project Web\\...', 131, Array)
+#1 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(68): App\Controllers\BaseController->datasearch(Array)
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->search('assets', 'img', 'post-landscape-...', '')
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#4 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#7 {main}
+CRITICAL - 2022-05-29 19:02:55 --> A non-numeric value encountered
+#0 D:\Project Web\wiki\app\Controllers\BaseController.php(131): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'D:\\Project Web\\...', 131, Array)
+#1 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(68): App\Controllers\BaseController->datasearch(Array)
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->search('assets', 'img', 'post-landscape-...', '')
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#4 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#7 {main}
+CRITICAL - 2022-05-29 19:03:00 --> A non-numeric value encountered
+#0 D:\Project Web\wiki\app\Controllers\BaseController.php(131): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'D:\\Project Web\\...', 131, Array)
+#1 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(68): App\Controllers\BaseController->datasearch(Array)
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->search('assets', 'img', 'post-landscape-...', '')
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#4 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#7 {main}
+CRITICAL - 2022-05-29 19:03:57 --> A non-numeric value encountered
+#0 D:\Project Web\wiki\app\Controllers\BaseController.php(131): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'D:\\Project Web\\...', 131, Array)
+#1 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(68): App\Controllers\BaseController->datasearch(Array)
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->search('assets', 'img', 'post-landscape-...', '')
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#4 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#7 {main}
+CRITICAL - 2022-05-29 19:04:21 --> A non-numeric value encountered
+#0 D:\Project Web\wiki\app\Controllers\BaseController.php(131): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'D:\\Project Web\\...', 131, Array)
+#1 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(68): App\Controllers\BaseController->datasearch(Array)
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->search('assets', 'img', 'post-landscape-...', '')
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#4 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#7 {main}
+CRITICAL - 2022-05-29 19:04:54 --> Undefined variable: judul
+#0 D:\Project Web\wiki\app\Controllers\BaseController.php(181): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Project Web\\...', 181, Array)
+#1 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(68): App\Controllers\BaseController->datasearch(Array)
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->search('index.html', '')
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#4 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#7 {main}
+CRITICAL - 2022-05-29 19:07:48 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-29 19:09:06 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-29 19:10:28 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-29 19:11:38 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-29 19:16:39 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-29 19:22:45 --> Too few arguments to function CodeIgniter\Database\BaseBuilder::orNotLike(), 0 passed in D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php on line 53 and at least 1 expected
+#0 D:\Project Web\wiki\modules\Wiki\Controllers\Wiki.php(53): CodeIgniter\Database\BaseBuilder->orNotLike()
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\Wiki\Controllers\Wiki->search('jawa', '')
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\Wiki\Controllers\Wiki))
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#6 {main}
+ERROR - 2022-05-29 20:04:07 --> Got a packet bigger than 'max_allowed_packet' bytes
+CRITICAL - 2022-05-29 20:04:07 --> Got a packet bigger than 'max_allowed_packet' bytes
+#0 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `x_...', 0)
+#1 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `x_...')
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `x_...')
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `x_...', Array, false)
+#4 D:\Project Web\wiki\app\Controllers\BaseController.php(273): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Project Web\wiki\modules\LayoutDepan\Controllers\Layout.php(48): App\Controllers\BaseController->datadata(Array)
+#6 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\LayoutDepan\Controllers\Layout->datawiki('indonesia', '2')
+#7 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\LayoutDepan\Controllers\Layout))
+#8 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#11 {main}
+CRITICAL - 2022-05-29 20:32:11 --> Trying to access array offset on value of type null
+#0 D:\Project Web\wiki\app\Controllers\BaseController.php(254): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Project Web\\...', 254, Array)
+#1 D:\Project Web\wiki\modules\LayoutDepan\Controllers\Layout.php(48): App\Controllers\BaseController->datadata(Array)
+#2 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(832): Modules\LayoutDepan\Controllers\Layout->datawiki('indonesia', '1')
+#3 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Modules\LayoutDepan\Controllers\Layout))
+#4 D:\Project Web\wiki\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project Web\wiki\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 D:\Project Web\wiki\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\Project Web\\...')
+#7 {main}

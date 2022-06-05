@@ -12,7 +12,7 @@
       <div class="col-md-6">
         <div class="login-box bg-white box-shadow border-radius-10">
           <div class="login-title">
-            <h2 class="text-center text-primary"><?=lang('Auth.forgotPassword')?></h2>
+            <h2 class="text-center text-success"><?=lang('Auth.forgotPassword')?></h2>
           </div>
           <?= view('Myth\Auth\Views\_message_block') ?>
           <p><?=lang('Auth.enterEmailForInstructions')?></p>
@@ -21,7 +21,7 @@
           <?= csrf_field() ?>
 
             <div class="input-group custom">
-              <input type="text" name="email" class="form-control form-control-lg <?php if(session('errors.email')) : ?>is-invalid<?php endif ?>" placeholder="Email">
+              <input type="text" name="email"  style="border-radius:20px" class="form-control form-control-lg <?php if(session('errors.email')) : ?>is-invalid<?php endif ?>" placeholder="Email">
               <div class="input-group-append custom">
                 <span class="input-group-text"><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
               </div>
@@ -31,12 +31,12 @@
             </div>
             <div class="row align-items-center">
               <div class="col-5">
-                <div class="input-group mb-0">
+                <div class="input-group mb-2">
 
                     <!-- use code for form submit -->
-                    <input class="btn btn-primary btn-lg btn-block" type="submit" value="Submit">
+                    <input class="btn btn-success btn-lg btn-block"  style="border-radius:20px" type="submit" value="Submit">
 
-                  <!-- <a class="btn btn-primary btn-lg btn-block" href="index.html">Submit</a> -->
+                  <!-- <a class="btn btn-success btn-lg btn-block" href="index.html">Submit</a> -->
                 </div>
               </div>
               <div class="col-2">
@@ -44,7 +44,7 @@
               </div>
               <div class="col-5">
                 <div class="input-group mb-0">
-                  <a class="btn btn-outline-primary btn-lg btn-block" href="<?= base_url($ket2) ?>">Login</a>
+                  <a class="btn btn-outline-success btn-lg btn-block"  style="border-radius:20px" href="<?= base_url($ket2) ?>">Login</a>
                 </div>
               </div>
             </div>

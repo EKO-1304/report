@@ -437,8 +437,11 @@ p {
 .bg-blue {
   background-color: #265ed7;
 }
-.text-blue {
+/* .text-blue {
   color: #265ed7;
+} */
+.text-blue {
+  color: #27ae61;
 }
 .text-light-blue {
   color: #2976aa;
@@ -799,7 +802,7 @@ textarea.form-control {
   padding: 0.75rem 0;
 }
 .breadcrumb-item.active {
-  color: #265ed7;
+  color: #27ae61;
   font-weight: 500;
 }
 .breadcrumb-item a {
@@ -1109,7 +1112,7 @@ table.dataTable thead .sorting_desc_disabled:after {
 .fontawesome-icon-list .fa-hover:hover a,
 table.dataTable thead .sorting_asc:before,
 table.dataTable thead .sorting_desc:after {
-  color: #265ed7;
+  color: #27ae61;
 }
 table.dataTable > tbody > tr.child ul.dtr-details {
   white-space: normal;
@@ -1439,7 +1442,7 @@ table.dataTable.dtr-inline.collapsed
 }
 .header-dark .header,
 .header-dark .header-left .header-search {
-  background: #11468f;
+  background: #27ae61;
 }
 .header-dark .header .user-info-dropdown .dropdown-toggle,
 .header-dark .header .user-info-dropdown .dropdown-toggle .user-name,
@@ -1491,7 +1494,7 @@ table.dataTable.dtr-inline.collapsed
   font-weight: 500;
 }
 .footer-wrap a {
-  color: #265ed7;
+  color: #27ae61;
   text-decoration: underline;
 }
 .menu-icon,
@@ -1564,7 +1567,8 @@ table.dataTable.dtr-inline.collapsed
   width: 250px;
   height: 100vh;
   z-index: 1000;
-  background: #11468f;
+  /* background: #11468f; */
+  background: #27ae61;
 }
 .left-side-bar .mCS-dark-2.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
   background: #ecf0f4;
@@ -1593,10 +1597,15 @@ table.dataTable.dtr-inline.collapsed
   display: none;
 }
 .sidebar-menu {
-  padding: 0 0 20px;
+  padding: 0 10px 20px;
+  /* border: 1px solid #000; */
 }
 .sidebar-menu .dropdown-toggle {
-  border-bottom: 1px solid #000;
+  /* border: 1px solid #000; */
+  /* border-bottom: 1px solid #fff; */
+  /* border-radius:5px; */
+  /* background: rgba(0, 0, 0, 0.4); */
+  margin-bottom: 5px;
   display: block;
   padding: 12px 15px 12px 25px;
   font-size: 14px;
@@ -1612,6 +1621,7 @@ table.dataTable.dtr-inline.collapsed
   position: absolute;
   right: 15px;
   font-size: 18px;
+  /* border: 1px solid #fff; */
 }
 .sidebar-menu.icon-style-2 .dropdown-toggle:after {
   content: "\f217";
@@ -1628,8 +1638,10 @@ table.dataTable.dtr-inline.collapsed
 }
 .sidebar-menu .dropdown-toggle:hover,
 .sidebar-menu .show > .dropdown-toggle {
-  background: rgba(0, 0, 0, 0.4);
+  background: #2ecb70;
   color: #fff;
+  border-radius:5px;
+  
 }
 .sidebar-menu .dropdown-toggle .micon {
   position: absolute;
@@ -1723,7 +1735,7 @@ table.dataTable.dtr-inline.collapsed
   transition: all 0.3s ease-in-out;
 }
 .sidebar-menu .submenu li a {
-  border-bottom: 1px solid #000;
+  /* border-bottom: 1px solid #000; */
   display: block;
   padding: 12px 15px 12px 40px;
   font-size: 14px;
@@ -1759,13 +1771,15 @@ table.dataTable.dtr-inline.collapsed
 .sidebar-menu .submenu li a.active,
 .sidebar-menu .submenu li a:hover {
   color: #fff;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: #2ecb70;
+  border-radius:5px;
 }
 .sidebar-menu > ul > li > .dropdown-toggle.active {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: #2ecb70;
+  border-radius:5px;
 }
 .sidebar-light .sidebar-menu > ul > li > .dropdown-toggle.active {
-  background-color: #11468f;
+  background-color: #27ae61;
   color: #fff;
 }
 .sidebar-light .sidebar-menu .dropdown-toggle:hover .micon,
@@ -1803,7 +1817,7 @@ table.dataTable.dtr-inline.collapsed
 .sidebar-light .sidebar-menu .submenu li a.active,
 .sidebar-light .sidebar-menu .submenu li a:hover {
   color: #fff;
-  background-color: #11468f;
+  background-color: #27ae61;
 }
 .sidebar-light .menu-block .mCS-dark-2.mCSB_scrollTools .mCSB_draggerRail {
   background-color: #0e132b;
